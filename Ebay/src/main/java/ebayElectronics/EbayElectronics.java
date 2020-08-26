@@ -12,12 +12,8 @@ public class EbayElectronics extends WebAPI{
     @FindBy(how = How.CSS, using = webElementText) public WebElement text;
 
 
-    //@FindBy(how = How.XPATH,using = WebElementsearchbutton)
-    //public WebElement searchButton;
-
     //Action
     public void electronicsButtonCheck(){
-        //searchBox.sendKeys("iphone11 pro max");
           electronicsButton.click();
     }
 

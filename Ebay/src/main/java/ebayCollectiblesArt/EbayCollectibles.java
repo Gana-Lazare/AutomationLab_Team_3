@@ -14,12 +14,8 @@ public class EbayCollectibles extends WebAPI {
         @FindBy(how = How.CSS, using = webElementText1) public WebElement text1;
 
 
-        //@FindBy(how = How.XPATH,using = WebElementsearchbutton)
-        //public WebElement searchButton;
-
         //Action
         public void collectiblesButtonCheck(){
-            //searchBox.sendKeys("iphone11 pro max");
             collectiblesButton.click();
         }
 

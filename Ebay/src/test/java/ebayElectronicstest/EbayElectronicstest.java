@@ -12,11 +12,9 @@ EbayElectronics ebayElectronics;
     @BeforeMethod // to use the driver to open the browser
     public void getInit() {
         ebayElectronics = PageFactory.initElements(driver, EbayElectronics.class);
-        // registrationPage = PageFactory.initElements(driver,SignUpPage.class);
     }
     @Test
     public void testSearchBoxCheck() {
         ebayElectronics.electronicsButtonCheck();
-        //homePage.validateSearchText(); assertpart
     }
 }
