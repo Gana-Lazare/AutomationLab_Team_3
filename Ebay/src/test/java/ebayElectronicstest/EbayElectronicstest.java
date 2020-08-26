@@ -1,22 +1,22 @@
-package ebayhometest;
+package ebayElectronicstest;
 
 import common.WebAPI;
-import ebayhome.EbayHome;
+import ebayElectronics.EbayElectronics;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class ebayhometest extends WebAPI {
-EbayHome ebayHome ;
+public class EbayElectronicstest extends WebAPI {
+EbayElectronics ebayElectronics;
 
     @BeforeMethod // to use the driver to open the browser
     public void getInit() {
-        ebayHome = PageFactory.initElements(driver,EbayHome.class);
+        ebayElectronics = PageFactory.initElements(driver, EbayElectronics.class);
         // registrationPage = PageFactory.initElements(driver,SignUpPage.class);
     }
     @Test
     public void testSearchBoxCheck() {
-        ebayHome.searchBoxCheck("Hand Sanitizer");
+        ebayElectronics.electronicsButtonCheck();
         //homePage.validateSearchText(); assertpart
     }
 }

@@ -16,14 +16,17 @@ public class WebAPI {
     @Parameters({"url"})
     //Seting the propreties of the driver to run befor evryMethod
     @BeforeMethod
-    public static void setChromeDriver(@Optional("https://www.google.com") String url){
-        System.setProperty("webdriver.chrome.driver","..\\Generic\\Browser\\chrome\\chromedriver.exe");
+    public static void setChromeDriver(@Optional("https://www.ebay.com") String url){
+        System.setProperty("webdriver.chrome.driver","//Users/elhacenarib/Desktop/Selenium_download/chromedriver");
+        //Users/elhacenarib/Desktop/Selenium_download/chromedriver
+
         driver = new ChromeDriver();
         driver.navigate().to(url);
     }
 
     @AfterMethod
     public static void closeBrowser(){
+        driver.close();
         driver.quit();
     }
 }
