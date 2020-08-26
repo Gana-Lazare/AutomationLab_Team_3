@@ -13,8 +13,23 @@ EbayElectronics ebayElectronics;
     public void getInit() {
         ebayElectronics = PageFactory.initElements(driver, EbayElectronics.class);
     }
-    @Test
-    public void testSearchBoxCheck() {
+    @Test (timeOut = 3000)
+    public void testElectronicsButtonCheck() {
         ebayElectronics.electronicsButtonCheck();
+    }
+    @Test (timeOut = 3000)
+    public void testCameraAndPhotosButtonCheck() {
+        ebayElectronics.electronicsButtonCheck();
+        ebayElectronics.cameraAndPhotosButtonCheck();
+    }
+    @Test (timeOut = 3000)
+    public void testCellPhonesSmartWatchesAndAccessoriesButtonCheck() {
+        ebayElectronics.electronicsButtonCheck();
+        ebayElectronics.cellPhonesSmartWatchesAndAccessoriesButtonCheck();
+    }
+    @Test (timeOut = 3000)
+    public void testComputersTabletsNetworkHardwareButtonCheck() {
+        ebayElectronics.electronicsButtonCheck();
+        ebayElectronics.computersTabletsNetworkHardwareButtonCheck();
     }
 }

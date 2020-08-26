@@ -7,6 +7,7 @@
 
         <classes>
             <class name="ebayElectronicstest.EbayElectronicstest"></class>
+
             <class name="ebayCollectiblesTest.EbayCollectiblesTest"></class>
            <!--  <class name="test.RegistrationPageTest"></class> -->
         </classes>
