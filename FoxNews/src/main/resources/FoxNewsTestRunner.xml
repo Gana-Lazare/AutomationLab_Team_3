@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Ebay Automation Test" parallel="false">
+<suite name="FoxNews Automation Test" parallel="false">
     <parameter name="url" value="https://www.foxnews.com/"/>
 
-    <test name="ebay Home">
+    <test name="FoxNews Home">
 
         <classes>
            <!-- <class name="ebayElectronicstest.EbayElectronicstest"></class>

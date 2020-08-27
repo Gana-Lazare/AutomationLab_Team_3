@@ -22,7 +22,7 @@ EbayElectronics ebayElectronics;
         ebayElectronics.electronicsButtonCheck();
         ebayElectronics.cameraAndPhotosButtonCheck();
     }
-    @Test (timeOut = 3000)
+    @Test (timeOut = 4000)
     public void testCellPhonesSmartWatchesAndAccessoriesButtonCheck() {
         ebayElectronics.electronicsButtonCheck();
         ebayElectronics.cellPhonesSmartWatchesAndAccessoriesButtonCheck();
@@ -31,5 +31,50 @@ EbayElectronics ebayElectronics;
     public void testComputersTabletsNetworkHardwareButtonCheck() {
         ebayElectronics.electronicsButtonCheck();
         ebayElectronics.computersTabletsNetworkHardwareButtonCheck();
+    }
+    @Test (timeOut = 3000)
+    public void testTVVideoHomeAudioElectronicsButtonCheck(){
+        ebayElectronics.electronicsButtonCheck();
+        ebayElectronics.tvVideoHomeAudioElectronicsButtonCheck();
+    }
+    @Test (timeOut = 4000)
+    public void testPortableAudioHeadphonesButtonCheck(){
+        ebayElectronics.electronicsButtonCheck();
+        ebayElectronics.portableAudioHeadphonesButtonCheck();
+    }
+    @Test (timeOut = 4000)
+    public void testCarElectronicsButtonCheck(){
+        ebayElectronics.electronicsButtonCheck();
+        ebayElectronics.carElectronicsButtonCheck();
+    }
+    @Test (timeOut = 4000)
+    public void testHomeSurveillanceButtonCheck(){
+        ebayElectronics.electronicsButtonCheck();
+        ebayElectronics.homeSurveillanceButtonCheck();
+    }
+    @Test (timeOut = 4000)
+    public void testSmartHomeButtonCheck(){
+        ebayElectronics.electronicsButtonCheck();
+        ebayElectronics.smartHomeButtonCheck();
+    }
+    @Test (timeOut = 4000)
+    public void testVideoPCGamingButtonCheck(){
+        ebayElectronics.electronicsButtonCheck();
+        ebayElectronics.videoPCGamingButtonCheck();
+    }
+    @Test (timeOut = 4000)
+    public void testVirtualRealityButtonCheck(){
+        ebayElectronics.electronicsButtonCheck();
+        ebayElectronics.virtualRealityButtonCheck();
+    }
+    @Test (timeOut = 5000)
+    public void testAppleButtonCheck(){
+        ebayElectronics.electronicsButtonCheck();
+        ebayElectronics.appleButtonCheck();
+    }
+    @Test (timeOut = 5000)
+    public void testSamsungButtonCheck(){
+        ebayElectronics.electronicsButtonCheck();
+        ebayElectronics.samsungButtonCheck();
     }
 }
