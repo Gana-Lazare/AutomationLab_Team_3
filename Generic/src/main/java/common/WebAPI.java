@@ -14,12 +14,15 @@ public class WebAPI {
     public static WebDriver driver = null;
 
     @Parameters({"url"})
-    //Seting the propreties of the driver to run befor evryMethod
+    //Setting the properties of the driver to run before everyMethod
     @BeforeMethod
-    public static void setChromeDriver(@Optional("https://www.google.com") String url){
-        System.setProperty("webdriver.chrome.driver","..\\Generic\\Browser\\chrome\\chromedriver.exe");
+    public static void setChromeDriver(@Optional("https://www.chase.com/") String url){
+        System.setProperty("webdriver.chrome.driver","/Users/khaledmaouche/IdeaProjects/AutomationLab_Team_3/Generic/Browser/chrome/chromedriver");
         driver = new ChromeDriver();
+
         driver.navigate().to(url);
+        driver.manage().window().maximize();
+        driver.manage().deleteAllCookies();
     }
 
     @AfterMethod
