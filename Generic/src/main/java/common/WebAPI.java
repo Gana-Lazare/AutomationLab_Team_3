@@ -1,5 +1,6 @@
 package common;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
@@ -14,16 +15,19 @@ public class WebAPI {
     public static WebDriver driver = null;
 
     @Parameters({"url"})
-    //Seting the propreties of the driver to run befor evryMethod
+    //Seting the propreties of the driver to run before everyMethod
     @BeforeMethod
-    public static void setChromeDriver(@Optional("https://www.google.com") String url){
-        System.setProperty("webdriver.chrome.driver","..\\Generic\\Browser\\chrome\\chromedriver.exe");
+    public static void setChromeDriver(@Optional("https://www.google.com") String url)throws  InterruptedException{
+        System.setProperty("webdriver.chrome.driver","/Users/abestaieb/AutomationLab_Team_3/Generic/Browser/chrome/chromedriver1");
         driver = new ChromeDriver();
-        driver.navigate().to(url);
+        driver.navigate().to("https://www.ebay.com");
+
+        Thread.sleep(2000);
     }
 
-    @AfterMethod
-    public static void closeBrowser(){
-        driver.quit();
-    }
+// @AfterMethod
+//   public static void closeBrowser()throws InterruptedException{
+//        Thread.sleep(2000);
+//      driver.quit();
+//   }
 }
