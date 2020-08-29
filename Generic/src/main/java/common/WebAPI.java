@@ -17,7 +17,7 @@ public class WebAPI {
     //Seting the propreties of the driver to run befor evryMethod
     @BeforeMethod
     public static void setChromeDriver(@Optional("https://www.google.com") String url){
-        System.setProperty("webdriver.chrome.driver","..\\Generic\\Browser\\chrome\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","/Users/Rabahlamri/IdeaProjects/AutomationLab_Team_3/Generic/Browser/chrome/chromedriver");
         driver = new ChromeDriver();
         driver.navigate().to(url);
     }
