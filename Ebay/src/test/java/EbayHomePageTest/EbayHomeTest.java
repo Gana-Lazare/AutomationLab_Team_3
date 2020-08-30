@@ -13,7 +13,6 @@ public class EbayHomeTest extends WebAPI {
         homeObj.MyHomeGarden();
         Thread.sleep(5000);
     }
-
     @Test
     public void BabiesTest() throws InterruptedException {
         HomeGardenTest();

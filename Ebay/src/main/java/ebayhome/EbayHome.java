@@ -18,7 +18,6 @@ public class EbayHome extends WebAPI {
     WebElement Babies;
     public void BabiesShop() {
         Babies.click();
-
     }
     @FindBy(xpath = endPage)
     WebElement EndPage;
@@ -35,14 +34,12 @@ public class EbayHome extends WebAPI {
         bedding.click();
 
     }
-
     @FindBy(xpath = crafts_Xpath)
     WebElement crafts;
     public void crafts() throws InterruptedException {
         Thread.sleep(3000);
         crafts.click();
     }
-
     @FindBy(css = FoodBeverages_css)
     WebElement Food;
     public void FoodBeverages() throws InterruptedException {

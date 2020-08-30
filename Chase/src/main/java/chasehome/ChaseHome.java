@@ -18,6 +18,7 @@ public class ChaseHome extends ChaseHomeWebElements {
        Thread.sleep(4000);
         homeLending.click();
 
+
     }
     @FindBy(xpath = bay_Xpath)
     WebElement bay;
