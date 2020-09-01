@@ -3,22 +3,30 @@ import common.WebAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
+import org.testng.Assert;
 
 import static ebayhome.ebayhomeWebElement.*;
 
 public class EbayHome extends WebAPI{
-    @FindBy(how = How.XPATH,using = WebElementSearchBox_Xpath)
-    public WebElement searchBox;
 
-    @FindBy(how = How.XPATH,using = WebElementsearchbutton)
-    public WebElement searchButton;
-
+    @FindBy(how = How.XPATH, using = AdvancedWebElement_xpath)
+    public WebElement AdvancedButton;
+    @FindBy(how = How.XPATH, using = advancedSearchTextArea_xpath)
+    public WebElement adv_text;
     //Action
-    public void searchBoxCheck(String searchItem){
-        searchBox.sendKeys("iphone11 pro max");
-          searchBox.submit();
+//CLICK ON advanced on th top right
+  public void advancedButtonClick() {
+     AdvancedButton.click();
+  }
+    //Assertion
+//using the title of the page to assert the result
+    public void assertAdvancedButtonClick() {
+        String actualresult = getTextFrom(adv_text);
+        String expectedresult = "Advanced Search";
+        Assert.assertEquals(actualresult, expectedresult, "it's not advanced page");
     }
 
 }
+
 
 
