@@ -220,8 +220,14 @@ public class ebayhometest extends WebAPI {
     }
 //how to check if i real
     @Test
+<<<<<<< HEAD
     public void scrollToTop() throws InterruptedException {
         ebayHome.advancedButtonClick();
         ebayHome.scrollToTop();
+=======
+    public void AdancedButtonClickTest() {
+        ebayHome.advancedButtonClick();
+        ebayHome.assertAdvancedButtonClick();
+>>>>>>> 9f3093fcfd1010e72d389effa5e61c65d24da088
     }
 }

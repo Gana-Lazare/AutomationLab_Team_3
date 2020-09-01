@@ -1,6 +1,7 @@
 package ebayhome;
 
 public class ebayhomeWebElement {
+
     public static final String searchButtonWebElement_id="gh-btn";
 
     public static final String AdvancedWebElement_xpath = "//a[text()='Advanced']";
@@ -55,5 +56,7 @@ public class ebayhomeWebElement {
     public static final String collectiblesandArtWebElement_xpath = "//h3[@class='gh-sbc-parent']/a";
     public static final String collectiblesandArtresultWebElement_class="title-banner__subtitle";
     public static final String ebayhomePage_xpath="//*[@id=\"gh-la\"]";
+
+
 
 }

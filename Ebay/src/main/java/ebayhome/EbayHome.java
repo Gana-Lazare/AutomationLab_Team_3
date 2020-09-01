@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
+
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
@@ -497,12 +498,28 @@ public class EbayHome<webElement> extends WebAPI {
 
     @FindBy(how = How.XPATH,using = WebElementsearchbutton)
     public WebElement searchButton;
+=======
+import org.testng.Assert;
 
+import static ebayhome.ebayhomeWebElement.*;
+
+public class EbayHome extends WebAPI{
+>>>>>>> 9f3093fcfd1010e72d389effa5e61c65d24da088
+
+    @FindBy(how = How.XPATH, using = AdvancedWebElement_xpath)
+    public WebElement AdvancedButton;
+    @FindBy(how = How.XPATH, using = advancedSearchTextArea_xpath)
+    public WebElement adv_text;
     //Action
+<<<<<<< HEAD
     public void searchBoxCheck(String searchItem){
         searchBox.sendKeys("iphone11 pro max");
           searchBox.submit();
     }*/
+
+
+
 }
+
 
 
