@@ -15,6 +15,8 @@ import static ebayhome.ebayhomeWebElement.*;
 public class EbayHome<webElement> extends WebAPI {
 
 
+
+
     /**
      * Autor:Gana
      * Description: Advanced Button
@@ -290,7 +292,7 @@ public class EbayHome<webElement> extends WebAPI {
     public void itemsInstore() {
         clickWebElement(itemsinStore);
     }
-//Assertion
+    //Assertion
     public void assertitemsInStore(){
         String actualresult=getTextFrom(itemsinStoretextArea);
         String expectedresult="Items in Stores";
@@ -306,9 +308,9 @@ public class EbayHome<webElement> extends WebAPI {
     }
     //Assertion
     public void assertfindStore(){
-String actualresult=getTextFrom(findStoretextarea);
-String expectedresult="Find Stores";
-Assert.assertEquals(actualresult,expectedresult,"is not find store");
+        String actualresult=getTextFrom(findStoretextarea);
+        String expectedresult="Find Stores";
+        Assert.assertEquals(actualresult,expectedresult,"is not find store");
     }
 
 
@@ -413,7 +415,7 @@ Assert.assertEquals(actualresult,expectedresult,"is not find store");
     public void assertpolicies() {
         String actualresult = driver.getCurrentUrl() +"";
         String expectedresult="https://www.ebay.com/help/policies/default/ebays-rules-policies?id=4205";
-    Assert.assertEquals(actualresult,expectedresult,"not pollicies page ");
+        Assert.assertEquals(actualresult,expectedresult,"not pollicies page ");
     }
 
     @FindBy(how = How.XPATH, using = affiliatesWebElement_xpath)
@@ -453,7 +455,7 @@ Assert.assertEquals(actualresult,expectedresult,"is not find store");
 
     //Action
     public void ringAlert() throws InterruptedException {
-        mouseHover(ringAlert, signIn);
+        // mouseHover(ringAlert, signIn);
     }
     //Assertion
 
@@ -462,7 +464,7 @@ Assert.assertEquals(actualresult,expectedresult,"is not find store");
 
     //Action
     public void scrollToTop() throws InterruptedException {
-        mouseHover(scrolltoTop, scrolltoTop);
+        //  mouseHover(scrolltoTop, scrolltoTop);
     }
 
 
@@ -477,9 +479,9 @@ Assert.assertEquals(actualresult,expectedresult,"is not find store");
     }
     //Assertion
     public void assertshowitemsCheckBox(){
-String actualresult = showitemsCheckBox.isDisplayed() +"" ;
-String expectedresult= true + "";
-Assert.assertEquals(actualresult,expectedresult,"unchechecked box ");
+        String actualresult = showitemsCheckBox.isDisplayed() +"" ;
+        String expectedresult= true + "";
+        Assert.assertEquals(actualresult,expectedresult,"unchechecked box ");
     }
 
 
@@ -501,7 +503,6 @@ Assert.assertEquals(actualresult,expectedresult,"unchechecked box ");
         searchBox.sendKeys("iphone11 pro max");
           searchBox.submit();
     }*/
-
 }
 
 

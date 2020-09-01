@@ -56,5 +56,4 @@ public class ebayhomeWebElement {
     public static final String collectiblesandArtresultWebElement_class="title-banner__subtitle";
     public static final String ebayhomePage_xpath="//*[@id=\"gh-la\"]";
 
-
 }
