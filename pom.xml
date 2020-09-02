@@ -18,6 +18,7 @@
         <module>FoxNews</module>
         <module>Chase</module>
         <module>Aetna</module>
+        <module>Chase</module>
     </modules>
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
