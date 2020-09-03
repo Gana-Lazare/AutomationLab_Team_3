@@ -16,7 +16,7 @@
     <parameter name="browserVersion" value="84"/>
     <parameter name="url" value="https://www.chase.com/"/>
 
-    <test name="ebay Home">
+    <test name="chase Home">
         <parameter name="browserName" value="chrome"/>
         <parameter name="browserVersion" value="84"/>
 

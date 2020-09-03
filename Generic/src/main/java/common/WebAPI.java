@@ -1,13 +1,5 @@
 package common;
 
-import org.openqa.selenium.*;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.Actions;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Optional;
-import org.testng.annotations.Parameters;
-
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.LogStatus;
 import org.apache.commons.io.FileUtils;
@@ -43,9 +35,6 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
-
-
-import java.util.List;
 
 public class WebAPI {
     //ExtentReport
@@ -157,8 +146,8 @@ public class WebAPI {
     }
 
 
-    public String browserstack_username = "";
-    public String browserstack_accesskey = "";
+    public String browserstack_username = "ganahamrioui1";
+    public String browserstack_accesskey = "PumTSx2dywjMsyXLZpmZ";
     public String saucelabs_username = "";
     public String saucelabs_accesskey = "";
 

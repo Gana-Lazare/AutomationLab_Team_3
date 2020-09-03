@@ -4,7 +4,6 @@ import common.WebAPI;
 import ebayhome.EbayHome;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class ebayhometest extends WebAPI {
@@ -16,7 +15,6 @@ public class ebayhometest extends WebAPI {
 
         // registrationPage = PageFactory.initElements(driver,SignUpPage.class);
     }
-
 
 
     @Test
@@ -218,16 +216,15 @@ public class ebayhometest extends WebAPI {
         ebayHome.advancedButtonClick();
         ebayHome.ringAlert();
     }
-//how to check if i real
+
+    //how to check if i real
     @Test
-<<<<<<< HEAD
+
     public void scrollToTop() throws InterruptedException {
         ebayHome.advancedButtonClick();
         ebayHome.scrollToTop();
-=======
-    public void AdancedButtonClickTest() {
-        ebayHome.advancedButtonClick();
-        ebayHome.assertAdvancedButtonClick();
->>>>>>> 9f3093fcfd1010e72d389effa5e61c65d24da088
     }
 }
+
+
+

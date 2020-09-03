@@ -1,2 +1,5 @@
+datadriven\DataSource.class
 ebayhome\EbayHome.class
+ebayhome\AdvancedSearchPage.class
 ebayhome\ebayhomeWebElement.class
+ebayhome\AdvacedSearchWebElement.class
