@@ -23,4 +23,100 @@ public class FoxNewsHometest extends FoxNewsHome {
 
     }
 
+    @Test
+    public void testFoxNewsWorld(){
+        checkFoxNewsWorld();
+
+    }
+
+    @Test
+    public void testFoxNewsScience(){
+        checkFoxNewsScience();
+
+    }
+
+    @Test
+    public void testFoxNewsPolitics(){
+        checkFoxNewsPolitics();
+
+    }
+
+    @Test
+    public void testFoxNewsEntertainment(){
+        checkFoxNewsEntertainment();
+
+    }
+
+    @Test
+    public void testFoxNewsBusiness(){
+        checkFoxNewsBusiness();
+
+    }
+
+    @Test
+    public void testFoxNewsLifestyle(){
+        checkFoxNewsLifestyle();
+
+    }
+
+    @Test
+    public void testFoxNewsTech(){
+        checkFoxNewsTech();
+
+    }
+
+    @Test
+    public void testFoxNewsHealth(){
+        checkFoxNewsHealth();
+
+    }
+
+    @Test
+    public void testFoxNewsTV(){
+        checkFoxNewsTV();
+
+    }
+
+    @Test
+    public void testFoxNewsCareers(){
+        checkFoxNewsCareers();
+
+    }
+
+    @Test
+    public void testFoxNewsOther(){
+        checkFoxNewsOther();
+
+    }
+
+    @Test
+    public void testFoxNewsFacebookIcon(){
+        checkFoxNewsFacebookIcon();
+
+    }
+
+    @Test
+    public void testFoxNewsTwitterIcon(){
+        checkFoxNewsTwitterIcon();
+
+    }
+
+    @Test
+    public void testFoxNewsFlipBoardIcon(){
+        checkFoxNewsFlipBoardIcon();
+
+    }
+
+    @Test
+    public void testFoxNewsGoogleIcon(){
+        checkFoxNewsGoogleIcon();
+
+    }
+
+    @Test
+    public void testFoxNewsInstagramIcon(){
+        checkFoxNewsInstagramIcon();
+
+    }
+
 }
