@@ -16,13 +16,13 @@
     <parameter name="browserVersion" value="84"/>
     <parameter name="url" value="https://www.aetna.com/"/>
 
-    <test name="ebay Home">
+    <test name="Aetna Home">
         <parameter name="browserName" value="chrome"/>
         <parameter name="browserVersion" value="84"/>
 
         <classes>
-            <class name="AetnaHometest.AetnaHometest"></class>
-            <!--  <class name="test.RegistrationPageTest"></class> -->
+            <!--   <class name="AetnaHometest.Aetnahometest"></class>-->
+             <class name="AetnaHometest.ShopForaPlanAetnatest"></class>
         </classes>
     </test>
 
@@ -30,14 +30,14 @@
     <test name="Firefox browser">
         <parameter name="browserName" value="firefox"/>
         <parameter name="browserVersion" value="80"/>
-        <!--<classes>
-        <class name="ebayhometest.ebayhometest">
+        <classes>
+       <!-- <class name="ebayhometest.ebayhometest">
               <methods>
                                       <exclude name="testSearchBoxCheck1"></exclude>-->
         <!-- </methods>
      </class>
-
- </classes>-->
+            <class name="AetnaHometest.ShopForaPlanAetnatest"></class>-->
+ </classes>
     </test>
 
 </suite>

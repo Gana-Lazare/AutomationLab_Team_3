@@ -42,7 +42,7 @@ public class WebAPI {
 
 
     //Create the WebDriver element here
-    public static WebDriver driver = null;
+
     WebElement webElement;
     String elementresearch;
     String locator;
@@ -145,7 +145,7 @@ public class WebAPI {
         return splitString;
     }
 
-
+    public static WebDriver driver = null ;
     public String browserstack_username = "ganahamrioui1";
     public String browserstack_accesskey = "PumTSx2dywjMsyXLZpmZ";
     public String saucelabs_username = "";
@@ -154,7 +154,7 @@ public class WebAPI {
     @Parameters({"useCloudEnv", "cloudEnvName", "os", "os_version", "browserName", "browserVersion", "url"})
     @BeforeMethod
     public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false") String cloudEnvName,
-                      @Optional("windows") String os, @Optional("10") String os_version, @Optional("chrome-options") String browserName, @Optional("34")
+                      @Optional("windows") String os, @Optional("10") String os_version, @Optional("chrome-options") String browserName, @Optional("84")
                               String browserVersion, @Optional("https://www.google.com") String url) throws IOException {
 
         if (useCloudEnv == true) {
@@ -187,6 +187,8 @@ public class WebAPI {
                 System.setProperty("webdriver.chrome.driver", "../Generic/BrowserDriver/mac/chromedriver");
             } else if (OS.equalsIgnoreCase("Windows")) {
                 System.setProperty("webdriver.chrome.driver", "../Generic/BrowserDriver/windows/chromedriver.exe");
+               // System.setProperty("webdriver.chrome.driver", "../Generic/BrowserDriver/windows/chromedriver85.exe");
+            }
             }
             driver = new ChromeDriver(options);
         } else if (browserName.equalsIgnoreCase("firefox")) {
@@ -229,6 +231,7 @@ public class WebAPI {
     public void scrollIntoViewElement(WebElement element) {
         this.webElement = element;
         ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
+
 
     }
 
