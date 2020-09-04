@@ -3,8 +3,9 @@ import common.WebAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
+import org.testng.Assert;
 
-import static ebayhome.ebayhomeWebElement.*;
+import static ebayhome.ebayHomeWebElement.*;
 
 public class EbayHome extends WebAPI{
 
@@ -21,7 +22,7 @@ public class EbayHome extends WebAPI{
     public WebElement helpAndContact;
 
     @FindBy(how = How.XPATH, using = helpSearchBoxXpath)
-    public WebElement helpSeachBox;
+    public WebElement helpSearchBox;
 
     @FindBy(how = How.XPATH, using = returnsAndRefundsXpath)
     public WebElement returnsAndRefunds;
@@ -56,14 +57,22 @@ public class EbayHome extends WebAPI{
     @FindBy(how = How.XPATH,using = startSharingXpath)
     public WebElement startSharing;
 
-
-
-
+    @FindBy(how = How.XPATH, using = AdvancedWebElement_xpath)
+    public WebElement AdvancedButton;
+    @FindBy(how = How.XPATH, using = advancedSearchTextArea_xpath)
+    public WebElement adv_text;
 
     //Action
-    public void searchBoxCheck(String searchItem){
-        searchBox.sendKeys("iphone11 pro max");
-          searchBox.submit();
+//CLICK ON advanced on th top right
+  public void advancedButtonClick() {
+     AdvancedButton.click();
+  }
+    //Assertion
+//using the title of the page to assert the result
+    public void assertAdvancedButtonClick() {
+        String actualresult = getTextFrom(adv_text);
+        String expectedresult = "Advanced Search";
+        Assert.assertEquals(actualresult, expectedresult, "it's not advanced page");
     }
 
     public void sellButtonCheck() throws InterruptedException {
@@ -79,8 +88,8 @@ public class EbayHome extends WebAPI{
     }
 
     public void helpSearchBoxCheck(String searchItem)  {
-        helpSeachBox.sendKeys("How to Sell");
-        helpSeachBox.submit();
+        helpSearchBox.sendKeys("How to Sell");
+        helpSearchBox.submit();
 
 
     }
@@ -132,5 +141,6 @@ public class EbayHome extends WebAPI{
     }
 
 }
+
 
 
