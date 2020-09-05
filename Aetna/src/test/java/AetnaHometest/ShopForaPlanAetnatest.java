@@ -30,5 +30,90 @@ public class ShopForaPlanAetnatest extends WebAPI {
     public void checkdrugListest() throws InterruptedException{
         shopForaPlanAetna.checkDrugList();
 }
+@Test
+public void understanMedicaretest() throws InterruptedException {
+    shopForaPlanAetna.understanMedicare();
+}
+@Test
+public void findAPlanMeetYourNeedtest() throws  InterruptedException {
+    shopForaPlanAetna.findAPlanMeetYourNeed();
+}
+@Test
+public void enrollInMedicaretest() throws InterruptedException{
+  shopForaPlanAetna.enrollInMedicare();
+}
+@Test
+public void viewAllPlanstest()throws InterruptedException{
+        enrollInMedicaretest();
+        shopForaPlanAetna.viewAllPlans();
+}
+@Test
+public void getstartedtest() throws InterruptedException{
+        enrollInMedicaretest();
+        shopForaPlanAetna.getstarted();
+}
+@Test
+public void increaseTexttest() throws InterruptedException{
+        enrollInMedicaretest();
+        shopForaPlanAetna.increaseText();
+}
+@Test
+public void planThroughEmployertest() throws InterruptedException{
+    shopForaPlanAetna.planThroughEmployer();
+}
+@Test
+public  void studentsPlantest() throws InterruptedException {
+  shopForaPlanAetna.studentsPlan();
+}
+@Test
+public void internationnalPlantest() throws  InterruptedException{
+   shopForaPlanAetna.internationnalPlan();
+}
+@Test
+public void findADoctortest() throws InterruptedException {
+   shopForaPlanAetna.findADoctor();
+}
 
+@Test
+public void dentalPlanstest() throws InterruptedException{
+    shopForaPlanAetna.dentalPlans();
+}
+@Test
+public void findAdentisttest() throws InterruptedException{
+   shopForaPlanAetna.findAdentist();
+}
+@Test
+public void visioPlanstest() throws InterruptedException{
+    shopForaPlanAetna.visioPlans();
+}
+@Test
+public void findAnEyeDoctortest() throws InterruptedException{
+    shopForaPlanAetna.findAnEyeDoctor();
+}
+@Test
+public void supplementalPlanstest() throws InterruptedException{
+    shopForaPlanAetna.supplementalPlans();
+}
+
+@Test
+public void medicaidPlanstest() throws InterruptedException{
+    shopForaPlanAetna.medicaidPlans();
+}
+@Test
+public void medicaidFindDoctortest() throws InterruptedException{
+    shopForaPlanAetna.medicaidFindDoctor();
+}
+
+@Test
+public void pharmacyPlanInformationtest() throws InterruptedException{
+    shopForaPlanAetna.pharmacyPlanInformation();
+}
+@Test
+public void findApharmacytest() throws InterruptedException{
+    shopForaPlanAetna.findApharmacy();
+}
+@Test
+public void findMedecineAndCosstest() throws InterruptedException{
+    shopForaPlanAetna.findMedecineAndCoss();
+}
 }

@@ -33,12 +33,12 @@ public WebElement medicare;
         mouseHover(medicare,browseAetna);
     }
     //Assertion
-    public void assertMedicare(){
+   /* public void assertMedicare(){
 String expectedresult=browseAetnaURL;
-//String actualresult=driver.getCurrentUrl();
-       // Assert.assertEquals(actualresult,expectedresult,"this is not browse Aetna Plan Url");
-      //  System.out.println(actualresult);
-    }
+String actualresult=driver.getCurrentUrl();
+      Assert.assertEquals(actualresult,expectedresult,"this is not browse Aetna Plan Url");
+       System.out.println(actualresult);
+    }*/
 
     @FindBy(how = How.XPATH,using = findDoctorWebElement)
     public WebElement findDoctor;
@@ -77,11 +77,36 @@ String expectedresult=browseAetnaURL;
     }
     //Assertion
 
-    @FindBy(how = How.XPATH,using = supplementalPlanWebElement)
-    public WebElement supplementalPlan;
+    @FindBy(how = How.XPATH,using = EnrollInMedicareWebElement)
+    public WebElement EnrollInMedicare;
     //Action
-    public void supplementalPlan() throws InterruptedException{
-        mouseHover(medicare,supplementalPlan);
+    public void enrollInMedicare() throws InterruptedException{
+        mouseHover(medicare,EnrollInMedicare);
+    }
+    //Assertion
+
+    @FindBy(how = How.XPATH,using = viewAllPlans_medicareWebElement)
+    public WebElement viewAllPlans;
+    //Action
+    public void viewAllPlans() throws InterruptedException{
+        scrollIntoViewElement(viewAllPlans);
+        clickWebElement(viewAllPlans);
+    }
+    //Assertion
+    @FindBy(how = How.XPATH,using = getStarted_mediareWebElement)
+    public WebElement getstarted;
+    //Action
+    public void getstarted() throws InterruptedException{
+        scrollIntoViewElement(viewAllPlans);
+        clickWebElement(getstarted);
+    }
+    //Assertion
+    @FindBy(how = How.XPATH,using = increaseTest_medicareWebElement)
+    public WebElement increaseText;
+    //Action
+    public void increaseText() throws InterruptedException{
+
+        clickWebElement(increaseText);
     }
     //Assertion
 
@@ -120,8 +145,96 @@ String expectedresult=browseAetnaURL;
     public void findADoctor() throws InterruptedException{
         mouseHover(healthCoverage,findDoctor);
     }
+    //****
+    @FindBy(how = How.XPATH,using = dentalVisionAndSupplementationWebElement)
+    public WebElement dentalVisionAndSupplementation;
+
+    @FindBy(how = How.XPATH,using = dentalPlansWebElement)
+    public WebElement dentalPlans;
+    //Action
+    public void dentalPlans() throws InterruptedException{
+        mouseHover(dentalVisionAndSupplementation,dentalPlans);
+    }
+    //Assertion
+
+    @FindBy(how = How.XPATH,using = findADentistWebElement)
+    public WebElement findDentist;
+    //Action
+    public void findAdentist() throws InterruptedException{
+        mouseHover(dentalVisionAndSupplementation,findDentist);
+    }
+    //Assertion
+
+    @FindBy(how = How.XPATH,using = visioPlansWebElement)
+    public WebElement visioplans;
+    //Action
+    public void visioPlans() throws InterruptedException{
+        mouseHover(dentalVisionAndSupplementation, visioplans);
+    }
+    //Assertion
+
+    @FindBy(how = How.XPATH,using = findAnEyeDoctorWebElement )
+    public WebElement findanEyeDoctor;
+    //Action
+    public void findAnEyeDoctor() throws InterruptedException{
+        mouseHover(dentalVisionAndSupplementation, findanEyeDoctor);
+    }
+    //Assertion
+
+    @FindBy(how = How.XPATH,using =findMedecineAndCostsWebElement)
+    public WebElement findMedecineAndCosts;
+    //Action
+    public void findMedecineAndCoss() throws InterruptedException{
+        mouseHover(dentalVisionAndSupplementation,findMedecineAndCosts);
+    }
+    //Assertion
 
 
+    @FindBy(how = How.XPATH,using =supplementalPlansWebElement)
+    public WebElement supplementalplans;
+    //Action
+    public void supplementalPlans() throws InterruptedException{
+        mouseHover(dentalVisionAndSupplementation, supplementalplans);
+    }
+    //Assertion
+
+
+    @FindBy(how = How.XPATH,using =pharmacyWebElement)
+    public WebElement pharmacy;
+
+    @FindBy(how = How.XPATH,using =pharmacyPlanInformationWebElement)
+    public WebElement pharmacyplanInformation;
+    //Action
+    public void pharmacyPlanInformation() throws InterruptedException{
+        mouseHover(pharmacy, pharmacyplanInformation);
+    }
+    //Assertion
+
+    @FindBy(how = How.XPATH,using =findAPharmacyWebElement)
+    public WebElement findApharmacy;
+    //Action
+    public void findApharmacy() throws InterruptedException{
+        mouseHover(pharmacy, findApharmacy);
+    }
+    //Assertion
+
+    @FindBy(how = How.XPATH,using =medicaidWebElement)
+    public WebElement medicaid;
+    @FindBy(how = How.XPATH,using =medicaidPlansWebElement)
+    public WebElement medicaidPlans;
+    //Action
+    public void medicaidPlans() throws InterruptedException{
+        mouseHover(medicaid, medicaidPlans);
+    }
+    //Assertion
+
+    @FindBy(how = How.XPATH,using =medicaidFindADoctorWebElement)
+    public WebElement medicaidDoctor;
+    //Action
+    public void medicaidFindDoctor() throws InterruptedException{
+        mouseHover(medicaid, medicaidDoctor);
+    }
+    //Assertion
 
 
 }

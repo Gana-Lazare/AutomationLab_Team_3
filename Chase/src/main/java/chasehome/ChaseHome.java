@@ -20,6 +20,7 @@ public class ChaseHome extends WebAPI {
 //Action
 
     public void facebookChase(){
+        scrollIntoViewElement(face_icon);
         clickWebElement(face_icon);
     }
     //Assertion
