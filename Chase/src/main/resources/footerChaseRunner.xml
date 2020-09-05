@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Ebay footer elements Test" parallel="false">
+<listeners>
+    <listener class-name="TestPractice.Listeners"></listener>
+</listeners>
+    <parameter name="url" value="https://www.chase.com/"/>
+    <test name="Chase Footer">
+        <classes>
+            <class name="chaseheaderbarTest.ChaseHeaderBarTest"></class>
+
+        </classes>
+    </test>
+
+</suite>

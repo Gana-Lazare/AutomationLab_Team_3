@@ -139,9 +139,7 @@
                     <configuration>
                         <testFailureIgnore>true</testFailureIgnore>
                         <suiteXmlFiles>
-                            <suiteXmlFile></suiteXmlFile>
-                            <suiteXmlFile></suiteXmlFile>
-                            <suiteXmlFile></suiteXmlFile>
+                            <suiteXmlFile>footerEbayRunner.xml</suiteXmlFile>
                         </suiteXmlFiles>
                     </configuration>
                 </plugin>
