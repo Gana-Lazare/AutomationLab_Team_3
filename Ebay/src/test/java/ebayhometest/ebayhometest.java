@@ -12,8 +12,8 @@ public class ebayhometest extends WebAPI {
     @BeforeMethod // to use the driver to open the browser
     public void getInit() {
         ebayHome = PageFactory.initElements(driver, EbayHome.class);
-
         // registrationPage = PageFactory.initElements(driver,SignUpPage.class);
+
     }
 
 

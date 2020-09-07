@@ -35,9 +35,9 @@
              <methods>
                                       <exclude name="testSearchBoxCheck1"></exclude>
        </methods>
-     </class>-->
+     </class>
 
- </classes>
+ </classes>-->
     </test>
 
 </suite>

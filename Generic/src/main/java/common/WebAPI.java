@@ -1,6 +1,7 @@
 package common;
 
 import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.LogStatus;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.openqa.selenium.*;
@@ -15,6 +16,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestContext;
+import org.testng.ITestResult;
 import org.testng.annotations.*;
 import reporting.ExtentManager;
 import reporting.ExtentTestManager;
@@ -40,7 +42,7 @@ public class WebAPI {
 
 
     //Create the WebDriver element here
-
+    public static WebDriver driver = null ;
     WebElement webElement;
     String elementresearch;
     String locator;
@@ -84,7 +86,7 @@ public class WebAPI {
         return sw.toString();
     }
 //Gana comment it because getting a nullpointerexception
-  /*  @AfterMethod
+   @AfterMethod
     public void afterEachTestMethod(ITestResult result) {
         ExtentTestManager.getTest().getTest().setStartedTime(getTime(result.getStartMillis()));
         ExtentTestManager.getTest().getTest().setEndedTime(getTime(result.getEndMillis()));
@@ -107,7 +109,7 @@ public class WebAPI {
         }
         driver.quit();
     }
-*/
+
     @AfterSuite
     public void generateReport() {
         extent.close();
@@ -143,7 +145,6 @@ public class WebAPI {
         return splitString;
     }
 
-    public static WebDriver driver = null ;
     public String browserstack_username = "ganahamrioui1";
     public String browserstack_accesskey = "PumTSx2dywjMsyXLZpmZ";
     public String saucelabs_username = "";
