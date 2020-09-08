@@ -18,7 +18,7 @@
 
     <test name="fox news Home">
         <parameter name="browserName" value="chrome"/>
-        <parameter name="browserVersion" value="84"/>
+        <parameter name="browserVersion" value="85"/>
 
         <classes>
             <class name="FoxNewsHometest.FoxNewsHometest"></class>

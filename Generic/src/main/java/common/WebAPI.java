@@ -85,9 +85,10 @@ public class WebAPI {
         t.printStackTrace(pw);
         return sw.toString();
     }
-//Gana comment it because getting a nullpointerexception
+//Gana comment it because getting a nullpointerexception and finally  the
    @AfterMethod
     public void afterEachTestMethod(ITestResult result) {
+        try{
         ExtentTestManager.getTest().getTest().setStartedTime(getTime(result.getStartMillis()));
         ExtentTestManager.getTest().getTest().setEndedTime(getTime(result.getEndMillis()));
 
@@ -107,7 +108,11 @@ public class WebAPI {
         if (result.getStatus() == ITestResult.FAILURE) {
             captureScreenshot(driver, result.getName());
         }
-        driver.quit();
+        driver.quit();}
+        catch (NullPointerException e){
+            e.getStackTrace();
+            e.getMessage();
+        }
     }
 
     @AfterSuite

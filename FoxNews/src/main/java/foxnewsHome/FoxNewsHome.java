@@ -12,4 +12,7 @@ public class FoxNewsHome  extends WebAPI {
 
      @FindBy(how = How.XPATH,using =watchTvWebElement )
     public WebElement watchtv;
+     public void watchtv(){
+         clickWebElement(watchtv);
+     }
 }
