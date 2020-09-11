@@ -4,45 +4,53 @@ Feature: WatchTv Button on the home page FoxNews
   Background:
     Given Im in Fox News Home Page
     And I click on WatchTV Button
-
+@Regression
   Scenario: Watch Tv Button  functionality Check
     Then I Verify Im in Watch TV Homepage
-
+  @Regression
   Scenario: Im in Watch Tv and use FoxNews Homep page Button
     And I click On fox News Home Page
     Then I verify Im in Fox News Home Page
-
+  @Regression
   Scenario: Im in watch tv Page and check Fox for business
     And I click on FoxBusiness
     Then I verify Im in FoxFor Business Page
-
+  @Regression
   Scenario:  Im in watch Tv Page and check Fox News Radio
     And I click on FoxNews Radio
     Then I verify Im in Fox News Radio Page
-
+  @Regression
   Scenario: Im in watch Tv and check Fox Nation
     And I click on  Fox Nation
-    Then I veriffy Im in Fox Nation Page
-
+    Then I verify Im in Fox Nation Page
+  @Regression
   Scenario: Im in watch Tv and Check Fox News Flash
     And I click on Fox NEws Flash
     Then I verify Im in fox News Flash
 
+  @Regression
   Scenario:  Im in watch Tv and check show clips
     And I click on show clips
     Then I verify Im in show Clips
 
+  @Regression
   Scenario: Im in watch Tv and check New Clips
     And I click on News Clips
     Then I verify Im In News Clips
-
+  @Regression
   Scenario:IM in watch Tv and Check Facebook link on icon
     And I click on facebook Icon
     Then I verify facebook Window Pop up
 
+  @Regression
   Scenario:IM in watch Tv and Check Twitter link on icon
     And I click on Twitter Icon
-    And I verify Twitter Window Pop Up
+    Then I verify Twitter Window Pop Up
+    @Regression
+    Scenario: Im in Watch Tv and check scroll down and check scroll to top button
+      And scroll down to scroll to top button
+      Then click on button
+      And check im on top of Page
 
 
 

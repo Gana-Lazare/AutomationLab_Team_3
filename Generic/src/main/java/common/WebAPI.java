@@ -42,7 +42,7 @@ public class WebAPI {
 
 
     //Create the WebDriver element here
-    public static WebDriver driver = null ;
+    public static WebDriver driver = null;
     WebElement webElement;
     String elementresearch;
     String locator;
@@ -53,6 +53,13 @@ public class WebAPI {
         extent = ExtentManager.getInstance();
     }
 
+    public void openFoxNewsBrowser() throws IOException {
+        setUp(false, "BrowserStack", "windows", "7", "chrome", "85", "http:\\www.foxnews.com");
+    }
+    public void openHiltonHotelBrowser() throws IOException{
+        setUp(false, "BrowserStack", "windows", "7", "chrome", "85", "http:\\www.hiltonhotel.com");
+
+    }
 
 
     //Creating a common method to click on a WebElement
@@ -62,10 +69,11 @@ public class WebAPI {
         webElement.click();
     }
 
-    public String getTextFrom(WebElement webElement){
-        this.webElement=webElement;
+    public String getTextFrom(WebElement webElement) {
+        this.webElement = webElement;
         return webElement.getText();
     }
+
     //Creating a method that use a locator to click what ever is the type of this locator
     public void clickByLocator(String locator) {
 
@@ -85,31 +93,32 @@ public class WebAPI {
         t.printStackTrace(pw);
         return sw.toString();
     }
-//Gana comment it because getting a nullpointerexception and finally  the
-   @AfterMethod
+
+    //Gana comment it because getting a nullpointerexception and finally  the
+    @AfterMethod
     public void afterEachTestMethod(ITestResult result) {
-        try{
-        ExtentTestManager.getTest().getTest().setStartedTime(getTime(result.getStartMillis()));
-        ExtentTestManager.getTest().getTest().setEndedTime(getTime(result.getEndMillis()));
+        try {
+            ExtentTestManager.getTest().getTest().setStartedTime(getTime(result.getStartMillis()));
+            ExtentTestManager.getTest().getTest().setEndedTime(getTime(result.getEndMillis()));
 
-        for (String group : result.getMethod().getGroups()) {
-            ExtentTestManager.getTest().assignCategory(group);
-        }
+            for (String group : result.getMethod().getGroups()) {
+                ExtentTestManager.getTest().assignCategory(group);
+            }
 
-        if (result.getStatus() == 1) {
-            ExtentTestManager.getTest().log(LogStatus.PASS, "Test Passed");
-        } else if (result.getStatus() == 2) {
-            ExtentTestManager.getTest().log(LogStatus.FAIL, getStackTrace(result.getThrowable()));
-        } else if (result.getStatus() == 3) {
-            ExtentTestManager.getTest().log(LogStatus.SKIP, "Test Skipped");
-        }
-        ExtentTestManager.endTest();
-        extent.flush();
-        if (result.getStatus() == ITestResult.FAILURE) {
-            captureScreenshot(driver, result.getName());
-        }
-        driver.quit();}
-        catch (NullPointerException e){
+            if (result.getStatus() == 1) {
+                ExtentTestManager.getTest().log(LogStatus.PASS, "Test Passed");
+            } else if (result.getStatus() == 2) {
+                ExtentTestManager.getTest().log(LogStatus.FAIL, getStackTrace(result.getThrowable()));
+            } else if (result.getStatus() == 3) {
+                ExtentTestManager.getTest().log(LogStatus.SKIP, "Test Skipped");
+            }
+            ExtentTestManager.endTest();
+            extent.flush();
+            if (result.getStatus() == ITestResult.FAILURE) {
+                captureScreenshot(driver, result.getName());
+            }
+            driver.quit();
+        } catch (NullPointerException e) {
             e.getStackTrace();
             e.getMessage();
         }
@@ -181,7 +190,7 @@ public class WebAPI {
             if (OS.equalsIgnoreCase("OS X")) {
                 System.setProperty("webdriver.chrome.driver", "../Generic/BrowserDriver/mac/chromedriver");
             } else if (OS.equalsIgnoreCase("Windows")) {
-              //  System.setProperty("webdriver.chrome.driver", "../Generic/BrowserDriver/windows/chromedriver.exe");
+                //  System.setProperty("webdriver.chrome.driver", "../Generic/BrowserDriver/windows/chromedriver.exe");
                 System.setProperty("webdriver.chrome.driver", "../Generic/BrowserDriver/windows/chromedriver85.exe");
             }
             driver = new ChromeDriver();
@@ -230,12 +239,18 @@ public class WebAPI {
     }
 
 
-
     //Creating a method to scroll into view Element
+    public void moveToElement(String xpath){
+        WebElement element = driver.findElement(By.xpath(xpath));
+        Actions actions = new Actions(driver);
+        actions.moveToElement(element);
+        actions.perform();
+
+    }
     public void scrollIntoViewElement(WebElement element) {
         this.webElement = element;
-        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        //((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
+       // driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
 
     }
@@ -264,11 +279,11 @@ public class WebAPI {
     //method to check the status of a radiobutton or a checkbox
     public void radioButton(WebElement radioButton) {
         this.webElement = radioButton;
-         boolean isChecked;}
+        boolean isChecked;
+    }
 
 
     /**
-     *
      * radioButton by Gana
      */
     //method to check the status of a radiobutton or a checkbox
@@ -284,8 +299,8 @@ public class WebAPI {
     //creating a method to send a keyssearch
 
     /**
-     *
      * Sendkeymethod by Gana
+     *
      * @param searchBar
      * @param elementresearch
      * @throws NoSuchElementException
@@ -293,7 +308,8 @@ public class WebAPI {
 
     //creating a method to send a keyssearch
 
-        WebElement searchBar;
+    WebElement searchBar;
+
     public void sendKey(WebElement searchBar, String elementresearch) throws NoSuchElementException {
         this.webElement = searchBar;
         this.elementresearch = elementresearch;
@@ -302,9 +318,7 @@ public class WebAPI {
     }
 
 
-
     /**
-     *
      * ALL following methods By Mh
      */
     //helper methods
@@ -682,10 +696,22 @@ public class WebAPI {
         return text;
     }
 
-
+    /**
+     * Author:Gana
+     * Description: Here a method that returns true if a new window is popo up false otherwise
+     */
+    public Boolean isAlive(WebDriver driver) {
+        try {
+            driver.getCurrentUrl();//or driver.getTitle();
+            return true;
+        } catch (Exception ex) {
+            return false;
+        }
+    }
 
     @AfterMethod(alwaysRun = true)
     public static void closeBrowser() {
         driver.quit();
     }
+
 }

@@ -1,0 +1,69 @@
+
+@Regression
+Scenario: Watch Tv Button  functionality Check # src/test/java/features/watchTv.feature:8
+  Given Im in Fox News Home Page               # null
+  And I click on WatchTV Button                # null
+  Then I Verify Im in Watch TV Homepage        # null
+
+@Regression
+Scenario: Im in Watch Tv and use FoxNews Homep page Button # src/test/java/features/watchTv.feature:11
+  Given Im in Fox News Home Page                           # null
+  And I click on WatchTV Button                            # null
+  And I click On fox News Home Page                        # null
+  Then I verify Im in Fox News Home Page                   # null
+
+@Regression
+Scenario: Im in watch tv Page and check Fox for business # src/test/java/features/watchTv.feature:15
+  Given Im in Fox News Home Page                         # null
+  And I click on WatchTV Button                          # null
+  And I click on FoxBusiness                             # null
+  Then I verify Im in FoxFor Business Page               # null
+
+@Regression
+Scenario: Im in watch Tv Page and check Fox News Radio # src/test/java/features/watchTv.feature:19
+  Given Im in Fox News Home Page                       # null
+  And I click on WatchTV Button                        # null
+  And I click on FoxNews Radio                         # null
+  Then I verify Im in Fox News Radio Page              # null
+
+@Regression
+Scenario: Im in watch Tv and check Fox Nation # src/test/java/features/watchTv.feature:23
+  Given Im in Fox News Home Page              # null
+  And I click on WatchTV Button               # null
+  And I click on  Fox Nation                  # null
+  Then I verify Im in Fox Nation Page         # null
+
+@Regression
+Scenario: Im in watch Tv and Check Fox News Flash # src/test/java/features/watchTv.feature:27
+  Given Im in Fox News Home Page                  # null
+  And I click on WatchTV Button                   # null
+  And I click on Fox NEws Flash                   # null
+  Then I verify Im in fox News Flash              # null
+
+@Regression
+Scenario: Im in watch Tv and check show clips # src/test/java/features/watchTv.feature:32
+  Given Im in Fox News Home Page              # null
+  And I click on WatchTV Button               # null
+  And I click on show clips                   # null
+  Then I verify Im in show Clips              # null
+
+@Regression
+Scenario: Im in watch Tv and check New Clips # src/test/java/features/watchTv.feature:37
+  Given Im in Fox News Home Page             # null
+  And I click on WatchTV Button              # null
+  And I click on News Clips                  # null
+  Then I verify Im In News Clips             # null
+
+@Regression
+Scenario: IM in watch Tv and Check Facebook link on icon # src/test/java/features/watchTv.feature:41
+  Given Im in Fox News Home Page                         # null
+  And I click on WatchTV Button                          # null
+  And I click on facebook Icon                           # null
+  Then I verify facebook Window Pop up                   # null
+
+@Regression
+Scenario: IM in watch Tv and Check Twitter link on icon # src/test/java/features/watchTv.feature:46
+  Given Im in Fox News Home Page                        # null
+  And I click on WatchTV Button                         # null
+  And I click on Twitter Icon                           # null
+  Then I verify Twitter Window Pop Up                   # null

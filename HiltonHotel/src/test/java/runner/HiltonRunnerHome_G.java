@@ -1,4 +1,4 @@
-package foxNewsTestRunner;
+package runner;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
@@ -16,5 +16,5 @@ import org.junit.runner.RunWith;
         tags = "( @Regression) and (not @pending)"
 
 )
-public class FoxNewsTestRunnerBDD {
+public class HiltonRunnerHome_G {
 }

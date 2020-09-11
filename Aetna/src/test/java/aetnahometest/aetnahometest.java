@@ -1,6 +1,8 @@
 package AetnaHometest;
 
-public class Aetnahometest {
+import common.WebAPI;
+
+public class Aetnahometest extends WebAPI {
 
 public String test="test";
 }
