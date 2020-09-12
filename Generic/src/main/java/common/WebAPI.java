@@ -42,7 +42,7 @@ public class WebAPI {
 
 
     //Create the WebDriver element here
-    public static WebDriver driver = null;
+    public static WebDriver driver ;
     WebElement webElement;
     String elementresearch;
     String locator;
