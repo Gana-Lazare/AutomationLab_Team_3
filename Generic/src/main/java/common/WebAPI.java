@@ -119,6 +119,14 @@ public class WebAPI {
         splitString = StringUtils.join(StringUtils.splitByCharacterTypeCamelCase(st), ' ');
         return splitString;
     }
+    //Creating a method to scroll into view Element
+    public void moveToElement(String xpath){
+        WebElement element = driver.findElement(By.xpath(xpath));
+        Actions actions = new Actions(driver);
+        actions.moveToElement(element);
+        actions.perform();
+
+    }
 
     //Browser SetUp
     public static WebDriver driver = null;
