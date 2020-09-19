@@ -1,4 +1,4 @@
-package stepDefinitions;
+package ChasestepDefinitions;
 
 
 import common.WebAPI;
@@ -350,6 +350,139 @@ clickByXpath(africaWebElement);
         String actualresult=driver.findElement(By.xpath(australiaVerifyWebElement)).getText();
         Assert.assertEquals("not Australia / Pacific Islands",expectedresult,actualresult);
     }
+//Event and meeting
+
+    @When("I click on meeting")
+    public void i_click_on_meeting() {
+        clickByXpath(meetingWebElement);
+    }
+
+    @When("I confirm Im in newWindow meeting")
+    public void i_confirm_im_in_new_window_meeting() throws InterruptedException {
+        switchWindow(meetingURLpage);
+    }
+
+    @When("I mouse hover Event buton")
+    public void i_mouse_hover_event_buton() {
+moveToElement(eventWebElement);
+clickByXpath(eventWebElement);
+    }
+
+    @Then("I confirm Im in wedding Page")
+    public void i_confirm_im_in_wedding_page() {
+String expectedresult="";
+String actualresult=driver.getCurrentUrl();
+Assert.assertEquals("not equal",expectedresult,actualresult);
+    }
+    @Then("I click on wedding")
+    public void i_click_on_wedding() {
+        clickByXpath(weddingWebElement);
+    }
+    @Then("I click on social button")
+    public void i_click_on_social_button() {
+        clickByXpath(socialWebElement);
+    }
+
+    //facebook
+
+    @When("I scroll down to facebook Icon")
+    public void i_scroll_down_to_facebook_icon() {
+        moveToElement(socialmedialocation);
+    }
+
+    @When("I click on Facebook Icon")
+    public void i_click_on_facebook_icon() {
+        clickByXpath(facebookIconWebElement);
+    }
+
+    @When("I switch to the new facebook window")
+    public void i_switch_to_the_new_facebook_window() throws InterruptedException {
+        switchWindow("https://www.facebook.com/hiltonnewsroom/");
+    }
+
+    @Then("I verify im in faceboo window")
+    public void i_verify_im_in_faceboo_window() {
+String expectedresult="https://www.facebook.com/hiltonnewsroom/";
+String actualresult=driver.getCurrentUrl();
+Assert.assertEquals("no equal",expectedresult,actualresult);
+    }
+//Twitter
+@When("I scroll down to twitter Icon")
+public void i_scroll_down_to_twitter_icon() {
+   moveToElement(socialmedialocation);
+}
+
+    @When("I click on twitter Icon")
+    public void i_click_on_twitter_icon() {
+        clickByXpath((twitterWebElement));
+    }
+
+    @When("I switch to the new twitter window")
+    public void i_switch_to_the_new_twitter_window() throws InterruptedException {
+        switchWindow("https://twitter.com/hiltonnewsroom");
+
+    }
+
+    @Then("I verify im in twitter window")
+    public void i_verify_im_in_twitter_window() {
+String expectedresult="https://twitter.com/hiltonnewsroom";
+        String actualresult=driver.getCurrentUrl();
+        Assert.assertEquals("no equal",expectedresult,actualresult);
+    }
+    //INstagram
+    @When("I scroll down to Instagram Icon")
+    public void i_scroll_down_to_instagram_icon() {
+        moveToElement(socialmedialocation);
+    }
+
+    @When("I click on instagram Icon")
+    public void i_click_on_instagram_icon() {
+       clickByXpath(instragramWebElement);
+    }
+
+    @When("I switch to the new instagram window")
+    public void i_switch_to_the_new_instagram_window() throws InterruptedException {
+        switchWindow("https://www.instagram.com/hiltonnewsroom/");
+    }
+
+    @Then("I verify im in instagram window")
+    public void i_verify_im_in_instagram_window() {
+        String expectedresult="https://www.instagram.com/hiltonnewsroom/";
+        String actualresult=driver.getCurrentUrl();
+        Assert.assertEquals("no equal",expectedresult,actualresult);
+    }
+//members-offers
+@When("I click on offers")
+public void i_click_on_offers() {
+    clickByXpath(offersWebElement);
+}
+
+    @When("I click On member benefits")
+    public void i_click_on_member_benefits() {
+        clickByXpath(memberoffersWebElement);
+    }
+
+    @Then("I verify Im in member benefit")
+    public void i_verify_im_in_member_benefit() {
+        String expectedresult="https://www.hilton.com/en/hilton-honors/member-benefits/";
+        String actualresult=driver.getCurrentUrl();
+        Assert.assertEquals("no equal",expectedresult,actualresult);
+    }
+
+    //points
+    @When("I click On points")
+    public void i_click_on_points() {
+        clickByXpath(pointsWebElement);
+    }
+
+    @Then("I verify Im in member points")
+    public void i_verify_im_in_member_points() {
+        String expectedresult="https://www.hilton.com/en/hilton-honors/points/";
+        String actualresult=driver.getCurrentUrl();
+        Assert.assertEquals("no equal",expectedresult,actualresult);
+    }
+
+
 
 
 

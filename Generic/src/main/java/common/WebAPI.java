@@ -42,7 +42,7 @@ public class WebAPI {
 
 
     //Create the WebDriver element here
-    public static WebDriver driver ;
+    public static WebDriver driver;
     WebElement webElement;
     String elementresearch;
     String locator;
@@ -56,7 +56,8 @@ public class WebAPI {
     public void openFoxNewsBrowser() throws IOException {
         setUp(false, "BrowserStack", "windows", "7", "chrome", "85", "http:\\www.foxnews.com");
     }
-    public void openHiltonHotelBrowser() throws IOException{
+
+    public void openHiltonHotelBrowser() throws IOException {
         setUp(false, "BrowserStack", "windows", "7", "chrome", "85", "http:\\www.hiltonhotel.com");
 
     }
@@ -240,17 +241,18 @@ public class WebAPI {
 
 
     //Creating a method to scroll into view Element
-    public void moveToElement(String xpath){
+    public void moveToElement(String xpath) {
         WebElement element = driver.findElement(By.xpath(xpath));
         Actions actions = new Actions(driver);
         actions.moveToElement(element);
         actions.perform();
 
     }
+
     public void scrollIntoViewElement(WebElement element) {
         this.webElement = element;
         //((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
-       // driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        // driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
 
     }
@@ -364,6 +366,31 @@ public class WebAPI {
             }
         }
     }
+//MEthod to convert locator to web element
+    public static WebElement convertTOWebElement(String locator) {
+        WebElement webElement = null;
+        try {
+            webElement = driver.findElement(By.xpath(locator));
+        } catch (Exception e) {
+            try {
+                webElement = driver.findElement((By.cssSelector(locator)));
+            } catch (Exception e2) {
+                try {
+                    webElement = driver.findElement(By.id(locator));
+                } catch (Exception e3) {
+                    try {
+                        webElement = driver.findElement(By.className(locator));
+                    } catch (Exception e4) {
+                        webElement = driver.findElement(By.tagName(locator));
+                    }
+                }
+            }
+
+        } finally {
+            return webElement;
+        }
+    }
+
 
     public static void typeOnElementNEnter(String locator, String value, WebDriver driver1) {
         try {

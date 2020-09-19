@@ -55,6 +55,17 @@ public class HiltonHotelHomeWebElement {
     public static final String australiaWebElement="//*[@id=\"location-tab-Australia / Pacific Islands\"]";
     public static final String australiaVerifyWebElement="//*[@id=\"location-tab-panel-Australia / Pacific Islands\"]/ul/li/span";
 
-
+    public static final String meetingWebElement="//*[@id=\"NavMenu\"]/ul/li[6]/a";
+    public static final String meetingURLpage="https://meetings.hilton.com/?cid=OH%2CWW%2CBespokeBookDirect%2CMULTIPR%2CTile%2CHome%2CSingleLink%2Ci80092";
+    public static final String eventWebElement="//*[@id=\"menu-item-419\"]/a";
+    public static final String weddingWebElement="//*[@id=\"menu-item-420\"]/a";
+    public static final String socialWebElement="//*[@id=\"menu-item-421\"]/a";
+public static final  String socialmedialocation="//*[@id=\"__next\"]/div[2]/div/footer/div[1]";
+    public static final String facebookIconWebElement="//*[@id=\"__next\"]/div[2]/div/footer/div[1]/a[1]";
+    public static final String twitterWebElement="//*[@id=\"__next\"]/div[2]/div/footer/div[1]/a[2]";
+    public static final String instragramWebElement="//*[@id=\"__next\"]/div[2]/div/footer/div[1]/a[3]";
+    public static final String offersWebElement="//*[@id=\"property-header-login\"]/span/nav/span/ul/li[2]/span/a";
+public static  final String memberoffersWebElement="//*[@id=\"MemberBenefits\"]";
+public static final String pointsWebElement="//*[@id=\"Points\"]";
 
 }

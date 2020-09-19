@@ -1,12 +1,12 @@
 package jetblueHome;
 
 public class JetBlueHomeWebElement {
-    public static final String minimizeAlerteCovidArea="/html/body/jb-app/div/div[2]/div";
-    public static final String minimizeallertButton="//*[@id=\"minimizeBtn\"]/a";
-    public static final String myTripsWebElement="/html/body/jb-app/jb-header/jb-header-desktop/div[2]/div/div/jb-subnav-desktop/div/ul/li[3]/a";
-    public static final String manageTripsWebElement="//*[@id=\"subnav-wrapper_tg8vyp0kk-2\"]/div/div/div/ul/li[1]/jb-bubble-link/a";
-    public static final String checkInWebElement="//*[@id=\"subnav-wrapper_tg8vyp0kk-2\"]/div/div/div/ul/li[2]/jb-bubble-link/a";
-    public static final String flightTrackerWebElement="//*[@id=\"subnav-wrapper_tg8vyp0kk-2\"]/div/div/div/ul/li[3]/jb-bubble-link/a";
+   public static final String bookWebElement="/html/body/jb-app/jb-header/jb-header-desktop/div[2]/div/div/jb-subnav-desktop/div/ul/li[1]/a";
+   public static final String flight_book_WebElement="//*[@id=\"subnav-wrapper_y328ywfch-0\"]/div/div/div[1]/ul/li[1]/jb-bubble-link/a";
+   public static final String flight_And_Hotels_WebElement="//*[@id=\"subnav-wrapper_y328ywfch-0\"]/div/div/div[1]/ul/li[2]/jb-bubble-link/a";
+   public static final String bestFareFinderWebElement="//*[@id=\"subnav-wrapper_y328ywfch-0\"]/div/div/div[1]/ul/li[3]/jb-bubble-link/a";
+   public static final String hotelWebElement="//*[@id=\"subnav-wrapper_y328ywfch-0\"]/div/div/div[2]/ul/li[1]/jb-icon-link/a";
+   public static final String carsWebElement="//*[@id=\"subnav-wrapper_y328ywfch-0\"]/div/div/div[2]/ul/li[2]/jb-icon-link/a";
 
 
 }
