@@ -2,8 +2,8 @@ package ChasePageTest;
 
 import chasehome.ChaseHome;
 import common.WebAPI;
+import org.junit.Test;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.annotations.Test;
 
 public class ChaseTest extends WebAPI {
 

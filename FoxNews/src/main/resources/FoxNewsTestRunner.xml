@@ -23,7 +23,7 @@
 <!--                <methods>-->
 <!--                    <include name="endOfPageHelpTest"></include>-->
 
-<!--                    <exclude name=""></exclude>-->
+                <!--                    <exclude name=""></exclude>-->
 <!--             </methods>-->
              </class>
 

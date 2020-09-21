@@ -2,8 +2,8 @@ package EbayHomePageTest;
 
 import common.WebAPI;
 import ebayhome.EbayHome;
+import org.junit.Test;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.annotations.Test;
 
 public class EbayHomeTest extends WebAPI {
 

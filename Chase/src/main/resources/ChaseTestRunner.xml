@@ -6,7 +6,12 @@
     <test name="Chase Home">
 
         <classes>
-              <class name="ChasePageTest.ChaseTest"></class>
+                        <class name="ChasePageTest.ChaseTest">
+                            <methods>
+                                <include name="startRefinancingYour"></include>
+                                <exclude name=""></exclude>
+                            </methods>
+                        </class>
 
         </classes>
     </test>

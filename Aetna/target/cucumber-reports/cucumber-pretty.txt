@@ -1,0 +1,21 @@
+
+Scenario: Aetna HomePage Check        # src/test/java/features/HomePage.feature:6
+  Given I am in Aetna Homepage        # null
+  Then I click on Expplore Aetna Site # null
+  And I verify the page title         # null
+  Then I click on For Agents Brokers  # null
+
+Scenario:                                       # src/test/java/features/HomePage.feature:10
+  Given I am in Aetna Homepage                  # null
+  Then I click on Expplore Aetna Site           # null
+  Then I click on search button                 # null
+  And I enter search text "provider" and submit # null
+  Then I verify the page title                  # null
+
+Scenario: login buton functionality        # src/test/java/features/lgin.feature:5
+  Given I am in aetna home page            # null
+  Then I click on Expplore Aetna Site      # null
+  And I verify the page title              # null
+  Then I click on For Partners             # null
+  And I Scroll down to the end of the page # null
+  And I verify the last element is visible # null

@@ -27,4 +27,8 @@ public class EbayHomeWebElement {
     public static final String petSupplies_Xpath="//*[@id=\"s0-29-13-0-1[0]-0-0-0-38[11]-0-toggle-button\"]/span";
     public static final String majorAppliance_Xpath="//*[@id=\"s0-29-13-0-1[0]-0-0-0-38[10]-0-toggle-button\"]/span";
     public static final String housekeeping_Xpath="//*[@id=\"s0-29-13-0-1[0]-0-0-0-38[8]-0-toggle-button\"]/span";
+    public static  String searchBox="//input[@id='gh-ac']";
+    public static String webElementSearchText="//*[@id=\"gh-ac\"]";
+   // public static final String HandSanitizerLocator="//*[@id=\"gh-ac\"]";
+    public static final String searchButton_Xpath="//*[@id=\"gh-btn\"]";
 }

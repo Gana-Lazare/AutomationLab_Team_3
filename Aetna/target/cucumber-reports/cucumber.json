@@ -1,0 +1,231 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 3,
+            "name": "I am in Aetna Homepage",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 310000,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "I click on Expplore Aetna Site",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-21T03:37:38.640Z",
+        "line": 6,
+        "name": "Aetna HomePage Check",
+        "description": "",
+        "id": "aetna-homepage-functionality-check;aetna-homepage-check",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 740000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "I verify the page title",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1285000,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I click on For Agents Brokers",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 3,
+            "name": "I am in Aetna Homepage",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 232000,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "I click on Expplore Aetna Site",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-21T03:37:38.718Z",
+        "line": 10,
+        "name": "",
+        "description": "",
+        "id": "aetna-homepage-functionality-check;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 689000,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I click on search button",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1818000,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I enter search text \"provider\" and submit",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 298000,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I verify the page title",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Aetna Homepage Functionality Check",
+    "description": "",
+    "id": "aetna-homepage-functionality-check",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/HomePage.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 3,
+            "name": "I am in aetna home page",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-21T03:37:38.739Z",
+        "line": 5,
+        "name": "login buton functionality",
+        "description": "",
+        "id": "login-button-functionality;login-buton-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 171000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "I click on Expplore Aetna Site",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 178000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "I verify the page title",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 169000,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I click on For Partners",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 173000,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I Scroll down to the end of the page",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 194000,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I verify the last element is visible",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "login button functionality",
+    "description": "",
+    "id": "login-button-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/lgin.feature",
+    "tags": []
+  }
+]

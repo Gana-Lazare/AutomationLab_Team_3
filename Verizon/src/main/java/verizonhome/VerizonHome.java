@@ -1,4 +1,9 @@
 package verizonhome;
 
-public class VerizonHome {
+import common.WebAPI;
+
+public class VerizonHome extends WebAPI {
+
+
+
 }

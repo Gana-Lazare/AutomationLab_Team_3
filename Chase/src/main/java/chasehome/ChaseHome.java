@@ -1,8 +1,5 @@
 package chasehome;
 
-import common.WebAPI;
-import org.apache.hc.core5.util.Timeout;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -18,8 +15,8 @@ public class ChaseHome extends ChaseHomeWebElements {
        Thread.sleep(4000);
         homeLending.click();
 
-
     }
+
     @FindBy(xpath = bay_Xpath)
     WebElement bay;
     public void bayButton() throws InterruptedException {
@@ -27,6 +24,7 @@ public class ChaseHome extends ChaseHomeWebElements {
         homeLending.click();
         bay.click();
     }
+
     @FindBy(xpath = refinance_Xpath)
     WebElement refinance;
     public void refinance() throws InterruptedException {
@@ -34,6 +32,7 @@ public class ChaseHome extends ChaseHomeWebElements {
         homeLending.click();
         refinance.click();
     }
+
     @FindBy(xpath = homeEquity_Xpath)
     WebElement homeEquity;
     public void homeEquity() throws InterruptedException {
@@ -41,6 +40,7 @@ public class ChaseHome extends ChaseHomeWebElements {
         homeLending.click();
         homeEquity.click();
     }
+
     @FindBy(xpath = manageAccount_Xpath)
     WebElement manageAccount;
     public void manageAccount() throws InterruptedException {
@@ -48,6 +48,7 @@ public class ChaseHome extends ChaseHomeWebElements {
         homeLending.click();
         manageAccount.click();
     }
+
     @FindBy(xpath = learn_Xpath)
     WebElement learn;
     public void learn() throws InterruptedException {
@@ -55,6 +56,7 @@ public class ChaseHome extends ChaseHomeWebElements {
         homeLending.click();
         learn.click();
     }
+
     @FindBy(xpath = contactUs_Xpath)
     WebElement contactUs;
     public void contactUs() throws InterruptedException {
@@ -70,6 +72,7 @@ public class ChaseHome extends ChaseHomeWebElements {
         homeLending.click();
         yourHomeJourneStartHere.click();
     }
+
     @FindBy(xpath = getStarted_Xpath)
     WebElement getStarted;
     public void getStarted() throws InterruptedException {
@@ -77,6 +80,7 @@ public class ChaseHome extends ChaseHomeWebElements {
         homeLending.click();
         getStarted.click();
     }
+
     @FindBy(xpath = atmBrand_Xpath)
     WebElement atmBrand;
     public void atmBrand() throws InterruptedException {
@@ -84,6 +88,7 @@ public class ChaseHome extends ChaseHomeWebElements {
         homeLending.click();
         atmBrand.click();
     }
+
     @FindBy(xpath = estimateYourRateAnd_Xpath)
     WebElement estimateYourRateAnd;
     public void estimateYourRateAnd() throws InterruptedException {
@@ -92,7 +97,6 @@ public class ChaseHome extends ChaseHomeWebElements {
         estimateYourRateAnd.click();
     }
 
-
     @FindBy(xpath = image_Xpath)
     WebElement image;
     public void image() throws InterruptedException {
@@ -100,6 +104,7 @@ public class ChaseHome extends ChaseHomeWebElements {
         homeLending.click();
         image.click();
     }
+
     @FindBy(xpath = getPrequalified_Xpath)
     WebElement getPrequalified;
     public void getPrequalified() throws InterruptedException {
@@ -107,6 +112,7 @@ public class ChaseHome extends ChaseHomeWebElements {
         homeLending.click();
         getPrequalified.click();
     }
+
     @FindBy(xpath = chaseHomeLending_Xpath)
     WebElement chaseHomeLending;
     public void chaseHomeLending() throws InterruptedException {
@@ -128,6 +134,7 @@ public class ChaseHome extends ChaseHomeWebElements {
         homeLending.click();
         overview.click();
     }
+
     @FindBy(xpath = calculator_Xpath)
     WebElement calculator;
     public void calculator() throws InterruptedException {
@@ -135,6 +142,7 @@ public class ChaseHome extends ChaseHomeWebElements {
         homeLending.click();
         calculator.click();
     }
+
     @FindBy(xpath = rate_Xpath)
     WebElement rate;
     public void rate() throws InterruptedException {
@@ -142,6 +150,7 @@ public class ChaseHome extends ChaseHomeWebElements {
         homeLending.click();
         rate.click();
     }
+
     @FindBy(xpath = espanol_Xpath)
     WebElement espanol;
     public void espanol() throws InterruptedException {
@@ -157,6 +166,7 @@ public class ChaseHome extends ChaseHomeWebElements {
         homeLending.click();
         image1.click();
     }
+
     @FindBy(xpath = refinance1_Xpath)
     WebElement refinance1;
     public void refinance1() throws InterruptedException {
@@ -164,6 +174,7 @@ public class ChaseHome extends ChaseHomeWebElements {
         homeLending.click();
         refinance1.click();
     }
+
     @FindBy(xpath = startRefinancingYour_Xpath)
     WebElement startRefinancingYour;
     public void startRefinancingYour() throws InterruptedException {
@@ -171,6 +182,7 @@ public class ChaseHome extends ChaseHomeWebElements {
         homeLending.click();
         startRefinancingYour.click();
     }
+
     @FindBy(xpath = learnAboutRefinancing_Xpath)
     WebElement learnAboutRefinancing;
     public void learnAboutRefinancing() throws InterruptedException {
@@ -178,6 +190,7 @@ public class ChaseHome extends ChaseHomeWebElements {
         homeLending.click();
         learnAboutRefinancing.click();
     }
+
     @FindBy(xpath = compareYourOption_Xpath)
     WebElement compareYourOption;
     public void compareYourOption() throws InterruptedException {
