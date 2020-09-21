@@ -94,39 +94,165 @@
         </dependency>
 
 
+        <!--            Cucumber BDD Related Dependencies-->
+
+        <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-core -->
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-core</artifactId>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/io.cucumber/gherkin -->
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>gherkin</artifactId>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-html -->
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-html</artifactId>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/net.sourceforge.cobertura/cobertura -->
+        <dependency>
+            <groupId>net.sourceforge.cobertura</groupId>
+            <artifactId>cobertura</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>com.sun</groupId>
+                    <artifactId>tools</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-java</artifactId>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-jvm-deps -->
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-jvm-deps</artifactId>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/net.masterthought/cucumber-reporting -->
+        <dependency>
+            <groupId>net.masterthought</groupId>
+            <artifactId>cucumber-reporting</artifactId>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/net.masterthought/maven-cucumber-reporting -->
+        <dependency>
+            <groupId>net.masterthought</groupId>
+            <artifactId>maven-cucumber-reporting</artifactId>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/junit/junit -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.hamcrest/hamcrest-core -->
+        <dependency>
+            <groupId>org.hamcrest</groupId>
+            <artifactId>hamcrest-core</artifactId>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-junit</artifactId>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/info.cukes/cucumber-junit -->
+<!--        <dependency>-->
+<!--            <groupId>info.cukes</groupId>-->
+<!--            <artifactId>cucumber-junit</artifactId>-->
+<!--        </dependency>-->
+        <!-- https://mvnrepository.com/artifact/info.cukes/cucumber-core -->
+
     </dependencies>
 
-    <build>
-        <!-- To define the plugin version in your parent POM -->
-            <plugins>
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-compiler-plugin</artifactId>
-
-                    <configuration>
-                        <source>1.8</source>
-                        <target>1.8</target>
-                    </configuration>
-
-
-                </plugin>
-
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-surefire-plugin</artifactId>
-                    <configuration>
-                        <testFailureIgnore>true</testFailureIgnore>
-                        <suiteXmlFiles>
-                            <suiteXmlFile></suiteXmlFile>
-                            <suiteXmlFile></suiteXmlFile>
-                            <suiteXmlFile></suiteXmlFile>
-                        </suiteXmlFiles>
-                    </configuration>
-                </plugin>
-            </plugins>
+<!--    <build>-->
+<!--        <plugins>-->
+<!--            <plugin>-->
+<!--                <groupId>org.apache.maven.plugins</groupId>-->
+<!--                <artifactId>maven-compiler-plugin</artifactId>-->
+<!--                <configuration>-->
+<!--                    <source>1.8</source>-->
+<!--                    <target>1.8</target>-->
+<!--                </configuration>-->
+<!--            </plugin>-->
+<!--            <plugin>-->
+<!--                <groupId>org.apache.maven.plugins</groupId>-->
+<!--                <artifactId>maven-surefire-plugin</artifactId>-->
+<!--                <configuration>-->
+<!--                    <suiteXmlFiles>-->
+<!--                        &lt;!&ndash;<suiteXmlFiles>target/test-classes/AmazonTestRunner.xml</suiteXmlFiles>&ndash;&gt;-->
+<!--                        &lt;!&ndash;<suiteXmlFile>target/test-classes/DropBoxMenuRunner.xml</suiteXmlFile>&ndash;&gt;-->
+<!--                        &lt;!&ndash;<suiteXmlFile>target/test-classes/GoogleSheetRunner.xml</suiteXmlFile>&ndash;&gt;-->
+<!--                        <suiteXmlFile>src/test/resources/ebaytestRunner.xml</suiteXmlFile>-->
+<!--                    </suiteXmlFiles>-->
+<!--                </configuration>-->
+<!--            </plugin>-->
+<!--        </plugins>-->
+<!--    </build>-->
 
 
 
-    </build>
+
+
+<!--    <build>-->
+<!--        &lt;!&ndash; To define the plugin version in your parent POM &ndash;&gt;-->
+<!--            <plugins>-->
+<!--                <plugin>-->
+<!--                    <groupId>org.apache.maven.plugins</groupId>-->
+<!--                    <artifactId>maven-compiler-plugin</artifactId>-->
+<!--                    <configuration>-->
+<!--                        <source>1.8</source>-->
+<!--                        <target>1.8</target>-->
+<!--                    </configuration>-->
+<!--                </plugin>-->
+
+<!--                <plugin>-->
+<!--                    <groupId>org.apache.maven.plugins</groupId>-->
+<!--                    <artifactId>maven-surefire-plugin</artifactId>-->
+<!--                    <configuration>-->
+<!--&lt;!&ndash;                        <testFailureIgnore>true</testFailureIgnore>&ndash;&gt;-->
+<!--                        <suiteXmlFiles>-->
+<!--&lt;!&ndash;                            <suiteXmlFile>test/runner.TestRunner.java</suiteXmlFile>&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            <suiteXmlFile>target/test-classes/</suiteXmlFile>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            <suiteXmlFile>target/test-classes/ebaytestRunner.xml</suiteXmlFile>&ndash;&gt;&ndash;&gt;-->
+<!--                        </suiteXmlFiles>-->
+<!--                    </configuration>-->
+<!--                </plugin>-->
+<!--                </plugins>-->
+
+<!--                <plugin>-->
+<!--                    <artifactId>maven-failsafe-plugin</artifactId>-->
+<!--                    <version>2.18</version>-->
+<!--                    <configuration>-->
+<!--                        <includes>-->
+<!--                            <include>**/**/*.java</include>-->
+<!--                            <include>**/*.java</include>-->
+
+<!--                        </includes>-->
+<!--                    </configuration>-->
+<!--                    <executions>-->
+<!--                        <execution>-->
+<!--                            <goals>-->
+<!--                                <goal>-->
+<!--                                    integration-test-->
+<!--                                </goal>-->
+<!--                                <goal>-->
+<!--                                    verify-->
+<!--                                </goal>-->
+<!--                            </goals>-->
+<!--                        </execution>-->
+<!--                    </executions>-->
+<!--                </plugin>-->
+<!--            </plugins>-->
+
+<!--    </build>-->
 
 </project>
