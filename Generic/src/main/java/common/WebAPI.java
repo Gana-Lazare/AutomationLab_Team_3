@@ -96,6 +96,7 @@ public class WebAPI {
     }
 
     //Gana comment it because getting a nullpointerexception and finally  the
+
     @AfterMethod
     public void afterEachTestMethod(ITestResult result) {
         try {

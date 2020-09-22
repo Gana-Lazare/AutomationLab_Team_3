@@ -22,7 +22,7 @@ public class ConnectToSqlDB {
     public static Properties loadProperties() throws IOException {
         Properties prop = new Properties();
         //InputStream ism = new FileInputStream("/secret.properties");
-        InputStream ism = new FileInputStream("src\\main\\java\\secret.properties");
+        InputStream ism = new FileInputStream("C:\\Users\\micromedia\\IdeaProjects\\AutomationLab_Team_3\\Generic\\src\\main\\java\\secret.properties");
         prop.load(ism);
         ism.close();
         return prop;
@@ -108,7 +108,34 @@ public class ConnectToSqlDB {
     public void insertDataFromStringToSqlTable(String ArrayData, String tableName, String columnName)
     {
         try {
+
             connectToSqlDatabase();
+            ps = connect.prepareStatement("DROP TABLE IF EXISTS `"+tableName+"`;");
+            ps.executeUpdate();
+            //ps = connect.prepareStatement("CREATE TABLE `"+tableName+"` (`ID` int(11) NOT NULL AUTO_INCREMENT,`SortingNumbers` bigint(20) DEFAULT NULL,  PRIMARY KEY (`ID`),"+columnName+" int(50) );");
+            ps = connect.prepareStatement("CREATE TABLE `"+tableName+"` ("+columnName+" varchar(255) );");
+            ps.executeUpdate();
+            ps = connect.prepareStatement("INSERT INTO "+tableName+" ( "+columnName+" ) VALUES(?)");
+            ps.setString(1,ArrayData);
+            ps.executeUpdate();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+    }
+    public void insertDataFrom2StringToSqlTable(String ArrayData, String tableName, String columnName)
+    {
+        try {
+
+            connectToSqlDatabase();
+            ps = connect.prepareStatement("DROP TABLE IF EXISTS `"+tableName+"`;");
+            ps.executeUpdate();
+            //ps = connect.prepareStatement("CREATE TABLE `"+tableName+"` (`ID` int(11) NOT NULL AUTO_INCREMENT,`SortingNumbers` bigint(20) DEFAULT NULL,  PRIMARY KEY (`ID`),"+columnName+" int(50) );");
+            ps = connect.prepareStatement("CREATE TABLE `"+tableName+"` ("+columnName+" varchar(255) );");
+            ps.executeUpdate();
             ps = connect.prepareStatement("INSERT INTO "+tableName+" ( "+columnName+" ) VALUES(?)");
             ps.setString(1,ArrayData);
             ps.executeUpdate();
