@@ -15,8 +15,8 @@ EbayHome ebayHome ;
         // registrationPage = PageFactory.initElements(driver,SignUpPage.class);
     }
     @Test
-    public void AdancedButtonClickTest() {
-        ebayHome.advancedButtonClick();
-        ebayHome.assertAdvancedButtonClick();
+    public void testSearchBoxCheck() {
+        //ebayHome.searchBoxCheck("Hand Sanitizer");
+        //homePage.validateSearchText(); assertpart
     }
 }
