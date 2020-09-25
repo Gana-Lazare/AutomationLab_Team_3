@@ -176,36 +176,69 @@
 
     </dependencies>
 
+
     <build>
         <!-- To define the plugin version in your parent POM -->
+        <pluginManagement>
             <plugins>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-compiler-plugin</artifactId>
-
+                    <version>3.8.1</version>
                     <configuration>
                         <source>1.8</source>
                         <target>1.8</target>
                     </configuration>
-
-
                 </plugin>
-
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-surefire-plugin</artifactId>
+                    <version>3.0.0-M5</version>
                     <configuration>
+                        <includes>
+                            <exclude>testsrc\test\java\ebayhometest\ebayhometest.java</exclude>
+                        </includes>
                         <testFailureIgnore>true</testFailureIgnore>
                         <suiteXmlFiles>
-                           <suiteXmlFile> target/test-classes/ebayhometest/ebaytestRunner.xml</suiteXmlFile>
-
+                            <suiteXmlFile>testsrc\test\java\ebayhometest\ebayhometest.java</suiteXmlFile>
                         </suiteXmlFiles>
+                        <!--                        <suiteXmlFiles>-->
+                        <!--                            <suiteXmlFile>target/test-classes/AmazonTestRunner.xml</suiteXmlFile>-->
+                        <!--                        </suiteXmlFiles>-->
                     </configuration>
                 </plugin>
+                <plugin>
+                    <groupId>net.masterthought</groupId>
+                    <artifactId>maven-cucumber-reporting</artifactId>
+                    <version>5.0.0</version>
+                    <executions>
+                        <execution>
+                            <id>execution</id>
+                            <phase>verify</phase>
+                            <goals>
+                                <goal>generate</goal>
+                            </goals>
+                            <configuration>
+                                <projectName>Web Automation Cucumber Reports</projectName>
+                                <outputDirectory>target/cucumber-reports/advanced-reports</outputDirectory>
+                                <buildNumber>1</buildNumber>
+                                <skip>false</skip>
+                                <inputDirectory>${project.build.directory}/cucumber-reports</inputDirectory>
+                                <jsonFiles>
+                                    <param>**/*.json</param>
+                                </jsonFiles>
+                                <classificationDirectory>${project.build.directory}/cucumber-reports
+                                </classificationDirectory>
+                                <checkBuildResult>false</checkBuildResult>
+                            </configuration>
+                        </execution>
+                    </executions>
+                </plugin>
+
             </plugins>
 
 
+        </pluginManagement>
 
     </build>
-
 </project>

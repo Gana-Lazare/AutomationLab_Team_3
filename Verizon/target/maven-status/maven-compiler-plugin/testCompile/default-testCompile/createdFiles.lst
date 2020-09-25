@@ -1,2 +1,4 @@
 VerizonHometest\VerizonHometest.class
+verizonrunner\VerizonRunner.class
+verizonstepdefinitions\VerizonStepDefinitions.class
 VerizonHometest\VerizonSingIntest.class
