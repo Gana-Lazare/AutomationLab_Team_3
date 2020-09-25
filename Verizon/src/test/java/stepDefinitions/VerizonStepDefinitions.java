@@ -1,4 +1,4 @@
-package verizonstepdefinitions;
+package stepDefinitions;
 
 import common.WebAPI;
 import databases.ConnectToSqlDB;
@@ -6,6 +6,8 @@ import io.cucumber.java.*;
 import io.cucumber.java.en.*;
 import org.junit.Assert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
 
 import java.io.IOException;
@@ -15,7 +17,7 @@ import static verizonhome.VerizonHomeWebElement.*;
 
 public class VerizonStepDefinitions extends WebAPI {
 
-    @Given("Im in Verizon Home Page")
+    @Given("^Im in Verizon Home Page$")
     public void im_in_verizon_home_page() throws IOException {
         setUp(false, "BrowserStack", "Windows", "7", "chrome", "85", "https://www.verizon.com/");
 
@@ -339,19 +341,15 @@ clickByXpath(registerWebElement);
         Assert.assertEquals("not match result",expectedresult,ans);
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+    // Cucumber Hook
+    @After
+    public void tearDown(Scenario scenario) {
+        if (scenario.isFailed()) {
+            // Take a screenshot...
+            final byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+            scenario.attach(screenshot, "image/png", "Demo1"); // ... and embed it in the report.
+        }
+    }
 
 
     @After

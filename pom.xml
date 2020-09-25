@@ -228,13 +228,11 @@
                     <artifactId>maven-surefire-plugin</artifactId>
                     <version>3.0.0-M5</version>
                     <configuration>
-                        <includes>
-                            <exclude>**/TestRunner.java</exclude>
-                        </includes>
+
                         <testFailureIgnore>true</testFailureIgnore>
-                        <!--                        <suiteXmlFiles>-->
-                        <!--                            <suiteXmlFile>target/test-classes/AmazonTestRunner.xml</suiteXmlFile>-->
-                        <!--                        </suiteXmlFiles>-->
+                        <suiteXmlFiles>
+                            <suiteXmlFile>src\test\resources\ebaytestRunner.xml</suiteXmlFile>
+                        </suiteXmlFiles>
                     </configuration>
                 </plugin>
                 <plugin>

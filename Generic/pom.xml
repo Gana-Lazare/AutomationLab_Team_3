@@ -195,12 +195,9 @@
                     <artifactId>maven-surefire-plugin</artifactId>
                     <version>3.0.0-M5</version>
                     <configuration>
-                        <includes>
-                            <exclude>testsrc\test\java\ebayhometest\ebayhometest.java</exclude>
-                        </includes>
                         <testFailureIgnore>true</testFailureIgnore>
                         <suiteXmlFiles>
-                            <suiteXmlFile>testsrc\test\java\ebayhometest\ebayhometest.java</suiteXmlFile>
+                            <suiteXmlFile>src\test\resources\ebaytestRunner.xml</suiteXmlFile>
                         </suiteXmlFiles>
                         <!--                        <suiteXmlFiles>-->
                         <!--                            <suiteXmlFile>target/test-classes/AmazonTestRunner.xml</suiteXmlFile>-->
