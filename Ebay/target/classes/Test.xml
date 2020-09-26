@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <!-- for a multithread -->
 <!--<suite name="TestSuite" thread-count="2" parallel="tests">-->
-<suite name="EbayAutomationTest" parallel="false">
+<suite name="TestSuite" parallel="false">
     <!--    Cross Browser Testing-->
     <!--    Parameter to pass the value to WebAPI-->
     <parameter name="useCloudEnv" value="false"/>

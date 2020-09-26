@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <!-- for a multithread -->
 <!--<suite name="TestSuite" thread-count="2" parallel="tests">-->
-<suite name="EbayAutomationTest" parallel="false">
+<suite name="Aetna Automation Test" parallel="false">
     <!--    Cross Browser Testing-->
     <!--    Parameter to pass the value to WebAPI-->
     <parameter name="useCloudEnv" value="false"/>
@@ -13,16 +13,17 @@
     <parameter name="os_version" value="7"/>
     <!--    <parameter name="os_version" value="Sierra"/>-->
     <parameter name="browserName" value="chrome"/>
-    <parameter name="browserVersion" value="84"/>
-    <parameter name="url" value="https://www.ebay.com/"/>
+   <!-- <parameter name="browserVersion" value="84"/>-->
+    <parameter name="browserVersion" value="85"/>
+    <parameter name="url" value="https://www.aetna.com/"/>
 
-    <test name="ebay Home">
+    <test name="Aetna Home">
         <parameter name="browserName" value="chrome"/>
-        <parameter name="browserVersion" value="84"/>
+        <parameter name="browserVersion" value="85"/>
 
         <classes>
-            <class name="ebayhometest.ebayhometest"></class>
-            <!--  <class name="test.RegistrationPageTest"></class> -->
+            <!--   <class name="AetnaHometest.Aetnahometest"></class>-->
+             <class name="AetnaHometest.ShopForaPlanAetnatest"></class>
         </classes>
     </test>
 
@@ -30,15 +31,14 @@
     <test name="Firefox browser">
         <parameter name="browserName" value="firefox"/>
         <parameter name="browserVersion" value="80"/>
-        <!-- <classes>
-        <class name="ebayhometest.ebayhometest">
-             <methods>
-                                      <exclude name="testSearchBoxCheck1"></exclude>
-       </methods>
+        <classes>
+       <!-- <class name="ebayhometest.ebayhometest">
+              <methods>
+                                      <exclude name="testSearchBoxCheck1"></exclude>-->
+        <!-- </methods>
      </class>
-
- </classes>-->
+            <class name="AetnaHometest.ShopForaPlanAetnatest"></class>-->
+ </classes>
     </test>
 
 </suite>
-

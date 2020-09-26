@@ -231,10 +231,7 @@
                     <configuration>
 
                         <testFailureIgnore>true</testFailureIgnore>
-                        <suiteXmlFiles>
-                            <suiteXmlFile>target/test-classes/ebaytestRunner.xml</suiteXmlFile>
-                            <suiteXmlFile>target/test-classes/AetnaTestRunner.xml</suiteXmlFile>
-                        </suiteXmlFiles>
+
                     </configuration>
                 </plugin>
                 <plugin>

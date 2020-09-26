@@ -1,4 +1,5 @@
 verizonhome\VerizonHome.class
 verizonhome\VerizonSignIn.class
+datadriven\DataSource.class
 verizonhome\VerizonSignInWebElement.class
 verizonhome\VerizonHomeWebElement.class

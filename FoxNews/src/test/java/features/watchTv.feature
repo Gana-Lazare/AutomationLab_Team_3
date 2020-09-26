@@ -51,7 +51,30 @@ Feature: WatchTv Button on the home page FoxNews
       And scroll down to scroll to top button
       Then click on button
       And check im on top of Page
-
+  @Regression
+  Scenario Outline:check login functionality
+    Given Im in Fox News Home Page
+    Then  I click en log in
+    And I enter "<email>" and "<password>"
+    Then  i wil try to login
+    Examples:
+      |email     |password|
+      |emailtest@gmail.com|foxpsw|
+  @Regression
+  Scenario:fox news2
+    Given Im in Fox News Home Page
+    Then  I click en log in
+    And I click on create an account
+    And I file the form given
+      |foxtest@gmail.com|foxtest|Lazare|Gana|
+  @SmokeTest
+  Scenario:fox news3
+    Given Im in Fox News Home Page
+    Then  I click en log in
+    And I click on create an account
+    And I file the form given
+      |email           |password|FN  |LN   |
+      |test@hotmail.fr|1467|Lazare|Gana|
 
 
 

@@ -2,12 +2,14 @@ package stepDefinitions;
 
 import common.WebAPI;
 import foxnewsHome.WatchTv;
+import io.cucumber.datatable.DataTable;
 import io.cucumber.java.After;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.junit.Cucumber;
 import org.junit.Assert;
 import org.junit.runner.RunWith;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
@@ -15,6 +17,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 
 import java.io.IOException;
+import java.util.List;
 
 import static foxnewsHome.FoxNewsHomeWebElement.*;
 
@@ -151,51 +154,86 @@ public class WatchTvStepDefinitions extends WebAPI {
 
     @Then("I verify facebook Window Pop up")
     public void i_verify_facebook_window_pop_up() {
-String expectedresult="Facebook";
-String actualresult=driver.getTitle();
-Assert.assertEquals("no facebookwidow",expectedresult,actualresult);
+        String expectedresult = "Facebook";
+        String actualresult = driver.getTitle();
+        Assert.assertEquals("no facebookwidow", expectedresult, actualresult);
 
     }
+
     @Given("I click on Twitter Icon")
     public void i_click_on_twitter_icon() {
-clickByXpath(foxNewsTwitterWebElement);
+        clickByXpath(foxNewsTwitterWebElement);
     }
+
     @Then("I verify Twitter Window Pop Up")
     public void i_verify_twitter_window_pop_up() {
-        boolean expectedresult= true;
-        boolean actualresult=false;
-if(driver.getCurrentUrl().contains("twitter"))   actualresult=true;
+        boolean expectedresult = true;
+        boolean actualresult = false;
+        if (driver.getCurrentUrl().contains("twitter")) actualresult = true;
 
-        Assert.assertEquals("no facebookwindow",expectedresult,actualresult);
+        Assert.assertEquals("no facebookwindow", expectedresult, actualresult);
     }
+
     //Scroll to top button
-    @FindBy(how = How.XPATH,using = foxNewsButtonToScrollToTopWebElement)
-WebElement scrollToTop;
+    @FindBy(how = How.XPATH, using = foxNewsButtonToScrollToTopWebElement)
+    WebElement scrollToTop;
 
     @Given("scroll down to scroll to top button")
     public void scroll_down_to_scroll_to_top_button() {
-moveToElement(foxNewsButtonToScrollToTopWebElement);
+        moveToElement(foxNewsButtonToScrollToTopWebElement);
 
     }
 
     @Then("click on button")
     public void click_on_button() {
-clickOnElement(foxNewsButtonToScrollToTopWebElement);
+        clickOnElement(foxNewsButtonToScrollToTopWebElement);
     }
-@FindBy(how = How.XPATH,using = foxNewsIconWebElement)
-public WebElement iconFoxNews;
+
+    @FindBy(how = How.XPATH, using = foxNewsIconWebElement)
+    public WebElement iconFoxNews;
 
     @Then("check im on top of Page")
     public void check_im_on_top_of_page() {
- String expectedresult="Fox News";
- String actualresult=iconFoxNews.getText();
-        Assert.assertEquals(expectedresult,actualresult);
+        String expectedresult = "Fox News";
+        String actualresult = iconFoxNews.getText();
+        Assert.assertEquals(expectedresult, actualresult);
+    }
+    //example with scenario using data table
+
+    @Then("I click en log in")
+    public void i_click_en_log_in() {
+        driver.findElement(By.xpath(webElementLogIn)).click();
     }
 
+    @Then("I click on create an account")
+    public void i_click_on_create_an_account() {
+        driver.findElement(By.xpath("//*[@id=\"wrapper\"]/div/div[2]/main/section/div/form/div[4]/button")).click();
 
+    }
 
+    @Then("I file the form given")
+    public void i_file_the_form_given(DataTable credentials) throws Throwable {
+        List<List<String>> data = credentials.asLists(String.class);
+        for (int i = 0; i < data.size(); i++) {
+            driver.findElement(By.xpath(webElementEmail)).sendKeys(data.get(i).get(0));
+            driver.findElement(By.xpath(webElementPassWord)).sendKeys(data.get(i).get(1));
+            driver.findElement(By.xpath(webElementFirstName)).sendKeys(data.get(i).get(2));
+            driver.findElement(By.xpath(webElementLastName)).sendKeys(data.get(i).get(3));
+        }
+
+    }
+
+    @Then("I enter {string} and {string}")
+    public void i_enter_and(String email, String password) {
+        driver.findElement(By.xpath(webElementEmail2)).sendKeys(email);
+        driver.findElement(By.xpath(webElementPassWord2)).sendKeys(password);
+
+    }
+    @Then("i wil try to login")
+    public void i_wil_try_to_login() {
+        driver.findElement(By.xpath(webElementLogIn3)).click();
+    }
 }
-
 
 
 

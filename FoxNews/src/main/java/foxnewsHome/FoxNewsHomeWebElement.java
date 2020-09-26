@@ -15,7 +15,13 @@ public class FoxNewsHomeWebElement {
     public static final String foxNewsFacebookWebElement="//*[@id=\"wrapper\"]/header/div[1]/div/div/div[2]/div[2]/ul/li[1]/a";public static final String foxNewsTwitterWebElement="//*[@id=\"wrapper\"]/header/div[1]/div/div/div[2]/div[2]/ul/li[2]/a";
     public static final String foxNewsButtonToScrollToTopWebElement="//*[@id=\"wrapper\"]/footer/div/div[4]/div[2]/a";
     public static final String foxNewsIconWebElement="//*[@id=\"wrapper\"]/header/div[1]/header/div/div[2]/ul/li[1]/a";
-
-
+    public static final String webElementEmail="//*[@id=\"create-account\"]/div[1]/input";
+    public static final String webElementPassWord="//*[@id=\"password\"]";
+    public static final String webElementFirstName="//*[@id=\"create-account\"]/div[3]/input";
+    public static final String webElementLastName="//*[@id=\"create-account\"]/div[4]/input";
+    public static final String webElementLogIn="//*[@id=\"account\"]/div/a";
+    public static final String webElementEmail2="//*[@id=\"wrapper\"]/div/div[2]/main/section/div/form/div[1]/input";
+    public static final String webElementPassWord2="//*[@id=\"wrapper\"]/div/div[2]/main/section/div/form/div[2]/input";
+    public static final String webElementLogIn3="//*[@id=\"wrapper\"]/div/div[2]/main/section/div/form/div[3]/button";
 
 }
