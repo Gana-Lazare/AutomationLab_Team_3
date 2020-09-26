@@ -23,7 +23,7 @@
         <classes>
             <class name="foxNewsHomeTest.FoxNewsHomeTest">
                 <methods>
-<!--                    <exclude name="testSearchBoxCheck"></exclude>-->
+                    <exclude name="testSearchBoxCheckGetTitlesListFromDB"></exclude>
 <!--                    <exclude name="testSearchBoxCheckGetTitlesListFromDB"></exclude>-->
                 </methods>
             </class>

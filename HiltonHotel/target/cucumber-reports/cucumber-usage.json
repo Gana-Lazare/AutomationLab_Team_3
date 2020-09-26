@@ -1,0 +1,772 @@
+[
+  {
+    "source": "I am in hilton hotel homepage",
+    "steps": [
+      {
+        "name": "I am in hilton hotel homepage",
+        "aggregatedDurations": {
+          "median": 7.6233805,
+          "average": 8.261849625
+        },
+        "durations": [
+          {
+            "duration": 10.457016,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:5"
+          },
+          {
+            "duration": 18.783206,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:12"
+          },
+          {
+            "duration": 8.077575,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:19"
+          },
+          {
+            "duration": 7.079075,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:26"
+          },
+          {
+            "duration": 8.425855,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:33"
+          },
+          {
+            "duration": 7.905858,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:40"
+          },
+          {
+            "duration": 13.017731,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:47"
+          },
+          {
+            "duration": 6.909613,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:54"
+          },
+          {
+            "duration": 7.215187,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:61"
+          },
+          {
+            "duration": 6.235389,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:68"
+          },
+          {
+            "duration": 7.148305,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:75"
+          },
+          {
+            "duration": 7.398564,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:82"
+          },
+          {
+            "duration": 7.631365,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:89"
+          },
+          {
+            "duration": 6.940812,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:96"
+          },
+          {
+            "duration": 7.629847,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:103"
+          },
+          {
+            "duration": 7.380508,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:110"
+          },
+          {
+            "duration": 6.692373,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:117"
+          },
+          {
+            "duration": 7.888085,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:124"
+          },
+          {
+            "duration": 7.616914,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:132"
+          },
+          {
+            "duration": 6.814848,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:140"
+          },
+          {
+            "duration": 7.013245,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:148"
+          },
+          {
+            "duration": 7.687542,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:156"
+          },
+          {
+            "duration": 8.129047,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:164"
+          },
+          {
+            "duration": 8.206431,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:172"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on offers button",
+    "steps": [
+      {
+        "name": "I click on offers button",
+        "aggregatedDurations": {
+          "median": 26.1957005,
+          "average": 26.181980375
+        },
+        "durations": [
+          {
+            "duration": 24.832959,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:6"
+          },
+          {
+            "duration": 26.896778,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:13"
+          },
+          {
+            "duration": 24.475429,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:20"
+          },
+          {
+            "duration": 25.466868,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:27"
+          },
+          {
+            "duration": 26.154644,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:34"
+          },
+          {
+            "duration": 27.116773,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:41"
+          },
+          {
+            "duration": 26.334358,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:48"
+          },
+          {
+            "duration": 27.257362,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:55"
+          },
+          {
+            "duration": 27.676507,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:62"
+          },
+          {
+            "duration": 26.568767,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:69"
+          },
+          {
+            "duration": 25.48479,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:76"
+          },
+          {
+            "duration": 25.610086,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:83"
+          },
+          {
+            "duration": 27.774742,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:90"
+          },
+          {
+            "duration": 25.783167,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:97"
+          },
+          {
+            "duration": 26.382718,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:104"
+          },
+          {
+            "duration": 25.780498,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:111"
+          },
+          {
+            "duration": 25.802896,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:118"
+          },
+          {
+            "duration": 26.485949,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:125"
+          },
+          {
+            "duration": 25.164759,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:133"
+          },
+          {
+            "duration": 25.714742,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:141"
+          },
+          {
+            "duration": 27.005542,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:149"
+          },
+          {
+            "duration": 25.255882,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:157"
+          },
+          {
+            "duration": 26.236757,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:165"
+          },
+          {
+            "duration": 27.104556,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:173"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify offers is appear properly",
+    "steps": [
+      {
+        "name": "I verify offers is appear properly",
+        "aggregatedDurations": {
+          "median": 0.052027,
+          "average": 0.052027
+        },
+        "durations": [
+          {
+            "duration": 0.052027,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify page title as hilton hotel",
+    "steps": [
+      {
+        "name": "I verify page title as hilton hotel",
+        "aggregatedDurations": {
+          "median": 0.014392,
+          "average": 0.014392
+        },
+        "durations": [
+          {
+            "duration": 0.014392,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Our Best Deal To Dream button",
+    "steps": [
+      {
+        "name": "I click on Our Best Deal To Dream button",
+        "aggregatedDurations": {
+          "median": 3.312922,
+          "average": 3.312922
+        },
+        "durations": [
+          {
+            "duration": 3.312922,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on SWEETEN YOUR STAY button",
+    "steps": [
+      {
+        "name": "I click on SWEETEN YOUR STAY button",
+        "aggregatedDurations": {
+          "median": 2.827082,
+          "average": 2.827082
+        },
+        "durations": [
+          {
+            "duration": 2.827082,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:21"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Sweeten is appear properly",
+    "steps": [
+      {
+        "name": "I verify Sweeten is appear properly",
+        "aggregatedDurations": {
+          "median": 2.173587,
+          "average": 2.173587
+        },
+        "durations": [
+          {
+            "duration": 2.173587,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:22"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on BREAKFAST INCLUDED button",
+    "steps": [
+      {
+        "name": "I click on BREAKFAST INCLUDED button",
+        "aggregatedDurations": {
+          "median": 1.76407,
+          "average": 1.76407
+        },
+        "durations": [
+          {
+            "duration": 1.76407,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:35"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify BREAKFAST INCLUDED is appear properly",
+    "steps": [
+      {
+        "name": "I verify BREAKFAST INCLUDED is appear properly",
+        "aggregatedDurations": {
+          "median": 2.57047,
+          "average": 2.57047
+        },
+        "durations": [
+          {
+            "duration": 2.57047,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:36"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on FAMILY FUN PACKAGE button",
+    "steps": [
+      {
+        "name": "I click on FAMILY FUN PACKAGE button",
+        "aggregatedDurations": {
+          "median": 3.482281,
+          "average": 3.482281
+        },
+        "durations": [
+          {
+            "duration": 3.482281,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:42"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify FAMILY FUN PACKAGE is appear properly",
+    "steps": [
+      {
+        "name": "I verify FAMILY FUN PACKAGE is appear properly",
+        "aggregatedDurations": {
+          "median": 1.908663,
+          "average": 1.908663
+        },
+        "durations": [
+          {
+            "duration": 1.908663,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:43"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on HILTON GIFT CARD button",
+    "steps": [
+      {
+        "name": "I click on HILTON GIFT CARD button",
+        "aggregatedDurations": {
+          "median": 1.657459,
+          "average": 1.657459
+        },
+        "durations": [
+          {
+            "duration": 1.657459,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:49"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify HILTON GIFT CARD is appear properly",
+    "steps": [
+      {
+        "name": "I verify HILTON GIFT CARD is appear properly",
+        "aggregatedDurations": {
+          "median": 1.839872,
+          "average": 1.839872
+        },
+        "durations": [
+          {
+            "duration": 1.839872,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:50"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on THE DOUBLE REWARDS PROMOTION button",
+    "steps": [
+      {
+        "name": "I click on THE DOUBLE REWARDS PROMOTION button",
+        "aggregatedDurations": {
+          "median": 2.404162,
+          "average": 2.404162
+        },
+        "durations": [
+          {
+            "duration": 2.404162,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:56"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify MEMBER LOGIN is appear properly",
+    "steps": [
+      {
+        "name": "I verify MEMBER LOGIN is appear properly",
+        "aggregatedDurations": {
+          "median": 0.228436,
+          "average": 0.228436
+        },
+        "durations": [
+          {
+            "duration": 0.228436,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:57"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on HILTON HONORS AMEX SURPASS® button",
+    "steps": [
+      {
+        "name": "I click on HILTON HONORS AMEX SURPASS® button",
+        "aggregatedDurations": {
+          "median": 2.588518,
+          "average": 2.588518
+        },
+        "durations": [
+          {
+            "duration": 2.588518,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:63"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Four bold ways to accelerate rewards is appear properly",
+    "steps": [
+      {
+        "name": "I verify Four bold ways to accelerate rewards is appear properly",
+        "aggregatedDurations": {
+          "median": 1.1461895,
+          "average": 1.1461895
+        },
+        "durations": [
+          {
+            "duration": 0.023186,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:64"
+          },
+          {
+            "duration": 2.269193,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:85"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on HILTON HONORS CARD button",
+    "steps": [
+      {
+        "name": "I click on HILTON HONORS CARD button",
+        "aggregatedDurations": {
+          "median": 3.842141,
+          "average": 3.842141
+        },
+        "durations": [
+          {
+            "duration": 3.842141,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:70"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on EARN \u0026 REDEEM POINTS WITH LYFT button",
+    "steps": [
+      {
+        "name": "I click on EARN \u0026 REDEEM POINTS WITH LYFT button",
+        "aggregatedDurations": {
+          "median": 2.255819,
+          "average": 2.255819
+        },
+        "durations": [
+          {
+            "duration": 2.255819,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:77"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify How it works is appear properly",
+    "steps": [
+      {
+        "name": "I verify How it works is appear properly",
+        "aggregatedDurations": {
+          "median": 4.982273,
+          "average": 4.982273
+        },
+        "durations": [
+          {
+            "duration": 4.982273,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:78"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on HILTON HONORS BUSINESS CARD button",
+    "steps": [
+      {
+        "name": "I click on HILTON HONORS BUSINESS CARD button",
+        "aggregatedDurations": {
+          "median": 0.82886,
+          "average": 0.82886
+        },
+        "durations": [
+          {
+            "duration": 0.82886,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:84"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on SUITE INDULGENCE button",
+    "steps": [
+      {
+        "name": "I click on SUITE INDULGENCE button",
+        "aggregatedDurations": {
+          "median": 0.936753,
+          "average": 0.936753
+        },
+        "durations": [
+          {
+            "duration": 0.936753,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:105"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify SUITE INDULGENCE is appear properly",
+    "steps": [
+      {
+        "name": "I verify SUITE INDULGENCE is appear properly",
+        "aggregatedDurations": {
+          "median": 2.470252,
+          "average": 2.470252
+        },
+        "durations": [
+          {
+            "duration": 2.470252,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:106"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on two button",
+    "steps": [
+      {
+        "name": "I click on two button",
+        "aggregatedDurations": {
+          "median": 0.750862,
+          "average": 0.679531857
+        },
+        "durations": [
+          {
+            "duration": 0.847314,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:126"
+          },
+          {
+            "duration": 0.835048,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:134"
+          },
+          {
+            "duration": 0.530089,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:142"
+          },
+          {
+            "duration": 0.750862,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:150"
+          },
+          {
+            "duration": 0.676987,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:158"
+          },
+          {
+            "duration": 0.238446,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:166"
+          },
+          {
+            "duration": 0.877977,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:174"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on GOLF STAY \u0026 PLAY PACKAGE button",
+    "steps": [
+      {
+        "name": "I click on GOLF STAY \u0026 PLAY PACKAGE button",
+        "aggregatedDurations": {
+          "median": 1.415927,
+          "average": 1.415927
+        },
+        "durations": [
+          {
+            "duration": 1.415927,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:127"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on HONORS DISCOUNT ADVANCE PURCHASE button",
+    "steps": [
+      {
+        "name": "I click on HONORS DISCOUNT ADVANCE PURCHASE button",
+        "aggregatedDurations": {
+          "median": 2.167974,
+          "average": 2.167974
+        },
+        "durations": [
+          {
+            "duration": 2.167974,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:135"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on MILITARY FAMILY RATE button",
+    "steps": [
+      {
+        "name": "I click on MILITARY FAMILY RATE button",
+        "aggregatedDurations": {
+          "median": 2.469771,
+          "average": 2.469771
+        },
+        "durations": [
+          {
+            "duration": 2.469771,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:143"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on CELEBRATE IN STYLE button",
+    "steps": [
+      {
+        "name": "I click on CELEBRATE IN STYLE button",
+        "aggregatedDurations": {
+          "median": 1.778617,
+          "average": 1.778617
+        },
+        "durations": [
+          {
+            "duration": 1.778617,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:151"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on 2X POINTS PACKAGE button",
+    "steps": [
+      {
+        "name": "I click on 2X POINTS PACKAGE button",
+        "aggregatedDurations": {
+          "median": 2.439196,
+          "average": 2.439196
+        },
+        "durations": [
+          {
+            "duration": 2.439196,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:159"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on STAY HILTON GO OUT button",
+    "steps": [
+      {
+        "name": "I click on STAY HILTON GO OUT button",
+        "aggregatedDurations": {
+          "median": 5.499016,
+          "average": 5.499016
+        },
+        "durations": [
+          {
+            "duration": 5.499016,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:167"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on WEEKEND GETAWAY button",
+    "steps": [
+      {
+        "name": "I click on WEEKEND GETAWAY button",
+        "aggregatedDurations": {
+          "median": 3.33107,
+          "average": 3.33107
+        },
+        "durations": [
+          {
+            "duration": 3.33107,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:175"
+          }
+        ]
+      }
+    ]
+  }
+]

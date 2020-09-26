@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="9.154">
+    <testcase classname="Unknown" name="Verizon Shop Button check" time="8.777">
+        <system-out><![CDATA[Given I am in Verizon homepage..............................................passed
+And I click on Shop Button..................................................passed
+Then I verify Deals is appear properly......................................passed
+And I verify page title as Shop.............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

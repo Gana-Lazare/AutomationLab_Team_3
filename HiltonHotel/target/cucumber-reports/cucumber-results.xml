@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="14" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="24" time="1,049.309">
+    <testcase classname="Unknown" name="_2" time="35.978">
+        <system-out><![CDATA[Given I am in hilton hotel homepage.........................................passed
+And I click on offers button................................................passed
+Then I verify offers is appear properly.....................................passed
+Then I verify page title as hilton hotel....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Unknown" name="_3" time="58.289">
+        <failure message="stale element reference: element is not attached to the page document&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Elhacens-MBP.fios-router.home', ip: 'fe80:0:0:0:147e:51dc:99ec:e7d7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '14.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: /var/folders/bn/r3td2q2n63n...}, goog:chromeOptions: {debuggerAddress: localhost:59501}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 7761d7ee8d29a62620ebd87b52653d95" type="org.openqa.selenium.StaleElementReferenceException"><![CDATA[Given I am in hilton hotel homepage.........................................passed
+And I click on offers button................................................passed
+When I click on Our Best Deal To Dream button...............................passed
+Then I verify Our Best Deal To Dream is appear properly.....................failed
+
+StackTrace:
+org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Elhacens-MBP.fios-router.home', ip: 'fe80:0:0:0:147e:51dc:99ec:e7d7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: /var/folders/bn/r3td2q2n63n...}, goog:chromeOptions: {debuggerAddress: localhost:59501}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7761d7ee8d29a62620ebd87b52653d95
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:166)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy25.getText(Unknown Source)
+	at hiltonhotelOffers.HiltonHotelOffers.validateOurBestDealToDreamButton(HiltonHotelOffers.java:151)
+	at stepDefinitions.OffersPageStepDefinition.i_verify_our_best_deal_to_dream_is_appear_properly(OffersPageStepDefinition.java:87)
+	at ✽.I verify Our Best Deal To Dream is appear properly(file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:15)
+]]></failure>
+    </testcase>
+    <testcase classname="Unknown" name="_4" time="37.863">
+        <system-out><![CDATA[Given I am in hilton hotel homepage.........................................passed
+And I click on offers button................................................passed
+When I click on SWEETEN YOUR STAY button....................................passed
+Then I verify Sweeten is appear properly....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Unknown" name="_5" time="38.985">
+        <failure message="invalid selector: Unable to locate an element with the xpath expression  because of the following error:&#10;SyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression.&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Elhacens-MBP.fios-router.home', ip: 'fe80:0:0:0:147e:51dc:99ec:e7d7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '14.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: /var/folders/bn/r3td2q2n63n...}, goog:chromeOptions: {debuggerAddress: localhost:60254}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 57cee543a8e854dc4363036792c74fd4&#10;*** Element info: {Using=xpath, value=}" type="org.openqa.selenium.InvalidSelectorException"><![CDATA[Given I am in hilton hotel homepage.........................................passed
+And I click on offers button................................................passed
+When I click on BREAKFAST & WI-FI button....................................failed
+Then I verify BREAKFAST & WI-FI is appear properly..........................skipped
+
+StackTrace:
+org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression  because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression.
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Elhacens-MBP.fios-router.home', ip: 'fe80:0:0:0:147e:51dc:99ec:e7d7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: /var/folders/bn/r3td2q2n63n...}, goog:chromeOptions: {debuggerAddress: localhost:60254}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 57cee543a8e854dc4363036792c74fd4
+*** Element info: {Using=xpath, value=}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at hiltonhotelOffers.HiltonHotelOffers.clickBreakfastAndWifiButton(HiltonHotelOffers.java:168)
+	at stepDefinitions.OffersPageStepDefinition.i_click_on_breakfast_wi_fi_button(OffersPageStepDefinition.java:105)
+	at ✽.I click on BREAKFAST & WI-FI button(file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:28)
+]]></failure>
+    </testcase>
+    <testcase classname="Unknown" name="_6" time="39.31">
+        <system-out><![CDATA[Given I am in hilton hotel homepage.........................................passed
+And I click on offers button................................................passed
+When I click on BREAKFAST INCLUDED button...................................passed
+Then I verify BREAKFAST INCLUDED is appear properly.........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Unknown" name="_7" time="40.856">
+        <system-out><![CDATA[Given I am in hilton hotel homepage.........................................passed
+And I click on offers button................................................passed
+When I click on FAMILY FUN PACKAGE button...................................passed
+Then I verify FAMILY FUN PACKAGE is appear properly.........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Unknown" name="_8" time="43.248">
+        <system-out><![CDATA[Given I am in hilton hotel homepage.........................................passed
+And I click on offers button................................................passed
+When I click on HILTON GIFT CARD button.....................................passed
+Then I verify HILTON GIFT CARD is appear properly...........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Unknown" name="_9" time="37.159">
+        <system-out><![CDATA[Given I am in hilton hotel homepage.........................................passed
+And I click on offers button................................................passed
+When I click on THE DOUBLE REWARDS PROMOTION button.........................passed
+Then I verify MEMBER LOGIN is appear properly...............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Unknown" name="_10" time="37.836">
+        <system-out><![CDATA[Given I am in hilton hotel homepage.........................................passed
+And I click on offers button................................................passed
+When I click on HILTON HONORS AMEX SURPASS® button..........................passed
+Then I verify Four bold ways to accelerate rewards is appear properly.......passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Unknown" name="_11" time="47.872">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/section[3]/div/div[1]&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Elhacens-MBP.fios-router.home', ip: 'fe80:0:0:0:147e:51dc:99ec:e7d7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '14.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: /var/folders/bn/r3td2q2n63n...}, goog:chromeOptions: {debuggerAddress: localhost:62382}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: db749de4ac86d9048ab0b28f5ed1dfd3&#10;*** Element info: {Using=xpath, value=/html/body/section[3]/div/div[1]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given I am in hilton hotel homepage.........................................passed
+And I click on offers button................................................passed
+When I click on HILTON HONORS CARD button...................................passed
+Then I verify Find a Card that's right for you is appear properly...........failed
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/section[3]/div/div[1]"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Elhacens-MBP.fios-router.home', ip: 'fe80:0:0:0:147e:51dc:99ec:e7d7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: /var/folders/bn/r3td2q2n63n...}, goog:chromeOptions: {debuggerAddress: localhost:62382}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: db749de4ac86d9048ab0b28f5ed1dfd3
+*** Element info: {Using=xpath, value=/html/body/section[3]/div/div[1]}
+	at jdk.internal.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.getText(Unknown Source)
+	at hiltonhotelOffers.HiltonHotelOffers.validateHILTONHONORSCARDButton(HiltonHotelOffers.java:232)
+	at stepDefinitions.OffersPageStepDefinition.i_verify_find_a_card_that_s_right_for_you_is_appear_properly(OffersPageStepDefinition.java:183)
+	at ✽.I verify Find a Card that's right for you is appear properly(file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:71)
+]]></failure>
+    </testcase>
+    <testcase classname="Unknown" name="_12" time="40.266">
+        <system-out><![CDATA[Given I am in hilton hotel homepage.........................................passed
+And I click on offers button................................................passed
+When I click on EARN & REDEEM POINTS WITH LYFT button.......................passed
+Then I verify How it works is appear properly...............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Unknown" name="_13" time="36.444">
+        <system-out><![CDATA[Given I am in hilton hotel homepage.........................................passed
+And I click on offers button................................................passed
+When I click on HILTON HONORS BUSINESS CARD button..........................passed
+Then I verify Four bold ways to accelerate rewards is appear properly.......passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Unknown" name="_14" time="47.253">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/section[3]/div/h2&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Elhacens-MBP.fios-router.home', ip: 'fe80:0:0:0:147e:51dc:99ec:e7d7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '14.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: /var/folders/bn/r3td2q2n63n...}, goog:chromeOptions: {debuggerAddress: localhost:63491}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 0cbe66a62332987963b2407cff0529c9&#10;*** Element info: {Using=xpath, value=/html/body/section[3]/div/h2}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given I am in hilton hotel homepage.........................................passed
+And I click on offers button................................................passed
+When I click on HILTON HONORS ASPIRE CARD button............................failed
+Then I verify HILTON PURCHASES is appear properly...........................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/section[3]/div/h2"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Elhacens-MBP.fios-router.home', ip: 'fe80:0:0:0:147e:51dc:99ec:e7d7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: /var/folders/bn/r3td2q2n63n...}, goog:chromeOptions: {debuggerAddress: localhost:63491}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0cbe66a62332987963b2407cff0529c9
+*** Element info: {Using=xpath, value=/html/body/section[3]/div/h2}
+	at jdk.internal.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.getText(Unknown Source)
+	at hiltonhotelOffers.HiltonHotelOffers.validateHILTONHONORSBUSINESSCARDButton(HiltonHotelOffers.java:252)
+	at stepDefinitions.OffersPageStepDefinition.i_click_on_hilton_honors_aspire_card_button(OffersPageStepDefinition.java:207)
+	at ✽.I click on HILTON HONORS ASPIRE CARD button(file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:91)
+]]></failure>
+    </testcase>
+    <testcase classname="Unknown" name="_15" time="44.439">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/section[3]/div/div[2]/h4&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Elhacens-MBP.fios-router.home', ip: 'fe80:0:0:0:147e:51dc:99ec:e7d7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '14.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: /var/folders/bn/r3td2q2n63n...}, goog:chromeOptions: {debuggerAddress: localhost:63879}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 3cddb2a6dac8ddb0b7af1fdb47845b02&#10;*** Element info: {Using=xpath, value=/html/body/section[3]/div/div[2]/h4}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given I am in hilton hotel homepage.........................................passed
+And I click on offers button................................................passed
+When I click on SAVE UP TO FIFTY PERCENT OFF SUNDAYS button.................failed
+Then I verify Departure is appear properly..................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/section[3]/div/div[2]/h4"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Elhacens-MBP.fios-router.home', ip: 'fe80:0:0:0:147e:51dc:99ec:e7d7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: /var/folders/bn/r3td2q2n63n...}, goog:chromeOptions: {debuggerAddress: localhost:63879}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3cddb2a6dac8ddb0b7af1fdb47845b02
+*** Element info: {Using=xpath, value=/html/body/section[3]/div/div[2]/h4}
+	at jdk.internal.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.getText(Unknown Source)
+	at hiltonhotelOffers.HiltonHotelOffers.validateHILTONHONORSASPIRECARDButton(HiltonHotelOffers.java:262)
+	at stepDefinitions.OffersPageStepDefinition.i_click_on_save_up_to_fifty_percent_off_sundays_button(OffersPageStepDefinition.java:219)
+	at ✽.I click on SAVE UP TO FIFTY PERCENT OFF SUNDAYS button(file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:98)
+]]></failure>
+    </testcase>
+    <testcase classname="Unknown" name="_16" time="37.811">
+        <system-out><![CDATA[Given I am in hilton hotel homepage.........................................passed
+And I click on offers button................................................passed
+When I click on SUITE INDULGENCE button.....................................passed
+Then I verify SUITE INDULGENCE is appear properly...........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Unknown" name="_17" time="45.687">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;1323265895483&quot;]/div/div/div/div[2]/div[3]/div/span[1]&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Elhacens-MBP.fios-router.home', ip: 'fe80:0:0:0:147e:51dc:99ec:e7d7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '14.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: /var/folders/bn/r3td2q2n63n...}, goog:chromeOptions: {debuggerAddress: localhost:64605}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 13b0c916ce872d78bf610ac6f5d24cf9&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;1323265895483&quot;]/div/div/div/div[2]/div[3]/div/span[1]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given I am in hilton hotel homepage.........................................passed
+And I click on offers button................................................passed
+When I click on IN PARADISE button..........................................failed
+Then I verify IN PARADISE is appear properly................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="1323265895483"]/div/div/div/div[2]/div[3]/div/span[1]"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Elhacens-MBP.fios-router.home', ip: 'fe80:0:0:0:147e:51dc:99ec:e7d7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: /var/folders/bn/r3td2q2n63n...}, goog:chromeOptions: {debuggerAddress: localhost:64605}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 13b0c916ce872d78bf610ac6f5d24cf9
+*** Element info: {Using=xpath, value=//*[@id="1323265895483"]/div/div/div/div[2]/div[3]/div/span[1]}
+	at jdk.internal.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.getText(Unknown Source)
+	at hiltonhotelOffers.HiltonHotelOffers.validateSUITEINDULGENCEButton(HiltonHotelOffers.java:282)
+	at stepDefinitions.OffersPageStepDefinition.i_click_on_in_paradise_button(OffersPageStepDefinition.java:243)
+	at ✽.I click on IN PARADISE button(file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:112)
+]]></failure>
+    </testcase>
+    <testcase classname="Unknown" name="_18" time="58.937">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;1323265895483&quot;]/div/div/div/div[2]/div[3]/div/span[1]&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Elhacens-MBP.fios-router.home', ip: 'fe80:0:0:0:147e:51dc:99ec:e7d7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '14.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: /var/folders/bn/r3td2q2n63n...}, goog:chromeOptions: {debuggerAddress: localhost:64986}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 57871a905e261046e460f790140147dd&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;1323265895483&quot;]/div/div/div/div[2]/div[3]/div/span[1]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given I am in hilton hotel homepage.........................................passed
+And I click on offers button................................................passed
+When I click on two forward button..........................................failed
+Then I verify HILTON OFFERS is appear properly..............................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="1323265895483"]/div/div/div/div[2]/div[3]/div/span[1]"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Elhacens-MBP.fios-router.home', ip: 'fe80:0:0:0:147e:51dc:99ec:e7d7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: /var/folders/bn/r3td2q2n63n...}, goog:chromeOptions: {debuggerAddress: localhost:64986}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 57871a905e261046e460f790140147dd
+*** Element info: {Using=xpath, value=//*[@id="1323265895483"]/div/div/div/div[2]/div[3]/div/span[1]}
+	at jdk.internal.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.getText(Unknown Source)
+	at hiltonhotelOffers.HiltonHotelOffers.validateINPARADISEButton(HiltonHotelOffers.java:292)
+	at stepDefinitions.OffersPageStepDefinition.i_click_on_two_forward_button(OffersPageStepDefinition.java:255)
+	at ✽.I click on two forward button(file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:119)
+]]></failure>
+    </testcase>
+    <testcase classname="Unknown" name="_19" time="48.859">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;Carousel-0-tabpanel-0&quot;]/div[2]/div/div[1]/div[3]/div/div[1]/h2&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Elhacens-MBP.fios-router.home', ip: 'fe80:0:0:0:147e:51dc:99ec:e7d7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '14.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: /var/folders/bn/r3td2q2n63n...}, goog:chromeOptions: {debuggerAddress: localhost:65424}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 48599c5878610dd33c68a737021c7a4b&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;Carousel-0-tabpanel-0&quot;]/div[2]/div/div[1]/div[3]/div/div[1]/h2}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given I am in hilton hotel homepage.........................................passed
+And I click on offers button................................................passed
+And I click on two button...................................................passed
+When I click on GOLF STAY & PLAY PACKAGE button.............................passed
+Then I verify Get Ready For Future Travel is appear properly................failed
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="Carousel-0-tabpanel-0"]/div[2]/div/div[1]/div[3]/div/div[1]/h2"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Elhacens-MBP.fios-router.home', ip: 'fe80:0:0:0:147e:51dc:99ec:e7d7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: /var/folders/bn/r3td2q2n63n...}, goog:chromeOptions: {debuggerAddress: localhost:65424}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 48599c5878610dd33c68a737021c7a4b
+*** Element info: {Using=xpath, value=//*[@id="Carousel-0-tabpanel-0"]/div[2]/div/div[1]/div[3]/div/div[1]/h2}
+	at jdk.internal.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.getText(Unknown Source)
+	at hiltonhotelOffers.HiltonHotelOffers.validateGOLFSTAYANDPLAYPACKAGEButton(HiltonHotelOffers.java:312)
+	at stepDefinitions.OffersPageStepDefinition.i_verify_get_ready_for_future_travel_is_appear_properly(OffersPageStepDefinition.java:279)
+	at ✽.I verify Get Ready For Future Travel is appear properly(file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:128)
+]]></failure>
+    </testcase>
+    <testcase classname="Unknown" name="_20" time="48.171">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;find_a_offer&quot;]/div/div[1]/div/div[1]/h2&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Elhacens-MBP.fios-router.home', ip: 'fe80:0:0:0:147e:51dc:99ec:e7d7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '14.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: /var/folders/bn/r3td2q2n63n...}, goog:chromeOptions: {debuggerAddress: localhost:49444}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 34572a9cf4124f81410bdd3982055e00&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;find_a_offer&quot;]/div/div[1]/div/div[1]/h2}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given I am in hilton hotel homepage.........................................passed
+And I click on offers button................................................passed
+And I click on two button...................................................passed
+When I click on HONORS DISCOUNT ADVANCE PURCHASE button.....................passed
+Then I verify FIND A PARTICIPATING HOTEL is appear properly.................failed
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="find_a_offer"]/div/div[1]/div/div[1]/h2"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Elhacens-MBP.fios-router.home', ip: 'fe80:0:0:0:147e:51dc:99ec:e7d7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: /var/folders/bn/r3td2q2n63n...}, goog:chromeOptions: {debuggerAddress: localhost:49444}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 34572a9cf4124f81410bdd3982055e00
+*** Element info: {Using=xpath, value=//*[@id="find_a_offer"]/div/div[1]/div/div[1]/h2}
+	at jdk.internal.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.getText(Unknown Source)
+	at hiltonhotelOffers.HiltonHotelOffers.validateHONORSDISCOUNTADVANCEPURCHASEButton(HiltonHotelOffers.java:322)
+	at stepDefinitions.OffersPageStepDefinition.i_verify_find_a_participating_hotel_is_appear_properly(OffersPageStepDefinition.java:291)
+	at ✽.I verify FIND A PARTICIPATING HOTEL is appear properly(file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:136)
+]]></failure>
+    </testcase>
+    <testcase classname="Unknown" name="_21" time="41.393">
+        <failure message="Search Title not match expected [MILITARY FAMILY RATE] but found [BREAKFAST &amp; WI-FI]" type="java.lang.AssertionError"><![CDATA[Given I am in hilton hotel homepage.........................................passed
+And I click on offers button................................................passed
+And I click on two button...................................................passed
+When I click on MILITARY FAMILY RATE button.................................passed
+Then I verify MILITARY FAMILY RATE is appear properly.......................failed
+
+StackTrace:
+java.lang.AssertionError: Search Title not match expected [MILITARY FAMILY RATE] but found [BREAKFAST & WI-FI]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at hiltonhotelOffers.HiltonHotelOffers.validateMILITARYFAMILYRATEButton(HiltonHotelOffers.java:334)
+	at stepDefinitions.OffersPageStepDefinition.i_verify_military_family_rate_is_appear_properly(OffersPageStepDefinition.java:303)
+	at ✽.I verify MILITARY FAMILY RATE is appear properly(file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:144)
+]]></failure>
+    </testcase>
+    <testcase classname="Unknown" name="_22" time="40.813">
+        <failure message="Search Title not match expected [CELEBRATE IN STYLE] but found [BREAKFAST INCLUDED]" type="java.lang.AssertionError"><![CDATA[Given I am in hilton hotel homepage.........................................passed
+And I click on offers button................................................passed
+And I click on two button...................................................passed
+When I click on CELEBRATE IN STYLE button...................................passed
+Then I verify CELEBRATE IN STYLE is appear properly.........................failed
+
+StackTrace:
+java.lang.AssertionError: Search Title not match expected [CELEBRATE IN STYLE] but found [BREAKFAST INCLUDED]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at hiltonhotelOffers.HiltonHotelOffers.validateCELEBRATEINSTYLEButton(HiltonHotelOffers.java:344)
+	at stepDefinitions.OffersPageStepDefinition.i_verify_celebrate_in_style_is_appear_properly(OffersPageStepDefinition.java:315)
+	at ✽.I verify CELEBRATE IN STYLE is appear properly(file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:152)
+]]></failure>
+    </testcase>
+    <testcase classname="Unknown" name="_23" time="41.387">
+        <failure message="Search Title not match expected [2X POINTS PACKAGE] but found [FAMILY FUN PACKAGE]" type="java.lang.AssertionError"><![CDATA[Given I am in hilton hotel homepage.........................................passed
+And I click on offers button................................................passed
+And I click on two button...................................................passed
+When I click on 2X POINTS PACKAGE button....................................passed
+Then I verify 2X POINTS PACKAGE is appear properly..........................failed
+
+StackTrace:
+java.lang.AssertionError: Search Title not match expected [2X POINTS PACKAGE] but found [FAMILY FUN PACKAGE]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at hiltonhotelOffers.HiltonHotelOffers.validateXPOINTSPACKAGEButton(HiltonHotelOffers.java:354)
+	at stepDefinitions.OffersPageStepDefinition.i_verify_2x_points_package_is_appear_properly(OffersPageStepDefinition.java:327)
+	at ✽.I verify 2X POINTS PACKAGE is appear properly(file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:160)
+]]></failure>
+    </testcase>
+    <testcase classname="Unknown" name="_24" time="47.369">
+        <failure message="Search Title not match expected [STAY HILTON. GO OUT.] but found [HILTON GIFT CARD]" type="java.lang.AssertionError"><![CDATA[Given I am in hilton hotel homepage.........................................passed
+And I click on offers button................................................passed
+And I click on two button...................................................passed
+When I click on STAY HILTON GO OUT button...................................passed
+Then I verify STAY HILTON GO OUT is appear properly.........................failed
+
+StackTrace:
+java.lang.AssertionError: Search Title not match expected [STAY HILTON. GO OUT.] but found [HILTON GIFT CARD]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at hiltonhotelOffers.HiltonHotelOffers.validateSTAYHILTONGOOUTButton(HiltonHotelOffers.java:363)
+	at stepDefinitions.OffersPageStepDefinition.i_verify_stay_hilton_go_out_is_appear_properly(OffersPageStepDefinition.java:339)
+	at ✽.I verify STAY HILTON GO OUT is appear properly(file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:168)
+]]></failure>
+    </testcase>
+    <testcase classname="Unknown" name="_25" time="51.627">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;1323265895483&quot;]/div/div/div/div[2]/div[3]/div/span[1]&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Elhacens-MBP.fios-router.home', ip: 'fe80:0:0:0:147e:51dc:99ec:e7d7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '14.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: /var/folders/bn/r3td2q2n63n...}, goog:chromeOptions: {debuggerAddress: localhost:51347}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: c545515171d03f3d9c7fa0b87e79e799&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;1323265895483&quot;]/div/div/div/div[2]/div[3]/div/span[1]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given I am in hilton hotel homepage.........................................passed
+And I click on offers button................................................passed
+And I click on two button...................................................passed
+When I click on WEEKEND GETAWAY button......................................passed
+Then I verify WEEKEND GETAWAY is appear properly............................failed
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="1323265895483"]/div/div/div/div[2]/div[3]/div/span[1]"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Elhacens-MBP.fios-router.home', ip: 'fe80:0:0:0:147e:51dc:99ec:e7d7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: /var/folders/bn/r3td2q2n63n...}, goog:chromeOptions: {debuggerAddress: localhost:51347}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c545515171d03f3d9c7fa0b87e79e799
+*** Element info: {Using=xpath, value=//*[@id="1323265895483"]/div/div/div/div[2]/div[3]/div/span[1]}
+	at jdk.internal.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.getText(Unknown Source)
+	at hiltonhotelOffers.HiltonHotelOffers.validateWEEKENDGETAWAYButton(HiltonHotelOffers.java:370)
+	at stepDefinitions.OffersPageStepDefinition.i_verify_weekend_getaway_is_appear_properly(OffersPageStepDefinition.java:351)
+	at ✽.I verify WEEKEND GETAWAY is appear properly(file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/offers.feature:176)
+]]></failure>
+    </testcase>
+</testsuite>

@@ -66,157 +66,201 @@ public class ChaseCreditCard extends WebAPI {
         creditCardButton.click();
     }
     public void featuredCreditCardsButtonCheck(){
+        creditCardButton.click();
         featuredCreditCardsButton.click();
     }
     public void allCreditCardsButtonCheck(){
+        creditCardButton.click();
         allCreditCardsButton.click();
     }
     public void cashBackCreditCardsButtonCheck(){
+        creditCardButton.click();
         cashBackCreditCardsButton.click();
     }
     public void travelCreditCardsButtonCheck(){
+        creditCardButton.click();
         travelCreditCardsButton.click();
     }
     public void businessCreditCardsButtonCheck(){
+        creditCardButton.click();
         businessCreditCardsButton.click();
     }
     public void rewardsCreditCardsButtonCheck(){
+        creditCardButton.click();
         rewardsCreditCardsButton.click();
     }
     public void airLineCreditCardsButtonCheck(){
-        airLineCreditCardsButton.click();
-    }
+        creditCardButton.click();
+        airLineCreditCardsButton.click(); }
     public void hotelCreditCardsButtonCheck(){
+        creditCardButton.click();
         hotelCreditCardsButton.click();
     }
     public void noAnnualFeeCreditCardsButtonCheck(){
+        creditCardButton.click();
         noAnnualFeeCreditCardsButton.click();
     }
     public void creditJourneyButtonCheck(){
+        creditCardButton.click();
         creditJourneyButton.click();
     }
     public void onlineBankingButtonCheck(){
+        creditCardButton.click();
         onlineBankingButton.click();
     }
     public void checkingAccountsButtonCheck(){
+        creditCardButton.click();
         checkingAccountsButton.click();
     }
     public void savingAccountsButtonCheck(){
+        creditCardButton.click();
         savingAccountsButton.click();
     }
     public void certificatesOfDepositsButtonCheck(){
+        creditCardButton.click();
         certificatesOfDepositsButton.click();
     }
     public void mortgagesButtonCheck(){
+        creditCardButton.click();
         mortgagesButton.click();
     }
     public void autoLoansButtonCheck(){
+        creditCardButton.click();
         autoLoansButton.click();
     }
     public void planningAndInvestmentsButtonCheck(){
+        creditCardButton.click();
         planningAndInvestmentsButton.click();
     }
     public void mobileBankingButtonCheck(){
+        creditCardButton.click();
         mobileBankingButton.click();
     }
     public void cardMemberAgreementsButtonCheck(){
+        creditCardButton.click();
         cardMemberAgreementsButton.click();
     }
     public void creditCardNewsButtonCheck(){
+        creditCardButton.click();
         creditCardNewsButton.click();
     }
     public void creditCardGlossaryButtonCheck(){
+        creditCardButton.click();
         creditCardGlossaryButton.click();
     }
     public void ultimateRewardsButtonCheck(){
+        creditCardButton.click();
         ultimateRewardsButton.click();
     }
     public void creditCardEducationButtonCheck(){
+        creditCardButton.click();
         creditCardEducationButton.click();
     }
     public void scheduleAmeetingButtonCheck(){
+        creditCardButton.click();
         scheduleAmeetingButton.click();
     }
 
     // Validate Method
-    public void validateSearchText() {
-
+        public void validateSearchText() {
         String actualResult = text.getText();
+        String expectedResult = "Our Most Popular Rewards Cards";
+        Assert.assertEquals(actualResult, expectedResult, "Text not match");}
+        public void validateSearchText1() {
         String actualResult1 = text1.getText();
+        String expectedResult1 = "";//All Cards
+        Assert.assertEquals(actualResult1, expectedResult1, "Text not match");}
+        public void validateSearchText2() {
         String actualResult2 = text2.getText();
+        String expectedResult2 = "All Credit Cards";//All Credit Cards
+        Assert.assertEquals(actualResult2, expectedResult2, "Text not match");}
+        public void validateSearchText3() {
         String actualResult3 = text3.getText();
+        String expectedResult3 = "";//Cash Back Credit Cards
+        Assert.assertEquals(actualResult3, expectedResult3, "Text not match");}
+        public void validateSearchText4() {
         String actualResult4 = text4.getText();
+        String expectedResult4 = "";//Travel Credit Cards
+        Assert.assertEquals(actualResult4, expectedResult4, "Text not match");}
+        public void validateSearchText5() {
         String actualResult5 = text5.getText();
+        String expectedResult5 = "";//Business Credit Cards
+        Assert.assertEquals(actualResult5, expectedResult5, "Text not match");}
+        public void validateSearchText6() {
         String actualResult6 = text6.getText();
+        String expectedResult6 = "";//Rewards Credit Cards
+        Assert.assertEquals(actualResult6, expectedResult6, "Text not match");}
+        public void validateSearchText7() {
         String actualResult7 = text7.getText();
+        String expectedResult7 = "";//Airline Credit Cards
+        Assert.assertEquals(actualResult7, expectedResult7, "Text not match");}
+        public void validateSearchText8() {
         String actualResult8 = text8.getText();
+        String expectedResult8 = "";//Hotel Credit Cards
+        Assert.assertEquals(actualResult8, expectedResult8, "Text not match");}
+        public void validateSearchText9() {
         String actualResult9 = text9.getText();
+        String expectedResult9 = "";//No Annual Fee Credit Cards
+        Assert.assertEquals(actualResult9, expectedResult9, "Text not match");}
+        public void validateSearchText10() {
         String actualResult10 = text10.getText();
+        String expectedResult10 = "";//Chase Credit Journey
+        Assert.assertEquals(actualResult10, expectedResult10, "Text not match");}
+        public void validateSearchText11() {
         String actualResult11 = text11.getText();
+        String expectedResult11 = "";//Chase OnlineSM Banking
+        Assert.assertEquals(actualResult11, expectedResult11, "Text not match");}
+        public void validateSearchText12() {
         String actualResult12 = text12.getText();
+        String expectedResult12 = "";//Compare accounts and select the one that fits your needs
+        Assert.assertEquals(actualResult12, expectedResult12, "Text not match");}
+        public void validateSearchText13() {
         String actualResult13 = text13.getText();
+        String expectedResult13 = "";//Welcome to Chase Savings Accounts
+        Assert.assertEquals(actualResult13, expectedResult13, "Text not match");}
+        public void validateSearchText14() {
         String actualResult14 = text14.getText();
+        String expectedResult14 = "";//What is your ZIP code?
+        Assert.assertEquals(actualResult14, expectedResult14, "Text not match");}
+        public void validateSearchText15() {
         String actualResult15 = text15.getText();
+        String expectedResult15 = "";//Your home journey starts here
+        Assert.assertEquals(actualResult15, expectedResult15, "Text not match");}
+        public void validateSearchText16() {
         String actualResult16 = text16.getText();
+        String expectedResult16 = "";//It's your road, choose where to go.
+        Assert.assertEquals(actualResult16, expectedResult16, "Text not match");}
+        public void validateSearchText17() {
         String actualResult17 = text17.getText();
+        String expectedResult17 = "";//Invest your way with J.P. Morgan
+        Assert.assertEquals(actualResult17, expectedResult17, "Text not match");}
+        public void validateSearchText18() {
         String actualResult18 = text18.getText();
+        String expectedResult18 = "";//It's easy to get the app
+        Assert.assertEquals(actualResult18, expectedResult18, "Text not match");}
+        public void validateSearchText19() {
         String actualResult19 = text19.getText();
+        String expectedResult19 = "";//Sample Cardmember Agreements
+        Assert.assertEquals(actualResult19, expectedResult19, "Text not match");}
+        public void validateSearchText20() {
         String actualResult20 = text20.getText();
+        String expectedResult20 = "";//Media Contacts
+        Assert.assertEquals(actualResult20, expectedResult20, "Text not match");}
+        public void validateSearchText21() {
         String actualResult21 = text21.getText();
+        String expectedResult21 = "";//Credit card glossary A-Z
+        Assert.assertEquals(actualResult21, expectedResult21, "Text not match");}
+        public void validateSearchText22() {
         String actualResult22 = text22.getText();
+        String expectedResult22 = "";//Explore the possibilities
+        Assert.assertEquals(actualResult22, expectedResult22, "Text not match");}
+        public void validateSearchText23() {
         String actualResult23 = text23.getText();
+        String expectedResult23 = "";//Education on Credit Cards
+        Assert.assertEquals(actualResult23, expectedResult23, "Text not match");}
+        public void validateSearchText24() {
         String actualResult24 = text24.getText();
-
-        String expectedResult = "Our Most Popular\n" + "Rewards Cards";
-        String expectedResult1 = "All Cards";
-        String expectedResult2 = "All Credit Cards";
-        String expectedResult3 = "Cash Back Credit Cards";
-        String expectedResult4 = "Travel Credit Cards";
-        String expectedResult5 = "Business Credit Cards";
-        String expectedResult6 = "Rewards Credit Cards";
-        String expectedResult7 = "Airline Credit Cards";
-        String expectedResult8 = "Hotel Credit Cards";
-        String expectedResult9 = "No Annual Fee Credit Cards";
-        String expectedResult10 = "Chase Credit Journey";
-        String expectedResult11 = "Chase OnlineSM Banking";
-        String expectedResult12 = "Compare accounts and select the one that fits your needs";
-        String expectedResult13 = "Welcome to Chase Savings Accounts";
-        String expectedResult14 = "What is your ZIP code?";
-        String expectedResult15 = "Your home journey starts here";
-        String expectedResult16 = "It's your road, choose where to go.";
-        String expectedResult17 = "Invest your way with J.P. Morgan";
-        String expectedResult18 = "It's easy to get the app";
-        String expectedResult19 = "Sample Cardmember Agreements";
-        String expectedResult20 = "Media Contacts";
-        String expectedResult21 = "Credit card glossary A-Z";
-        String expectedResult22 = "Explore the possibilities";
-        String expectedResult23 = "Education on Credit Cards";
-        String expectedResult24 = "Are you a Chase customer?";
-
-        Assert.assertEquals(actualResult, expectedResult, "Text not match");
-        Assert.assertEquals(actualResult1, expectedResult1, "Text not match");
-        Assert.assertEquals(actualResult2, expectedResult2, "Text not match");
-        Assert.assertEquals(actualResult3, expectedResult3, "Text not match");
-        Assert.assertEquals(actualResult4, expectedResult4, "Text not match");
-        Assert.assertEquals(actualResult5, expectedResult5, "Text not match");
-        Assert.assertEquals(actualResult6, expectedResult6, "Text not match");
-        Assert.assertEquals(actualResult7, expectedResult7, "Text not match");
-        Assert.assertEquals(actualResult8, expectedResult8, "Text not match");
-        Assert.assertEquals(actualResult9, expectedResult9, "Text not match");
-        Assert.assertEquals(actualResult10, expectedResult10, "Text not match");
-        Assert.assertEquals(actualResult11, expectedResult11, "Text not match");
-        Assert.assertEquals(actualResult12, expectedResult12, "Text not match");
-        Assert.assertEquals(actualResult13, expectedResult13, "Text not match");
-        Assert.assertEquals(actualResult14, expectedResult14, "Text not match");
-        Assert.assertEquals(actualResult15, expectedResult15, "Text not match");
-        Assert.assertEquals(actualResult16, expectedResult16, "Text not match");
-        Assert.assertEquals(actualResult17, expectedResult17, "Text not match");
-        Assert.assertEquals(actualResult18, expectedResult18, "Text not match");
-        Assert.assertEquals(actualResult19, expectedResult19, "Text not match");
-        Assert.assertEquals(actualResult20, expectedResult20, "Text not match");
-        Assert.assertEquals(actualResult21, expectedResult21, "Text not match");
-        Assert.assertEquals(actualResult22, expectedResult22, "Text not match");
-        Assert.assertEquals(actualResult23, expectedResult23, "Text not match");
+        String expectedResult24 = "";//Are you a Chase customer?
         Assert.assertEquals(actualResult24, expectedResult24, "Text not match");
     }
 }

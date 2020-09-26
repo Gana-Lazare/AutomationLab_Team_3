@@ -1,0 +1,141 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5193971000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 36357000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.ShopPlansStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "I am in Verizon homepage",
+            "match": {
+              "location": "stepDefinitions.ShopPlansStepDefinition.i_am_in_verizon_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1063875000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 671000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.ShopPlansStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "I click on Shop Button",
+            "match": {
+              "location": "stepDefinitions.ShopPlansStepDefinition.i_click_on_shop_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T07:50:23.308Z",
+        "line": 7,
+        "name": "Verizon Shop Button check",
+        "description": "",
+        "id": ";verizon-shop-button-check",
+        "after": [
+          {
+            "result": {
+              "duration": 207768000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.ShopPlansStepDefinition.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 890465000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1084000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.ShopPlansStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "I verify Deals is appear properly",
+            "match": {
+              "location": "stepDefinitions.ShopPlansStepDefinition.i_verify_deals_is_appear_properly()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1259597000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 598000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.ShopPlansStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "I verify page title as Shop",
+            "match": {
+              "location": "stepDefinitions.ShopPlansStepDefinition.i_verify_page_title_as_shop()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "  Verizon Shop Button check",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/ShopPlans.feature",
+    "tags": []
+  }
+]

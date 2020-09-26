@@ -194,6 +194,7 @@
                 <version>6.6.0</version>
             </dependency>
 
+
 <!--                &lt;!&ndash; https://mvnrepository.com/artifact/info.cukes/cucumber-junit &ndash;&gt;-->
 
 <!--                <dependency>-->
@@ -218,6 +219,7 @@
     <build>
         <plugins>
             <plugin>
+
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
@@ -225,6 +227,29 @@
                     <target>1.8</target>
                 </configuration>
             </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-failsafe-plugin</artifactId>
+                <version>3.0.0-M5</version>
+
+                <configuration>
+                                        <includes>
+                                            <include>src/test/runner/TestRunner.java</include>
+<!--                                            <include>**/*.java</include>-->
+
+                                        </includes>
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>integration-test</goal>
+                            <goal>verify</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
@@ -233,8 +258,11 @@
                     <suiteXmlFiles>
                         <!--<suiteXmlFiles>target/test-classes/AmazonTestRunner.xml</suiteXmlFiles>-->
                         <!--<suiteXmlFile>target/test-classes/DropBoxMenuRunner.xml</suiteXmlFile>-->
-                        <!--<suiteXmlFile>target/test-classes/GoogleSheetRunner.xml</suiteXmlFile>-->
+<!--                        <suiteXmlFile>src/test/runner/TestRunner</suiteXmlFile>-->
                         <suiteXmlFile>src/test/resources/ebaytestRunner.xml</suiteXmlFile>
+                        <include>
+                            src/test/runner/TestRunner.java
+                        </include>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>

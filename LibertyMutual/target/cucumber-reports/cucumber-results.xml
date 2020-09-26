@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="5" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="25" time="125.267">
+    <testcase classname="Unknown" name="LibertyMutual Customer Support Button check" time="7.324">
+        <failure message="Search Title not match expected [Get answers] but found []" type="java.lang.AssertionError"><![CDATA[Given I am in LibertyMutual homepage........................................passed
+And I click on Customer Support Button......................................passed
+And I click on Customer Support Button......................................passed
+Then I verify Customer Support is appear properly...........................failed
+And I verify page title as Customer Support.................................skipped
+
+StackTrace:
+java.lang.AssertionError: Search Title not match expected [Get answers] but found []
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at libertymutualHome.LibertyMutualHome.validateCustomerSupportText(LibertyMutualHome.java:54)
+	at stepDefinitions.CustomerSupportStepDefinition.i_verify_customer_support_is_appear_properly(CustomerSupportStepDefinition.java:61)
+	at ✽.I verify Customer Support is appear properly(file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:17)
+]]></failure>
+    </testcase>
+    <testcase classname="Unknown" name="LibertyMutual Covid-19 support Button check" time="4.338">
+        <system-out><![CDATA[Given I am in LibertyMutual homepage........................................passed
+And I click on Customer Support Button......................................passed
+And I click on Covid support Button.........................................passed
+Then I verify Covid support is appear properly..............................passed
+And I verify page title as Covid support Support............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Unknown" name="LibertyMutual frequently Asked Questions Button check" time="4.637">
+        <system-out><![CDATA[Given I am in LibertyMutual homepage........................................passed
+And I click on Customer Support Button......................................passed
+And I click on frequently Asked Questions Button............................passed
+Then I verify frequently Asked Questions is appear properly.................passed
+And I verify page title as frequently Asked Questions Support...............passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Unknown" name="LibertyMutual Manage your policy Button check" time="4.788">
+        <system-out><![CDATA[Given I am in LibertyMutual homepage........................................passed
+And I click on Customer Support Button......................................passed
+And I click on Manage your policy Button....................................passed
+Then I verify Manage your policy is appear properly.........................passed
+And I verify page title as Manage your policy Support.......................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Unknown" name="LibertyMutual Billing &amp; payment options Button check" time="4.703">
+        <system-out><![CDATA[Given I am in LibertyMutual homepage........................................passed
+And I click on Customer Support Button......................................passed
+And I click on Billing & payment options Button.............................passed
+Then I verify Billing & payment options is appear properly..................passed
+And I verify page title as Billing & payment options Support................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Unknown" name="LibertyMutual Customer Support Button check" time="4.861">
+        <failure message="Search Title not match expected [Get answers] but found []" type="java.lang.AssertionError"><![CDATA[Given I am in LibertyMutual homepage........................................passed
+And I click on Customer Support Button......................................passed
+And I click on Customer Support Button......................................passed
+Then I verify Customer Support is appear properly...........................failed
+And I verify page title as Customer Support.................................skipped
+
+StackTrace:
+java.lang.AssertionError: Search Title not match expected [Get answers] but found []
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at libertymutualHome.LibertyMutualHome.validateCustomerSupportText(LibertyMutualHome.java:54)
+	at stepDefinitions.CustomerSupportStepDefinition.i_verify_customer_support_is_appear_properly(CustomerSupportStepDefinition.java:61)
+	at ✽.I verify Customer Support is appear properly(file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:53)
+]]></failure>
+    </testcase>
+    <testcase classname="Unknown" name="LibertyMutual Covid-19 support Button check" time="5.029">
+        <system-out><![CDATA[Given I am in LibertyMutual homepage........................................passed
+And I click on Customer Support Button......................................passed
+And I click on Covid support Button.........................................passed
+Then I verify Covid support is appear properly..............................passed
+And I verify page title as Covid support Support............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Unknown" name="LibertyMutual frequently Asked Questions Button check" time="4.538">
+        <system-out><![CDATA[Given I am in LibertyMutual homepage........................................passed
+And I click on Customer Support Button......................................passed
+And I click on frequently Asked Questions Button............................passed
+Then I verify frequently Asked Questions is appear properly.................passed
+And I verify page title as frequently Asked Questions Support...............passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Unknown" name="LibertyMutual Manage your policy Button check" time="4.527">
+        <system-out><![CDATA[Given I am in LibertyMutual homepage........................................passed
+And I click on Customer Support Button......................................passed
+And I click on Manage your policy Button....................................passed
+Then I verify Manage your policy is appear properly.........................passed
+And I verify page title as Manage your policy Support.......................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Unknown" name="LibertyMutual Billing &amp; payment options Button check" time="4.234">
+        <system-out><![CDATA[Given I am in LibertyMutual homepage........................................passed
+And I click on Customer Support Button......................................passed
+And I click on Billing & payment options Button.............................passed
+Then I verify Billing & payment options is appear properly..................passed
+And I verify page title as Billing & payment options Support................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Unknown" name="LibertyMutual Customer Support Button check" time="4.675">
+        <failure message="Search Title not match expected [Get answers] but found []" type="java.lang.AssertionError"><![CDATA[Given I am in LibertyMutual homepage........................................passed
+And I click on Customer Support Button......................................passed
+And I click on Customer Support Button......................................passed
+Then I verify Customer Support is appear properly...........................failed
+And I verify page title as Customer Support.................................skipped
+
+StackTrace:
+java.lang.AssertionError: Search Title not match expected [Get answers] but found []
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at libertymutualHome.LibertyMutualHome.validateCustomerSupportText(LibertyMutualHome.java:54)
+	at stepDefinitions.CustomerSupportStepDefinition.i_verify_customer_support_is_appear_properly(CustomerSupportStepDefinition.java:61)
+	at ✽.I verify Customer Support is appear properly(file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:83)
+]]></failure>
+    </testcase>
+    <testcase classname="Unknown" name="LibertyMutual Covid-19 support Button check" time="11.432">
+        <system-out><![CDATA[Given I am in LibertyMutual homepage........................................passed
+And I click on Customer Support Button......................................passed
+And I click on Covid support Button.........................................passed
+Then I verify Covid support is appear properly..............................passed
+And I verify page title as Covid support Support............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Unknown" name="LibertyMutual frequently Asked Questions Button check" time="4.543">
+        <system-out><![CDATA[Given I am in LibertyMutual homepage........................................passed
+And I click on Customer Support Button......................................passed
+And I click on frequently Asked Questions Button............................passed
+Then I verify frequently Asked Questions is appear properly.................passed
+And I verify page title as frequently Asked Questions Support...............passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Unknown" name="LibertyMutual Manage your policy Button check" time="4.254">
+        <system-out><![CDATA[Given I am in LibertyMutual homepage........................................passed
+And I click on Customer Support Button......................................passed
+And I click on Manage your policy Button....................................passed
+Then I verify Manage your policy is appear properly.........................passed
+And I verify page title as Manage your policy Support.......................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Unknown" name="LibertyMutual Billing &amp; payment options Button check" time="4.418">
+        <system-out><![CDATA[Given I am in LibertyMutual homepage........................................passed
+And I click on Customer Support Button......................................passed
+And I click on Billing & payment options Button.............................passed
+Then I verify Billing & payment options is appear properly..................passed
+And I verify page title as Billing & payment options Support................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Unknown" name="LibertyMutual Customer Support Button check" time="6.302">
+        <failure message="Search Title not match expected [Get answers] but found []" type="java.lang.AssertionError"><![CDATA[Given I am in LibertyMutual homepage........................................passed
+And I click on Customer Support Button......................................passed
+And I click on Customer Support Button......................................passed
+Then I verify Customer Support is appear properly...........................failed
+And I verify page title as Customer Support.................................skipped
+
+StackTrace:
+java.lang.AssertionError: Search Title not match expected [Get answers] but found []
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at libertymutualHome.LibertyMutualHome.validateCustomerSupportText(LibertyMutualHome.java:54)
+	at stepDefinitions.CustomerSupportStepDefinition.i_verify_customer_support_is_appear_properly(CustomerSupportStepDefinition.java:61)
+	at ✽.I verify Customer Support is appear properly(file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:113)
+]]></failure>
+    </testcase>
+    <testcase classname="Unknown" name="LibertyMutual Covid-19 support Button check" time="4.874">
+        <system-out><![CDATA[Given I am in LibertyMutual homepage........................................passed
+And I click on Customer Support Button......................................passed
+And I click on Covid support Button.........................................passed
+Then I verify Covid support is appear properly..............................passed
+And I verify page title as Covid support Support............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Unknown" name="LibertyMutual frequently Asked Questions Button check" time="4.425">
+        <system-out><![CDATA[Given I am in LibertyMutual homepage........................................passed
+And I click on Customer Support Button......................................passed
+And I click on frequently Asked Questions Button............................passed
+Then I verify frequently Asked Questions is appear properly.................passed
+And I verify page title as frequently Asked Questions Support...............passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Unknown" name="LibertyMutual Manage your policy Button check" time="3.518">
+        <system-out><![CDATA[Given I am in LibertyMutual homepage........................................passed
+And I click on Customer Support Button......................................passed
+And I click on Manage your policy Button....................................passed
+Then I verify Manage your policy is appear properly.........................passed
+And I verify page title as Manage your policy Support.......................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Unknown" name="LibertyMutual Billing &amp; payment options Button check" time="4.35">
+        <system-out><![CDATA[Given I am in LibertyMutual homepage........................................passed
+And I click on Customer Support Button......................................passed
+And I click on Billing & payment options Button.............................passed
+Then I verify Billing & payment options is appear properly..................passed
+And I verify page title as Billing & payment options Support................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Unknown" name="LibertyMutual Customer Support Button check" time="4.708">
+        <failure message="Search Title not match expected [Get answers] but found []" type="java.lang.AssertionError"><![CDATA[Given I am in LibertyMutual homepage........................................passed
+And I click on Customer Support Button......................................passed
+And I click on Customer Support Button......................................passed
+Then I verify Customer Support is appear properly...........................failed
+And I verify page title as Customer Support.................................skipped
+
+StackTrace:
+java.lang.AssertionError: Search Title not match expected [Get answers] but found []
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at libertymutualHome.LibertyMutualHome.validateCustomerSupportText(LibertyMutualHome.java:54)
+	at stepDefinitions.CustomerSupportStepDefinition.i_verify_customer_support_is_appear_properly(CustomerSupportStepDefinition.java:61)
+	at ✽.I verify Customer Support is appear properly(file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:143)
+]]></failure>
+    </testcase>
+    <testcase classname="Unknown" name="LibertyMutual Covid-19 support Button check" time="4.468">
+        <system-out><![CDATA[Given I am in LibertyMutual homepage........................................passed
+And I click on Customer Support Button......................................passed
+And I click on Covid support Button.........................................passed
+Then I verify Covid support is appear properly..............................passed
+And I verify page title as Covid support Support............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Unknown" name="LibertyMutual frequently Asked Questions Button check" time="4.376">
+        <system-out><![CDATA[Given I am in LibertyMutual homepage........................................passed
+And I click on Customer Support Button......................................passed
+And I click on frequently Asked Questions Button............................passed
+Then I verify frequently Asked Questions is appear properly.................passed
+And I verify page title as frequently Asked Questions Support...............passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Unknown" name="LibertyMutual Manage your policy Button check" time="4.975">
+        <system-out><![CDATA[Given I am in LibertyMutual homepage........................................passed
+And I click on Customer Support Button......................................passed
+And I click on Manage your policy Button....................................passed
+Then I verify Manage your policy is appear properly.........................passed
+And I verify page title as Manage your policy Support.......................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Unknown" name="LibertyMutual Billing &amp; payment options Button check" time="4.211">
+        <system-out><![CDATA[Given I am in LibertyMutual homepage........................................passed
+And I click on Customer Support Button......................................passed
+And I click on Billing & payment options Button.............................passed
+Then I verify Billing & payment options is appear properly..................passed
+And I verify page title as Billing & payment options Support................passed
+]]></system-out>
+    </testcase>
+</testsuite>

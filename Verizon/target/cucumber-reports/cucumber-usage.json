@@ -1,0 +1,74 @@
+[
+  {
+    "source": "I am in Verizon homepage",
+    "steps": [
+      {
+        "name": "I am in Verizon homepage",
+        "aggregatedDurations": {
+          "median": 5.193971,
+          "average": 5.193971
+        },
+        "durations": [
+          {
+            "duration": 5.193971,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/ShopPlans.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Shop Button",
+    "steps": [
+      {
+        "name": "I click on Shop Button",
+        "aggregatedDurations": {
+          "median": 1.063875,
+          "average": 1.063875
+        },
+        "durations": [
+          {
+            "duration": 1.063875,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/ShopPlans.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Deals is appear properly",
+    "steps": [
+      {
+        "name": "I verify Deals is appear properly",
+        "aggregatedDurations": {
+          "median": 0.890465,
+          "average": 0.890465
+        },
+        "durations": [
+          {
+            "duration": 0.890465,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/ShopPlans.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify page title as Shop",
+    "steps": [
+      {
+        "name": "I verify page title as Shop",
+        "aggregatedDurations": {
+          "median": 1.259597,
+          "average": 1.259597
+        },
+        "durations": [
+          {
+            "duration": 1.259597,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/ShopPlans.feature:9"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -6,6 +6,7 @@ import foxNewsHome.*;
 import io.cucumber.java.After;
 import io.cucumber.java.BeforeStep;
 import io.cucumber.java.Scenario;
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -23,7 +24,7 @@ import java.io.IOException;
 import static foxNewsHome.FoxNewsHome.*;
 
 @RunWith(Cucumber.class)
-public class HomePageStepDefinition extends WebAPI {
+public class HomePageStepDefinition extends FoxNewsHome {
 
 
     static FoxNewsHome opinion;
@@ -58,7 +59,7 @@ public class HomePageStepDefinition extends WebAPI {
 
     }
 
-    @Given("I click on opinion button")
+    @And("I click on opinion button")
     public void i_click_on_opinion_button() {
         opinion.clickOnElement("//*[@id=\"main-nav\"]/ul/li[3]/a");
 
@@ -156,7 +157,7 @@ public class HomePageStepDefinition extends WebAPI {
 
 
 
-
+    //Search Box Check (BDD)
     @Given("I enter {string} in searchBox")
     public void i_enter_in_search_box(String titleName) {
         opinion.enterSearchKeyword(titleName);
@@ -170,278 +171,185 @@ public class HomePageStepDefinition extends WebAPI {
     }
 
     @Then("I verify {string} is appear properly")
-    public void i_verify_is_appear_properly(String string) {
-        //opinion.validateSearchBoxText(titleName);
+    public void i_verify_is_appear_properly(String verifyTitle) {
+        opinion.validateSearchBoxText(verifyTitle);
         throw new io.cucumber.java.PendingException();
     }
-
+    //2nd Scenario
     @Then("I am in opinion Home page")
-    public void i_am_in_opinion_home_page() {
-
-
-
-
-
-
-        throw new io.cucumber.java.PendingException();
+    public void i_am_in_opinion_home_page() throws InterruptedException {
+        opinion.clickOnElement("//*[@id=\"main-nav\"]/ul/li[3]/a");
+        sleepFor(3);
     }
 
     @Then("I click on Tech Button")
     public void i_click_on_tech_button() {
+        opinion.clickOnTechButton();
 
-
-
-
-        throw new io.cucumber.java.PendingException();
     }
 
     @Then("I verify Tech is appear properly")
     public void i_verify_tech_is_appear_properly() {
-
-
-
-
-
+        opinion.validateTechButton();
         throw new io.cucumber.java.PendingException();
     }
 
+    //3rd Scenario
     @Then("I click on Security Button")
     public void i_click_on_security_button() {
-
-
-
-
-
+        opinion.clickOnSecurityButton();
         throw new io.cucumber.java.PendingException();
     }
 
     @Then("I verify Security appear properly")
     public void i_verify_security_appear_properly() {
-
-
-
-
-
+        opinion.validateSecurityButton();
         throw new io.cucumber.java.PendingException();
     }
 
+    //4th Scenario
     @Then("I click on Innovation Button")
     public void i_click_on_innovation_button() {
+        opinion.clickOnInnovationButton();
 
-
-
-
-
-        throw new io.cucumber.java.PendingException();
     }
 
     @Then("I verify Innovation appear properly")
     public void i_verify_innovation_appear_properly() {
+        opinion.validateInnovationButton();
 
-
-
-
-        throw new io.cucumber.java.PendingException();
     }
 
+    //5th Scenario
     @Then("I click on Natural Science Button")
     public void i_click_on_natural_science_button() {
+        opinion.clickOnNaturalAndScienceButton();
 
-
-
-
-        throw new io.cucumber.java.PendingException();
     }
 
     @Then("I verify Natural Science appear properly")
     public void i_verify_natural_science_appear_properly() {
+        opinion.validateNaturalAndScienceButton();
 
-
-
-
-        throw new io.cucumber.java.PendingException();
     }
 
+    //6th Scenario
     @Then("I click on Drones Button")
     public void i_click_on_drones_button() {
+        opinion.clickOnDronesButton();
 
-
-
-
-
-
-        throw new io.cucumber.java.PendingException();
     }
 
     @Then("I verify Drones appear properly")
     public void i_verify_drones_appear_properly() {
+        opinion.validateDronesButton();
 
-
-
-
-
-
-        throw new io.cucumber.java.PendingException();
     }
 
+    //7th Scenario
     @Then("I click on Computers Button")
     public void i_click_on_computers_button() {
+        opinion.clickOnComputersButton();
 
-
-
-
-
-
-        throw new io.cucumber.java.PendingException();
     }
 
     @Then("I verify Computers appear properly")
     public void i_verify_computers_appear_properly() {
+        opinion.validateComputersButton();
 
-
-
-
-
-        throw new io.cucumber.java.PendingException();
     }
 
+    //8th Scenario
     @Then("I click on Video Games Button")
     public void i_click_on_video_games_button() {
+        opinion.clickOnVideoGamesButton();
 
-
-
-
-
-        throw new io.cucumber.java.PendingException();
     }
 
     @Then("I verify Video Games appear properly")
     public void i_verify_video_games_appear_properly() {
+        opinion.validateVideoGamesButton();
 
-
-
-
-
-        throw new io.cucumber.java.PendingException();
     }
 
+    //9th Scenario
     @Then("I click on Military Tech Button")
     public void i_click_on_military_tech_button() {
+        opinion.clickOnMilitaryTechButton();
 
-
-
-
-
-        throw new io.cucumber.java.PendingException();
     }
+
 
     @Then("I verify Military Tech appear properly")
     public void i_verify_military_tech_appear_properly() {
+        opinion.validateMilitaryTechButton();
 
-
-
-
-
-        throw new io.cucumber.java.PendingException();
     }
 
+    //10th Scenario
     @Then("I click on Science Button")
     public void i_click_on_science_button() {
+        opinion.clickOnScienceButton();
 
-
-
-
-        throw new io.cucumber.java.PendingException();
     }
+
 
     @Then("I verify Science appear properly")
     public void i_verify_science_appear_properly() {
+        opinion.validateScienceButton();
 
-
-
-
-
-        throw new io.cucumber.java.PendingException();
     }
 
+    //11th Scenario
     @Then("I click on Archaeology Button")
     public void i_click_on_archaeology_button() {
+        opinion.clickOnArchaeologyButton();
 
-
-
-
-        throw new io.cucumber.java.PendingException();
     }
 
     @Then("I verify Archaeology appear properly")
     public void i_verify_archaeology_appear_properly() {
+        opinion.validateArchaeologyButton();
 
-
-
-
-
-        throw new io.cucumber.java.PendingException();
     }
 
+    //12th Scenario
     @Then("I click on Air & Space Button")
     public void i_click_on_air_space_button() {
+        opinion.clickOnAirSpaceButton();
 
-
-
-
-
-        throw new io.cucumber.java.PendingException();
     }
 
     @Then("I verify Air & Space appear properly")
     public void i_verify_air_space_appear_properly() {
+        opinion.validateAirSpaceButton();
 
-
-
-
-
-        throw new io.cucumber.java.PendingException();
     }
 
+    //13th Scenario
     @Then("I click on Planet Earth Button")
     public void i_click_on_planet_earth_button() {
+        opinion.clickOnPlanetEarthButton();
 
-
-
-
-
-
-        throw new io.cucumber.java.PendingException();
     }
 
     @Then("I verify Planet Earth appear properly")
     public void i_verify_planet_earth_appear_properly() {
+        opinion.validatePlanetEarthButton();
 
-
-
-
-
-        throw new io.cucumber.java.PendingException();
     }
 
+    //14th Scenario
     @Then("I click on Wild Nature Button")
     public void i_click_on_wild_nature_button() {
+        opinion.clickOnWildNatureButton();
 
-
-
-
-
-        throw new io.cucumber.java.PendingException();
     }
 
     @Then("I verify Wild Nature appear properly")
     public void i_verify_wild_nature_appear_properly() {
+        opinion.validateWildNatureButton();
 
-
-
-
-
-        throw new io.cucumber.java.PendingException();
     }
 
 

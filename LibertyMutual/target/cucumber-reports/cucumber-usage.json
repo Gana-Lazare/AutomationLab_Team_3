@@ -1,0 +1,658 @@
+[
+  {
+    "source": "I am in LibertyMutual homepage",
+    "steps": [
+      {
+        "name": "I am in LibertyMutual homepage",
+        "aggregatedDurations": {
+          "median": 2.723687,
+          "average": 3.00547232
+        },
+        "durations": [
+          {
+            "duration": 5.023324,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:11"
+          },
+          {
+            "duration": 2.828136,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:11"
+          },
+          {
+            "duration": 2.723687,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:11"
+          },
+          {
+            "duration": 2.857996,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:11"
+          },
+          {
+            "duration": 2.976003,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:11"
+          },
+          {
+            "duration": 2.867441,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:11"
+          },
+          {
+            "duration": 2.269807,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:11"
+          },
+          {
+            "duration": 2.683828,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:11"
+          },
+          {
+            "duration": 2.929111,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:11"
+          },
+          {
+            "duration": 2.197421,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:11"
+          },
+          {
+            "duration": 2.734968,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:11"
+          },
+          {
+            "duration": 8.174827,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:11"
+          },
+          {
+            "duration": 2.880284,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:11"
+          },
+          {
+            "duration": 2.572459,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:11"
+          },
+          {
+            "duration": 2.839483,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:11"
+          },
+          {
+            "duration": 4.414669,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:11"
+          },
+          {
+            "duration": 2.612189,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:11"
+          },
+          {
+            "duration": 2.505975,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:11"
+          },
+          {
+            "duration": 2.125355,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:11"
+          },
+          {
+            "duration": 2.449936,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:11"
+          },
+          {
+            "duration": 2.874196,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:11"
+          },
+          {
+            "duration": 2.656416,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:11"
+          },
+          {
+            "duration": 2.494001,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:11"
+          },
+          {
+            "duration": 2.442535,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:11"
+          },
+          {
+            "duration": 2.002761,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Customer Support Button",
+    "steps": [
+      {
+        "name": "I click on Customer Support Button",
+        "aggregatedDurations": {
+          "median": 0.6653745,
+          "average": 0.6656793
+        },
+        "durations": [
+          {
+            "duration": 0.375147,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:12"
+          },
+          {
+            "duration": 0.505362,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:16"
+          },
+          {
+            "duration": 0.479684,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:12"
+          },
+          {
+            "duration": 0.956654,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:12"
+          },
+          {
+            "duration": 0.214761,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:12"
+          },
+          {
+            "duration": 0.842899,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:12"
+          },
+          {
+            "duration": 0.814828,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:12"
+          },
+          {
+            "duration": 0.28741,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:52"
+          },
+          {
+            "duration": 1.205166,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:12"
+          },
+          {
+            "duration": 0.535973,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:12"
+          },
+          {
+            "duration": 0.180319,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:12"
+          },
+          {
+            "duration": 1.269398,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:12"
+          },
+          {
+            "duration": 0.812037,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:12"
+          },
+          {
+            "duration": 0.218755,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:82"
+          },
+          {
+            "duration": 1.695075,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:12"
+          },
+          {
+            "duration": 0.63503,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:12"
+          },
+          {
+            "duration": 0.998835,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:12"
+          },
+          {
+            "duration": 0.695719,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:12"
+          },
+          {
+            "duration": 0.208821,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:12"
+          },
+          {
+            "duration": 0.550852,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:112"
+          },
+          {
+            "duration": 0.455247,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:12"
+          },
+          {
+            "duration": 0.512739,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:12"
+          },
+          {
+            "duration": 0.784866,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:12"
+          },
+          {
+            "duration": 0.93823,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:12"
+          },
+          {
+            "duration": 0.354106,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:12"
+          },
+          {
+            "duration": 0.092066,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:142"
+          },
+          {
+            "duration": 0.813268,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:12"
+          },
+          {
+            "duration": 0.740373,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:12"
+          },
+          {
+            "duration": 0.890386,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:12"
+          },
+          {
+            "duration": 0.906373,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Covid support Button",
+    "steps": [
+      {
+        "name": "I click on Covid support Button",
+        "aggregatedDurations": {
+          "median": 0.632422,
+          "average": 0.6146108
+        },
+        "durations": [
+          {
+            "duration": 0.445052,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:22"
+          },
+          {
+            "duration": 0.734764,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:58"
+          },
+          {
+            "duration": 0.901597,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:88"
+          },
+          {
+            "duration": 0.632422,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:118"
+          },
+          {
+            "duration": 0.359219,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:148"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Covid support is appear properly",
+    "steps": [
+      {
+        "name": "I verify Covid support is appear properly",
+        "aggregatedDurations": {
+          "median": 0.504535,
+          "average": 0.5617272
+        },
+        "durations": [
+          {
+            "duration": 0.418441,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:23"
+          },
+          {
+            "duration": 0.666716,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:59"
+          },
+          {
+            "duration": 0.22131,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:89"
+          },
+          {
+            "duration": 0.997634,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:119"
+          },
+          {
+            "duration": 0.504535,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:149"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify page title as Covid support Support",
+    "steps": [
+      {
+        "name": "I verify page title as Covid support Support",
+        "aggregatedDurations": {
+          "median": 0.019192,
+          "average": 0.0710666
+        },
+        "durations": [
+          {
+            "duration": 0.01428,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:24"
+          },
+          {
+            "duration": 0.019192,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:60"
+          },
+          {
+            "duration": 0.274665,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:90"
+          },
+          {
+            "duration": 0.038181,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:120"
+          },
+          {
+            "duration": 0.009015,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:150"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on frequently Asked Questions Button",
+    "steps": [
+      {
+        "name": "I click on frequently Asked Questions Button",
+        "aggregatedDurations": {
+          "median": 0.470345,
+          "average": 0.4224558
+        },
+        "durations": [
+          {
+            "duration": 0.197956,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:28"
+          },
+          {
+            "duration": 0.557621,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:64"
+          },
+          {
+            "duration": 0.308828,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:94"
+          },
+          {
+            "duration": 0.577529,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:124"
+          },
+          {
+            "duration": 0.470345,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:154"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify frequently Asked Questions is appear properly",
+    "steps": [
+      {
+        "name": "I verify frequently Asked Questions is appear properly",
+        "aggregatedDurations": {
+          "median": 0.530007,
+          "average": 0.5357528
+        },
+        "durations": [
+          {
+            "duration": 0.506129,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:29"
+          },
+          {
+            "duration": 0.550731,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:65"
+          },
+          {
+            "duration": 0.530007,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:95"
+          },
+          {
+            "duration": 0.594267,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:125"
+          },
+          {
+            "duration": 0.49763,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:155"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify page title as frequently Asked Questions Support",
+    "steps": [
+      {
+        "name": "I verify page title as frequently Asked Questions Support",
+        "aggregatedDurations": {
+          "median": 0.048889,
+          "average": 0.039783
+        },
+        "durations": [
+          {
+            "duration": 0.015098,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:30"
+          },
+          {
+            "duration": 0.050879,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:66"
+          },
+          {
+            "duration": 0.050168,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:96"
+          },
+          {
+            "duration": 0.033881,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:126"
+          },
+          {
+            "duration": 0.048889,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:156"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Manage your policy Button",
+    "steps": [
+      {
+        "name": "I click on Manage your policy Button",
+        "aggregatedDurations": {
+          "median": 0.329629,
+          "average": 0.3366748
+        },
+        "durations": [
+          {
+            "duration": 0.601197,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:34"
+          },
+          {
+            "duration": 0.329629,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:70"
+          },
+          {
+            "duration": 0.216478,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:100"
+          },
+          {
+            "duration": 0.138792,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:130"
+          },
+          {
+            "duration": 0.397278,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:160"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Manage your policy is appear properly",
+    "steps": [
+      {
+        "name": "I verify Manage your policy is appear properly",
+        "aggregatedDurations": {
+          "median": 0.899244,
+          "average": 0.6800392
+        },
+        "durations": [
+          {
+            "duration": 0.938808,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:35"
+          },
+          {
+            "duration": 0.899244,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:71"
+          },
+          {
+            "duration": 0.289746,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:101"
+          },
+          {
+            "duration": 0.334706,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:131"
+          },
+          {
+            "duration": 0.937692,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:161"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify page title as Manage your policy Support",
+    "steps": [
+      {
+        "name": "I verify page title as Manage your policy Support",
+        "aggregatedDurations": {
+          "median": 0.014915,
+          "average": 0.026361
+        },
+        "durations": [
+          {
+            "duration": 0.014915,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:36"
+          },
+          {
+            "duration": 0.050432,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:72"
+          },
+          {
+            "duration": 0.004858,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:102"
+          },
+          {
+            "duration": 0.006259,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:132"
+          },
+          {
+            "duration": 0.055341,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:162"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Billing \u0026 payment options Button",
+    "steps": [
+      {
+        "name": "I click on Billing \u0026 payment options Button",
+        "aggregatedDurations": {
+          "median": 0.230547,
+          "average": 0.3080462
+        },
+        "durations": [
+          {
+            "duration": 0.170817,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:40"
+          },
+          {
+            "duration": 0.288214,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:76"
+          },
+          {
+            "duration": 0.230547,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:106"
+          },
+          {
+            "duration": 0.211134,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:136"
+          },
+          {
+            "duration": 0.639519,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:166"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Billing \u0026 payment options is appear properly",
+    "steps": [
+      {
+        "name": "I verify Billing \u0026 payment options is appear properly",
+        "aggregatedDurations": {
+          "median": 0.323539,
+          "average": 0.3646652
+        },
+        "durations": [
+          {
+            "duration": 0.323539,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:41"
+          },
+          {
+            "duration": 0.316566,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:77"
+          },
+          {
+            "duration": 0.295026,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:107"
+          },
+          {
+            "duration": 0.56326,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:137"
+          },
+          {
+            "duration": 0.324935,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:167"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify page title as Billing \u0026 payment options Support",
+    "steps": [
+      {
+        "name": "I verify page title as Billing \u0026 payment options Support",
+        "aggregatedDurations": {
+          "median": 0.214776,
+          "average": 0.1407758
+        },
+        "durations": [
+          {
+            "duration": 0.218933,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:42"
+          },
+          {
+            "duration": 0.01366,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:78"
+          },
+          {
+            "duration": 0.222463,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:108"
+          },
+          {
+            "duration": 0.034047,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:138"
+          },
+          {
+            "duration": 0.214776,
+            "location": "file:///Users/elhacenarib/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/CustomerSupport.feature:168"
+          }
+        ]
+      }
+    ]
+  }
+]

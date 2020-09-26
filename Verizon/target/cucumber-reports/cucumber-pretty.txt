@@ -1,0 +1,7 @@
+
+@Regression
+Scenario: Verizon Shop Button check      # src/test/java/features/ShopPlans.feature:7
+  Given I am in Verizon homepage         # stepDefinitions.ShopPlansStepDefinition.i_am_in_verizon_homepage()
+  And I click on Shop Button             # stepDefinitions.ShopPlansStepDefinition.i_click_on_shop_button()
+  Then I verify Deals is appear properly # stepDefinitions.ShopPlansStepDefinition.i_verify_deals_is_appear_properly()
+  And I verify page title as Shop        # stepDefinitions.ShopPlansStepDefinition.i_verify_page_title_as_shop()

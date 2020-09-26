@@ -1,1 +1,3 @@
 hiltonHotelTest/HiltonHotelTest.class
+runner/TestRunner.class
+stepDefinitions/OffersPageStepDefinition.class
