@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
 
 import static ebayhome.EbayHomeWebElement.*;
 
@@ -12,8 +13,8 @@ import static ebayhome.EbayHomeWebElement.*;
 
 public class EbayHome extends WebAPI {
 //
-//    @FindBy(how = How.XPATH, using = webElementSearchText)
-//    public WebElement searchText;
+   @FindBy(how = How.XPATH, using = WebElementsearchBox)
+    public WebElement searchBox;
 
 
     @FindBy(xpath = HomeGarden_Xpath)
@@ -240,4 +241,8 @@ public class EbayHome extends WebAPI {
 //        Assert.assertEquals("Search Item not match", expectedResult, actualResult);
 //
 //    }
+    public void enterSearchKeyword() {
+        searchBox.sendKeys("Hand Sanitizer");
+
+}
 }

@@ -1,0 +1,20 @@
+[
+  {
+    "source": "I am in Ebay homepage",
+    "steps": [
+      {
+        "name": "I am in Ebay homepage",
+        "aggregatedDurations": {
+          "median": 3.057192,
+          "average": 3.057192
+        },
+        "durations": [
+          {
+            "duration": 3.057192,
+            "location": "file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Ebay/src/test/java/features/EbayPage.feature:8"
+          }
+        ]
+      }
+    ]
+  }
+]

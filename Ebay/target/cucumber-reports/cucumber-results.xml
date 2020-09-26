@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="3.594">
+    <testcase classname="check Ebay Home page Functionality" name="Ebay SearchBox Functionality check with valid data" time="3.287">
+        <failure message="" type="java.lang.NullPointerException"><![CDATA[Given I am in Ebay homepage.................................................passed
+And I enter Hand sanitizer in searchBox.....................................failed
+When I click searchButton...................................................skipped
+Then I verify Hand Sanitizer is appear properly.............................skipped
+And I verify page title as Hand sanitizer...................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinitions.EbayHomePageStepDefinition.i_enter_hand_sanitizer_in_search_box(EbayHomePageStepDefinition.java:46)
+	at ✽.I enter Hand sanitizer in searchBox(file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Ebay/src/test/java/features/EbayPage.feature:12)
+]]></failure>
+    </testcase>
+</testsuite>
