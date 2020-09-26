@@ -1,4 +1,4 @@
-package stepDefenitions;
+package stepDefinitions;
 
 import common.WebAPI;
 import databases.ConnectToSqlDB;
