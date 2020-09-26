@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="9" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="9" time="51.303">
+    <testcase classname="Aetna Homepage Functionality Check" name="Aetna HomePage Check" time="5.951">
+        <failure message="" type="java.lang.NullPointerException"><![CDATA[Given I am in Aetna Homepage................................................passed
+Then I click on Expplore Aetna Site.........................................failed
+And I verify the Expplore Aetna page title..................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy23.click(Unknown Source)
+	at aetnahome.AetnaHome.aetnaExploreSiteMethod(AetnaHome.java:77)
+	at stepDefinitions.HomePageStepDefinitions.i_click_on_expplore_aetna_site(HomePageStepDefinitions.java:36)
+	at ✽.I click on Expplore Aetna Site(file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Aetna/src/test/java/features/aetnaHome.feature:17)
+]]></failure>
+    </testcase>
+    <testcase classname="Aetna Homepage Functionality Check" name="Search button check" time="5.34">
+        <failure message="" type="java.lang.NullPointerException"><![CDATA[Given I am in Aetna Homepage................................................passed
+Then I click on Expplore Aetna Site.........................................failed
+Then I click on search button...............................................skipped
+And I enter search text "provider"..........................................skipped
+And I click on submit.......................................................skipped
+Then I verify the provider page title.......................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy23.click(Unknown Source)
+	at aetnahome.AetnaHome.aetnaExploreSiteMethod(AetnaHome.java:77)
+	at stepDefinitions.HomePageStepDefinitions.i_click_on_expplore_aetna_site(HomePageStepDefinitions.java:36)
+	at ✽.I click on Expplore Aetna Site(file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Aetna/src/test/java/features/aetnaHome.feature:17)
+]]></failure>
+    </testcase>
+    <testcase classname="Aetna Homepage Functionality Check" name="Check Aetna_com button" time="5.629">
+        <failure message="" type="java.lang.NullPointerException"><![CDATA[Given I am in Aetna Homepage................................................passed
+Then I click on Expplore Aetna Site.........................................failed
+Then I click on Aetna_com Button............................................skipped
+And I verify the Aetna_com page title.......................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy23.click(Unknown Source)
+	at aetnahome.AetnaHome.aetnaExploreSiteMethod(AetnaHome.java:77)
+	at stepDefinitions.HomePageStepDefinitions.i_click_on_expplore_aetna_site(HomePageStepDefinitions.java:36)
+	at ✽.I click on Expplore Aetna Site(file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Aetna/src/test/java/features/aetnaHome.feature:17)
+]]></failure>
+    </testcase>
+    <testcase classname="Aetna Homepage Functionality Check" name="Check For Providers button" time="5.409">
+        <failure message="" type="java.lang.NullPointerException"><![CDATA[Given I am in Aetna Homepage................................................passed
+Then I click on Expplore Aetna Site.........................................failed
+Then I click on For Providers Button........................................skipped
+And I verify For Providers page title.......................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy23.click(Unknown Source)
+	at aetnahome.AetnaHome.aetnaExploreSiteMethod(AetnaHome.java:77)
+	at stepDefinitions.HomePageStepDefinitions.i_click_on_expplore_aetna_site(HomePageStepDefinitions.java:36)
+	at ✽.I click on Expplore Aetna Site(file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Aetna/src/test/java/features/aetnaHome.feature:17)
+]]></failure>
+    </testcase>
+    <testcase classname="Aetna Homepage Functionality Check" name="Check For Employers button" time="5.754">
+        <failure message="" type="java.lang.NullPointerException"><![CDATA[Given I am in Aetna Homepage................................................passed
+Then I click on Expplore Aetna Site.........................................failed
+Then I click on For Employers Button........................................skipped
+And I verify For Employers page title.......................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy23.click(Unknown Source)
+	at aetnahome.AetnaHome.aetnaExploreSiteMethod(AetnaHome.java:77)
+	at stepDefinitions.HomePageStepDefinitions.i_click_on_expplore_aetna_site(HomePageStepDefinitions.java:36)
+	at ✽.I click on Expplore Aetna Site(file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Aetna/src/test/java/features/aetnaHome.feature:17)
+]]></failure>
+    </testcase>
+    <testcase classname="Aetna Homepage Functionality Check" name="Check For Agents Brokers button" time="5.578">
+        <failure message="" type="java.lang.NullPointerException"><![CDATA[Given I am in Aetna Homepage................................................passed
+Then I click on Expplore Aetna Site.........................................failed
+Then I click on For Agents Brokers Button...................................skipped
+And I verify Agents Brokers page title......................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy23.click(Unknown Source)
+	at aetnahome.AetnaHome.aetnaExploreSiteMethod(AetnaHome.java:77)
+	at stepDefinitions.HomePageStepDefinitions.i_click_on_expplore_aetna_site(HomePageStepDefinitions.java:36)
+	at ✽.I click on Expplore Aetna Site(file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Aetna/src/test/java/features/aetnaHome.feature:17)
+]]></failure>
+    </testcase>
+    <testcase classname="Aetna Homepage Functionality Check" name="Check For Partners button" time="5.357">
+        <failure message="" type="java.lang.NullPointerException"><![CDATA[Given I am in Aetna Homepage................................................passed
+Then I click on Expplore Aetna Site.........................................failed
+Then I click on For Partners Button.........................................skipped
+And I verify For Partners page title........................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy23.click(Unknown Source)
+	at aetnahome.AetnaHome.aetnaExploreSiteMethod(AetnaHome.java:77)
+	at stepDefinitions.HomePageStepDefinitions.i_click_on_expplore_aetna_site(HomePageStepDefinitions.java:36)
+	at ✽.I click on Expplore Aetna Site(file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Aetna/src/test/java/features/aetnaHome.feature:17)
+]]></failure>
+    </testcase>
+    <testcase classname="Aetna Homepage Functionality Check" name="Check Careers button" time="6.553">
+        <failure message="" type="java.lang.NullPointerException"><![CDATA[Given I am in Aetna Homepage................................................passed
+Then I click on Expplore Aetna Site.........................................failed
+Then I click on Careers Button..............................................skipped
+And I verify the Careers page title.........................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy23.click(Unknown Source)
+	at aetnahome.AetnaHome.aetnaExploreSiteMethod(AetnaHome.java:77)
+	at stepDefinitions.HomePageStepDefinitions.i_click_on_expplore_aetna_site(HomePageStepDefinitions.java:36)
+	at ✽.I click on Expplore Aetna Site(file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Aetna/src/test/java/features/aetnaHome.feature:17)
+]]></failure>
+    </testcase>
+    <testcase classname="Aetna Homepage Functionality Check" name="Check About Us button" time="5.401">
+        <failure message="" type="java.lang.NullPointerException"><![CDATA[Given I am in Aetna Homepage................................................passed
+Then I click on Expplore Aetna Site.........................................failed
+Then I click on About Us Button.............................................skipped
+And I verify About Us page title............................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy23.click(Unknown Source)
+	at aetnahome.AetnaHome.aetnaExploreSiteMethod(AetnaHome.java:77)
+	at stepDefinitions.HomePageStepDefinitions.i_click_on_expplore_aetna_site(HomePageStepDefinitions.java:36)
+	at ✽.I click on Expplore Aetna Site(file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Aetna/src/test/java/features/aetnaHome.feature:17)
+]]></failure>
+    </testcase>
+</testsuite>

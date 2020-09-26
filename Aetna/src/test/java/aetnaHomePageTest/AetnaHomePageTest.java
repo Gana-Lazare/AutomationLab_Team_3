@@ -58,7 +58,7 @@ AetnaHome aetnaHome;
     @Test
     public void AetnaExploreSiteTest() throws InterruptedException {
         AetnaHome home =PageFactory.initElements(driver,AetnaHome.class);
-        home.AetnaExploreSite();
+        home.aetnaExploreSiteMethod();
         Thread.sleep(8000);
     }
 //    @Test

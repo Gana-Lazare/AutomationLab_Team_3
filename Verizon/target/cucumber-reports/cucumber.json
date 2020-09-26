@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2742602000,
+              "duration": 2793773000,
               "status": "passed"
             },
             "line": 6,
@@ -24,11 +24,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-25T11:19:49.006Z",
+        "start_timestamp": "2020-09-26T05:06:18.706Z",
         "before": [
           {
             "result": {
-              "duration": 22618000,
+              "duration": 17916000,
               "status": "passed"
             },
             "match": {
@@ -43,7 +43,7 @@
         "after": [
           {
             "result": {
-              "duration": 96586000,
+              "duration": 100710000,
               "status": "passed"
             },
             "match": {
@@ -56,8 +56,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "java.lang.NullPointerException\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy23.click(Unknown Source)\n\tat verizonhome.VerizonHome.storeMethod(VerizonHome.java:33)\n\tat verizonStepdefinitions.VerizonStepDefinitions.i_click_on_store_button(VerizonStepDefinitions.java:35)\n\tat ✽.I click on store button(file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/verizon.feature:10)\n",
-              "duration": 1210000,
+              "error_message": "java.lang.NullPointerException\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy23.click(Unknown Source)\n\tat verizonhome.VerizonHome.storeMethod(VerizonHome.java:31)\n\tat verizonStepdefinitions.VerizonStepDefinitions.i_click_on_store_button(VerizonStepDefinitions.java:35)\n\tat ✽.I click on store button(file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/verizon.feature:10)\n",
+              "duration": 1383000,
               "status": "failed"
             },
             "line": 10,
@@ -69,7 +69,7 @@
           },
           {
             "result": {
-              "duration": 617000,
+              "duration": 712000,
               "status": "skipped"
             },
             "line": 11,
@@ -81,7 +81,7 @@
           },
           {
             "result": {
-              "duration": 216000,
+              "duration": 306000,
               "status": "skipped"
             },
             "line": 12,
@@ -99,7 +99,7 @@
           },
           {
             "result": {
-              "duration": 165000,
+              "duration": 182000,
               "status": "skipped"
             },
             "line": 13,
@@ -111,7 +111,7 @@
           },
           {
             "result": {
-              "duration": 164000,
+              "duration": 191000,
               "status": "skipped"
             },
             "line": 14,
@@ -137,7 +137,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2388868000,
+              "duration": 2314133000,
               "status": "passed"
             },
             "line": 6,
@@ -150,11 +150,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-25T11:19:51.994Z",
+        "start_timestamp": "2020-09-26T05:06:21.754Z",
         "before": [
           {
             "result": {
-              "duration": 1229000,
+              "duration": 1205000,
               "status": "passed"
             },
             "match": {
@@ -169,7 +169,7 @@
         "after": [
           {
             "result": {
-              "duration": 92077000,
+              "duration": 98264000,
               "status": "passed"
             },
             "match": {
@@ -182,8 +182,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Rabahs-MBP\u0027, ip: \u00272605:a000:110e:271:0:0:0:f6e%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.6\u0027, java.version: \u002714.0.1\u0027\nDriver info: driver.version: RemoteWebDriver\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)\n\tat org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy23.click(Unknown Source)\n\tat verizonhome.VerizonHome.verizonButtonMethod(VerizonHome.java:77)\n\tat verizonStepdefinitions.VerizonStepDefinitions.i_click_on_verizon_button(VerizonStepDefinitions.java:63)\n\tat ✽.I click on verizon button(file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/verizon.feature:18)\n",
-              "duration": 8233000,
+              "error_message": "org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Rabahs-MBP\u0027, ip: \u00272605:a000:110e:271:d559:d8a9:a0aa:5605%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.6\u0027, java.version: \u002714.0.1\u0027\nDriver info: driver.version: RemoteWebDriver\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)\n\tat org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy23.click(Unknown Source)\n\tat verizonhome.VerizonHome.verizonButtonMethod(VerizonHome.java:75)\n\tat verizonStepdefinitions.VerizonStepDefinitions.i_click_on_verizon_button(VerizonStepDefinitions.java:63)\n\tat ✽.I click on verizon button(file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/verizon.feature:18)\n",
+              "duration": 10330000,
               "status": "failed"
             },
             "line": 18,
@@ -195,7 +195,7 @@
           },
           {
             "result": {
-              "duration": 130000,
+              "duration": 227000,
               "status": "skipped"
             },
             "line": 19,
@@ -207,7 +207,7 @@
           },
           {
             "result": {
-              "duration": 119000,
+              "duration": 151000,
               "status": "skipped"
             },
             "line": 20,
@@ -219,7 +219,7 @@
           },
           {
             "result": {
-              "duration": 111000,
+              "duration": 131000,
               "status": "skipped"
             },
             "line": 21,
@@ -245,7 +245,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2400670000,
+              "duration": 2256565000,
               "status": "passed"
             },
             "line": 6,
@@ -258,11 +258,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-25T11:19:54.502Z",
+        "start_timestamp": "2020-09-26T05:06:24.202Z",
         "before": [
           {
             "result": {
-              "duration": 918000,
+              "duration": 1661000,
               "status": "passed"
             },
             "match": {
@@ -277,7 +277,7 @@
         "after": [
           {
             "result": {
-              "duration": 96101000,
+              "duration": 100063000,
               "status": "passed"
             },
             "match": {
@@ -290,8 +290,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Rabahs-MBP\u0027, ip: \u00272605:a000:110e:271:0:0:0:f6e%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.6\u0027, java.version: \u002714.0.1\u0027\nDriver info: driver.version: RemoteWebDriver\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)\n\tat org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy23.click(Unknown Source)\n\tat verizonhome.VerizonHome.storeMethod(VerizonHome.java:33)\n\tat verizonStepdefinitions.VerizonStepDefinitions.i_click_on_store_button(VerizonStepDefinitions.java:35)\n\tat ✽.I click on store button(file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/verizon.feature:24)\n",
-              "duration": 348000,
+              "error_message": "org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Rabahs-MBP\u0027, ip: \u00272605:a000:110e:271:d559:d8a9:a0aa:5605%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.6\u0027, java.version: \u002714.0.1\u0027\nDriver info: driver.version: RemoteWebDriver\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)\n\tat org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy23.click(Unknown Source)\n\tat verizonhome.VerizonHome.storeMethod(VerizonHome.java:31)\n\tat verizonStepdefinitions.VerizonStepDefinitions.i_click_on_store_button(VerizonStepDefinitions.java:35)\n\tat ✽.I click on store button(file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/verizon.feature:24)\n",
+              "duration": 377000,
               "status": "failed"
             },
             "line": 24,
@@ -303,7 +303,7 @@
           },
           {
             "result": {
-              "duration": 112000,
+              "duration": 130000,
               "status": "skipped"
             },
             "line": 25,
@@ -315,7 +315,7 @@
           },
           {
             "result": {
-              "duration": 99000,
+              "duration": 106000,
               "status": "skipped"
             },
             "line": 26,

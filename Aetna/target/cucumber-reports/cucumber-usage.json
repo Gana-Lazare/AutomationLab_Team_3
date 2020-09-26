@@ -1,0 +1,52 @@
+[
+  {
+    "source": "I am in Aetna Homepage",
+    "steps": [
+      {
+        "name": "I am in Aetna Homepage",
+        "aggregatedDurations": {
+          "median": 2.476351,
+          "average": 2.555432777
+        },
+        "durations": [
+          {
+            "duration": 2.77197,
+            "location": "file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Aetna/src/test/java/features/aetnaHome.feature:16"
+          },
+          {
+            "duration": 2.238417,
+            "location": "file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Aetna/src/test/java/features/aetnaHome.feature:16"
+          },
+          {
+            "duration": 2.535888,
+            "location": "file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Aetna/src/test/java/features/aetnaHome.feature:16"
+          },
+          {
+            "duration": 2.305895,
+            "location": "file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Aetna/src/test/java/features/aetnaHome.feature:16"
+          },
+          {
+            "duration": 2.653948,
+            "location": "file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Aetna/src/test/java/features/aetnaHome.feature:16"
+          },
+          {
+            "duration": 2.476351,
+            "location": "file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Aetna/src/test/java/features/aetnaHome.feature:16"
+          },
+          {
+            "duration": 2.26176,
+            "location": "file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Aetna/src/test/java/features/aetnaHome.feature:16"
+          },
+          {
+            "duration": 3.451753,
+            "location": "file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Aetna/src/test/java/features/aetnaHome.feature:16"
+          },
+          {
+            "duration": 2.302913,
+            "location": "file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Aetna/src/test/java/features/aetnaHome.feature:16"
+          }
+        ]
+      }
+    ]
+  }
+]

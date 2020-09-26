@@ -1,0 +1,1203 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 15,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2771970000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 16994000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 16,
+            "name": "I am in Aetna Homepage",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.i_am_in_aetna_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy23.click(Unknown Source)\n\tat aetnahome.AetnaHome.aetnaExploreSiteMethod(AetnaHome.java:77)\n\tat stepDefinitions.HomePageStepDefinitions.i_click_on_expplore_aetna_site(HomePageStepDefinitions.java:36)\n\tat ✽.I click on Expplore Aetna Site(file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Aetna/src/test/java/features/aetnaHome.feature:17)\n",
+              "duration": 3005470000,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 750000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 17,
+            "name": "I click on Expplore Aetna Site",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.i_click_on_expplore_aetna_site()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T14:10:25.919Z",
+        "line": 20,
+        "name": "Aetna HomePage Check",
+        "description": "",
+        "id": "aetna-homepage-functionality-check;aetna-homepage-check",
+        "after": [
+          {
+            "result": {
+              "duration": 89530000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 185000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 239000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 21,
+            "name": "I verify the Expplore Aetna page title",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.i_verify_the_expplore_aetna_page_title()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2238417000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1548000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 16,
+            "name": "I am in Aetna Homepage",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.i_am_in_aetna_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy23.click(Unknown Source)\n\tat aetnahome.AetnaHome.aetnaExploreSiteMethod(AetnaHome.java:77)\n\tat stepDefinitions.HomePageStepDefinitions.i_click_on_expplore_aetna_site(HomePageStepDefinitions.java:36)\n\tat ✽.I click on Expplore Aetna Site(file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Aetna/src/test/java/features/aetnaHome.feature:17)\n",
+              "duration": 3001435000,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 864000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 17,
+            "name": "I click on Expplore Aetna Site",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.i_click_on_expplore_aetna_site()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T14:10:31.905Z",
+        "line": 28,
+        "name": "Search button check",
+        "description": "",
+        "id": "aetna-homepage-functionality-check;search-button-check",
+        "after": [
+          {
+            "result": {
+              "duration": 88932000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 212000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 209000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 29,
+            "name": "I click on search button",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.i_click_on_search_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 143000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 148000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 30,
+            "name": "I enter search text \"provider\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"provider\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinitions.i_enter_search_text(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 171000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 147000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 31,
+            "name": "I click on submit",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.i_click_on_submit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 135000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 126000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 32,
+            "name": "I verify the provider page title",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.i_verify_the_provider_page_title()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2535888000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 987000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 16,
+            "name": "I am in Aetna Homepage",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.i_am_in_aetna_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy23.click(Unknown Source)\n\tat aetnahome.AetnaHome.aetnaExploreSiteMethod(AetnaHome.java:77)\n\tat stepDefinitions.HomePageStepDefinitions.i_click_on_expplore_aetna_site(HomePageStepDefinitions.java:36)\n\tat ✽.I click on Expplore Aetna Site(file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Aetna/src/test/java/features/aetnaHome.feature:17)\n",
+              "duration": 3003155000,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 757000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 17,
+            "name": "I click on Expplore Aetna Site",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.i_click_on_expplore_aetna_site()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T14:10:37.258Z",
+        "line": 63,
+        "name": "Check Aetna_com button",
+        "description": "",
+        "id": "aetna-homepage-functionality-check;check-aetna-com-button",
+        "after": [
+          {
+            "result": {
+              "duration": 84392000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 105000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 87000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 64,
+            "name": "I click on Aetna_com Button",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.i_click_on_aetna_com_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 73000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 70000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 65,
+            "name": "I verify the Aetna_com page title",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.i_verify_the_page_title()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2305895000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 900000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 16,
+            "name": "I am in Aetna Homepage",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.i_am_in_aetna_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy23.click(Unknown Source)\n\tat aetnahome.AetnaHome.aetnaExploreSiteMethod(AetnaHome.java:77)\n\tat stepDefinitions.HomePageStepDefinitions.i_click_on_expplore_aetna_site(HomePageStepDefinitions.java:36)\n\tat ✽.I click on Expplore Aetna Site(file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Aetna/src/test/java/features/aetnaHome.feature:17)\n",
+              "duration": 3004126000,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 537000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 17,
+            "name": "I click on Expplore Aetna Site",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.i_click_on_expplore_aetna_site()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T14:10:42.900Z",
+        "line": 68,
+        "name": "Check For Providers button",
+        "description": "",
+        "id": "aetna-homepage-functionality-check;check-for-providers-button",
+        "after": [
+          {
+            "result": {
+              "duration": 93247000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 169000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 150000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 69,
+            "name": "I click on For Providers Button",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.i_click_on_for_providers_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 103000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 125000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 70,
+            "name": "I verify For Providers page title",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.i_verify_for_Providers_page_title()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2653948000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 675000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 16,
+            "name": "I am in Aetna Homepage",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.i_am_in_aetna_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy23.click(Unknown Source)\n\tat aetnahome.AetnaHome.aetnaExploreSiteMethod(AetnaHome.java:77)\n\tat stepDefinitions.HomePageStepDefinitions.i_click_on_expplore_aetna_site(HomePageStepDefinitions.java:36)\n\tat ✽.I click on Expplore Aetna Site(file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Aetna/src/test/java/features/aetnaHome.feature:17)\n",
+              "duration": 3002888000,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 615000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 17,
+            "name": "I click on Expplore Aetna Site",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.i_click_on_expplore_aetna_site()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T14:10:48.319Z",
+        "line": 73,
+        "name": "Check For Employers button",
+        "description": "",
+        "id": "aetna-homepage-functionality-check;check-for-employers-button",
+        "after": [
+          {
+            "result": {
+              "duration": 90631000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 106000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 116000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 74,
+            "name": "I click on For Employers Button",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.i_click_on_for_employers_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 100000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 92000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 75,
+            "name": "I verify For Employers page title",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.i_verify_for_employers_page_title()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2476351000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1190000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 16,
+            "name": "I am in Aetna Homepage",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.i_am_in_aetna_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy23.click(Unknown Source)\n\tat aetnahome.AetnaHome.aetnaExploreSiteMethod(AetnaHome.java:77)\n\tat stepDefinitions.HomePageStepDefinitions.i_click_on_expplore_aetna_site(HomePageStepDefinitions.java:36)\n\tat ✽.I click on Expplore Aetna Site(file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Aetna/src/test/java/features/aetnaHome.feature:17)\n",
+              "duration": 3004377000,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 609000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 17,
+            "name": "I click on Expplore Aetna Site",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.i_click_on_expplore_aetna_site()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T14:10:54.080Z",
+        "line": 78,
+        "name": "Check For Agents Brokers button",
+        "description": "",
+        "id": "aetna-homepage-functionality-check;check-for-agents-brokers-button",
+        "after": [
+          {
+            "result": {
+              "duration": 91007000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 84000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 83000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 79,
+            "name": "I click on For Agents Brokers Button",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.i_click_on_for_agents_brokers_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 76000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 752000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 80,
+            "name": "I verify Agents Brokers page title",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.i_verify_agents_brokers_page_title()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2261760000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 666000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 16,
+            "name": "I am in Aetna Homepage",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.i_am_in_aetna_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy23.click(Unknown Source)\n\tat aetnahome.AetnaHome.aetnaExploreSiteMethod(AetnaHome.java:77)\n\tat stepDefinitions.HomePageStepDefinitions.i_click_on_expplore_aetna_site(HomePageStepDefinitions.java:36)\n\tat ✽.I click on Expplore Aetna Site(file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Aetna/src/test/java/features/aetnaHome.feature:17)\n",
+              "duration": 3004056000,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 505000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 17,
+            "name": "I click on Expplore Aetna Site",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.i_click_on_expplore_aetna_site()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T14:10:59.665Z",
+        "line": 83,
+        "name": "Check For Partners button",
+        "description": "",
+        "id": "aetna-homepage-functionality-check;check-for-partners-button",
+        "after": [
+          {
+            "result": {
+              "duration": 86960000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 104000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 100000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 84,
+            "name": "I click on For Partners Button",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.i_click_on_for_partners_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 94000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 105000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 85,
+            "name": "I verify For Partners page title",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.i_verify_for_partners_page_title()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3451753000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 710000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 16,
+            "name": "I am in Aetna Homepage",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.i_am_in_aetna_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy23.click(Unknown Source)\n\tat aetnahome.AetnaHome.aetnaExploreSiteMethod(AetnaHome.java:77)\n\tat stepDefinitions.HomePageStepDefinitions.i_click_on_expplore_aetna_site(HomePageStepDefinitions.java:36)\n\tat ✽.I click on Expplore Aetna Site(file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Aetna/src/test/java/features/aetnaHome.feature:17)\n",
+              "duration": 3000701000,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 853000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 17,
+            "name": "I click on Expplore Aetna Site",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.i_click_on_expplore_aetna_site()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T14:11:05.030Z",
+        "line": 88,
+        "name": "Check Careers button",
+        "description": "",
+        "id": "aetna-homepage-functionality-check;check-careers-button",
+        "after": [
+          {
+            "result": {
+              "duration": 95434000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 85000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 92000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 89,
+            "name": "I click on Careers Button",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.i_click_on_careers_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 100000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 77000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 90,
+            "name": "I verify the Careers page title",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.i_verify_the_careers_page_title()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2302913000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 610000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 16,
+            "name": "I am in Aetna Homepage",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.i_am_in_aetna_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy23.click(Unknown Source)\n\tat aetnahome.AetnaHome.aetnaExploreSiteMethod(AetnaHome.java:77)\n\tat stepDefinitions.HomePageStepDefinitions.i_click_on_expplore_aetna_site(HomePageStepDefinitions.java:36)\n\tat ✽.I click on Expplore Aetna Site(file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Aetna/src/test/java/features/aetnaHome.feature:17)\n",
+              "duration": 3003617000,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 411000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 17,
+            "name": "I click on Expplore Aetna Site",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.i_click_on_expplore_aetna_site()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T14:11:11.591Z",
+        "line": 93,
+        "name": "Check About Us button",
+        "description": "",
+        "id": "aetna-homepage-functionality-check;check-about-us-button",
+        "after": [
+          {
+            "result": {
+              "duration": 89139000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 84000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 110000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 94,
+            "name": "I click on About Us Button",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.i_click_on_about_us_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 126000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 70000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 95,
+            "name": "I verify About Us page title",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions.i_verify_about_us_page_title()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Aetna Homepage Functionality Check",
+    "description": "  Search button check\n  Check login functionality\n  Check register functionality\n  Check Aetna.com button functionality\n  Check For Providers button functionality\n  Check For Employers button functionality\n  Check For Agents/Brokers button functionality\n  Check For Partners button functionality\n  Check For Partners button\n  Check Careers button\n  Check About Us button",
+    "id": "aetna-homepage-functionality-check",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/aetnaHome.feature",
+    "tags": []
+  }
+]

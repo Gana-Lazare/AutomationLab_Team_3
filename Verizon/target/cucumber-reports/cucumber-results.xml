@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="3" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="8.33">
-    <testcase classname="Check verizon Home page" name="Check verizon  home page" time="2.967">
+<testsuite errors="0" failures="3" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="8.116">
+    <testcase classname="Check verizon Home page" name="Check verizon  home page" time="3.021">
         <failure message="" type="java.lang.NullPointerException"><![CDATA[Given I am in verizon  home page............................................passed
 Then I click on store button................................................failed
 And I verify the page title.................................................skipped
@@ -13,13 +13,13 @@ java.lang.NullPointerException
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at com.sun.proxy.$Proxy23.click(Unknown Source)
-	at verizonhome.VerizonHome.storeMethod(VerizonHome.java:33)
+	at verizonhome.VerizonHome.storeMethod(VerizonHome.java:31)
 	at verizonStepdefinitions.VerizonStepDefinitions.i_click_on_store_button(VerizonStepDefinitions.java:35)
 	at ✽.I click on store button(file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/verizon.feature:10)
 ]]></failure>
     </testcase>
-    <testcase classname="Check verizon Home page" name="Check scroll down on verizon Home page" time="2.496">
-        <failure message="Session ID is null. Using WebDriver after calling quit()?&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Rabahs-MBP', ip: '2605:a000:110e:271:0:0:0:f6e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.NoSuchSessionException"><![CDATA[Given I am in verizon  home page............................................passed
+    <testcase classname="Check verizon Home page" name="Check scroll down on verizon Home page" time="2.431">
+        <failure message="Session ID is null. Using WebDriver after calling quit()?&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Rabahs-MBP', ip: '2605:a000:110e:271:d559:d8a9:a0aa:5605%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.NoSuchSessionException"><![CDATA[Given I am in verizon  home page............................................passed
 Then I click on verizon button..............................................failed
 Then I verify that careers appears properly.................................skipped
 Then I scroll down to Find an agent button..................................skipped
@@ -28,7 +28,7 @@ And i verify the page title appears properly................................skip
 StackTrace:
 org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Rabahs-MBP', ip: '2605:a000:110e:271:0:0:0:f6e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'
+System info: host: 'Rabahs-MBP', ip: '2605:a000:110e:271:d559:d8a9:a0aa:5605%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'
 Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
@@ -40,13 +40,13 @@ Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at com.sun.proxy.$Proxy23.click(Unknown Source)
-	at verizonhome.VerizonHome.verizonButtonMethod(VerizonHome.java:77)
+	at verizonhome.VerizonHome.verizonButtonMethod(VerizonHome.java:75)
 	at verizonStepdefinitions.VerizonStepDefinitions.i_click_on_verizon_button(VerizonStepDefinitions.java:63)
 	at ✽.I click on verizon button(file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/verizon.feature:18)
 ]]></failure>
     </testcase>
-    <testcase classname="Check verizon Home page" name="Check the mouse hover on my verizon button" time="2.502">
-        <failure message="Session ID is null. Using WebDriver after calling quit()?&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Rabahs-MBP', ip: '2605:a000:110e:271:0:0:0:f6e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.NoSuchSessionException"><![CDATA[Given I am in verizon  home page............................................passed
+    <testcase classname="Check verizon Home page" name="Check the mouse hover on my verizon button" time="2.364">
+        <failure message="Session ID is null. Using WebDriver after calling quit()?&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Rabahs-MBP', ip: '2605:a000:110e:271:d559:d8a9:a0aa:5605%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.NoSuchSessionException"><![CDATA[Given I am in verizon  home page............................................passed
 Then I click on store button................................................failed
 And I do mouse hover on why verizon button..................................skipped
 Then I verify that the list drops down......................................skipped
@@ -54,7 +54,7 @@ Then I verify that the list drops down......................................skip
 StackTrace:
 org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Rabahs-MBP', ip: '2605:a000:110e:271:0:0:0:f6e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'
+System info: host: 'Rabahs-MBP', ip: '2605:a000:110e:271:d559:d8a9:a0aa:5605%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'
 Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
@@ -66,7 +66,7 @@ Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at com.sun.proxy.$Proxy23.click(Unknown Source)
-	at verizonhome.VerizonHome.storeMethod(VerizonHome.java:33)
+	at verizonhome.VerizonHome.storeMethod(VerizonHome.java:31)
 	at verizonStepdefinitions.VerizonStepDefinitions.i_click_on_store_button(VerizonStepDefinitions.java:35)
 	at ✽.I click on store button(file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/verizon.feature:24)
 ]]></failure>

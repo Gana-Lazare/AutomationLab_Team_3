@@ -11,6 +11,7 @@
 
     <artifactId>Generic</artifactId>
 
+
     <dependencies>
         <!--    For Browser Driver  -->
         <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->

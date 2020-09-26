@@ -1,0 +1,175 @@
+
+Scenario: Check liberty mutual home page     # src/test/java/features/LibertyMut.feature:8
+  Given I am in liberty mutual home page     # libertyMuStepDefinitions.LibertyMutStepDefinitions.i_am_in_liberty_mutual_home_page()
+  Then I click on liberty Mutual button      # libertyMuStepDefinitions.LibertyMutStepDefinitions.i_click_on_liberty_mutual_button()
+      java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy23.click(Unknown Source)
+	at libertyMutualHome.LibertyMutualHome.libertyMutualInsuranceMethod(LibertyMutualHome.java:26)
+	at libertyMuStepDefinitions.LibertyMutStepDefinitions.i_click_on_liberty_mutual_button(LibertyMutStepDefinitions.java:29)
+	at ✽.I click on liberty Mutual button(file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/LibertyMut.feature:9)
+
+  Then I click on Business Insurance button  # libertyMuStepDefinitions.LibertyMutStepDefinitions.i_click_on_business_insurance_button()
+  And I verify the liberty Mutual page title # libertyMuStepDefinitions.LibertyMutStepDefinitions.i_verify_the_liberty_mutual_page_title()
+
+Scenario: check search box                   # src/test/java/features/LibertyMut.feature:14
+  Given I am in liberty mutual home page     # libertyMuStepDefinitions.LibertyMutStepDefinitions.i_am_in_liberty_mutual_home_page()
+  Then I click on liberty Mutual button      # libertyMuStepDefinitions.LibertyMutStepDefinitions.i_click_on_liberty_mutual_button()
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Rabahs-MBP', ip: '2605:a000:110e:271:d559:d8a9:a0aa:5605%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy23.click(Unknown Source)
+	at libertyMutualHome.LibertyMutualHome.libertyMutualInsuranceMethod(LibertyMutualHome.java:26)
+	at libertyMuStepDefinitions.LibertyMutStepDefinitions.i_click_on_liberty_mutual_button(LibertyMutStepDefinitions.java:29)
+	at ✽.I click on liberty Mutual button(file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/LibertyMut.feature:15)
+
+  And I enter  string "policy" in search box # libertyMuStepDefinitions.LibertyMutStepDefinitions.i_enter_string_in_search_box(java.lang.String)
+  Then I verify the policy page title        # libertyMuStepDefinitions.LibertyMutStepDefinitions.i_verify_the_policy_page_title()
+
+Scenario: check Business Insurance button        # src/test/java/features/LibertyMut.feature:19
+  Given I am in liberty mutual home page         # libertyMuStepDefinitions.LibertyMutStepDefinitions.i_am_in_liberty_mutual_home_page()
+  Then I click on Business Insurance button      # libertyMuStepDefinitions.LibertyMutStepDefinitions.i_click_on_business_insurance_button()
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Rabahs-MBP', ip: '2605:a000:110e:271:d559:d8a9:a0aa:5605%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy23.click(Unknown Source)
+	at libertyMutualHome.LibertyMutualHome.businessInsuranceMethod(LibertyMutualHome.java:33)
+	at libertyMuStepDefinitions.LibertyMutStepDefinitions.i_click_on_business_insurance_button(LibertyMutStepDefinitions.java:34)
+	at ✽.I click on Business Insurance button(file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/LibertyMut.feature:20)
+
+  And i verify the Business Insurance page title # libertyMuStepDefinitions.LibertyMutStepDefinitions.i_verify_the_business_insurance_page_title()
+
+Scenario: check coverage button          # src/test/java/features/LibertyMut.feature:23
+  Given I am in liberty mutual home page # libertyMuStepDefinitions.LibertyMutStepDefinitions.i_am_in_liberty_mutual_home_page()
+  Then I click on coverage button        # libertyMuStepDefinitions.LibertyMutStepDefinitions.i_click_on_coverage_button()
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Rabahs-MBP', ip: '2605:a000:110e:271:d559:d8a9:a0aa:5605%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy23.click(Unknown Source)
+	at libertyMutualHome.LibertyMutualHome.coverageMethod(LibertyMutualHome.java:112)
+	at libertyMuStepDefinitions.LibertyMutStepDefinitions.i_click_on_coverage_button(LibertyMutStepDefinitions.java:59)
+	at ✽.I click on coverage button(file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/LibertyMut.feature:24)
+
+  And I verify coverage page title       # libertyMuStepDefinitions.LibertyMutStepDefinitions.i_verify_coverage_page_title()
+
+Scenario: check coverage button          # src/test/java/features/LibertyMut.feature:28
+  Given I am in liberty mutual home page # libertyMuStepDefinitions.LibertyMutStepDefinitions.i_am_in_liberty_mutual_home_page()
+  Then I click on coverage button        # libertyMuStepDefinitions.LibertyMutStepDefinitions.i_click_on_coverage_button()
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Rabahs-MBP', ip: '2605:a000:110e:271:d559:d8a9:a0aa:5605%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy23.click(Unknown Source)
+	at libertyMutualHome.LibertyMutualHome.coverageMethod(LibertyMutualHome.java:112)
+	at libertyMuStepDefinitions.LibertyMutStepDefinitions.i_click_on_coverage_button(LibertyMutStepDefinitions.java:59)
+	at ✽.I click on coverage button(file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/LibertyMut.feature:29)
+
+  And I verify coverage page title       # libertyMuStepDefinitions.LibertyMutStepDefinitions.i_verify_coverage_page_title()
+
+Scenario: check Industries button        # src/test/java/features/LibertyMut.feature:32
+  Given I am in liberty mutual home page # libertyMuStepDefinitions.LibertyMutStepDefinitions.i_am_in_liberty_mutual_home_page()
+  Then I click on Industries button      # libertyMuStepDefinitions.LibertyMutStepDefinitions.i_click_on_industries_button()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Industries"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Rabahs-MBP', ip: '2605:a000:110e:271:d559:d8a9:a0aa:5605%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/9q/ctqq8hnx4wb...}, goog:chromeOptions: {debuggerAddress: localhost:62604}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 087d04add5cd72d04b800410a24245c6
+*** Element info: {Using=link text, value=Industries}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at libertyMutualHome.LibertyMutualHome.industriesMethod(LibertyMutualHome.java:138)
+	at libertyMuStepDefinitions.LibertyMutStepDefinitions.i_click_on_industries_button(LibertyMutStepDefinitions.java:69)
+	at ✽.I click on Industries button(file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/LibertyMut.feature:33)
+
+  And I verify Industries page title     # libertyMuStepDefinitions.LibertyMutStepDefinitions.i_verify_industries_page_title()
+
+Scenario: check claims button            # src/test/java/features/LibertyMut.feature:36
+  Given I am in liberty mutual home page # libertyMuStepDefinitions.LibertyMutStepDefinitions.i_am_in_liberty_mutual_home_page()
+  Then I click on claims button          # libertyMuStepDefinitions.LibertyMutStepDefinitions.i_click_on_claims_button()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Claims"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Rabahs-MBP', ip: '2605:a000:110e:271:d559:d8a9:a0aa:5605%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/9q/ctqq8hnx4wb...}, goog:chromeOptions: {debuggerAddress: localhost:62751}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ac0ccbaffc0729076d309a3fe6ccd70b
+*** Element info: {Using=link text, value=Claims}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at libertyMutualHome.LibertyMutualHome.claimsMethod(LibertyMutualHome.java:147)
+	at libertyMuStepDefinitions.LibertyMutStepDefinitions.i_click_on_claims_button(LibertyMutStepDefinitions.java:79)
+	at ✽.I click on claims button(file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/LibertyMut.feature:37)
+
+  And I verify claims page title         # libertyMuStepDefinitions.LibertyMutStepDefinitions.i_verify_claims_page_title()
+
+Scenario: check Services button          # src/test/java/features/LibertyMut.feature:40

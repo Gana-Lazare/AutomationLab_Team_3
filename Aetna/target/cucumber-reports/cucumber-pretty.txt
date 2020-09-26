@@ -1,18 +1,136 @@
 
 @Regression
-Scenario: Aetna HomePage Check               # src/test/java/features/HomePage.feature:19
+Scenario: Aetna HomePage Check               # src/test/java/features/aetnaHome.feature:20
   Given I am in Aetna Homepage               # stepDefinitions.HomePageStepDefinitions.i_am_in_aetna_homepage()
   Then I click on Expplore Aetna Site        # stepDefinitions.HomePageStepDefinitions.i_click_on_expplore_aetna_site()
       java.lang.NullPointerException
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at com.sun.proxy.$Proxy23.click(Unknown Source)
-	at aetnahome.AetnaHome.AetnaExploreSite(AetnaHome.java:76)
+	at aetnahome.AetnaHome.aetnaExploreSiteMethod(AetnaHome.java:77)
 	at stepDefinitions.HomePageStepDefinitions.i_click_on_expplore_aetna_site(HomePageStepDefinitions.java:36)
-	at ✽.I click on Expplore Aetna Site(file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Aetna/src/test/java/features/HomePage.feature:17)
+	at ✽.I click on Expplore Aetna Site(file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Aetna/src/test/java/features/aetnaHome.feature:17)
 
   And I verify the Expplore Aetna page title # stepDefinitions.HomePageStepDefinitions.i_verify_the_expplore_aetna_page_title()
 
 @Regression
-Scenario: Search button check           # src/test/java/features/HomePage.feature:27
+Scenario: Search button check           # src/test/java/features/aetnaHome.feature:28
   Given I am in Aetna Homepage          # stepDefinitions.HomePageStepDefinitions.i_am_in_aetna_homepage()
+  Then I click on Expplore Aetna Site   # stepDefinitions.HomePageStepDefinitions.i_click_on_expplore_aetna_site()
+      java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy23.click(Unknown Source)
+	at aetnahome.AetnaHome.aetnaExploreSiteMethod(AetnaHome.java:77)
+	at stepDefinitions.HomePageStepDefinitions.i_click_on_expplore_aetna_site(HomePageStepDefinitions.java:36)
+	at ✽.I click on Expplore Aetna Site(file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Aetna/src/test/java/features/aetnaHome.feature:17)
+
+  Then I click on search button         # stepDefinitions.HomePageStepDefinitions.i_click_on_search_button()
+  And I enter search text "provider"    # stepDefinitions.HomePageStepDefinitions.i_enter_search_text(java.lang.String)
+  And I click on submit                 # stepDefinitions.HomePageStepDefinitions.i_click_on_submit()
+  Then I verify the provider page title # stepDefinitions.HomePageStepDefinitions.i_verify_the_provider_page_title()
+
+@Regression
+Scenario: Check Aetna_com button        # src/test/java/features/aetnaHome.feature:63
+  Given I am in Aetna Homepage          # stepDefinitions.HomePageStepDefinitions.i_am_in_aetna_homepage()
+  Then I click on Expplore Aetna Site   # stepDefinitions.HomePageStepDefinitions.i_click_on_expplore_aetna_site()
+      java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy23.click(Unknown Source)
+	at aetnahome.AetnaHome.aetnaExploreSiteMethod(AetnaHome.java:77)
+	at stepDefinitions.HomePageStepDefinitions.i_click_on_expplore_aetna_site(HomePageStepDefinitions.java:36)
+	at ✽.I click on Expplore Aetna Site(file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Aetna/src/test/java/features/aetnaHome.feature:17)
+
+  Then I click on Aetna_com Button      # stepDefinitions.HomePageStepDefinitions.i_click_on_aetna_com_button()
+  And I verify the Aetna_com page title # stepDefinitions.HomePageStepDefinitions.i_verify_the_page_title()
+
+@Regression
+Scenario: Check For Providers button    # src/test/java/features/aetnaHome.feature:68
+  Given I am in Aetna Homepage          # stepDefinitions.HomePageStepDefinitions.i_am_in_aetna_homepage()
+  Then I click on Expplore Aetna Site   # stepDefinitions.HomePageStepDefinitions.i_click_on_expplore_aetna_site()
+      java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy23.click(Unknown Source)
+	at aetnahome.AetnaHome.aetnaExploreSiteMethod(AetnaHome.java:77)
+	at stepDefinitions.HomePageStepDefinitions.i_click_on_expplore_aetna_site(HomePageStepDefinitions.java:36)
+	at ✽.I click on Expplore Aetna Site(file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Aetna/src/test/java/features/aetnaHome.feature:17)
+
+  Then I click on For Providers Button  # stepDefinitions.HomePageStepDefinitions.i_click_on_for_providers_button()
+  And I verify For Providers page title # stepDefinitions.HomePageStepDefinitions.i_verify_for_Providers_page_title()
+
+@Regression
+Scenario: Check For Employers button    # src/test/java/features/aetnaHome.feature:73
+  Given I am in Aetna Homepage          # stepDefinitions.HomePageStepDefinitions.i_am_in_aetna_homepage()
+  Then I click on Expplore Aetna Site   # stepDefinitions.HomePageStepDefinitions.i_click_on_expplore_aetna_site()
+      java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy23.click(Unknown Source)
+	at aetnahome.AetnaHome.aetnaExploreSiteMethod(AetnaHome.java:77)
+	at stepDefinitions.HomePageStepDefinitions.i_click_on_expplore_aetna_site(HomePageStepDefinitions.java:36)
+	at ✽.I click on Expplore Aetna Site(file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Aetna/src/test/java/features/aetnaHome.feature:17)
+
+  Then I click on For Employers Button  # stepDefinitions.HomePageStepDefinitions.i_click_on_for_employers_button()
+  And I verify For Employers page title # stepDefinitions.HomePageStepDefinitions.i_verify_for_employers_page_title()
+
+@Regression
+Scenario: Check For Agents Brokers button   # src/test/java/features/aetnaHome.feature:78
+  Given I am in Aetna Homepage              # stepDefinitions.HomePageStepDefinitions.i_am_in_aetna_homepage()
+  Then I click on Expplore Aetna Site       # stepDefinitions.HomePageStepDefinitions.i_click_on_expplore_aetna_site()
+      java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy23.click(Unknown Source)
+	at aetnahome.AetnaHome.aetnaExploreSiteMethod(AetnaHome.java:77)
+	at stepDefinitions.HomePageStepDefinitions.i_click_on_expplore_aetna_site(HomePageStepDefinitions.java:36)
+	at ✽.I click on Expplore Aetna Site(file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Aetna/src/test/java/features/aetnaHome.feature:17)
+
+  Then I click on For Agents Brokers Button # stepDefinitions.HomePageStepDefinitions.i_click_on_for_agents_brokers_button()
+  And I verify Agents Brokers page title    # stepDefinitions.HomePageStepDefinitions.i_verify_agents_brokers_page_title()
+
+@Regression
+Scenario: Check For Partners button    # src/test/java/features/aetnaHome.feature:83
+  Given I am in Aetna Homepage         # stepDefinitions.HomePageStepDefinitions.i_am_in_aetna_homepage()
+  Then I click on Expplore Aetna Site  # stepDefinitions.HomePageStepDefinitions.i_click_on_expplore_aetna_site()
+      java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy23.click(Unknown Source)
+	at aetnahome.AetnaHome.aetnaExploreSiteMethod(AetnaHome.java:77)
+	at stepDefinitions.HomePageStepDefinitions.i_click_on_expplore_aetna_site(HomePageStepDefinitions.java:36)
+	at ✽.I click on Expplore Aetna Site(file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Aetna/src/test/java/features/aetnaHome.feature:17)
+
+  Then I click on For Partners Button  # stepDefinitions.HomePageStepDefinitions.i_click_on_for_partners_button()
+  And I verify For Partners page title # stepDefinitions.HomePageStepDefinitions.i_verify_for_partners_page_title()
+
+@Regression
+Scenario: Check Careers button        # src/test/java/features/aetnaHome.feature:88
+  Given I am in Aetna Homepage        # stepDefinitions.HomePageStepDefinitions.i_am_in_aetna_homepage()
+  Then I click on Expplore Aetna Site # stepDefinitions.HomePageStepDefinitions.i_click_on_expplore_aetna_site()
+      java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy23.click(Unknown Source)
+	at aetnahome.AetnaHome.aetnaExploreSiteMethod(AetnaHome.java:77)
+	at stepDefinitions.HomePageStepDefinitions.i_click_on_expplore_aetna_site(HomePageStepDefinitions.java:36)
+	at ✽.I click on Expplore Aetna Site(file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Aetna/src/test/java/features/aetnaHome.feature:17)
+
+  Then I click on Careers Button      # stepDefinitions.HomePageStepDefinitions.i_click_on_careers_button()
+  And I verify the Careers page title # stepDefinitions.HomePageStepDefinitions.i_verify_the_careers_page_title()
+
+@Regression
+Scenario: Check About Us button       # src/test/java/features/aetnaHome.feature:93
+  Given I am in Aetna Homepage        # stepDefinitions.HomePageStepDefinitions.i_am_in_aetna_homepage()
+  Then I click on Expplore Aetna Site # stepDefinitions.HomePageStepDefinitions.i_click_on_expplore_aetna_site()
+      java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy23.click(Unknown Source)
+	at aetnahome.AetnaHome.aetnaExploreSiteMethod(AetnaHome.java:77)
+	at stepDefinitions.HomePageStepDefinitions.i_click_on_expplore_aetna_site(HomePageStepDefinitions.java:36)
+	at ✽.I click on Expplore Aetna Site(file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Aetna/src/test/java/features/aetnaHome.feature:17)
+
+  Then I click on About Us Button     # stepDefinitions.HomePageStepDefinitions.i_click_on_about_us_button()
+  And I verify About Us page title    # stepDefinitions.HomePageStepDefinitions.i_verify_about_us_page_title()

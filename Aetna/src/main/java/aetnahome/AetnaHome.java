@@ -2,6 +2,7 @@ package aetnahome;
 
 import common.WebAPI;
 import org.apache.commons.io.FileUtils;
+import org.junit.Assert;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
@@ -62,19 +63,19 @@ public class AetnaHome extends WebAPI {
     @FindBy(how = How.XPATH, using = loginButton_xpath)
     WebElement loginButton1;
     public void loginButton1() throws InterruptedException {
-        AetnaExploreSite.click();
+        aetnaExploreSite.click();
         Thread.sleep(3000);
         //searchBox.sendKeys(searchItem);
         loginButton1.click();
         Thread.sleep(3000);
     }
 
-    @FindBy(xpath = aetnaExploreSite_xpath)
-    WebElement AetnaExploreSite;
-    public void AetnaExploreSite() throws InterruptedException {
+    @FindBy(xpath = WebElementaetnaExploreSite_xpath)
+    WebElement aetnaExploreSite;
+    public void aetnaExploreSiteMethod() throws InterruptedException {
         sleepFor(3);
-        AetnaExploreSite.click();
-        //Thread.sleep(5000);
+        aetnaExploreSite.click();
+        Thread.sleep(5000);
     }
 
     @FindBy(xpath = siteMap_xpath)
@@ -97,7 +98,7 @@ public class AetnaHome extends WebAPI {
     @FindBy(xpath = solution_xpath)
     WebElement solution;
     public void solution() throws InterruptedException {
-        AetnaExploreSite();
+        aetnaExploreSiteMethod();
         forAgentsBrokers();
 
         Thread.sleep(5000);
@@ -147,5 +148,72 @@ public class AetnaHome extends WebAPI {
     }
 
 
+    @FindBy(xpath = WebElementSearchBox)
+    WebElement searchBox;
 
+    public void enterSearchKeyword() {
+        searchBox.sendKeys("provider");
+
+    }@FindBy(xpath = SearchItem)
+    WebElement searchItem;
+  public void searchItem(){
+      searchItem.submit();
+  }@FindBy(xpath = webElementAetna_Com)
+    WebElement Aetna_Com;
+  public void aetna(){
+      Aetna_Com.click();
+  }
+  @FindBy(xpath = WebElementCareers)
+  WebElement careers;
+  public void careersMethod(){
+      careers.click();
+  }@FindBy(xpath = WebElementAboutUs)
+    WebElement aboutUs;
+  public void aboutUsMethod(){
+      aboutUs.click();
+  }
+
+
+
+    public void verifyProviderPageTitle() {
+        String expectedUrl = "https://www.aetna.com/search-results.html?query=provider";
+        String actualUrl = driver.getCurrentUrl();
+        Assert.assertEquals(actualUrl, expectedUrl);
+    }
+
+    public void verifyAetnaPageTitle() {
+        String expectedUrl = "https://www.aetna.com/individuals-families.html";
+        String actualUrl = driver.getCurrentUrl();
+        Assert.assertEquals(actualUrl, expectedUrl);
+    }
+    public void verifyForProvidersPageTitle() {
+        String expectedUrl = "https://www.aetna.com/health-care-professionals.html";
+        String actualUrl = driver.getCurrentUrl();
+        Assert.assertEquals(actualUrl, expectedUrl);
+    }
+    public void verifyForEmployersPageTitle() {
+        String expectedUrl = "https://www.aetna.com/employers-organizations.html";
+        String actualUrl = driver.getCurrentUrl();
+        Assert.assertEquals(actualUrl, expectedUrl);
+    }
+    public void verifyAgentBrokersPageTitle() {
+        String expectedUrl = "https://www.aetna.com/insurance-producer.html";
+        String actualUrl = driver.getCurrentUrl();
+        Assert.assertEquals(actualUrl, expectedUrl);
+    }
+    public void verifyForPartnersPageTitle() {
+        String expectedUrl = "https://www.aetna.com/partners.html";
+        String actualUrl = driver.getCurrentUrl();
+        Assert.assertEquals(actualUrl, expectedUrl);
+    }
+    public void verifyCareersPageTitle() {
+        String expectedUrl = "https://jobs.cvshealth.com/?prefilters=none&CloudSearchLocation=none&CloudSearchValue=none";
+        String actualUrl = driver.getCurrentUrl();
+        Assert.assertEquals(actualUrl, expectedUrl);
+    }
+    public void verifyAboutUsPageTitle() {
+        String expectedUrl = "https://www.aetna.com/about-us.html";
+        String actualUrl = driver.getCurrentUrl();
+        Assert.assertEquals(actualUrl, expectedUrl);
+    }
 }

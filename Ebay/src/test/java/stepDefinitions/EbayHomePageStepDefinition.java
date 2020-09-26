@@ -2,12 +2,14 @@ package stepDefinitions;
 
 import ebayhome.EbayHome;
 import io.cucumber.java.After;
+import io.cucumber.java.BeforeStep;
 import io.cucumber.java.Scenario;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.support.PageFactory;
 
 import java.io.IOException;
 
@@ -29,10 +31,10 @@ public class EbayHomePageStepDefinition extends EbayHome{
         cleanUp();
     }
 
-  //  @BeforeStep
-   // public static void getInit() {
-  //      ebayHome = PageFactory.initElements(driver, EbayHome.class);
-  //  }
+    @BeforeStep
+    public static void getInit() {
+        ebayHome = PageFactory.initElements(driver, EbayHome.class);
+    }
 
 
     @Given("I am in Ebay homepage")
@@ -46,11 +48,13 @@ public class EbayHomePageStepDefinition extends EbayHome{
        ebayHome.enterSearchKeyword();
 
     }
+
     @When("I click searchButton")
     public void i_click_search_button() {
     ebayHome.clickOnSearchButton();
 
     }
+
     @Then("I verify Hand Sanitizer is appear properly")
     public void i_verify_hand_sanitizer_is_appear_properly() {
 

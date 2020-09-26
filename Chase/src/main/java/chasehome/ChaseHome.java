@@ -12,9 +12,8 @@ public class ChaseHome extends ChaseHomeWebElements {
 
 
     public void homeLending() throws InterruptedException {
-       Thread.sleep(4000);
         homeLending.click();
-
+       // Thread.sleep(4000);
     }
 
     @FindBy(xpath = bay_Xpath)
