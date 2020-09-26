@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: testRunner.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 3.76 s <<< FAILURE! - in testRunner.TestRunner
-Aetna Homepage Functionality Check.Aetna HomePage Check  Time elapsed: 0.185 s  <<< ERROR!
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 2.4 s <<< FAILURE! - in testRunner.TestRunner
+Aetna Homepage Functionality Check.Aetna HomePage Check  Time elapsed: 0.158 s  <<< ERROR!
 io.cucumber.junit.UndefinedStepException: 
 The step "I am in Aetna Homepage" is undefined. You can implement it using the snippet(s) below:
 
@@ -32,7 +32,7 @@ public void i_click_on_for_agents_brokers() {
 }
 
 
-Aetna Homepage Functionality Check.(Aetna Homepage Functionality Check)  Time elapsed: 0.021 s  <<< ERROR!
+Aetna Homepage Functionality Check.(Aetna Homepage Functionality Check)  Time elapsed: 0.014 s  <<< ERROR!
 io.cucumber.junit.UndefinedStepException: 
 The step "I am in Aetna Homepage" is undefined. You can implement it using the snippet(s) below:
 
@@ -67,7 +67,7 @@ public void i_verify_the_page_title() {
 }
 
 
-login button functionality.login buton functionality  Time elapsed: 0.012 s  <<< ERROR!
+login button functionality.login buton functionality  Time elapsed: 0.011 s  <<< ERROR!
 io.cucumber.junit.UndefinedStepException: 
 The step "I am in aetna home page" is undefined. You can implement it using the snippet(s) below:
 

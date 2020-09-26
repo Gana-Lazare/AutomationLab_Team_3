@@ -1,2 +1,7 @@
+runner/TestRunner.class
+dataDriven/DataReader$1.class
 verizonhome/VerizonHome.class
+dataDriven/DataReader.class
+dataDriven/DataSource.class
 verizonhome/VerizonWebElements.class
+runner/TestRunnerTestNG.class

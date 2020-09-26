@@ -1,17 +1,21 @@
-package ChasePageTest;
+package chasePageTest;
 
 import chasehome.ChaseHome;
 import common.WebAPI;
-import org.junit.Test;
+//import org.junit.Test;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
 import org.openqa.selenium.support.PageFactory;
 
 public class ChaseTest extends WebAPI {
-
+ ChaseHome chasehome;
+    @BeforeMethod
+    public void getInit(){ chasehome = PageFactory.initElements(driver,ChaseHome.class);
+    }
 
     @Test
     public void homeLendingTest() throws InterruptedException {
         ChaseHome home = PageFactory.initElements(driver,ChaseHome.class);
-
         Thread.sleep(5000);
         home.homeLending();
     }

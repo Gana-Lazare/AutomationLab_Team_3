@@ -2,7 +2,6 @@ package aetnahome;
 
 import common.WebAPI;
 import org.apache.commons.io.FileUtils;
-import org.junit.Assert;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
@@ -12,6 +11,7 @@ import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 import static aetnahome.AetnaWebElements.*;
+import static org.junit.Assert.assertEquals;
 
 
 public class AetnaHome extends WebAPI {
@@ -33,6 +33,7 @@ public class AetnaHome extends WebAPI {
     public void dropDown() throws InterruptedException {
         dropDown.click();
         Thread.sleep(3000);
+
     }
 
     @FindBy(xpath =forAgentsBrokers_xpath)
@@ -42,6 +43,7 @@ public class AetnaHome extends WebAPI {
         forAgentsBrokers.click();
 
     }
+
     @FindBy(xpath =forPartners_xpath)
     WebElement forPartners;
     public void forPartners() throws InterruptedException {
@@ -49,12 +51,14 @@ public class AetnaHome extends WebAPI {
         forPartners.click();
 
     }
+
     @FindBy(css = loginButton_xpath)
     WebElement loginButton;
     public void loginButton() throws InterruptedException {
         loginButton.click();
 
     }
+
     @FindBy(how = How.XPATH, using = loginButton_xpath)
     WebElement loginButton1;
     public void loginButton1() throws InterruptedException {
@@ -64,6 +68,7 @@ public class AetnaHome extends WebAPI {
         loginButton1.click();
         Thread.sleep(3000);
     }
+
     @FindBy(xpath = aetnaExploreSite_xpath)
     WebElement AetnaExploreSite;
     public void AetnaExploreSite() throws InterruptedException {
@@ -71,6 +76,7 @@ public class AetnaHome extends WebAPI {
         AetnaExploreSite.click();
         //Thread.sleep(5000);
     }
+
     @FindBy(xpath = siteMap_xpath)
     WebElement siteMap;
     public void siteMap() throws InterruptedException {
@@ -87,6 +93,7 @@ public class AetnaHome extends WebAPI {
         System.out.println("Screenshot 1 captured");
 
     }
+
     @FindBy(xpath = solution_xpath)
     WebElement solution;
     public void solution() throws InterruptedException {
@@ -96,6 +103,7 @@ public class AetnaHome extends WebAPI {
         Thread.sleep(5000);
         solution.click();
     }
+
     @FindBy(how = How.XPATH,using = getCoronVirus_xpath)
     public WebElement getCoronVirus;
     public void getCoronVirusMethod(){
@@ -106,10 +114,38 @@ public class AetnaHome extends WebAPI {
     public void pageLoadingValidation(){
         String expectedTitle="Health Insurance Products for Agents &amp; Brokers | Aetna";
         String actualTitle= driver.getTitle().toString();
-        Assert.assertEquals("The page failed to load",actualTitle,expectedTitle);
+        assertEquals("The page failed to load",actualTitle,expectedTitle);
     }
     public void openBrowser() throws IOException {
         setUp(false,"browserstack","OS X","catalina","chrome","85","https://www.aetna.com");
     }
+    public void verifyPageTitle( String st) {
+        String actualTitle = driver.getTitle();
+        String expectedTitle = st;
+        assertEquals(expectedTitle, actualTitle);
+        //assertTrue(driver.getTitle().contains("Title of Page"));
+    }
+    @FindBy(xpath = WebElementAetnaCom)
+    WebElement aetnaCom;
+    public void aetnaCom(){
+        aetnaCom.click();
+    }
+    @FindBy(xpath = WebElementForProvider)
+    WebElement forProvider;
+    public void forProviderMethod(){
+        forProvider.click();
+
+    }
+    @FindBy(xpath = WebElementForEmployer)
+    WebElement forEmployer;
+    public void forEmployerMethod(){
+        forEmployer.click();
+    }@FindBy(xpath = WebElementForAgent)
+    WebElement forAgent;
+    public void forAgentMethod(){
+        forAgent.click();
+    }
+
+
 
 }

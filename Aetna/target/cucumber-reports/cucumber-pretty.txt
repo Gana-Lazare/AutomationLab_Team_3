@@ -1,21 +1,18 @@
 
-Scenario: Aetna HomePage Check        # src/test/java/features/HomePage.feature:6
-  Given I am in Aetna Homepage        # null
-  Then I click on Expplore Aetna Site # null
-  And I verify the page title         # null
-  Then I click on For Agents Brokers  # null
+@Regression
+Scenario: Aetna HomePage Check               # src/test/java/features/HomePage.feature:19
+  Given I am in Aetna Homepage               # stepDefinitions.HomePageStepDefinitions.i_am_in_aetna_homepage()
+  Then I click on Expplore Aetna Site        # stepDefinitions.HomePageStepDefinitions.i_click_on_expplore_aetna_site()
+      java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy23.click(Unknown Source)
+	at aetnahome.AetnaHome.AetnaExploreSite(AetnaHome.java:76)
+	at stepDefinitions.HomePageStepDefinitions.i_click_on_expplore_aetna_site(HomePageStepDefinitions.java:36)
+	at ✽.I click on Expplore Aetna Site(file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Aetna/src/test/java/features/HomePage.feature:17)
 
-Scenario:                                       # src/test/java/features/HomePage.feature:10
-  Given I am in Aetna Homepage                  # null
-  Then I click on Expplore Aetna Site           # null
-  Then I click on search button                 # null
-  And I enter search text "provider" and submit # null
-  Then I verify the page title                  # null
+  And I verify the Expplore Aetna page title # stepDefinitions.HomePageStepDefinitions.i_verify_the_expplore_aetna_page_title()
 
-Scenario: login buton functionality        # src/test/java/features/lgin.feature:5
-  Given I am in aetna home page            # null
-  Then I click on Expplore Aetna Site      # null
-  And I verify the page title              # null
-  Then I click on For Partners             # null
-  And I Scroll down to the end of the page # null
-  And I verify the last element is visible # null
+@Regression
+Scenario: Search button check           # src/test/java/features/HomePage.feature:27
+  Given I am in Aetna Homepage          # stepDefinitions.HomePageStepDefinitions.i_am_in_aetna_homepage()

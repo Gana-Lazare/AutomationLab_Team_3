@@ -220,40 +220,94 @@
 
     </dependencyManagement>
 
+<!--    <build>-->
+<!--        &lt;!&ndash; To define the plugin version in your parent POM &ndash;&gt;-->
+<!--        <pluginManagement>-->
+<!--            <plugins>-->
+<!--                <plugin>-->
+<!--                    <groupId>org.apache.maven.plugins</groupId>-->
+<!--                    <artifactId>maven-compiler-plugin</artifactId>-->
+<!--                    <version>3.8.1</version>-->
+<!--                    <configuration>-->
+<!--                        <source>1.8</source>-->
+<!--                        <target>1.8</target>-->
+<!--                    </configuration>-->
+<!--                </plugin>-->
+<!--                <plugin>-->
+<!--                    <groupId>org.apache.maven.plugins</groupId>-->
+<!--                    <artifactId>maven-surefire-plugin</artifactId>-->
+<!--                    <version>3.0.0-M5</version>-->
+<!--                    <configuration>-->
+<!--                        <testFailureIgnore>true</testFailureIgnore>-->
+<!--                        <suiteXmlFiles>-->
+<!--                            <suiteXmlFile>target/test-classes/AmazonTestRunner.xml</suiteXmlFile>-->
+<!--                            &lt;!&ndash;                            <suiteXmlFile></suiteXmlFile>&ndash;&gt;-->
+<!--                            &lt;!&ndash;                            <suiteXmlFile></suiteXmlFile>&ndash;&gt;-->
+<!--                        </suiteXmlFiles>-->
+<!--                    </configuration>-->
+<!--                </plugin>-->
+<!--            </plugins>-->
+
+<!--        </pluginManagement>-->
+
+<!--    </build>-->
+
+
+
+<!--    *******************-->
     <build>
-        <!-- To define the plugin version in your parent POM -->
-        <pluginManagement>
-            <plugins>
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-compiler-plugin</artifactId>
-                    <version>3.8.1</version>
-                    <configuration>
-                        <source>1.8</source>
-                        <target>1.8</target>
-                    </configuration>
+        <plugins>
+            <plugin>
 
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
 
-                </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-failsafe-plugin</artifactId>
+                <version>3.0.0-M5</version>
 
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-surefire-plugin</artifactId>
-                    <version>3.0.0-M5</version>
-                    <configuration>
-                        <testFailureIgnore>true</testFailureIgnore>
-                        <suiteXmlFiles>
-                            <suiteXmlFile>target/test-classes/AmazonTestRunner.xml</suiteXmlFile>
-                            <!--                            <suiteXmlFile></suiteXmlFile>-->
-                            <!--                            <suiteXmlFile></suiteXmlFile>-->
-                        </suiteXmlFiles>
-                    </configuration>
-                </plugin>
-            </plugins>
+                <configuration>
+                    <includes>
+                        <include>src/test/runner/TestRunner.java</include>
+                        <!-- <include>**/*.java</include>-->
 
-        </pluginManagement>
+                    </includes>
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>integration-test</goal>
+                            <goal>verify</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
 
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.0.0-M3</version>
+                <configuration>
+                    <suiteXmlFiles>
+                        <!--<suiteXmlFiles>target/test-classes/AmazonTestRunner.xml</suiteXmlFiles>-->
+                        <!--<suiteXmlFile>target/test-classes/DropBoxMenuRunner.xml</suiteXmlFile>-->
+                        <!-- <suiteXmlFile>src/test/runner/TestRunner</suiteXmlFile>-->
+                         <suiteXmlFile>src/main/resources/ebaytestRunner.xml</suiteXmlFile>
+                        <include>
+                            src/test/runner/TestRunner.java
+                        </include>
+                    </suiteXmlFiles>
+                </configuration>
+            </plugin>
+        </plugins>
     </build>
+
 
 
 </project>

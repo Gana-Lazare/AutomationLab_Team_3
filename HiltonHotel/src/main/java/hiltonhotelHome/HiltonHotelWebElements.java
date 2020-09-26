@@ -14,8 +14,20 @@ public class HiltonHotelWebElements {
     public static final String siteUsageAgreement="/html/body/div[2]/section[5]/ul/li[5]";
     public static final String hiltonHonor="//*[@id=\"menu-item-435\"]/a";
     public static final String OurBrandXpath = "//*[@id=\"menu-item-433\"]";
-//    public static final String
-//    public static final String
 
 
+
+
+
+//     webElement header
+//     public static final String WebElementCreditCards="/html/body/div[1]/div[6]/header/div[4]/div[1]/div/div/div/div/div[1]/a/p[1]";
+//     public static final String WebElementCheckingAccount="/html/body/div[1]/div[6]/header/div[4]/div[1]/div/div/div/div/div[2]/a/p[2]";
+ //    public static final String webElementSavingAccount="/html/body/div[1]/div[6]/header/div[4]/div[1]/div/div/div/div/div[3]/a/p[2]";
+  //   public static final String WebElementCds="/html/body/div[1]/div[6]/header/div[4]/div[1]/div/div/div/div/div[4]/a/p[2]";
+//     public static final String WebElementBuyingCar="/html/body/div[1]/div[6]/header/div[4]/div[1]/div/div/div/div/div[5]/a/p[2]";
+//     public static final String WebElementMortgage="/html/body/div[1]/div[6]/header/div[4]/div[1]/div/div/div/div/div[6]/a/p[2]";
+//     public static final String WebElementInvesting="/html/body/div[1]/div[6]/header/div[4]/div[1]/div/div/div/div/div[7]/a/p[2]";
+//     public static final String WebElementChasForBusiness="/html/body/div[1]/div[6]/header/div[4]/div[1]/div/div/div/div/div[8]/a/p[2]";
+  //   public static final String WebElementCommercial="/html/body/div[1]/div[6]/header/div[4]/div[1]/div/div/div/div/div[9]/a/p[2]";
+  //   public static final String WebElementSel="/html/body/div[1]/div[6]/header/div[4]/div[1]/div/div/div/div/div[10]/a/p[2]";
 }

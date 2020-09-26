@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 import java.io.IOException;
 
 public class AetnaHomePageTest extends WebAPI {
-
+AetnaHome aetnaHome;
 
 
 
@@ -93,6 +93,22 @@ public class AetnaHomePageTest extends WebAPI {
         AetnaHome home5 =PageFactory.initElements(driver,AetnaHome.class);
         home5.getCoronVirusMethod();
 
+    }@Test
+    public void aetnaComTest(){
+      aetnaHome.aetnaCom();
     }
+    @Test
+    public void forProviderTest(){
+        aetnaHome.forProviderMethod();
+    }
+    @Test
+    public void forEmployerTest(){
+        aetnaHome.forEmployerMethod();
+    }
+    @Test
+    public void forAgentTest(){
+        aetnaHome.forAgentMethod();
+    }
+
 
 }

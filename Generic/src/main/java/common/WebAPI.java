@@ -217,8 +217,8 @@ public class WebAPI {
         }
         return driver;
     }
-    public void openBrowser() throws IOException {
-        setUp(false,"browserstack","OS X","catalina","chrome","85","https://www.aetna.com");
+    public void openBrowser(String Url) throws IOException {
+        setUp(false,"browserstack","OS X","catalina","chrome","85",Url);
     }
 
     @AfterMethod(alwaysRun = true)
@@ -602,9 +602,7 @@ public class WebAPI {
     }
 
 
-   public void enterSearchKeyword(String product) {
 
-    }
 
 
 }

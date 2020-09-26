@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = {"src/test/java/features"}, //the path of the features files
-        glue = "verizonStepDefinitions", //the path of the step definition files
+        glue = "verizonStepdefinitions", //the path of the step definition files
         plugin = {"pretty", "json:target/cucumber-reports/cucumber.json", "html:target/cucumber-reports/index.html","pretty:target/cucumber-reports/cucumber-pretty.txt","usage:target/cucumber-reports/cucumber-usage.json", "junit:target/cucumber-reports/cucumber-results.xml"}, //to generate different types of reporting
         strict = true, //it will check if any step is not defined in step definition file
         monochrome = true, //display the console output in a proper readable format
@@ -21,6 +21,6 @@ import org.junit.runner.RunWith;
 
 
 
-public class TestRunner  {
+public class verizonRunner {
 
 }

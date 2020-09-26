@@ -1,0 +1,28 @@
+[
+  {
+    "source": "I am in verizon  home page",
+    "steps": [
+      {
+        "name": "I am in verizon  home page",
+        "aggregatedDurations": {
+          "median": 2.40067,
+          "average": 2.510713333
+        },
+        "durations": [
+          {
+            "duration": 2.742602,
+            "location": "file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/verizon.feature:6"
+          },
+          {
+            "duration": 2.388868,
+            "location": "file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/verizon.feature:6"
+          },
+          {
+            "duration": 2.40067,
+            "location": "file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/verizon.feature:6"
+          }
+        ]
+      }
+    ]
+  }
+]

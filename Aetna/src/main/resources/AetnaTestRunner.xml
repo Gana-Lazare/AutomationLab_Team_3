@@ -20,11 +20,11 @@
     <parameter name="browserVersion" value="85"/>
     <classes>
         <class name="aetnaHomePageTest.AetnaHomePageTest">
-            <methods>
-                <include name="searchBoxTest"></include>
+<!--            <methods>-->
+<!--                <include name="searchBoxTest"></include>-->
 
-                <exclude name=""></exclude>
-            </methods>
+<!--                <exclude name=""></exclude>-->
+<!--            </methods>-->
         </class>
     </classes>
 </test>

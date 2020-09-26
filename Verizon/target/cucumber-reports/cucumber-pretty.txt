@@ -1,0 +1,67 @@
+
+@Regression
+Scenario: Check verizon  home page                 # src/test/java/features/verizon.feature:9
+  Given I am in verizon  home page                 # verizonStepdefinitions.VerizonStepDefinitions.i_am_in_verizon_home_page()
+  Then I click on store button                     # verizonStepdefinitions.VerizonStepDefinitions.i_click_on_store_button()
+      java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy23.click(Unknown Source)
+	at verizonhome.VerizonHome.storeMethod(VerizonHome.java:33)
+	at verizonStepdefinitions.VerizonStepDefinitions.i_click_on_store_button(VerizonStepDefinitions.java:35)
+	at ✽.I click on store button(file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/verizon.feature:10)
+
+  And I verify the page title                      # verizonStepdefinitions.VerizonStepDefinitions.i_verify_the_page_title()
+  Then I enter  string "43202" in type zipcode box # verizonStepdefinitions.VerizonStepDefinitions.i_enter_string_in_type_zipcode_box(java.lang.String)
+  And I click on search button                     # verizonStepdefinitions.VerizonStepDefinitions.i_click_on_search_button()
+  Then I verify the map page title                 # verizonStepdefinitions.VerizonStepDefinitions.i_verify_the_map_page_title()
+
+@Regression
+Scenario: Check scroll down on verizon Home page # src/test/java/features/verizon.feature:17
+  Given I am in verizon  home page               # verizonStepdefinitions.VerizonStepDefinitions.i_am_in_verizon_home_page()
+  Then I click on verizon button                 # verizonStepdefinitions.VerizonStepDefinitions.i_click_on_verizon_button()
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Rabahs-MBP', ip: '2605:a000:110e:271:0:0:0:f6e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy23.click(Unknown Source)
+	at verizonhome.VerizonHome.verizonButtonMethod(VerizonHome.java:77)
+	at verizonStepdefinitions.VerizonStepDefinitions.i_click_on_verizon_button(VerizonStepDefinitions.java:63)
+	at ✽.I click on verizon button(file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/verizon.feature:18)
+
+  Then I verify that careers appears properly    # verizonStepdefinitions.VerizonStepDefinitions.i_verify_that_careers_appears_properly()
+  Then I scroll down to Find an agent button     # verizonStepdefinitions.VerizonStepDefinitions.i_scroll_down_to_find_an_agent_button()
+  And i verify the page title appears properly   # verizonStepdefinitions.VerizonStepDefinitions.i_verify_the_page_title_appears_properly()
+
+Scenario: Check the mouse hover on my verizon button # src/test/java/features/verizon.feature:23
+  Given I am in verizon  home page                   # verizonStepdefinitions.VerizonStepDefinitions.i_am_in_verizon_home_page()
+  Then I click on store button                       # verizonStepdefinitions.VerizonStepDefinitions.i_click_on_store_button()
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Rabahs-MBP', ip: '2605:a000:110e:271:0:0:0:f6e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy23.click(Unknown Source)
+	at verizonhome.VerizonHome.storeMethod(VerizonHome.java:33)
+	at verizonStepdefinitions.VerizonStepDefinitions.i_click_on_store_button(VerizonStepDefinitions.java:35)
+	at ✽.I click on store button(file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/verizon.feature:24)
+
+  And I do mouse hover on why verizon button         # verizonStepdefinitions.VerizonStepDefinitions.i_do_mouse_hover_on_why_verizon_button()
+  Then I verify that the list drops down             # verizonStepdefinitions.VerizonStepDefinitions.i_verify_that_the_list_drops_down()

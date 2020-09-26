@@ -20,11 +20,11 @@
         <parameter name="browserVersion" value="85"/>
         <classes>
             <class name="libertyMutHomePageTest.LibertyMutTest">
-<!--                <methods>-->
-<!--                    <include name="searchBoxTest"></include>-->
-
+                <methods>
+<!--                    <include name="validateImageVisibleTest"></include>-->
+<!--                    <include name="validateImageTest"></include>-->
 <!--                    <exclude name=""></exclude>-->
-<!--                </methods>-->
+                </methods>
             </class>
 
         </classes>

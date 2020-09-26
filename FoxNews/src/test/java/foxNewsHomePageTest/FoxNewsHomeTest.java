@@ -1,26 +1,21 @@
 package foxNewsHomePageTest;
 
 import common.WebAPI;
-import dataDriven.DataSource;
 import foxnewsHome.FoxNewsHome;
-//import jdk.jfr.Enabled;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import javax.annotation.CheckReturnValue;
 import java.io.IOException;
 
-import static foxnewsHome.FoxNewsWebElements.screenshotName;
-import foxnewsHome.FoxNewsHome.*;
+//import jdk.jfr.Enabled;
 public class FoxNewsHomeTest extends WebAPI {
     FoxNewsHome foxnewsHome;
-    @BeforeMethod
-    public void getInit(){
-        foxnewsHome=PageFactory.initElements(driver,FoxNewsHome.class);
-    }
 
+    @BeforeMethod
+    public void getInit() {
+        foxnewsHome = PageFactory.initElements(driver, FoxNewsHome.class);
+    }
 
 
     @Test
@@ -28,9 +23,10 @@ public class FoxNewsHomeTest extends WebAPI {
         foxnewsHome.entertainment();
         //Thread.sleep(2000);
     }
+
     @Test
     public void searchBoxTest() throws InterruptedException {
-       foxnewsHome.searchButton1Method();
+        foxnewsHome.searchButton1Method();
         //Thread.sleep(2000);
     }
 
@@ -49,7 +45,7 @@ public class FoxNewsHomeTest extends WebAPI {
 
     }
 
-//        @Test
+    //        @Test
 //    public void searchBoxMethodTest() throws InterruptedException {
 //        entertainmentTest();
 //        Thread.sleep(5000);
@@ -68,8 +64,9 @@ public class FoxNewsHomeTest extends WebAPI {
         foxnewsHome.entertainment();
         foxnewsHome.endOfPage();
 
-       
+
     }
+
     @Test
     public void endOfPageHelpTest() throws InterruptedException {
         foxnewsHome.tvButton();
@@ -102,6 +99,7 @@ public class FoxNewsHomeTest extends WebAPI {
         foxnewsHome.readExcelFile();
         Thread.sleep(2000);
     }
+
     @Test
     public static void takeScreenShotMethod() throws IOException, InterruptedException {
         FoxNewsHome homeObj2 = PageFactory.initElements(driver, FoxNewsHome.class);
@@ -116,34 +114,39 @@ public class FoxNewsHomeTest extends WebAPI {
         FoxNewsHome home = PageFactory.initElements(driver, FoxNewsHome.class);
         home.stopCaptioningPolicy();
     }
+
     @Test(priority = 2)
     public static void tvButtonTest() throws InterruptedException {
-        FoxNewsHome home =PageFactory.initElements(driver,FoxNewsHome.class);
+        FoxNewsHome home = PageFactory.initElements(driver, FoxNewsHome.class);
         home.tvButton();
         Thread.sleep(3000);
     }
+
     @Test
     public void watchLiveTest() throws InterruptedException {
         tvButtonTest();
-        FoxNewsHome home =PageFactory.initElements(driver,FoxNewsHome.class);
+        FoxNewsHome home = PageFactory.initElements(driver, FoxNewsHome.class);
         home.watchLive();
         Thread.sleep(3000);
     }
-    @Test (enabled = false)
+
+    @Test(enabled = false)
     public void podcastMethodTest() throws InterruptedException {
         tvButtonTest();
-        FoxNewsHome homeObj =PageFactory.initElements(driver,FoxNewsHome.class);
+        FoxNewsHome homeObj = PageFactory.initElements(driver, FoxNewsHome.class);
         homeObj.podcastMethod();
         Thread.sleep(3000);
     }
+
     @Test
     public void captureScreenshotTest() throws Exception {
         tvButtonTest();
-        FoxNewsHome homeObj1 =PageFactory.initElements(driver,FoxNewsHome.class);
+        FoxNewsHome homeObj1 = PageFactory.initElements(driver, FoxNewsHome.class);
         homeObj1.captureScreenshot();
     }
+
     @Test
-    public  void getItemsListFromExcelTest() throws Exception {
+    public void getItemsListFromExcelTest() throws Exception {
         foxnewsHome.searchButton1Method();
         //Thread.sleep(3000);
         foxnewsHome.searchBoxCheckGetItemsListFromExcel();
@@ -153,23 +156,32 @@ public class FoxNewsHomeTest extends WebAPI {
 
 
     }
+
     @Test
     public void picture1methodTest() throws InterruptedException {
         foxnewsHome.entertainment();
         foxnewsHome.picture1method();
     }
+
     @Test
     public void foxNationMethodTest() throws InterruptedException {
         foxnewsHome.foxNationMethod();
     }
+
     @Test
     public void crimeMethodTest() throws InterruptedException {
         foxnewsHome.entertainment();
         foxnewsHome.crimeMethod();
     }
+
     @Test
     public void getItemValueTest() {
 
     }
 
+    @Test
+    public void mouseHoverByXpathTest() {
+
+
+    }
 }

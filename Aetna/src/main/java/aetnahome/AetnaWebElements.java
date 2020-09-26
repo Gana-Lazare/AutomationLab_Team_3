@@ -13,4 +13,8 @@ public class AetnaWebElements {
     public static final String solution_xpath="/html/body/div[2]/div/nav/div/ul[1]/li[3]/div[1]/button";
     public static final String getCoronVirus_xpath="//*[@id=\"content__main\"]/div[1]/div/div[2]/div/div[1]/div/div/div/p/a";
     public static final String aetnaHomeWebElement="https://www.aetna.com";
+    public static final String WebElementAetnaCom="/html/body/div[2]/div/header/div/nav/div[2]/div/div[3]/ul/li[1]/a/span";
+    public static final String WebElementForProvider="/html/body/div[2]/div/header/div/nav/div[2]/div/div[3]/ul/li[2]/a/span";
+    public static final String WebElementForEmployer="/html/body/div[2]/div/header/div/nav/div[2]/div/div[3]/ul/li[3]/a/span";
+    public static final String WebElementForAgent="Health Insurance Products for Agents &amp; Brokers | Aetna";
 }
