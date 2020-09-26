@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Cucumber</title>
+	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+	<style>
+.cucumber-react .cucumber-status--passed {
+  color: #2CB14A;
+}
+.cucumber-react .cucumber-status--skipped {
+  color: #00A0CC;
+}
+.cucumber-react .cucumber-status--pending {
+  color: #FFAD33;
+}
+.cucumber-react .cucumber-status--undefined {
+  color: #FFAD33;
+}
+.cucumber-react .cucumber-status--ambiguous {
+  color: #F4EBFD;
+}
+.cucumber-react .cucumber-status--failed {
+  color: #BB0000;
+}
+.cucumber-react .cucumber-status--unknown {
+  color: #B6BECB;
+}
+.cucumber-react h1, .cucumber-react h2, .cucumber-react h3 {
+  padding: 0;
+  margin: 0;
+}
+.cucumber-react a {
+  color: inherit;
+}
+.cucumber-react .gherkin-document-list {
+  font: 14px "Open Sans", sans-serif;
+  color: #161C24;
+  background: #fff;
+  overflow-x: hidden;
+}
+.cucumber-react .cucumber-title {
+  margin-top: 0.3em;
+  margin-bottom: 0;
+  display: inline-block;
+}
+.cucumber-react .cucumber-title__keyword {
+  font-weight: bold;
+}
+.cucumber-react .cucumber-title__text {
+  font-weight: normal;
+}
+.cucumber-react .cucumber-tags {
+  padding: 0;
+  margin-bottom: 0;
+}
+.cucumber-react .cucumber-tags .cucumber-tag {
+  display: inline;
+  list-style-type: none;
+  padding: 4px 8px 4px 8px;
+  margin-right: 6px;
+  background-color: #FFFFFF;
+  border-radius: 6px;
+}
+.cucumber-react .cucumber-feature__icon {
+  padding-top: 0.35em;
+  padding-right: 0.5em;
+}
+.cucumber-react .cucumber-description,
+.cucumber-react .cucumber-children {
+  margin-left: 1em;
+}
+.cucumber-react .cucumber-feature,
+.cucumber-react .cucumber-rule,
+.cucumber-react .cucumber-scenario,
+.cucumber-react .cucumber-background {
+  margin-bottom: 1em;
+}
+.cucumber-react .cucumber-steps {
+  list-style-type: none;
+  padding-left: 10px;
+}
+.cucumber-react .cucumber-steps .cucumber-step {
+  display: flex;
+}
+.cucumber-react .cucumber-steps .cucumber-step__status {
+  padding-top: 0.2em;
+  padding-right: 0.5em;
+}
+.cucumber-react .cucumber-steps .cucumber-step__content {
+  flex-grow: 1;
+}
+.cucumber-react .cucumber-steps .cucumber-step__keyword {
+  font-weight: bold;
+}
+.cucumber-react .cucumber-steps .cucumber-step__text {
+  font-weight: normal;
+}
+.cucumber-react .cucumber-steps .cucumber-step__param {
+  font-weight: normal;
+  font-style: italic;
+}
+.cucumber-react .cucumber-table {
+  border-collapse: collapse;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+.cucumber-react .cucumber-table__header-cell {
+  border: 1px solid #4B5662;
+  padding: 0.3em;
+}
+.cucumber-react .cucumber-table__cell {
+  border: 1px solid #4B5662;
+  padding: 0.3em;
+}
+.cucumber-react .cucumber-table__cell__status {
+  padding: 0.5em 3px 3px 3px;
+}
+.cucumber-react .cucumber-table__cell__step {
+  flex-grow: 1;
+}
+.cucumber-react .cucumber-code {
+  padding: 0.25em;
+  background-color: #ebebeb;
+}
+.cucumber-react .cucumber-error {
+  padding: 0.5em;
+  margin: 0;
+  overflow: scroll;
+}
+.cucumber-react .cucumber-no-documents {
+  font: 14px "Open Sans", sans-serif;
+}
+.cucumber-react .cucumber-attachment {
+  background-color: #ebebeb;
+  padding: 0.5em;
+}
+.cucumber-react .cucumber-attachment__icon {
+  margin-right: 0.5em;
+}
+.cucumber-react .cucumber-attachment__image {
+  margin-top: 1em;
+}
+.cucumber-react .cucumber-anchor {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 0.3em;
+}
+.cucumber-react .cucumber-anchor__link {
+  opacity: 0;
+  transition: all 0.35s ease-in-out;
+  position: absolute;
+  left: -20px;
+  display: flex;
+  align-items: center;
+}
+.cucumber-react .cucumber-anchor__icon {
+  margin-right: 0.5em;
+}
+.cucumber-react .cucumber-anchor:hover a {
+  opacity: 1;
+  width: max-content;
+  transition: all 0.35s ease-in-out;
+}
+.cucumber-react .cucumber-anchor > * {
+  height: 100%;
+  margin-top: 0px;
+}
+
+.cucumber-report-header {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  font: 11px "Open Sans", sans-serif;
+  margin-bottom: 1em;
+}
+.cucumber-report-header > * {
+  padding: 1em;
+}
+.cucumber-report-header .cucumber-status-filter {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.cucumber-report-header .cucumber-status-filter table {
+  width: 100%;
+}
+.cucumber-report-header .cucumber-execution-data {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.cucumber-report-header .cucumber-search-bar {
+  border-right: 0;
+}
+.cucumber-report-header .cucumber-search-bar form.cucumber-search-bar-search {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 9fr 1fr;
+}
+.cucumber-report-header .cucumber-search-bar form.cucumber-search-bar-search input {
+  padding: 0.4em;
+  border-radius: 0;
+}
+.cucumber-report-header .cucumber-search-bar form.cucumber-search-bar-search button {
+  height: 2.2em;
+  padding-left: 0.6em;
+  padding-right: 0.6em;
+}
+.cucumber-report-header .cucumber-search-bar p.help {
+  font-size: 80%;
+}
+.cucumber-report-header .cucumber-search-bar form.cucumber-search-bar-filter ul {
+  display: inline;
+}
+.cucumber-report-header .cucumber-search-bar form.cucumber-search-bar-filter ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+.cucumber-report-header .cucumber-search-bar form.cucumber-search-bar-filter ul li input {
+  display: inline-block;
+  width: auto;
+  height: 0.6em;
+}
+.cucumber-report-header .cucumber-search-bar form.cucumber-search-bar-filter ul li label {
+  padding-right: 1em;
+}
+
+@media only screen and (min-width: 600px) {
+  .cucumber-report-header {
+    grid-template-columns: 1fr 1fr;
+  }
+  .cucumber-report-header .cucumber-status-filter {
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .cucumber-report-header .cucumber-search-bar {
+    grid-column: 1/-1;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .cucumber-report-header {
+    grid-template-columns: 1fr 1fr 2fr;
+  }
+  .cucumber-report-header .cucumber-status-filter {
+    border-bottom: 0;
+  }
+  .cucumber-report-header .cucumber-execution-data {
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 0;
+  }
+  .cucumber-report-header .cucumber-search-bar {
+    grid-column: auto;
+  }
+}
+.accordion {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+}
+
+.accordion__item + .accordion__item {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.accordion__button {
+    background-color: #f4f4f4;
+    color: #444;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    border: none;
+}
+
+.accordion__button:hover {
+    background-color: #ddd;
+}
+
+.accordion__button:before {
+    display: inline-block;
+    content: '';
+    height: 10px;
+    width: 10px;
+    margin-right: 12px;
+    border-bottom: 2px solid currentColor;
+    border-right: 2px solid currentColor;
+    transform: rotate(-45deg);
+}
+
+.accordion__button[aria-expanded='true']::before,
+.accordion__button[aria-selected='true']::before {
+    transform: rotate(45deg);
+}
+
+.accordion__panel {
+    padding: 20px;
+    animation: fadein 0.35s ease-in;
+}
+
+	</style>
+</head>
+<body>
+<div id="content">
+</div>
+<script>
+window.CUCUMBER_MESSAGES = [{"meta":{"protocolVersion":"13.0.1","implementation":{"name":"cucumber-jvm","version":"6.6.0"},"runtime":{"name":"Java HotSpot(TM) 64-Bit Server VM","version":"11+28"},"os":{"name":"Windows 7"},"cpu":{"name":"amd64"}}},{"testRunStarted":{"timestamp":{"seconds":"1601080674","nanos":187418900}}},{"source":{"uri":"file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature","data":"Feature: WatchTv Button on the home page FoxNews\r\n  Check WatchTv Button functionality\r\n\r\n  Background:\r\n    Given Im in Fox News Home Page\r\n    And I click on WatchTV Button\r\n@Regression\r\n  Scenario: Watch Tv Button  functionality Check\r\n    Then I Verify Im in Watch TV Homepage\r\n  @Regression\r\n  Scenario: Im in Watch Tv and use FoxNews Homep page Button\r\n    And I click On fox News Home Page\r\n    Then I verify Im in Fox News Home Page\r\n  @Regression\r\n  Scenario: Im in watch tv Page and check Fox for business\r\n    And I click on FoxBusiness\r\n    Then I verify Im in FoxFor Business Page\r\n  @Regression\r\n  Scenario:  Im in watch Tv Page and check Fox News Radio\r\n    And I click on FoxNews Radio\r\n    Then I verify Im in Fox News Radio Page\r\n  @Regression\r\n  Scenario: Im in watch Tv and check Fox Nation\r\n    And I click on  Fox Nation\r\n    Then I verify Im in Fox Nation Page\r\n  @Regression\r\n  Scenario: Im in watch Tv and Check Fox News Flash\r\n    And I click on Fox NEws Flash\r\n    Then I verify Im in fox News Flash\r\n\r\n  @Regression\r\n  Scenario:  Im in watch Tv and check show clips\r\n    And I click on show clips\r\n    Then I verify Im in show Clips\r\n\r\n  @Regression\r\n  Scenario: Im in watch Tv and check New Clips\r\n    And I click on News Clips\r\n    Then I verify Im In News Clips\r\n  @Regression\r\n  Scenario:IM in watch Tv and Check Facebook link on icon\r\n    And I click on facebook Icon\r\n    Then I verify facebook Window Pop up\r\n\r\n  @Regression\r\n  Scenario:IM in watch Tv and Check Twitter link on icon\r\n    And I click on Twitter Icon\r\n    Then I verify Twitter Window Pop Up\r\n    @Regression\r\n    Scenario: Im in Watch Tv and check scroll down and check scroll to top button\r\n      And scroll down to scroll to top button\r\n      Then click on button\r\n      And check im on top of Page\r\n\r\n\r\n\r\n\r\n\r\n\r\n","mediaType":"text/x.cucumber.gherkin+plain"}},{"gherkinDocument":{"uri":"file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature","feature":{"location":{"line":1,"column":1},"language":"en","keyword":"Feature","name":"WatchTv Button on the home page FoxNews","description":"  Check WatchTv Button functionality","children":[{"background":{"location":{"line":4,"column":3},"keyword":"Background","steps":[{"location":{"line":5,"column":5},"keyword":"Given ","text":"Im in Fox News Home Page","id":"eb17d6be-2b2a-4f37-bde8-c412d69ae7dc"},{"location":{"line":6,"column":5},"keyword":"And ","text":"I click on WatchTV Button","id":"a801cac2-ea11-4b4d-85c5-805510e287bd"}],"id":"8be43d2e-83a7-4e6d-938b-dc605f1f6c18"}},{"scenario":{"location":{"line":8,"column":3},"tags":[{"location":{"line":7,"column":1},"name":"@Regression","id":"d65581f3-5e06-4c12-9e47-66c472084467"}],"keyword":"Scenario","name":"Watch Tv Button  functionality Check","steps":[{"location":{"line":9,"column":5},"keyword":"Then ","text":"I Verify Im in Watch TV Homepage","id":"6cec9cd4-0dbb-4180-a915-0be363ce0b4b"}],"id":"b4a712bd-e6ce-47da-8f76-5ef5851d0a76"}},{"scenario":{"location":{"line":11,"column":3},"tags":[{"location":{"line":10,"column":3},"name":"@Regression","id":"99a78ab5-69cd-4277-ae49-2405b1d9b0c1"}],"keyword":"Scenario","name":"Im in Watch Tv and use FoxNews Homep page Button","steps":[{"location":{"line":12,"column":5},"keyword":"And ","text":"I click On fox News Home Page","id":"6523fa10-5fb3-40ab-8e9f-d9a389033b83"},{"location":{"line":13,"column":5},"keyword":"Then ","text":"I verify Im in Fox News Home Page","id":"9267c403-b4e2-4943-8f6d-f5d8b3a8eabf"}],"id":"32da9699-717b-4916-a9d7-1f4f1f1619b6"}},{"scenario":{"location":{"line":15,"column":3},"tags":[{"location":{"line":14,"column":3},"name":"@Regression","id":"06c940ed-604b-4105-a3cd-46aa35595e47"}],"keyword":"Scenario","name":"Im in watch tv Page and check Fox for business","steps":[{"location":{"line":16,"column":5},"keyword":"And ","text":"I click on FoxBusiness","id":"48977269-c3ab-4a80-aac8-9bc7901a4c8f"},{"location":{"line":17,"column":5},"keyword":"Then ","text":"I verify Im in FoxFor Business Page","id":"bca7f291-f93a-45f2-aa5c-9a2cf6179e89"}],"id":"b5a69242-aaed-48f6-ab80-55422fddc96f"}},{"scenario":{"location":{"line":19,"column":3},"tags":[{"location":{"line":18,"column":3},"name":"@Regression","id":"7c5f3b18-d1ab-48d7-871e-d51eb739a06b"}],"keyword":"Scenario","name":"Im in watch Tv Page and check Fox News Radio","steps":[{"location":{"line":20,"column":5},"keyword":"And ","text":"I click on FoxNews Radio","id":"af60400e-f071-421e-9cf6-6e426ea87fcb"},{"location":{"line":21,"column":5},"keyword":"Then ","text":"I verify Im in Fox News Radio Page","id":"0c225eb2-b3e6-4d85-ae06-31868f9abe1c"}],"id":"a2afa892-9df2-4270-a860-30c184efd3b0"}},{"scenario":{"location":{"line":23,"column":3},"tags":[{"location":{"line":22,"column":3},"name":"@Regression","id":"731e8193-fabb-4f5a-b3cf-331f6c0a77e8"}],"keyword":"Scenario","name":"Im in watch Tv and check Fox Nation","steps":[{"location":{"line":24,"column":5},"keyword":"And ","text":"I click on  Fox Nation","id":"b2b94630-1133-4f0c-97c9-b91831750e99"},{"location":{"line":25,"column":5},"keyword":"Then ","text":"I verify Im in Fox Nation Page","id":"91757862-ac75-4e6b-bb37-3edf3266a478"}],"id":"c9bfc150-264a-46e5-b77e-647f6ed72177"}},{"scenario":{"location":{"line":27,"column":3},"tags":[{"location":{"line":26,"column":3},"name":"@Regression","id":"e928960a-48ac-4d6b-b8f4-3d319709ddaf"}],"keyword":"Scenario","name":"Im in watch Tv and Check Fox News Flash","steps":[{"location":{"line":28,"column":5},"keyword":"And ","text":"I click on Fox NEws Flash","id":"71a6cb4f-7d55-4665-8394-64ea918f4d15"},{"location":{"line":29,"column":5},"keyword":"Then ","text":"I verify Im in fox News Flash","id":"c7e3582d-0b65-4a5b-add7-f5df27fb8889"}],"id":"00d1b6de-fc90-477a-9834-dceab666469c"}},{"scenario":{"location":{"line":32,"column":3},"tags":[{"location":{"line":31,"column":3},"name":"@Regression","id":"68bd63c8-f22b-4709-be27-ce71b927b870"}],"keyword":"Scenario","name":"Im in watch Tv and check show clips","steps":[{"location":{"line":33,"column":5},"keyword":"And ","text":"I click on show clips","id":"229fc722-b48d-45e4-8470-47cf6097f445"},{"location":{"line":34,"column":5},"keyword":"Then ","text":"I verify Im in show Clips","id":"f46645b7-8250-4eb8-bb72-5955156a59a0"}],"id":"71417cbd-822d-4e5e-ae62-2fdaeeb7e3a0"}},{"scenario":{"location":{"line":37,"column":3},"tags":[{"location":{"line":36,"column":3},"name":"@Regression","id":"9c31ce02-6649-418e-b60c-a315656ea955"}],"keyword":"Scenario","name":"Im in watch Tv and check New Clips","steps":[{"location":{"line":38,"column":5},"keyword":"And ","text":"I click on News Clips","id":"0931e20f-46c3-43c1-a3a1-2cb2a4c3166d"},{"location":{"line":39,"column":5},"keyword":"Then ","text":"I verify Im In News Clips","id":"abe8b06b-775f-4fa6-b066-4504184c4bf9"}],"id":"fa1b4267-8107-4485-9b7c-9b619d30d7d2"}},{"scenario":{"location":{"line":41,"column":3},"tags":[{"location":{"line":40,"column":3},"name":"@Regression","id":"e49f9ac9-68cd-460c-8498-9086cda4cec5"}],"keyword":"Scenario","name":"IM in watch Tv and Check Facebook link on icon","steps":[{"location":{"line":42,"column":5},"keyword":"And ","text":"I click on facebook Icon","id":"0b531920-d2a8-4bdc-bf82-945ab172f580"},{"location":{"line":43,"column":5},"keyword":"Then ","text":"I verify facebook Window Pop up","id":"1999ec5f-4955-425a-a759-c43a4d826540"}],"id":"c5f96d46-8b5c-4f06-bf8c-e8f641030ee6"}},{"scenario":{"location":{"line":46,"column":3},"tags":[{"location":{"line":45,"column":3},"name":"@Regression","id":"f3138989-18ac-4a36-b31f-bf87e6252d0d"}],"keyword":"Scenario","name":"IM in watch Tv and Check Twitter link on icon","steps":[{"location":{"line":47,"column":5},"keyword":"And ","text":"I click on Twitter Icon","id":"d2ed0b62-d46d-4e81-89ce-9c70ee1aefdd"},{"location":{"line":48,"column":5},"keyword":"Then ","text":"I verify Twitter Window Pop Up","id":"171a7a12-fcb4-40f1-8569-b71ebdedd530"}],"id":"6dc94515-7083-4471-b58f-d00bdeffa65a"}},{"scenario":{"location":{"line":50,"column":5},"tags":[{"location":{"line":49,"column":5},"name":"@Regression","id":"3eb432f3-c0d4-4f9f-8f6e-e6e3402f7138"}],"keyword":"Scenario","name":"Im in Watch Tv and check scroll down and check scroll to top button","steps":[{"location":{"line":51,"column":7},"keyword":"And ","text":"scroll down to scroll to top button","id":"632e2cdf-df70-4127-88db-cada6d83b53b"},{"location":{"line":52,"column":7},"keyword":"Then ","text":"click on button","id":"a6622dc6-1b15-4048-96b5-88320f1d7f2e"},{"location":{"line":53,"column":7},"keyword":"And ","text":"check im on top of Page","id":"64dfc756-7a8e-4c64-bafb-1ea15cc341f9"}],"id":"400b5714-d7c8-4077-80a0-126c7a960b48"}}]}}},{"pickle":{"id":"eba71d47-63c4-49ce-a883-151d512ab80a","uri":"file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature","name":"Watch Tv Button  functionality Check","language":"en","steps":[{"text":"Im in Fox News Home Page","id":"9036dabd-bc27-4f42-b3f7-a627cc906f97","astNodeIds":["eb17d6be-2b2a-4f37-bde8-c412d69ae7dc"]},{"text":"I click on WatchTV Button","id":"ac1a44f6-d812-48d2-bf7d-dcef47b5ce6c","astNodeIds":["a801cac2-ea11-4b4d-85c5-805510e287bd"]},{"text":"I Verify Im in Watch TV Homepage","id":"7bf6dfbd-16f0-4fe0-93c6-7dc4622f7c3c","astNodeIds":["6cec9cd4-0dbb-4180-a915-0be363ce0b4b"]}],"tags":[{"name":"@Regression","astNodeId":"d65581f3-5e06-4c12-9e47-66c472084467"}],"astNodeIds":["b4a712bd-e6ce-47da-8f76-5ef5851d0a76"]}},{"pickle":{"id":"00f7ca50-c23d-46a2-ab62-bf30a2c28482","uri":"file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature","name":"Im in Watch Tv and use FoxNews Homep page Button","language":"en","steps":[{"text":"Im in Fox News Home Page","id":"ca182a72-771b-4589-b3e3-3e098ab311d8","astNodeIds":["eb17d6be-2b2a-4f37-bde8-c412d69ae7dc"]},{"text":"I click on WatchTV Button","id":"2aa5505f-cac7-441b-9c20-ba3516f63035","astNodeIds":["a801cac2-ea11-4b4d-85c5-805510e287bd"]},{"text":"I click On fox News Home Page","id":"baeea7df-2021-46a3-9f04-7479ad7f7bab","astNodeIds":["6523fa10-5fb3-40ab-8e9f-d9a389033b83"]},{"text":"I verify Im in Fox News Home Page","id":"70602c75-5148-42cc-8298-eb4b030dd5eb","astNodeIds":["9267c403-b4e2-4943-8f6d-f5d8b3a8eabf"]}],"tags":[{"name":"@Regression","astNodeId":"99a78ab5-69cd-4277-ae49-2405b1d9b0c1"}],"astNodeIds":["32da9699-717b-4916-a9d7-1f4f1f1619b6"]}},{"pickle":{"id":"8b7d683c-828f-47f5-9f7c-2070d9047b49","uri":"file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature","name":"Im in watch tv Page and check Fox for business","language":"en","steps":[{"text":"Im in Fox News Home Page","id":"b93fadd3-ed69-4856-abb1-32ae63cbf9bf","astNodeIds":["eb17d6be-2b2a-4f37-bde8-c412d69ae7dc"]},{"text":"I click on WatchTV Button","id":"80ea98bf-7314-48d9-a6a4-2d43f8825809","astNodeIds":["a801cac2-ea11-4b4d-85c5-805510e287bd"]},{"text":"I click on FoxBusiness","id":"711bcc04-e08a-4094-aa33-338b386644dc","astNodeIds":["48977269-c3ab-4a80-aac8-9bc7901a4c8f"]},{"text":"I verify Im in FoxFor Business Page","id":"19b60386-ea02-4846-97a1-cd109555acf4","astNodeIds":["bca7f291-f93a-45f2-aa5c-9a2cf6179e89"]}],"tags":[{"name":"@Regression","astNodeId":"06c940ed-604b-4105-a3cd-46aa35595e47"}],"astNodeIds":["b5a69242-aaed-48f6-ab80-55422fddc96f"]}},{"pickle":{"id":"779a328a-dc89-4178-90b2-15f9179b5bde","uri":"file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature","name":"Im in watch Tv Page and check Fox News Radio","language":"en","steps":[{"text":"Im in Fox News Home Page","id":"b93b5323-94b2-4f40-aecf-625d1032669f","astNodeIds":["eb17d6be-2b2a-4f37-bde8-c412d69ae7dc"]},{"text":"I click on WatchTV Button","id":"88f71164-6208-4491-a2bf-e36ab406227b","astNodeIds":["a801cac2-ea11-4b4d-85c5-805510e287bd"]},{"text":"I click on FoxNews Radio","id":"b47bfa26-2215-466b-bd0d-c1bb525a4c50","astNodeIds":["af60400e-f071-421e-9cf6-6e426ea87fcb"]},{"text":"I verify Im in Fox News Radio Page","id":"a75ca3ae-9fae-4ef7-a4e1-50c9691e56a2","astNodeIds":["0c225eb2-b3e6-4d85-ae06-31868f9abe1c"]}],"tags":[{"name":"@Regression","astNodeId":"7c5f3b18-d1ab-48d7-871e-d51eb739a06b"}],"astNodeIds":["a2afa892-9df2-4270-a860-30c184efd3b0"]}},{"pickle":{"id":"eaabc7a8-262c-4afd-a55d-7c89c1c4437b","uri":"file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature","name":"Im in watch Tv and check Fox Nation","language":"en","steps":[{"text":"Im in Fox News Home Page","id":"462258b3-885e-437f-b580-920d3fab891b","astNodeIds":["eb17d6be-2b2a-4f37-bde8-c412d69ae7dc"]},{"text":"I click on WatchTV Button","id":"b73ab8f3-366b-4600-bd82-0269e92aec33","astNodeIds":["a801cac2-ea11-4b4d-85c5-805510e287bd"]},{"text":"I click on  Fox Nation","id":"4492ecf7-8463-4ab9-b2c2-1e209935d7c0","astNodeIds":["b2b94630-1133-4f0c-97c9-b91831750e99"]},{"text":"I verify Im in Fox Nation Page","id":"06125fdd-b9d4-4025-81a2-5694b7e17f8e","astNodeIds":["91757862-ac75-4e6b-bb37-3edf3266a478"]}],"tags":[{"name":"@Regression","astNodeId":"731e8193-fabb-4f5a-b3cf-331f6c0a77e8"}],"astNodeIds":["c9bfc150-264a-46e5-b77e-647f6ed72177"]}},{"pickle":{"id":"05497bc9-2873-42d5-ac1d-a32e55912c14","uri":"file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature","name":"Im in watch Tv and Check Fox News Flash","language":"en","steps":[{"text":"Im in Fox News Home Page","id":"e32f603e-81c0-4fd9-a8b9-5c24c97d2e0d","astNodeIds":["eb17d6be-2b2a-4f37-bde8-c412d69ae7dc"]},{"text":"I click on WatchTV Button","id":"67b7ffb7-0b2c-47cb-8b33-99a10f3ffb43","astNodeIds":["a801cac2-ea11-4b4d-85c5-805510e287bd"]},{"text":"I click on Fox NEws Flash","id":"79750fc5-d424-496f-9b9a-dc5f7b24b144","astNodeIds":["71a6cb4f-7d55-4665-8394-64ea918f4d15"]},{"text":"I verify Im in fox News Flash","id":"b54e2ee8-f6a8-4f5b-be08-2d4959ede70e","astNodeIds":["c7e3582d-0b65-4a5b-add7-f5df27fb8889"]}],"tags":[{"name":"@Regression","astNodeId":"e928960a-48ac-4d6b-b8f4-3d319709ddaf"}],"astNodeIds":["00d1b6de-fc90-477a-9834-dceab666469c"]}},{"pickle":{"id":"436195ee-ce55-42f4-b3a5-467869cb3ec5","uri":"file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature","name":"Im in watch Tv and check show clips","language":"en","steps":[{"text":"Im in Fox News Home Page","id":"1e0fcf2e-2656-4956-a00b-0f13a79d3c07","astNodeIds":["eb17d6be-2b2a-4f37-bde8-c412d69ae7dc"]},{"text":"I click on WatchTV Button","id":"21a2fd9a-8f8c-4e33-8717-30bd1d36bf89","astNodeIds":["a801cac2-ea11-4b4d-85c5-805510e287bd"]},{"text":"I click on show clips","id":"127cc32e-9542-47c5-be12-8f497f932fca","astNodeIds":["229fc722-b48d-45e4-8470-47cf6097f445"]},{"text":"I verify Im in show Clips","id":"85b97660-2fbd-4ee5-be9c-d71a2471facd","astNodeIds":["f46645b7-8250-4eb8-bb72-5955156a59a0"]}],"tags":[{"name":"@Regression","astNodeId":"68bd63c8-f22b-4709-be27-ce71b927b870"}],"astNodeIds":["71417cbd-822d-4e5e-ae62-2fdaeeb7e3a0"]}},{"pickle":{"id":"21d9a25a-5c16-49df-8d80-85fa6df6e375","uri":"file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature","name":"Im in watch Tv and check New Clips","language":"en","steps":[{"text":"Im in Fox News Home Page","id":"1be17524-5fd5-4c98-9fe3-f30c63382f9d","astNodeIds":["eb17d6be-2b2a-4f37-bde8-c412d69ae7dc"]},{"text":"I click on WatchTV Button","id":"f051d8d4-b718-4bee-831c-73c4139a7d0c","astNodeIds":["a801cac2-ea11-4b4d-85c5-805510e287bd"]},{"text":"I click on News Clips","id":"9cf978f2-e819-4783-adb9-e9e6eb57867b","astNodeIds":["0931e20f-46c3-43c1-a3a1-2cb2a4c3166d"]},{"text":"I verify Im In News Clips","id":"c54b3e71-f331-40d1-82aa-4cbaaa4379a2","astNodeIds":["abe8b06b-775f-4fa6-b066-4504184c4bf9"]}],"tags":[{"name":"@Regression","astNodeId":"9c31ce02-6649-418e-b60c-a315656ea955"}],"astNodeIds":["fa1b4267-8107-4485-9b7c-9b619d30d7d2"]}},{"pickle":{"id":"34b91300-5ad9-4257-99cc-64630f56f93a","uri":"file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature","name":"IM in watch Tv and Check Facebook link on icon","language":"en","steps":[{"text":"Im in Fox News Home Page","id":"b689d653-1a72-4250-8ec2-f014f2630d0b","astNodeIds":["eb17d6be-2b2a-4f37-bde8-c412d69ae7dc"]},{"text":"I click on WatchTV Button","id":"90fb17a6-7127-484f-928f-75d5d7ae88b7","astNodeIds":["a801cac2-ea11-4b4d-85c5-805510e287bd"]},{"text":"I click on facebook Icon","id":"6a49688b-b05f-4fce-b34b-26eb7af18d8d","astNodeIds":["0b531920-d2a8-4bdc-bf82-945ab172f580"]},{"text":"I verify facebook Window Pop up","id":"ba7e54bd-c454-4911-a74f-6d4432575df8","astNodeIds":["1999ec5f-4955-425a-a759-c43a4d826540"]}],"tags":[{"name":"@Regression","astNodeId":"e49f9ac9-68cd-460c-8498-9086cda4cec5"}],"astNodeIds":["c5f96d46-8b5c-4f06-bf8c-e8f641030ee6"]}},{"pickle":{"id":"d8d43542-7af1-4410-839d-747edc811198","uri":"file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature","name":"IM in watch Tv and Check Twitter link on icon","language":"en","steps":[{"text":"Im in Fox News Home Page","id":"adaf140b-4d80-4bb4-b09b-591a77d9fcd6","astNodeIds":["eb17d6be-2b2a-4f37-bde8-c412d69ae7dc"]},{"text":"I click on WatchTV Button","id":"23212228-3188-4ecc-b442-17d86fad2ff1","astNodeIds":["a801cac2-ea11-4b4d-85c5-805510e287bd"]},{"text":"I click on Twitter Icon","id":"96f3c35d-4313-40ae-b320-4db007c8f20b","astNodeIds":["d2ed0b62-d46d-4e81-89ce-9c70ee1aefdd"]},{"text":"I verify Twitter Window Pop Up","id":"25550c12-c8f5-44f1-ae83-24860ca356a9","astNodeIds":["171a7a12-fcb4-40f1-8569-b71ebdedd530"]}],"tags":[{"name":"@Regression","astNodeId":"f3138989-18ac-4a36-b31f-bf87e6252d0d"}],"astNodeIds":["6dc94515-7083-4471-b58f-d00bdeffa65a"]}},{"pickle":{"id":"62b6c845-08f0-4e68-96f3-ca66cf65b33b","uri":"file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature","name":"Im in Watch Tv and check scroll down and check scroll to top button","language":"en","steps":[{"text":"Im in Fox News Home Page","id":"6d3a14b8-8e6e-4b4b-b2ef-9144e5764d9c","astNodeIds":["eb17d6be-2b2a-4f37-bde8-c412d69ae7dc"]},{"text":"I click on WatchTV Button","id":"a689e425-1cb2-4285-b220-e5e5ccc2342c","astNodeIds":["a801cac2-ea11-4b4d-85c5-805510e287bd"]},{"text":"scroll down to scroll to top button","id":"fadc2c58-524b-4c17-b833-26be65fe9632","astNodeIds":["632e2cdf-df70-4127-88db-cada6d83b53b"]},{"text":"click on button","id":"ccf14a29-6d3f-428e-a66d-4af3277e3f0f","astNodeIds":["a6622dc6-1b15-4048-96b5-88320f1d7f2e"]},{"text":"check im on top of Page","id":"02c7e501-dab3-4046-94cb-97ad34db7b6c","astNodeIds":["64dfc756-7a8e-4c64-bafb-1ea15cc341f9"]}],"tags":[{"name":"@Regression","astNodeId":"3eb432f3-c0d4-4f9f-8f6e-e6e3402f7138"}],"astNodeIds":["400b5714-d7c8-4077-80a0-126c7a960b48"]}},{"stepDefinition":{"id":"b2da48d2-3cad-420e-a8f4-768285111459","pattern":{"source":"click on button"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"click_on_button"}}}},{"stepDefinition":{"id":"41fe8de6-267d-4472-9972-e34a0f1bda65","pattern":{"source":"I verify Im in FoxFor Business Page"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"i_verify_im_in_fox_for_business_page"}}}},{"stepDefinition":{"id":"6df408ac-beb0-4c7e-9824-253438f44a4d","pattern":{"source":"scroll down to scroll to top button"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"scroll_down_to_scroll_to_top_button"}}}},{"stepDefinition":{"id":"cbb1e1a5-b4f7-4ba5-9633-99e86dfc2b4d","pattern":{"source":"Im in Fox News Home Page"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"im_in_fox_news_home_page"}}}},{"stepDefinition":{"id":"03de97db-1738-4d84-8e07-0b51fa9247ae","pattern":{"source":"I click on WatchTV Button"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"i_click_on_watch_tv_button"}}}},{"stepDefinition":{"id":"4afc42ac-946d-4dce-b4ab-f8b01f75b140","pattern":{"source":"I Verify Im in Watch TV Homepage"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"i_verify_im_in_watch_tv_homepage"}}}},{"stepDefinition":{"id":"f15cbce0-1658-4a26-83d7-2fb8fc604e86","pattern":{"source":"I click On fox News Home Page"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"i_click_on_fox_news_home_page"}}}},{"stepDefinition":{"id":"2f88f1f2-a072-4f2d-a974-181dbc5cb08b","pattern":{"source":"I verify Im in Fox News Home Page"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"i_verify_im_in_fox_news_home_page"}}}},{"stepDefinition":{"id":"5033f23d-56b8-4004-a57f-ad73a02024b7","pattern":{"source":"I click on FoxBusiness"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"i_click_on_fox_business"}}}},{"stepDefinition":{"id":"f3b8afe0-fc62-48ea-bf8a-498828b5c0b8","pattern":{"source":"I click on FoxNews Radio"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"i_click_on_fox_news_radio"}}}},{"stepDefinition":{"id":"10eb493b-2000-4483-9ce1-af3d301d765f","pattern":{"source":"I verify Im in Fox News Radio Page"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"i_verify_im_in_fox_news_radio_page"}}}},{"stepDefinition":{"id":"d5c5b345-5fb7-4ee9-b943-1509c63963fa","pattern":{"source":"I click on  Fox Nation"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"i_click_on_fox_nation"}}}},{"stepDefinition":{"id":"9eacd68f-223f-48c2-8fba-eb04626bdad4","pattern":{"source":"I verify Im in Fox Nation Page"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"i_verify_im_in_fox_nation_page"}}}},{"stepDefinition":{"id":"091cb72e-c1e6-4f7f-8a5d-a100d3eeecc0","pattern":{"source":"I click on Fox NEws Flash"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"i_click_on_fox_n_ews_flash"}}}},{"stepDefinition":{"id":"37a318b7-67cd-4f18-a9f6-035ffbea3246","pattern":{"source":"I verify Im in fox News Flash"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"i_verify_im_in_fox_news_flash"}}}},{"stepDefinition":{"id":"dfe3b258-f486-451a-bd77-68c0c8692dcc","pattern":{"source":"I click on show clips"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"i_click_on_show_clips"}}}},{"stepDefinition":{"id":"33623c94-3914-4942-982e-0c89137b5d72","pattern":{"source":"I verify Im in show Clips"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"i_verify_im_in_show_clips"}}}},{"stepDefinition":{"id":"9ee66cc4-8afd-4df6-9bb4-f048e1e73620","pattern":{"source":"I click on News Clips"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"i_click_on_news_clips"}}}},{"stepDefinition":{"id":"afe622de-29a7-44b6-a1cc-ca1ecc732bc5","pattern":{"source":"I verify Im In News Clips"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"i_verify_im_in_news_clips"}}}},{"stepDefinition":{"id":"e6fb05de-bfa1-4ff3-a986-e6f501fce86e","pattern":{"source":"I click on facebook Icon"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"i_click_on_facebook_icon"}}}},{"stepDefinition":{"id":"93149128-f9d9-4945-9362-7cea1684ad2f","pattern":{"source":"I verify facebook Window Pop up"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"i_verify_facebook_window_pop_up"}}}},{"stepDefinition":{"id":"da38f2f0-2ac7-436b-8704-2f4fcd12648c","pattern":{"source":"I click on Twitter Icon"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"i_click_on_twitter_icon"}}}},{"stepDefinition":{"id":"03dc5bb9-4f66-41e5-a406-f285f8242427","pattern":{"source":"I verify Twitter Window Pop Up"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"i_verify_twitter_window_pop_up"}}}},{"stepDefinition":{"id":"8667f349-cbd7-4efb-99dc-ff5226cc01db","pattern":{"source":"check im on top of Page"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"check_im_on_top_of_page"}}}},{"hook":{"id":"a4f33e3a-9249-4af8-a453-66bea2f7491c","sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"closebrowserfox"}}}},{"testCase":{"id":"6a9735b0-d032-4b5d-a700-b90b4e84b49a","pickleId":"eba71d47-63c4-49ce-a883-151d512ab80a","testSteps":[{"id":"8493c5af-c85f-4171-a01b-7ea032bd8729","pickleStepId":"9036dabd-bc27-4f42-b3f7-a627cc906f97","stepDefinitionIds":["cbb1e1a5-b4f7-4ba5-9633-99e86dfc2b4d"],"stepMatchArgumentsLists":[{}]},{"id":"9a36478f-e4f0-4ad5-ad21-fa19885e41f4","pickleStepId":"ac1a44f6-d812-48d2-bf7d-dcef47b5ce6c","stepDefinitionIds":["03de97db-1738-4d84-8e07-0b51fa9247ae"],"stepMatchArgumentsLists":[{}]},{"id":"b06f44f8-daf1-44fe-b286-6ed89ce114a2","pickleStepId":"7bf6dfbd-16f0-4fe0-93c6-7dc4622f7c3c","stepDefinitionIds":["4afc42ac-946d-4dce-b4ab-f8b01f75b140"],"stepMatchArgumentsLists":[{}]},{"id":"b4e05c16-e0c0-4c8f-8818-15846390eb3f","hookId":"a4f33e3a-9249-4af8-a453-66bea2f7491c"}]}},{"testCaseStarted":{"timestamp":{"seconds":"1601080674","nanos":624420700},"testCaseId":"6a9735b0-d032-4b5d-a700-b90b4e84b49a","id":"385fe3b3-44b6-4bf2-825e-dfbd20ef09be"}},{"testStepStarted":{"timestamp":{"seconds":"1601080674","nanos":754420900},"testStepId":"8493c5af-c85f-4171-a01b-7ea032bd8729","testCaseStartedId":"385fe3b3-44b6-4bf2-825e-dfbd20ef09be"}},{"testStepFinished":{"testStepResult":{"status":"PASSED","duration":{"seconds":"10","nanos":345891800}},"timestamp":{"seconds":"1601080685","nanos":100312700},"testStepId":"8493c5af-c85f-4171-a01b-7ea032bd8729","testCaseStartedId":"385fe3b3-44b6-4bf2-825e-dfbd20ef09be"}},{"testStepStarted":{"timestamp":{"seconds":"1601080685","nanos":123313100},"testStepId":"9a36478f-e4f0-4ad5-ad21-fa19885e41f4","testCaseStartedId":"385fe3b3-44b6-4bf2-825e-dfbd20ef09be"}},{"testStepFinished":{"testStepResult":{"status":"PASSED","duration":{"seconds":"11","nanos":395499100}},"timestamp":{"seconds":"1601080696","nanos":518812200},"testStepId":"9a36478f-e4f0-4ad5-ad21-fa19885e41f4","testCaseStartedId":"385fe3b3-44b6-4bf2-825e-dfbd20ef09be"}},{"testStepStarted":{"timestamp":{"seconds":"1601080696","nanos":524812600},"testStepId":"b06f44f8-daf1-44fe-b286-6ed89ce114a2","testCaseStartedId":"385fe3b3-44b6-4bf2-825e-dfbd20ef09be"}},{"testStepFinished":{"testStepResult":{"status":"PASSED","duration":{"seconds":"12","nanos":86450500}},"timestamp":{"seconds":"1601080708","nanos":611263100},"testStepId":"b06f44f8-daf1-44fe-b286-6ed89ce114a2","testCaseStartedId":"385fe3b3-44b6-4bf2-825e-dfbd20ef09be"}},{"testStepStarted":{"timestamp":{"seconds":"1601080708","nanos":611263100},"testStepId":"b4e05c16-e0c0-4c8f-8818-15846390eb3f","testCaseStartedId":"385fe3b3-44b6-4bf2-825e-dfbd20ef09be"}},{"testStepFinished":{"testStepResult":{"status":"PASSED","duration":{"nanos":945006500}},"timestamp":{"seconds":"1601080709","nanos":556269600},"testStepId":"b4e05c16-e0c0-4c8f-8818-15846390eb3f","testCaseStartedId":"385fe3b3-44b6-4bf2-825e-dfbd20ef09be"}},{"testCaseFinished":{"timestamp":{"seconds":"1601080709","nanos":556269600},"testCaseStartedId":"385fe3b3-44b6-4bf2-825e-dfbd20ef09be"}},{"stepDefinition":{"id":"ab1798a8-81f0-443a-9282-70aee23df457","pattern":{"source":"click on button"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"click_on_button"}}}},{"stepDefinition":{"id":"c56ad74e-7a6c-4cd6-bf1c-6d683aa170e4","pattern":{"source":"I verify Im in FoxFor Business Page"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"i_verify_im_in_fox_for_business_page"}}}},{"stepDefinition":{"id":"d1dfdd93-db87-46b2-b507-a38cfed3201b","pattern":{"source":"scroll down to scroll to top button"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"scroll_down_to_scroll_to_top_button"}}}},{"stepDefinition":{"id":"509e8256-80f1-4f46-95c4-98e126235a51","pattern":{"source":"Im in Fox News Home Page"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"im_in_fox_news_home_page"}}}},{"stepDefinition":{"id":"3bacd230-846d-4baa-9f06-5be03d752c8a","pattern":{"source":"I click on WatchTV Button"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"i_click_on_watch_tv_button"}}}},{"stepDefinition":{"id":"4b039706-c2cd-4877-b978-6f4583956ffc","pattern":{"source":"I Verify Im in Watch TV Homepage"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"i_verify_im_in_watch_tv_homepage"}}}},{"stepDefinition":{"id":"3fbd6f24-e604-4840-a2f4-039af5984f95","pattern":{"source":"I click On fox News Home Page"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"i_click_on_fox_news_home_page"}}}},{"stepDefinition":{"id":"2a295189-319f-4528-9c06-672549717b4e","pattern":{"source":"I verify Im in Fox News Home Page"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"i_verify_im_in_fox_news_home_page"}}}},{"stepDefinition":{"id":"32f76765-bb94-43ec-99df-0426dad68276","pattern":{"source":"I click on FoxBusiness"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"i_click_on_fox_business"}}}},{"stepDefinition":{"id":"f8af320c-629a-4589-8a5a-771d9f6c2658","pattern":{"source":"I click on FoxNews Radio"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"i_click_on_fox_news_radio"}}}},{"stepDefinition":{"id":"61668611-1234-4f50-a369-5d854bebfd2e","pattern":{"source":"I verify Im in Fox News Radio Page"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"i_verify_im_in_fox_news_radio_page"}}}},{"stepDefinition":{"id":"92f28e64-7ea7-4bf9-a7f0-f742e6659403","pattern":{"source":"I click on  Fox Nation"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"i_click_on_fox_nation"}}}},{"stepDefinition":{"id":"fb961419-9379-4944-8ad9-be8c355cce37","pattern":{"source":"I verify Im in Fox Nation Page"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"i_verify_im_in_fox_nation_page"}}}},{"stepDefinition":{"id":"0c656a0a-2cfc-443d-a52e-6f2a3968144b","pattern":{"source":"I click on Fox NEws Flash"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"i_click_on_fox_n_ews_flash"}}}},{"stepDefinition":{"id":"0f21cfb8-9714-400e-99e9-5f1526536827","pattern":{"source":"I verify Im in fox News Flash"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"i_verify_im_in_fox_news_flash"}}}},{"stepDefinition":{"id":"0b475cc2-b6c8-4f77-b76d-bbb05dc07c0c","pattern":{"source":"I click on show clips"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"i_click_on_show_clips"}}}},{"stepDefinition":{"id":"ed9d9930-089d-47d6-bbdb-ebb4e459b1d3","pattern":{"source":"I verify Im in show Clips"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"i_verify_im_in_show_clips"}}}},{"stepDefinition":{"id":"07f2704d-91f5-44f4-b205-ec77a8f60093","pattern":{"source":"I click on News Clips"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"i_click_on_news_clips"}}}},{"stepDefinition":{"id":"f61ae20a-935a-4fdc-a96c-889180ecb315","pattern":{"source":"I verify Im In News Clips"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"i_verify_im_in_news_clips"}}}},{"stepDefinition":{"id":"bd067462-4711-42ab-abfc-64ec702ec970","pattern":{"source":"I click on facebook Icon"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"i_click_on_facebook_icon"}}}},{"stepDefinition":{"id":"fa0a9df0-8d75-4d63-a2f0-51c444f8ac03","pattern":{"source":"I verify facebook Window Pop up"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"i_verify_facebook_window_pop_up"}}}},{"stepDefinition":{"id":"45f0422b-7bc4-49c8-91ae-4cfb848b6376","pattern":{"source":"I click on Twitter Icon"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"i_click_on_twitter_icon"}}}},{"stepDefinition":{"id":"ee120a6e-01f0-40a8-abb7-0e629c86cf25","pattern":{"source":"I verify Twitter Window Pop Up"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"i_verify_twitter_window_pop_up"}}}},{"stepDefinition":{"id":"60ca7b5f-a6e2-4d71-a632-e2332993e52f","pattern":{"source":"check im on top of Page"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"check_im_on_top_of_page"}}}},{"hook":{"id":"a4f33e3a-9249-4af8-a453-66bea2f7491c","sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"closebrowserfox"}}}},{"testCase":{"id":"311fbb04-a65d-4f77-8638-3825848c0fa5","pickleId":"00f7ca50-c23d-46a2-ab62-bf30a2c28482","testSteps":[{"id":"09d8efa6-4935-48b1-8b0d-c0c3e8d281a2","pickleStepId":"ca182a72-771b-4589-b3e3-3e098ab311d8","stepDefinitionIds":["509e8256-80f1-4f46-95c4-98e126235a51"],"stepMatchArgumentsLists":[{}]},{"id":"cf5b4773-5004-4b65-b660-11ba50e3ed23","pickleStepId":"2aa5505f-cac7-441b-9c20-ba3516f63035","stepDefinitionIds":["3bacd230-846d-4baa-9f06-5be03d752c8a"],"stepMatchArgumentsLists":[{}]},{"id":"9a29b6c0-8b03-4f48-9f5e-fe692c6cdba8","pickleStepId":"baeea7df-2021-46a3-9f04-7479ad7f7bab","stepDefinitionIds":["3fbd6f24-e604-4840-a2f4-039af5984f95"],"stepMatchArgumentsLists":[{}]},{"id":"a21d7eb0-ff37-412f-b1da-8c0d5b173597","pickleStepId":"70602c75-5148-42cc-8298-eb4b030dd5eb","stepDefinitionIds":["2a295189-319f-4528-9c06-672549717b4e"],"stepMatchArgumentsLists":[{}]},{"id":"4395b1e1-a7f6-402b-83ab-1e4580d22e17","hookId":"a4f33e3a-9249-4af8-a453-66bea2f7491c"}]}},{"testCaseStarted":{"timestamp":{"seconds":"1601080709","nanos":661269700},"testCaseId":"311fbb04-a65d-4f77-8638-3825848c0fa5","id":"829cb828-e0e1-4df4-a31b-7a63430fdb88"}},{"testStepStarted":{"timestamp":{"seconds":"1601080709","nanos":666269700},"testStepId":"09d8efa6-4935-48b1-8b0d-c0c3e8d281a2","testCaseStartedId":"829cb828-e0e1-4df4-a31b-7a63430fdb88"}},{"testStepFinished":{"testStepResult":{"status":"PASSED","duration":{"seconds":"7","nanos":375119800}},"timestamp":{"seconds":"1601080717","nanos":41389500},"testStepId":"09d8efa6-4935-48b1-8b0d-c0c3e8d281a2","testCaseStartedId":"829cb828-e0e1-4df4-a31b-7a63430fdb88"}},{"testStepStarted":{"timestamp":{"seconds":"1601080717","nanos":41389500},"testStepId":"cf5b4773-5004-4b65-b660-11ba50e3ed23","testCaseStartedId":"829cb828-e0e1-4df4-a31b-7a63430fdb88"}},{"testStepFinished":{"testStepResult":{"status":"PASSED","duration":{"seconds":"1","nanos":102019100}},"timestamp":{"seconds":"1601080718","nanos":143408600},"testStepId":"cf5b4773-5004-4b65-b660-11ba50e3ed23","testCaseStartedId":"829cb828-e0e1-4df4-a31b-7a63430fdb88"}},{"testStepStarted":{"timestamp":{"seconds":"1601080718","nanos":145908700},"testStepId":"9a29b6c0-8b03-4f48-9f5e-fe692c6cdba8","testCaseStartedId":"829cb828-e0e1-4df4-a31b-7a63430fdb88"}},{"testStepFinished":{"testStepResult":{"status":"PASSED","duration":{"seconds":"1","nanos":406024800}},"timestamp":{"seconds":"1601080719","nanos":551933500},"testStepId":"9a29b6c0-8b03-4f48-9f5e-fe692c6cdba8","testCaseStartedId":"829cb828-e0e1-4df4-a31b-7a63430fdb88"}},{"testStepStarted":{"timestamp":{"seconds":"1601080719","nanos":551933500},"testStepId":"a21d7eb0-ff37-412f-b1da-8c0d5b173597","testCaseStartedId":"829cb828-e0e1-4df4-a31b-7a63430fdb88"}},{"testStepFinished":{"testStepResult":{"status":"PASSED","duration":{"nanos":107501600}},"timestamp":{"seconds":"1601080719","nanos":659435100},"testStepId":"a21d7eb0-ff37-412f-b1da-8c0d5b173597","testCaseStartedId":"829cb828-e0e1-4df4-a31b-7a63430fdb88"}},{"testStepStarted":{"timestamp":{"seconds":"1601080719","nanos":669435300},"testStepId":"4395b1e1-a7f6-402b-83ab-1e4580d22e17","testCaseStartedId":"829cb828-e0e1-4df4-a31b-7a63430fdb88"}},{"testStepFinished":{"testStepResult":{"status":"PASSED","duration":{"nanos":756507600}},"timestamp":{"seconds":"1601080720","nanos":425942900},"testStepId":"4395b1e1-a7f6-402b-83ab-1e4580d22e17","testCaseStartedId":"829cb828-e0e1-4df4-a31b-7a63430fdb88"}},{"testCaseFinished":{"timestamp":{"seconds":"1601080720","nanos":425942900},"testCaseStartedId":"829cb828-e0e1-4df4-a31b-7a63430fdb88"}},{"stepDefinition":{"id":"3f594bbe-fe37-4c9c-962b-e66c6f3b9caf","pattern":{"source":"click on button"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"click_on_button"}}}},{"stepDefinition":{"id":"5254fe38-2c5f-4a5d-aa29-bf6b0c093d98","pattern":{"source":"I verify Im in FoxFor Business Page"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"i_verify_im_in_fox_for_business_page"}}}},{"stepDefinition":{"id":"180d498f-439d-485f-a415-f0f755d5ee5d","pattern":{"source":"scroll down to scroll to top button"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"scroll_down_to_scroll_to_top_button"}}}},{"stepDefinition":{"id":"4765887d-4bea-4151-9c71-4b16d5ec76fd","pattern":{"source":"Im in Fox News Home Page"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"im_in_fox_news_home_page"}}}},{"stepDefinition":{"id":"011279bb-0e25-436b-93cb-4dccf869355a","pattern":{"source":"I click on WatchTV Button"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"i_click_on_watch_tv_button"}}}},{"stepDefinition":{"id":"478cfd9d-89b6-4832-bd62-41224381829d","pattern":{"source":"I Verify Im in Watch TV Homepage"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"i_verify_im_in_watch_tv_homepage"}}}},{"stepDefinition":{"id":"217acdda-4786-48c3-8d05-0c476e384c77","pattern":{"source":"I click On fox News Home Page"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"i_click_on_fox_news_home_page"}}}},{"stepDefinition":{"id":"a6c05863-c0be-43c9-9640-a1b1adcc27ee","pattern":{"source":"I verify Im in Fox News Home Page"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"i_verify_im_in_fox_news_home_page"}}}},{"stepDefinition":{"id":"e44866db-f159-486a-97bc-7176e7ba304d","pattern":{"source":"I click on FoxBusiness"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"i_click_on_fox_business"}}}},{"stepDefinition":{"id":"4aa6f74c-1b80-4bb1-bf8f-bc5ac184a7ac","pattern":{"source":"I click on FoxNews Radio"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"i_click_on_fox_news_radio"}}}},{"stepDefinition":{"id":"c71c9163-d915-40e7-94b2-b7922d7d606b","pattern":{"source":"I verify Im in Fox News Radio Page"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"i_verify_im_in_fox_news_radio_page"}}}},{"stepDefinition":{"id":"0a66837d-366b-430f-be6d-fc5507e42820","pattern":{"source":"I click on  Fox Nation"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"i_click_on_fox_nation"}}}},{"stepDefinition":{"id":"54a26d9e-a2bc-4f27-9109-71b28de5feb3","pattern":{"source":"I verify Im in Fox Nation Page"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"i_verify_im_in_fox_nation_page"}}}},{"stepDefinition":{"id":"65df0ae7-7b1a-4fb5-baf9-47ee7a5f7cbf","pattern":{"source":"I click on Fox NEws Flash"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"i_click_on_fox_n_ews_flash"}}}},{"stepDefinition":{"id":"33af40f5-d0de-4aab-b563-ba809a950247","pattern":{"source":"I verify Im in fox News Flash"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"i_verify_im_in_fox_news_flash"}}}},{"stepDefinition":{"id":"ae51672f-fcbe-4a49-b90e-4a978f54f055","pattern":{"source":"I click on show clips"},"sourceReference":{"javaMethod":{"className":"stepDefinitions.WatchTvStepDefinitions","methodName":"i_click_on_show_clips"}}}},{"stepDefinition":{"id":"fd3efb7

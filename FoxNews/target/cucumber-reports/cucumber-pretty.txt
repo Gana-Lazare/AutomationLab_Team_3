@@ -1,0 +1,16 @@
+
+@Regression
+Scenario: Watch Tv Button  functionality Check # src/test/java/features/watchTv.feature:8
+  Given Im in Fox News Home Page               # stepDefinitions.WatchTvStepDefinitions.im_in_fox_news_home_page()
+  And I click on WatchTV Button                # stepDefinitions.WatchTvStepDefinitions.i_click_on_watch_tv_button()
+  Then I Verify Im in Watch TV Homepage        # stepDefinitions.WatchTvStepDefinitions.i_verify_im_in_watch_tv_homepage()
+
+@Regression
+Scenario: Im in Watch Tv and use FoxNews Homep page Button # src/test/java/features/watchTv.feature:11
+  Given Im in Fox News Home Page                           # stepDefinitions.WatchTvStepDefinitions.im_in_fox_news_home_page()
+  And I click on WatchTV Button                            # stepDefinitions.WatchTvStepDefinitions.i_click_on_watch_tv_button()
+  And I click On fox News Home Page                        # stepDefinitions.WatchTvStepDefinitions.i_click_on_fox_news_home_page()
+  Then I verify Im in Fox News Home Page                   # stepDefinitions.WatchTvStepDefinitions.i_verify_im_in_fox_news_home_page()
+
+@Regression
+Scenario: Im in watch tv Page and check Fox for business # src/test/java/features/watchTv.feature:15

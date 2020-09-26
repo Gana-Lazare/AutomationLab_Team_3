@@ -1,0 +1,48 @@
+
+Scenario: check facebook pop up window functionality # src/test/java/features/Chasehome.feature:6
+  Given Im in Chase Bank Home page                   # stepDefinitions.ChaseStepDefinitions.im_in_chase_bank_home_page()
+  When I scrol to social media zone                  # stepDefinitions.ChaseStepDefinitions.i_scrol_to_social_media_zone()
+  And I click On facebookIcon                        # stepDefinitions.ChaseStepDefinitions.i_click_on_facebook_icon()
+  Then I proceed to quit chase                       # stepDefinitions.ChaseStepDefinitions.i_proceed_to_quit_chase()
+  And I verify Im in facebook page                   # stepDefinitions.ChaseStepDefinitions.i_verify_im_in_facebook_page()
+      org.junit.ComparisonFailure: not the right page expected:<...://www.facebook.com/[login.php?next=https%3A%2F%2Fwww.facebook.com%2F]chase> but was:<...://www.facebook.com/[]chase>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at stepDefinitions.ChaseStepDefinitions.i_verify_im_in_facebook_page(ChaseStepDefinitions.java:45)
+	at ✽.I verify Im in facebook page(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Chase/src/test/java/features/Chasehome.feature:10)
+
+
+Scenario: check Instagram pop up window functionality # src/test/java/features/Chasehome.feature:12
+  Given Im in Chase Bank Home page                    # stepDefinitions.ChaseStepDefinitions.im_in_chase_bank_home_page()
+  When I scrol to social media zone                   # stepDefinitions.ChaseStepDefinitions.i_scrol_to_social_media_zone()
+  And I click On Instagram                            # stepDefinitions.ChaseStepDefinitions.i_click_on_instagram()
+  Then I proceed to quit chase                        # stepDefinitions.ChaseStepDefinitions.i_proceed_to_quit_chase()
+  And I verify Im in Instagram page                   # stepDefinitions.ChaseStepDefinitions.i_verify_im_in_instagram_page()
+
+Scenario: check Twitter pop up window functionality # src/test/java/features/Chasehome.feature:18
+  Given Im in Chase Bank Home page                  # stepDefinitions.ChaseStepDefinitions.im_in_chase_bank_home_page()
+  When I scrol to social media zone                 # stepDefinitions.ChaseStepDefinitions.i_scrol_to_social_media_zone()
+  And I click On Twitter                            # stepDefinitions.ChaseStepDefinitions.i_click_on_twitter()
+  Then I proceed to quit chase                      # stepDefinitions.ChaseStepDefinitions.i_proceed_to_quit_chase()
+  And I verify Im in Twitter page                   # stepDefinitions.ChaseStepDefinitions.i_verify_im_in_twitter_page()
+
+Scenario: check Youtube pop up window functionality # src/test/java/features/Chasehome.feature:24
+  Given Im in Chase Bank Home page                  # stepDefinitions.ChaseStepDefinitions.im_in_chase_bank_home_page()
+  When I scrol to social media zone                 # stepDefinitions.ChaseStepDefinitions.i_scrol_to_social_media_zone()
+      org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=/html/body/div/footer/div/div[1]/div/div/div[2]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MICROMEDIA-PC', ip: '192.168.1.37', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at common.WebAPI.moveToElement(WebAPI.java:246)
+	at stepDefinitions.ChaseStepDefinitions.i_scrol_to_social_media_zone(ChaseStepDefinitions.java:25)
+	at ✽.I scrol to social media zone(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Chase/src/test/java/features/Chasehome.feature:25)
+
+  And I click On Youtube                            # stepDefinitions.ChaseStepDefinitions.i_click_on_youtube()
+  Then I proceed to quit chase                      # stepDefinitions.ChaseStepDefinitions.i_proceed_to_quit_chase()
+  And I verify Im in Youtube page                   # stepDefinitions.ChaseStepDefinitions.i_verify_im_in_youtube_page()
+
+Scenario: check LinkedIn pop up window functionality # src/test/java/features/Chasehome.feature:30

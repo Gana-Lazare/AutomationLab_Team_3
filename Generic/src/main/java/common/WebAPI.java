@@ -4,6 +4,8 @@ import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.LogStatus;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.StringUtils;
+import org.junit.After;
+import org.junit.jupiter.api.AfterEach;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -45,7 +47,7 @@ public class WebAPI {
     public static WebDriver driver;
     WebElement webElement;
     String elementresearch;
-    String locator;
+
 
     @BeforeSuite
     public void extentSetup(ITestContext context) {
@@ -80,7 +82,7 @@ public class WebAPI {
 
     }
 
-
+    @BeforeMethod
     public void startExtent(Method method) {
         String className = method.getDeclaringClass().getSimpleName();
         String methodName = method.getName().toLowerCase();
@@ -124,6 +126,34 @@ public class WebAPI {
             e.getStackTrace();
             e.getMessage();
         }
+    }
+@AfterEach
+public void afterEachTestMethodBDD(ITestResult result) {
+    ExtentTestManager.getTest().getTest().setStartedTime(getTime(result.getStartMillis()));
+    ExtentTestManager.getTest().getTest().setEndedTime(getTime(result.getEndMillis()));
+
+    for (String group : result.getMethod().getGroups()) {
+        ExtentTestManager.getTest().assignCategory(group);
+    }
+
+    if (result.getStatus() == 1) {
+        ExtentTestManager.getTest().log(LogStatus.PASS, "Test Passed");
+    } else if (result.getStatus() == 2) {
+        ExtentTestManager.getTest().log(LogStatus.FAIL, getStackTrace(result.getThrowable()));
+    } else if (result.getStatus() == 3) {
+        ExtentTestManager.getTest().log(LogStatus.SKIP, "Test Skipped");
+    }
+    ExtentTestManager.endTest();
+    extent.flush();
+    if (result.getStatus() == ITestResult.FAILURE) {
+        captureScreenshot(driver, result.getName());
+    }
+    driver.quit();
+}
+
+    @After
+    public void generateReportBDD() {
+        extent.close();
     }
 
     @AfterSuite

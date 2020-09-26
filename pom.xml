@@ -50,6 +50,7 @@
                 <groupId>org.testng</groupId>
                 <artifactId>testng</artifactId>
                 <version>7.1.0</version>
+
             </dependency>
 
             <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
@@ -231,7 +232,8 @@
 
                         <testFailureIgnore>true</testFailureIgnore>
                         <suiteXmlFiles>
-                            <suiteXmlFile>src\test\resources\ebaytestRunner.xml</suiteXmlFile>
+                            <suiteXmlFile>target/test-classes/ebaytestRunner.xml</suiteXmlFile>
+                            <suiteXmlFile>target/test-classes/AetnaTestRunner.xml</suiteXmlFile>
                         </suiteXmlFiles>
                     </configuration>
                 </plugin>

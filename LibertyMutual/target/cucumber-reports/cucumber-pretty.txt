@@ -1,0 +1,2 @@
+
+Scenario Outline: check auto insurance for zip code # src/test/java/features/LibertyMutual.feature:20
