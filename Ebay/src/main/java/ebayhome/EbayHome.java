@@ -28,6 +28,7 @@ public class EbayHome extends WebAPI {
     WebElement Babies;
 
     public void BabiesShop() {
+        homeGarden.click();
         Babies.click();
     }
 

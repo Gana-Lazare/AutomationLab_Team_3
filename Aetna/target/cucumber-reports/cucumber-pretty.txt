@@ -6,7 +6,7 @@ Scenario: Aetna HomePage Check               # src/test/java/features/aetnaHome.
       java.lang.NullPointerException
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy23.click(Unknown Source)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
 	at aetnahome.AetnaHome.aetnaExploreSiteMethod(AetnaHome.java:77)
 	at stepDefinitions.HomePageStepDefinitions.i_click_on_expplore_aetna_site(HomePageStepDefinitions.java:36)
 	at ✽.I click on Expplore Aetna Site(file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Aetna/src/test/java/features/aetnaHome.feature:17)
@@ -20,7 +20,7 @@ Scenario: Search button check           # src/test/java/features/aetnaHome.featu
       java.lang.NullPointerException
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy23.click(Unknown Source)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
 	at aetnahome.AetnaHome.aetnaExploreSiteMethod(AetnaHome.java:77)
 	at stepDefinitions.HomePageStepDefinitions.i_click_on_expplore_aetna_site(HomePageStepDefinitions.java:36)
 	at ✽.I click on Expplore Aetna Site(file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Aetna/src/test/java/features/aetnaHome.feature:17)
@@ -37,7 +37,7 @@ Scenario: Check Aetna_com button        # src/test/java/features/aetnaHome.featu
       java.lang.NullPointerException
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy23.click(Unknown Source)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
 	at aetnahome.AetnaHome.aetnaExploreSiteMethod(AetnaHome.java:77)
 	at stepDefinitions.HomePageStepDefinitions.i_click_on_expplore_aetna_site(HomePageStepDefinitions.java:36)
 	at ✽.I click on Expplore Aetna Site(file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Aetna/src/test/java/features/aetnaHome.feature:17)
@@ -52,7 +52,7 @@ Scenario: Check For Providers button    # src/test/java/features/aetnaHome.featu
       java.lang.NullPointerException
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy23.click(Unknown Source)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
 	at aetnahome.AetnaHome.aetnaExploreSiteMethod(AetnaHome.java:77)
 	at stepDefinitions.HomePageStepDefinitions.i_click_on_expplore_aetna_site(HomePageStepDefinitions.java:36)
 	at ✽.I click on Expplore Aetna Site(file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Aetna/src/test/java/features/aetnaHome.feature:17)
@@ -67,7 +67,7 @@ Scenario: Check For Employers button    # src/test/java/features/aetnaHome.featu
       java.lang.NullPointerException
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy23.click(Unknown Source)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
 	at aetnahome.AetnaHome.aetnaExploreSiteMethod(AetnaHome.java:77)
 	at stepDefinitions.HomePageStepDefinitions.i_click_on_expplore_aetna_site(HomePageStepDefinitions.java:36)
 	at ✽.I click on Expplore Aetna Site(file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Aetna/src/test/java/features/aetnaHome.feature:17)
@@ -82,7 +82,7 @@ Scenario: Check For Agents Brokers button   # src/test/java/features/aetnaHome.f
       java.lang.NullPointerException
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy23.click(Unknown Source)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
 	at aetnahome.AetnaHome.aetnaExploreSiteMethod(AetnaHome.java:77)
 	at stepDefinitions.HomePageStepDefinitions.i_click_on_expplore_aetna_site(HomePageStepDefinitions.java:36)
 	at ✽.I click on Expplore Aetna Site(file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Aetna/src/test/java/features/aetnaHome.feature:17)
@@ -97,7 +97,7 @@ Scenario: Check For Partners button    # src/test/java/features/aetnaHome.featur
       java.lang.NullPointerException
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy23.click(Unknown Source)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
 	at aetnahome.AetnaHome.aetnaExploreSiteMethod(AetnaHome.java:77)
 	at stepDefinitions.HomePageStepDefinitions.i_click_on_expplore_aetna_site(HomePageStepDefinitions.java:36)
 	at ✽.I click on Expplore Aetna Site(file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Aetna/src/test/java/features/aetnaHome.feature:17)
@@ -112,7 +112,7 @@ Scenario: Check Careers button        # src/test/java/features/aetnaHome.feature
       java.lang.NullPointerException
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy23.click(Unknown Source)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
 	at aetnahome.AetnaHome.aetnaExploreSiteMethod(AetnaHome.java:77)
 	at stepDefinitions.HomePageStepDefinitions.i_click_on_expplore_aetna_site(HomePageStepDefinitions.java:36)
 	at ✽.I click on Expplore Aetna Site(file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Aetna/src/test/java/features/aetnaHome.feature:17)
@@ -127,7 +127,7 @@ Scenario: Check About Us button       # src/test/java/features/aetnaHome.feature
       java.lang.NullPointerException
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy23.click(Unknown Source)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
 	at aetnahome.AetnaHome.aetnaExploreSiteMethod(AetnaHome.java:77)
 	at stepDefinitions.HomePageStepDefinitions.i_click_on_expplore_aetna_site(HomePageStepDefinitions.java:36)
 	at ✽.I click on Expplore Aetna Site(file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Aetna/src/test/java/features/aetnaHome.feature:17)

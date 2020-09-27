@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: jetBlueTest.JetBlueTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.02 s <<< FAILURE! - in jetBlueTest.JetBlueTest
+jetBlueTest.JetBlueTest.trueBlueTest  Time elapsed: 0.007 s  <<< ERROR!
+java.lang.NullPointerException
+	at jetBlueTest.JetBlueTest.trueBlueTest(JetBlueTest.java:11)
+
+jetBlueTest.JetBlueTest.reasonsToJoinTest  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at jetBlueTest.JetBlueTest.reasonsToJoinTest(JetBlueTest.java:15)
+

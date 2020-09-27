@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------
+Test set: testRunner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 0, Errors: 9, Skipped: 0, Time elapsed: 61.69 s <<< FAILURE! - in testRunner.TestRunner
+Aetna Homepage Functionality Check.Aetna HomePage Check  Time elapsed: 7.477 s  <<< ERROR!
+java.lang.NullPointerException
+
+Aetna Homepage Functionality Check.Search button check  Time elapsed: 7.102 s  <<< ERROR!
+java.lang.NullPointerException
+
+Aetna Homepage Functionality Check.Check Aetna_com button  Time elapsed: 5.814 s  <<< ERROR!
+java.lang.NullPointerException
+
+Aetna Homepage Functionality Check.Check For Providers button  Time elapsed: 5.794 s  <<< ERROR!
+java.lang.NullPointerException
+
+Aetna Homepage Functionality Check.Check For Employers button  Time elapsed: 7.295 s  <<< ERROR!
+java.lang.NullPointerException
+
+Aetna Homepage Functionality Check.Check For Agents Brokers button  Time elapsed: 5.917 s  <<< ERROR!
+java.lang.NullPointerException
+
+Aetna Homepage Functionality Check.Check For Partners button  Time elapsed: 7.101 s  <<< ERROR!
+java.lang.NullPointerException
+
+Aetna Homepage Functionality Check.Check Careers button  Time elapsed: 6.242 s  <<< ERROR!
+java.lang.NullPointerException
+
+Aetna Homepage Functionality Check.Check About Us button  Time elapsed: 6.106 s  <<< ERROR!
+java.lang.NullPointerException
+

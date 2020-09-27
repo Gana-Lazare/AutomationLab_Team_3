@@ -1,0 +1,92 @@
+[
+  {
+    "source": "I am in Ebay homepage",
+    "steps": [
+      {
+        "name": "I am in Ebay homepage",
+        "aggregatedDurations": {
+          "median": 3.472702,
+          "average": 3.472702
+        },
+        "durations": [
+          {
+            "duration": 3.472702,
+            "location": "file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Ebay/src/test/java/features/EbayPage.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter Hand sanitizer in searchBox",
+    "steps": [
+      {
+        "name": "I enter Hand sanitizer in searchBox",
+        "aggregatedDurations": {
+          "median": 0.18413,
+          "average": 0.18413
+        },
+        "durations": [
+          {
+            "duration": 0.18413,
+            "location": "file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Ebay/src/test/java/features/EbayPage.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click searchButton",
+    "steps": [
+      {
+        "name": "I click searchButton",
+        "aggregatedDurations": {
+          "median": 1.217983,
+          "average": 1.217983
+        },
+        "durations": [
+          {
+            "duration": 1.217983,
+            "location": "file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Ebay/src/test/java/features/EbayPage.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Hand Sanitizer is appear properly",
+    "steps": [
+      {
+        "name": "I verify Hand Sanitizer is appear properly",
+        "aggregatedDurations": {
+          "median": 0.001041,
+          "average": 0.001041
+        },
+        "durations": [
+          {
+            "duration": 0.001041,
+            "location": "file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Ebay/src/test/java/features/EbayPage.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify page title as Hand sanitizer",
+    "steps": [
+      {
+        "name": "I verify page title as Hand sanitizer",
+        "aggregatedDurations": {
+          "median": 3.39E-4,
+          "average": 3.39E-4
+        },
+        "durations": [
+          {
+            "duration": 3.39E-4,
+            "location": "file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Ebay/src/test/java/features/EbayPage.feature:15"
+          }
+        ]
+      }
+    ]
+  }
+]

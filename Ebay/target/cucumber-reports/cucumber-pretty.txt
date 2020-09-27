@@ -1,0 +1,8 @@
+
+@SmokeTest @Regression
+Scenario: Ebay SearchBox Functionality check with valid data # src/test/java/features/EbayPage.feature:11
+  Given I am in Ebay homepage                                # stepDefinitions.EbayHomePageStepDefinition.i_am_in_ebay_homepage()
+  And I enter Hand sanitizer in searchBox                    # stepDefinitions.EbayHomePageStepDefinition.i_enter_hand_sanitizer_in_search_box()
+  When I click searchButton                                  # stepDefinitions.EbayHomePageStepDefinition.i_click_search_button()
+  Then I verify Hand Sanitizer is appear properly            # stepDefinitions.EbayHomePageStepDefinition.i_verify_hand_sanitizer_is_appear_properly()
+  And I verify page title as Hand sanitizer                  # stepDefinitions.EbayHomePageStepDefinition.i_verify_page_title_as_hand_sanitizer()

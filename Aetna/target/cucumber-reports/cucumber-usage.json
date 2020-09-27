@@ -5,44 +5,44 @@
       {
         "name": "I am in Aetna Homepage",
         "aggregatedDurations": {
-          "median": 2.476351,
-          "average": 2.555432777
+          "median": 3.123301,
+          "average": 3.383639444
         },
         "durations": [
           {
-            "duration": 2.77197,
+            "duration": 4.09021,
             "location": "file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Aetna/src/test/java/features/aetnaHome.feature:16"
           },
           {
-            "duration": 2.238417,
+            "duration": 3.911999,
             "location": "file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Aetna/src/test/java/features/aetnaHome.feature:16"
           },
           {
-            "duration": 2.535888,
+            "duration": 2.697817,
             "location": "file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Aetna/src/test/java/features/aetnaHome.feature:16"
           },
           {
-            "duration": 2.305895,
+            "duration": 2.668903,
             "location": "file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Aetna/src/test/java/features/aetnaHome.feature:16"
           },
           {
-            "duration": 2.653948,
+            "duration": 4.177395,
             "location": "file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Aetna/src/test/java/features/aetnaHome.feature:16"
           },
           {
-            "duration": 2.476351,
+            "duration": 2.79712,
             "location": "file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Aetna/src/test/java/features/aetnaHome.feature:16"
           },
           {
-            "duration": 2.26176,
+            "duration": 3.988641,
             "location": "file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Aetna/src/test/java/features/aetnaHome.feature:16"
           },
           {
-            "duration": 3.451753,
+            "duration": 3.123301,
             "location": "file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Aetna/src/test/java/features/aetnaHome.feature:16"
           },
           {
-            "duration": 2.302913,
+            "duration": 2.997369,
             "location": "file:///Users/rabahlamri/IdeaProjects/AutomationLab_Team_3/Aetna/src/test/java/features/aetnaHome.feature:16"
           }
         ]

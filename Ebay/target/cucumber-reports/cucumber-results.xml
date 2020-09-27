@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="5.563">
+    <testcase classname="check Ebay Home page Functionality" name="Ebay SearchBox Functionality check with valid data" time="5.082">
+        <system-out><![CDATA[Given I am in Ebay homepage.................................................passed
+And I enter Hand sanitizer in searchBox.....................................passed
+When I click searchButton...................................................passed
+Then I verify Hand Sanitizer is appear properly.............................passed
+And I verify page title as Hand sanitizer...................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

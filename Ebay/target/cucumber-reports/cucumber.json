@@ -1,0 +1,176 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3472702000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 18287000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.EbayHomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "I am in Ebay homepage",
+            "match": {
+              "location": "stepDefinitions.EbayHomePageStepDefinition.i_am_in_ebay_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-27T04:17:15.147Z",
+        "line": 11,
+        "name": "Ebay SearchBox Functionality check with valid data",
+        "description": "",
+        "id": "check-ebay-home-page-functionality;ebay-searchbox-functionality-check-with-valid-data",
+        "after": [
+          {
+            "result": {
+              "duration": 99569000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.EbayHomePageStepDefinition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1035000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.EbayHomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 184130000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1376000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.EbayHomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 12,
+            "name": "I enter Hand sanitizer in searchBox",
+            "match": {
+              "location": "stepDefinitions.EbayHomePageStepDefinition.i_enter_hand_sanitizer_in_search_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1217983000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1228000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.EbayHomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 13,
+            "name": "I click searchButton",
+            "match": {
+              "location": "stepDefinitions.EbayHomePageStepDefinition.i_click_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1041000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1187000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.EbayHomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 14,
+            "name": "I verify Hand Sanitizer is appear properly",
+            "match": {
+              "location": "stepDefinitions.EbayHomePageStepDefinition.i_verify_hand_sanitizer_is_appear_properly()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 339000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1113000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.EbayHomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 15,
+            "name": "I verify page title as Hand sanitizer",
+            "match": {
+              "location": "stepDefinitions.EbayHomePageStepDefinition.i_verify_page_title_as_hand_sanitizer()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "check Ebay Home page Functionality",
+    "description": "         Ebay SearchBox Functionality check with valid data1\n         Check ebay.com button\n         Ebay search functionality",
+    "id": "check-ebay-home-page-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/EbayPage.feature",
+    "tags": []
+  }
+]
