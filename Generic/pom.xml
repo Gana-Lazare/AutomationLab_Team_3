@@ -173,79 +173,10 @@
             <artifactId>cucumber-junit</artifactId>
 
         </dependency>
-        <!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured-all -->
+        <!--  Cucumber Extend Report          -->
         <dependency>
-            <groupId>io.rest-assured</groupId>
-            <artifactId>rest-assured-all</artifactId>
-            <version>4.3.1</version>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/com.github.scribejava/scribejava-apis -->
-        <dependency>
-            <groupId>com.github.scribejava</groupId>
-            <artifactId>scribejava-apis</artifactId>
-            <!--                <version>5.5.0</version>-->
-            <version>2.5.3</version>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
-        <dependency>
-            <groupId>com.fasterxml.jackson.core</groupId>
-            <artifactId>jackson-databind</artifactId>
-            <version>2.11.2</version>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/com.mashape.unirest/unirest-java -->
-        <dependency>
-            <groupId>com.mashape.unirest</groupId>
-            <artifactId>unirest-java</artifactId>
-            <version>1.4.9</version>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient -->
-        <dependency>
-            <groupId>org.apache.httpcomponents</groupId>
-            <artifactId>httpclient</artifactId>
-            <version>4.5.12</version>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpasyncclient -->
-        <dependency>
-            <groupId>org.apache.httpcomponents</groupId>
-            <artifactId>httpasyncclient</artifactId>
-            <version>4.1.4</version>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpmime -->
-        <dependency>
-            <groupId>org.apache.httpcomponents</groupId>
-            <artifactId>httpmime</artifactId>
-            <version>4.5.12</version>
-        </dependency>
-        <!-- For Using JSON-->
-        <!-- https://mvnrepository.com/artifact/org.json/json -->
-        <dependency>
-            <groupId>org.json</groupId>
-            <artifactId>json</artifactId>
-            <version>20200518</version>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
-        <dependency>
-            <groupId>com.googlecode.json-simple</groupId>
-            <artifactId>json-simple</artifactId>
-            <version>1.1.1</version>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/io.rest-assured/json-path -->
-        <dependency>
-            <groupId>io.rest-assured</groupId>
-            <artifactId>json-path</artifactId>
-            <version>4.3.1</version>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/io.rest-assured/json-schema-validator -->
-        <dependency>
-            <groupId>io.rest-assured</groupId>
-            <artifactId>json-schema-validator</artifactId>
-            <version>4.3.1</version>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/io.rest-assured/xml-path -->
-        <dependency>
-            <groupId>io.rest-assured</groupId>
-            <artifactId>xml-path</artifactId>
-            <version>4.3.1</version>
+            <groupId>com.vimalselvam</groupId>
+            <artifactId>cucumber-extentsreport</artifactId>
         </dependency>
 
     </dependencies>
@@ -268,15 +199,11 @@
                     <artifactId>maven-surefire-plugin</artifactId>
                     <configuration>
                         <testFailureIgnore>true</testFailureIgnore>
-                        <includes>
-                            <exclude>**/TestRunner.java</exclude>
-                        </includes>
                     </configuration>
                 </plugin>
                 <plugin>
                     <groupId>net.masterthought</groupId>
                     <artifactId>maven-cucumber-reporting</artifactId>
-                    <version>5.0.0</version>
                     <executions>
                         <execution>
                             <id>execution</id>

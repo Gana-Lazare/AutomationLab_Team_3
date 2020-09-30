@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="6" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="25" time="378.825">
+    <testcase classname="JetBlue Home page Check functionality" name="check flight under book functionality" time="31.36">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#subnav-wrapper_rztzt60h6-0 &gt; div &gt; div &gt; div.left-book-list-wrapper.fl.col-8-l.col-12-m.bottom-divider.pb3-l.pb5-m &gt; ul &gt; li:nth-child(1) &gt; jb-bubble-link &gt; a&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'MICROMEDIA-PC', ip: '192.168.1.37', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\MICROM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56228}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: cedced7b18e8303051bb0c392019d9a1&#10;*** Element info: {Using=css selector, value=#subnav-wrapper_rztzt60h6-0 &gt; div &gt; div &gt; div.left-book-list-wrapper.fl.col-8-l.col-12-m.bottom-divider.pb3-l.pb5-m &gt; ul &gt; li:nth-child(1) &gt; jb-bubble-link &gt; a}" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given IM in Jetblue Home Page...............................................passed
+When I click on book........................................................passed
+And I click on flight.......................................................failed
+And I send  "New York City" from and submite................................skipped
+And I send "Chicago" destination and submite................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#subnav-wrapper_rztzt60h6-0 > div > div > div.left-book-list-wrapper.fl.col-8-l.col-12-m.bottom-divider.pb3-l.pb5-m > ul > li:nth-child(1) > jb-bubble-link > a"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MICROMEDIA-PC', ip: '192.168.1.37', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\MICROM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56228}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: cedced7b18e8303051bb0c392019d9a1
+*** Element info: {Using=css selector, value=#subnav-wrapper_rztzt60h6-0 > div > div > div.left-book-list-wrapper.fl.col-8-l.col-12-m.bottom-divider.pb3-l.pb5-m > ul > li:nth-child(1) > jb-bubble-link > a}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at stepDefinitions.JetBlueStepDefinitions.i_click_on_flight(JetBlueStepDefinitions.java:37)
+	at ✽.I click on flight(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:10)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="JetBlue Home page Check functionality" name="check flightAndHotel under book functionality" time="15.591">
+        <failure message="not equal expected:&lt;[]&gt; but was:&lt;[https://www.jetblue.com/]&gt;" type="org.junit.ComparisonFailure">
+            <![CDATA[Given IM in Jetblue Home Page...............................................passed
+When I click on book........................................................passed
+And I click on flight and hotel.............................................passed
+Then I verify im In flight and hotel page...................................failed
+
+StackTrace:
+org.junit.ComparisonFailure: not equal expected:<[]> but was:<[https://www.jetblue.com/]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at stepDefinitions.JetBlueStepDefinitions.i_verify_im_in_flight_and_hotel_page(JetBlueStepDefinitions.java:71)
+	at ✽.I verify im In flight and hotel page(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:22)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="JetBlue Home page Check functionality" name="check travelBankCredit fucntionality" time="11.359">
+        <system-out>
+            <![CDATA[Given IM in Jetblue Home Page...............................................passed
+When i Click on travelBankCredit............................................passed
+Then I verify Im in travelBankCredit........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="JetBlue Home page Check functionality" name="check checkIn fucntionality" time="18.542">
+        <system-out>
+            <![CDATA[Given IM in Jetblue Home Page...............................................passed
+When i Click on checkIn.....................................................passed
+Then I verify Im in checkIn.................................................passed
+And I send "hilton" firstname and "grey" lastName...........................passed
+And I click on confirmationcode.............................................passed
+And I chose flightNumber option.............................................passed
+And I send "6667564NY" flight Number........................................passed
+And I click On departure airport............................................passed
+And I chose albany airport..................................................passed
+And I click on find flight..................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="JetBlue Home page Check functionality" name="check flightTraker fucntionality" time="11.749">
+        <system-out>
+            <![CDATA[Given IM in Jetblue Home Page...............................................passed
+When i Click on flightTraker................................................passed
+Then I verify Im in flightTraker............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="JetBlue Home page Check functionality" name="check travelAlert fucntionality" time="14.344">
+        <system-out>
+            <![CDATA[Given IM in Jetblue Home Page...............................................passed
+When i Click on travelAlert.................................................passed
+Then I verify Im in travelAlert.............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="JetBlue Home page Check functionality" name="check espagnol fucntionality" time="11.345">
+        <failure message="Not Equal expected:&lt;https://[hola].jetblue.com/&gt; but was:&lt;https://[www].jetblue.com/&gt;" type="org.junit.ComparisonFailure">
+            <![CDATA[Given IM in Jetblue Home Page...............................................passed
+When i Click on espagnol....................................................passed
+Then I verify Im in espagnol................................................failed
+
+StackTrace:
+org.junit.ComparisonFailure: Not Equal expected:<https://[hola].jetblue.com/> but was:<https://[www].jetblue.com/>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at stepDefinitions.JetBlueStepDefinitions.i_verify_im_in_espagnol(JetBlueStepDefinitions.java:165)
+	at ✽.I verify Im in espagnol(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:52)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="JetBlue Home page Check functionality" name="check sign in functionality" time="16.915">
+        <failure message="Public Key Retrieval is not allowed" type="java.sql.SQLNonTransientConnectionException">
+            <![CDATA[Given IM in Jetblue Home Page...............................................passed
+When I click on sign In.....................................................passed
+And I send "<email>" email..................................................failed
+And I send "<password>" password............................................skipped
+Then I click on signinsubmite...............................................skipped
+
+StackTrace:
+java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
+	at databases.ConnectToSqlDB.connectToSqlDatabase(ConnectToSqlDB.java:38)
+	at stepDefinitions.JetBlueStepDefinitions.setEmailInDB(JetBlueStepDefinitions.java:184)
+	at stepDefinitions.JetBlueStepDefinitions.i_send_email(JetBlueStepDefinitions.java:177)
+	at ✽.I send "<email>" email(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:56)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="JetBlue Home page Check functionality" name="check join our emaillist" time="14.6">
+        <system-out>
+            <![CDATA[Given IM in Jetblue Home Page...............................................passed
+When i scroll Down to join our emaillist....................................passed
+And I click on join our emaillist...........................................passed
+Then I verify Im in join our emaillist Page.................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="JetBlue Home page Check functionality" name="check DowloadJetBlueAPP" time="13.66">
+        <failure message="Not Equal expected:&lt;[Mobile App]&gt; but was:&lt;[]&gt;" type="org.junit.ComparisonFailure">
+            <![CDATA[Given IM in Jetblue Home Page...............................................passed
+When i scroll Down to DowloadJetBlueAPP.....................................passed
+And I click on join our DowloadJetBlueAPP...................................passed
+Then I verify Im in join our DowloadJetBlueAPP Page.........................failed
+
+StackTrace:
+org.junit.ComparisonFailure: Not Equal expected:<[Mobile App]> but was:<[]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at stepDefinitions.JetBlueStepDefinitions.i_verify_im_in_join_our_dowload_jet_blue_app_page(JetBlueStepDefinitions.java:230)
+	at ✽.I verify Im in join our DowloadJetBlueAPP Page(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:68)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="JetBlue Home page Check functionality" name="check facebookicon" time="15.487">
+        <system-out>
+            <![CDATA[Given IM in Jetblue Home Page...............................................passed
+When i scroll Down to facebookicon..........................................passed
+And I click on join our facebookicon........................................passed
+Then I verify Im in join our facebookIcon Page..............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="JetBlue Home page Check functionality" name="check instagram" time="17.036">
+        <system-out>
+            <![CDATA[Given IM in Jetblue Home Page...............................................passed
+When i scroll Down to instagram.............................................passed
+And I click on join our instagram...........................................passed
+Then I verify Im in join our instagram Page.................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="JetBlue Home page Check functionality" name="check twitter" time="17.595">
+        <system-out>
+            <![CDATA[Given IM in Jetblue Home Page...............................................passed
+When i scroll Down to twitter...............................................passed
+And I click on join our twitter.............................................passed
+Then I verify Im in join our twitter Page...................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="JetBlue Home page Check functionality" name="check youtube" time="16.909">
+        <system-out>
+            <![CDATA[Given IM in Jetblue Home Page...............................................passed
+When i scroll Down to youtube...............................................passed
+And I click on join our youtube.............................................passed
+Then I verify Im in join our youtube Page...................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="JetBlue Home page Check functionality" name="check jetblueSwag" time="18.569">
+        <system-out>
+            <![CDATA[Given IM in Jetblue Home Page...............................................passed
+When i scroll Down to jetblueSwag...........................................passed
+And I click on jetblueSwag..................................................passed
+Then I verify Im in jetblueSwag Page........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="JetBlue Home page Check functionality" name="check ourCompagny" time="10.694">
+        <system-out>
+            <![CDATA[Given IM in Jetblue Home Page...............................................passed
+When i scroll Down to ourCompagny...........................................passed
+And I click on join our ourCompagny.........................................passed
+Then I verify Im in ourCompagnyPage.........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="JetBlue Home page Check functionality" name="check ourPlanes" time="10.447">
+        <system-out>
+            <![CDATA[Given IM in Jetblue Home Page...............................................passed
+When i scroll Down to ourPlanes.............................................passed
+And I click on ourPlanes....................................................passed
+Then I verify Im ourPlanes Page.............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="JetBlue Home page Check functionality" name="check partnerAirlines" time="12.307">
+        <system-out>
+            <![CDATA[Given IM in Jetblue Home Page...............................................passed
+When i scroll Down to partnerAirlines.......................................passed
+And I click on partnerAirlines..............................................passed
+Then I verify Im partnerAirlines Page.......................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="JetBlue Home page Check functionality" name="check youtube" time="15.876">
+        <system-out>
+            <![CDATA[Given IM in Jetblue Home Page...............................................passed
+When i scroll Down to youtube...............................................passed
+And I click on join our youtube.............................................passed
+Then I verify Im in join our youtube Page...................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="JetBlue Home page Check functionality" name="check investorRelations" time="17.52">
+        <system-out>
+            <![CDATA[Given IM in Jetblue Home Page...............................................passed
+When i scroll Down to investorRelations.....................................passed
+And I click on investorRelations............................................passed
+Then I verify Im in investorRelations Page..................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="JetBlue Home page Check functionality" name="check travelAgents" time="11.496">
+        <system-out>
+            <![CDATA[Given IM in Jetblue Home Page...............................................passed
+When i scroll Down to travelAgents..........................................passed
+And I click on travelAgents.................................................passed
+Then I verify Im in travelAgents Page.......................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="JetBlue Home page Check functionality" name="check careers" time="17.115">
+        <system-out>
+            <![CDATA[Given IM in Jetblue Home Page...............................................passed
+When i scroll Down to careers...............................................passed
+And I click on careers......................................................passed
+Then I verify Im in careers Page............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="JetBlue Home page Check functionality" name="check timetables" time="16.302">
+        <failure message="Not Equal expected:&lt;.../b6.innosked.com/(S([wnsbaxqrybifmtpnt34asxzl]))/default.aspx&gt; but was:&lt;.../b6.innosked.com/(S([pltj2okvv1jkv3cvc5ozmvvw]))/default.aspx&gt;" type="org.junit.ComparisonFailure">
+            <![CDATA[Given IM in Jetblue Home Page...............................................passed
+When i scroll Down to timetables............................................passed
+And I click on timetables...................................................passed
+Then I verify Im in timetables Page.........................................failed
+
+StackTrace:
+org.junit.ComparisonFailure: Not Equal expected:<.../b6.innosked.com/(S([wnsbaxqrybifmtpnt34asxzl]))/default.aspx> but was:<.../b6.innosked.com/(S([pltj2okvv1jkv3cvc5ozmvvw]))/default.aspx>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at stepDefinitions.JetBlueStepDefinitions.i_verify_im_in_timetables_page(JetBlueStepDefinitions.java:451)
+	at ✽.I verify Im in timetables Page(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:133)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="JetBlue Home page Check functionality" name="check siteMap" time="9.414">
+        <system-out>
+            <![CDATA[Given IM in Jetblue Home Page...............................................passed
+When i scroll Down to siteMap...............................................passed
+And I click on siteMap......................................................passed
+Then I verify Im in siteMap Page............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="JetBlue Home page Check functionality" name="check contactUs" time="11.353">
+        <system-out>
+            <![CDATA[Given IM in Jetblue Home Page...............................................passed
+When i scroll Down to contactUs.............................................passed
+And I click on contactUs....................................................passed
+Then I verify Im in contactUs Page..........................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

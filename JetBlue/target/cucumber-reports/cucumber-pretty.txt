@@ -1,0 +1,217 @@
+
+@Regression
+Scenario Outline: check flight under book functionality # src/test/java/features/JetBlueHomePage.feature:16
+  Given IM in Jetblue Home Page                         # stepDefinitions.JetBlueStepDefinitions.im_in_jetblue_home_page()
+  When I click on book                                  # stepDefinitions.JetBlueStepDefinitions.i_click_on_book()
+  And I click on flight                                 # stepDefinitions.JetBlueStepDefinitions.i_click_on_flight()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#subnav-wrapper_rztzt60h6-0 > div > div > div.left-book-list-wrapper.fl.col-8-l.col-12-m.bottom-divider.pb3-l.pb5-m > ul > li:nth-child(1) > jb-bubble-link > a"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MICROMEDIA-PC', ip: '192.168.1.37', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\MICROM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56228}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: cedced7b18e8303051bb0c392019d9a1
+*** Element info: {Using=css selector, value=#subnav-wrapper_rztzt60h6-0 > div > div > div.left-book-list-wrapper.fl.col-8-l.col-12-m.bottom-divider.pb3-l.pb5-m > ul > li:nth-child(1) > jb-bubble-link > a}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at stepDefinitions.JetBlueStepDefinitions.i_click_on_flight(JetBlueStepDefinitions.java:37)
+	at ✽.I click on flight(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:10)
+
+  And I send  "New York City" from and submite          # stepDefinitions.JetBlueStepDefinitions.i_send_from_and_submite(java.lang.String)
+  And I send "Chicago" destination and submite          # stepDefinitions.JetBlueStepDefinitions.i_send_destination_and_submite(java.lang.String)
+
+@Regression
+Scenario: check flightAndHotel under book functionality # src/test/java/features/JetBlueHomePage.feature:19
+  Given IM in Jetblue Home Page                         # stepDefinitions.JetBlueStepDefinitions.im_in_jetblue_home_page()
+  When I click on book                                  # stepDefinitions.JetBlueStepDefinitions.i_click_on_book()
+  And I click on flight and hotel                       # stepDefinitions.JetBlueStepDefinitions.i_click_on_flight_and_hotel()
+  Then I verify im In flight and hotel page             # stepDefinitions.JetBlueStepDefinitions.i_verify_im_in_flight_and_hotel_page()
+      org.junit.ComparisonFailure: not equal expected:<[]> but was:<[https://www.jetblue.com/]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at stepDefinitions.JetBlueStepDefinitions.i_verify_im_in_flight_and_hotel_page(JetBlueStepDefinitions.java:71)
+	at ✽.I verify im In flight and hotel page(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:22)
+
+
+Scenario: check travelBankCredit fucntionality # src/test/java/features/JetBlueHomePage.feature:24
+  Given IM in Jetblue Home Page                # stepDefinitions.JetBlueStepDefinitions.im_in_jetblue_home_page()
+  When i Click on travelBankCredit             # stepDefinitions.JetBlueStepDefinitions.i_click_on_travel_bank_credit()
+  Then I verify Im in travelBankCredit         # stepDefinitions.JetBlueStepDefinitions.i_verify_im_in_travel_bank_credit()
+
+Scenario Outline: check checkIn fucntionality       # src/test/java/features/JetBlueHomePage.feature:40
+  Given IM in Jetblue Home Page                     # stepDefinitions.JetBlueStepDefinitions.im_in_jetblue_home_page()
+  When i Click on checkIn                           # stepDefinitions.JetBlueStepDefinitions.i_click_on_check_in()
+  Then I verify Im in checkIn                       # stepDefinitions.JetBlueStepDefinitions.i_verify_im_in_check_in()
+  And I send "hilton" firstname and "grey" lastName # stepDefinitions.JetBlueStepDefinitions.i_send_firstname_and_last_name(java.lang.String,java.lang.String)
+  And I click on confirmationcode                   # stepDefinitions.JetBlueStepDefinitions.i_click_on_confirmationcode()
+  And I chose flightNumber option                   # stepDefinitions.JetBlueStepDefinitions.i_chose_flight_number_option()
+  And I send "6667564NY" flight Number              # stepDefinitions.JetBlueStepDefinitions.i_send_flight_number(java.lang.String)
+  And I click On departure airport                  # stepDefinitions.JetBlueStepDefinitions.i_click_on_departure_airport()
+  And I chose albany airport                        # stepDefinitions.JetBlueStepDefinitions.i_chose_albany_airport()
+  And I click on find flight                        # stepDefinitions.JetBlueStepDefinitions.i_click_on_find_flight()
+
+Scenario: check flightTraker fucntionality # src/test/java/features/JetBlueHomePage.feature:42
+  Given IM in Jetblue Home Page            # stepDefinitions.JetBlueStepDefinitions.im_in_jetblue_home_page()
+  When i Click on flightTraker             # stepDefinitions.JetBlueStepDefinitions.i_click_on_flight_traker()
+  Then I verify Im in flightTraker         # stepDefinitions.JetBlueStepDefinitions.i_verify_im_in_flight_traker()
+
+Scenario: check travelAlert fucntionality # src/test/java/features/JetBlueHomePage.feature:46
+  Given IM in Jetblue Home Page           # stepDefinitions.JetBlueStepDefinitions.im_in_jetblue_home_page()
+  When i Click on travelAlert             # stepDefinitions.JetBlueStepDefinitions.i_click_on_travel_alert()
+  Then I verify Im in travelAlert         # stepDefinitions.JetBlueStepDefinitions.i_verify_im_in_travel_alert()
+
+Scenario: check espagnol fucntionality # src/test/java/features/JetBlueHomePage.feature:50
+  Given IM in Jetblue Home Page        # stepDefinitions.JetBlueStepDefinitions.im_in_jetblue_home_page()
+  When i Click on espagnol             # stepDefinitions.JetBlueStepDefinitions.i_click_on_espagnol()
+  Then I verify Im in espagnol         # stepDefinitions.JetBlueStepDefinitions.i_verify_im_in_espagnol()
+      org.junit.ComparisonFailure: Not Equal expected:<https://[hola].jetblue.com/> but was:<https://[www].jetblue.com/>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at stepDefinitions.JetBlueStepDefinitions.i_verify_im_in_espagnol(JetBlueStepDefinitions.java:165)
+	at ✽.I verify Im in espagnol(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:52)
+
+
+Scenario: check sign in functionality # src/test/java/features/JetBlueHomePage.feature:54
+  Given IM in Jetblue Home Page       # stepDefinitions.JetBlueStepDefinitions.im_in_jetblue_home_page()
+  When I click on sign In             # stepDefinitions.JetBlueStepDefinitions.i_click_on_sign_in()
+  And I send "<email>" email          # stepDefinitions.JetBlueStepDefinitions.i_send_email(java.lang.String)
+      java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
+	at databases.ConnectToSqlDB.connectToSqlDatabase(ConnectToSqlDB.java:38)
+	at stepDefinitions.JetBlueStepDefinitions.setEmailInDB(JetBlueStepDefinitions.java:184)
+	at stepDefinitions.JetBlueStepDefinitions.i_send_email(JetBlueStepDefinitions.java:177)
+	at ✽.I send "<email>" email(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:56)
+
+  And I send "<password>" password    # stepDefinitions.JetBlueStepDefinitions.i_send_password(java.lang.String)
+  Then I click on signinsubmite       # stepDefinitions.JetBlueStepDefinitions.i_click_on_signinsubmite()
+
+Scenario: check join our emaillist            # src/test/java/features/JetBlueHomePage.feature:60
+  Given IM in Jetblue Home Page               # stepDefinitions.JetBlueStepDefinitions.im_in_jetblue_home_page()
+  When i scroll Down to join our emaillist    # stepDefinitions.JetBlueStepDefinitions.i_scroll_down_to_join_our_emaillist()
+  And I click on join our emaillist           # stepDefinitions.JetBlueStepDefinitions.i_click_on_join_our_emaillist()
+  Then I verify Im in join our emaillist Page # stepDefinitions.JetBlueStepDefinitions.i_verify_im_in_join_our_emaillist_page()
+
+Scenario: check DowloadJetBlueAPP                     # src/test/java/features/JetBlueHomePage.feature:65
+  Given IM in Jetblue Home Page                       # stepDefinitions.JetBlueStepDefinitions.im_in_jetblue_home_page()
+  When i scroll Down to DowloadJetBlueAPP             # stepDefinitions.JetBlueStepDefinitions.i_scroll_down_to_dowload_jet_blue_app()
+  And I click on join our DowloadJetBlueAPP           # stepDefinitions.JetBlueStepDefinitions.i_click_on_join_our_dowload_jet_blue_app()
+  Then I verify Im in join our DowloadJetBlueAPP Page # stepDefinitions.JetBlueStepDefinitions.i_verify_im_in_join_our_dowload_jet_blue_app_page()
+      org.junit.ComparisonFailure: Not Equal expected:<[Mobile App]> but was:<[]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at stepDefinitions.JetBlueStepDefinitions.i_verify_im_in_join_our_dowload_jet_blue_app_page(JetBlueStepDefinitions.java:230)
+	at ✽.I verify Im in join our DowloadJetBlueAPP Page(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:68)
+
+
+Scenario: check facebookicon                     # src/test/java/features/JetBlueHomePage.feature:70
+  Given IM in Jetblue Home Page                  # stepDefinitions.JetBlueStepDefinitions.im_in_jetblue_home_page()
+  When i scroll Down to facebookicon             # stepDefinitions.JetBlueStepDefinitions.i_scroll_down_to_facebookicon()
+  And I click on join our facebookicon           # stepDefinitions.JetBlueStepDefinitions.i_click_on_join_our_facebookicon()
+  Then I verify Im in join our facebookIcon Page # stepDefinitions.JetBlueStepDefinitions.i_verify_im_in_join_our_facebook_icon_page()
+
+Scenario: check instagram                     # src/test/java/features/JetBlueHomePage.feature:75
+  Given IM in Jetblue Home Page               # stepDefinitions.JetBlueStepDefinitions.im_in_jetblue_home_page()
+  When i scroll Down to instagram             # stepDefinitions.JetBlueStepDefinitions.i_scroll_down_to_instagram()
+  And I click on join our instagram           # stepDefinitions.JetBlueStepDefinitions.i_click_on_join_our_instagram()
+  Then I verify Im in join our instagram Page # stepDefinitions.JetBlueStepDefinitions.i_verify_im_in_join_our_instagram_page()
+
+Scenario: check twitter                     # src/test/java/features/JetBlueHomePage.feature:80
+  Given IM in Jetblue Home Page             # stepDefinitions.JetBlueStepDefinitions.im_in_jetblue_home_page()
+  When i scroll Down to twitter             # stepDefinitions.JetBlueStepDefinitions.i_scroll_down_to_twitter()
+  And I click on join our twitter           # stepDefinitions.JetBlueStepDefinitions.i_click_on_join_our_twitter()
+  Then I verify Im in join our twitter Page # stepDefinitions.JetBlueStepDefinitions.i_verify_im_in_join_our_twitter_page()
+
+Scenario: check youtube                     # src/test/java/features/JetBlueHomePage.feature:85
+  Given IM in Jetblue Home Page             # stepDefinitions.JetBlueStepDefinitions.im_in_jetblue_home_page()
+  When i scroll Down to youtube             # stepDefinitions.JetBlueStepDefinitions.i_scroll_down_to_youtube()
+  And I click on join our youtube           # stepDefinitions.JetBlueStepDefinitions.i_click_on_join_our_youtube()
+  Then I verify Im in join our youtube Page # stepDefinitions.JetBlueStepDefinitions.i_verify_im_in_join_our_youtube_page()
+
+Scenario: check jetblueSwag            # src/test/java/features/JetBlueHomePage.feature:90
+  Given IM in Jetblue Home Page        # stepDefinitions.JetBlueStepDefinitions.im_in_jetblue_home_page()
+  When i scroll Down to jetblueSwag    # stepDefinitions.JetBlueStepDefinitions.i_scroll_down_to_jetblue_swag()
+  And I click on jetblueSwag           # stepDefinitions.JetBlueStepDefinitions.i_click_on_jetblue_swag()
+  Then I verify Im in jetblueSwag Page # stepDefinitions.JetBlueStepDefinitions.i_verify_im_in_jetblue_swag_page()
+
+Scenario: check ourCompagny           # src/test/java/features/JetBlueHomePage.feature:95
+  Given IM in Jetblue Home Page       # stepDefinitions.JetBlueStepDefinitions.im_in_jetblue_home_page()
+  When i scroll Down to ourCompagny   # stepDefinitions.JetBlueStepDefinitions.i_scroll_down_to_our_compagny()
+  And I click on join our ourCompagny # stepDefinitions.JetBlueStepDefinitions.i_click_on_join_our_our_compagny()
+  Then I verify Im in ourCompagnyPage # stepDefinitions.JetBlueStepDefinitions.i_verify_im_in_our_compagny_page()
+
+Scenario: check ourPlanes         # src/test/java/features/JetBlueHomePage.feature:100
+  Given IM in Jetblue Home Page   # stepDefinitions.JetBlueStepDefinitions.im_in_jetblue_home_page()
+  When i scroll Down to ourPlanes # stepDefinitions.JetBlueStepDefinitions.i_scroll_down_to_our_planes()
+  And I click on ourPlanes        # stepDefinitions.JetBlueStepDefinitions.i_click_on_our_planes()
+  Then I verify Im ourPlanes Page # stepDefinitions.JetBlueStepDefinitions.i_verify_im_our_planes_page()
+
+Scenario: check partnerAirlines         # src/test/java/features/JetBlueHomePage.feature:105
+  Given IM in Jetblue Home Page         # stepDefinitions.JetBlueStepDefinitions.im_in_jetblue_home_page()
+  When i scroll Down to partnerAirlines # stepDefinitions.JetBlueStepDefinitions.i_scroll_down_to_partner_airlines()
+  And I click on partnerAirlines        # stepDefinitions.JetBlueStepDefinitions.i_click_on_partner_airlines()
+  Then I verify Im partnerAirlines Page # stepDefinitions.JetBlueStepDefinitions.i_verify_im_partner_airlines_page()
+
+Scenario: check youtube                     # src/test/java/features/JetBlueHomePage.feature:110
+  Given IM in Jetblue Home Page             # stepDefinitions.JetBlueStepDefinitions.im_in_jetblue_home_page()
+  When i scroll Down to youtube             # stepDefinitions.JetBlueStepDefinitions.i_scroll_down_to_youtube()
+  And I click on join our youtube           # stepDefinitions.JetBlueStepDefinitions.i_click_on_join_our_youtube()
+  Then I verify Im in join our youtube Page # stepDefinitions.JetBlueStepDefinitions.i_verify_im_in_join_our_youtube_page()
+
+Scenario: check investorRelations            # src/test/java/features/JetBlueHomePage.feature:115
+  Given IM in Jetblue Home Page              # stepDefinitions.JetBlueStepDefinitions.im_in_jetblue_home_page()
+  When i scroll Down to investorRelations    # stepDefinitions.JetBlueStepDefinitions.i_scroll_down_to_investor_relations()
+  And I click on investorRelations           # stepDefinitions.JetBlueStepDefinitions.i_click_on_investor_relations()
+  Then I verify Im in investorRelations Page # stepDefinitions.JetBlueStepDefinitions.i_verify_im_in_investor_relations_page()
+
+Scenario: check travelAgents            # src/test/java/features/JetBlueHomePage.feature:120
+  Given IM in Jetblue Home Page         # stepDefinitions.JetBlueStepDefinitions.im_in_jetblue_home_page()
+  When i scroll Down to travelAgents    # stepDefinitions.JetBlueStepDefinitions.i_scroll_down_to_travel_agents()
+  And I click on travelAgents           # stepDefinitions.JetBlueStepDefinitions.i_click_on_travel_agents()
+  Then I verify Im in travelAgents Page # stepDefinitions.JetBlueStepDefinitions.i_verify_im_in_travel_agents_page()
+
+Scenario: check careers            # src/test/java/features/JetBlueHomePage.feature:125
+  Given IM in Jetblue Home Page    # stepDefinitions.JetBlueStepDefinitions.im_in_jetblue_home_page()
+  When i scroll Down to careers    # stepDefinitions.JetBlueStepDefinitions.i_scroll_down_to_careers()
+  And I click on careers           # stepDefinitions.JetBlueStepDefinitions.i_click_on_careers()
+  Then I verify Im in careers Page # stepDefinitions.JetBlueStepDefinitions.i_verify_im_in_careers_page()
+
+Scenario: check timetables            # src/test/java/features/JetBlueHomePage.feature:130
+  Given IM in Jetblue Home Page       # stepDefinitions.JetBlueStepDefinitions.im_in_jetblue_home_page()
+  When i scroll Down to timetables    # stepDefinitions.JetBlueStepDefinitions.i_scroll_down_to_timetables()
+  And I click on timetables           # stepDefinitions.JetBlueStepDefinitions.i_click_on_timetables()
+  Then I verify Im in timetables Page # stepDefinitions.JetBlueStepDefinitions.i_verify_im_in_timetables_page()
+      org.junit.ComparisonFailure: Not Equal expected:<.../b6.innosked.com/(S([wnsbaxqrybifmtpnt34asxzl]))/default.aspx> but was:<.../b6.innosked.com/(S([pltj2okvv1jkv3cvc5ozmvvw]))/default.aspx>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at stepDefinitions.JetBlueStepDefinitions.i_verify_im_in_timetables_page(JetBlueStepDefinitions.java:451)
+	at ✽.I verify Im in timetables Page(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:133)
+
+
+Scenario: check siteMap            # src/test/java/features/JetBlueHomePage.feature:135
+  Given IM in Jetblue Home Page    # stepDefinitions.JetBlueStepDefinitions.im_in_jetblue_home_page()
+  When i scroll Down to siteMap    # stepDefinitions.JetBlueStepDefinitions.i_scroll_down_to_site_map()
+  And I click on siteMap           # stepDefinitions.JetBlueStepDefinitions.i_click_on_site_map()
+  Then I verify Im in siteMap Page # stepDefinitions.JetBlueStepDefinitions.i_verify_im_in_site_map_page()
+
+Scenario: check contactUs            # src/test/java/features/JetBlueHomePage.feature:140
+  Given IM in Jetblue Home Page      # stepDefinitions.JetBlueStepDefinitions.im_in_jetblue_home_page()
+  When i scroll Down to contactUs    # stepDefinitions.JetBlueStepDefinitions.i_scroll_down_to_contact_us()
+  And I click on contactUs           # stepDefinitions.JetBlueStepDefinitions.i_click_on_contact_us()
+  Then I verify Im in contactUs Page # stepDefinitions.JetBlueStepDefinitions.i_verify_im_in_contact_us_page()

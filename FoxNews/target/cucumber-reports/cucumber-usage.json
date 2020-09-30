@@ -1,0 +1,548 @@
+[
+  {
+    "source": "Im in Fox News Home Page",
+    "steps": [
+      {
+        "name": "Im in Fox News Home Page",
+        "aggregatedDurations": {
+          "median": 8.1116999,
+          "average": 15.326440376
+        },
+        "durations": [
+          {
+            "duration": 7.3141208,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:5"
+          },
+          {
+            "duration": 8.9883535,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:5"
+          },
+          {
+            "duration": 8.8913649,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:5"
+          },
+          {
+            "duration": 31.3520255,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:5"
+          },
+          {
+            "duration": 9.3148128,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:5"
+          },
+          {
+            "duration": 8.1116999,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:5"
+          },
+          {
+            "duration": 6.4291552,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:5"
+          },
+          {
+            "duration": 27.8986624,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:5"
+          },
+          {
+            "duration": 7.520677,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:5"
+          },
+          {
+            "duration": 7.6441811,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:5"
+          },
+          {
+            "duration": 7.5812272,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:5"
+          },
+          {
+            "duration": 7.7592389,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:5"
+          },
+          {
+            "duration": 18.4849662,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:56"
+          },
+          {
+            "duration": 7.8312171,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:5"
+          },
+          {
+            "duration": 29.3304879,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:65"
+          },
+          {
+            "duration": 7.4452279,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:5"
+          },
+          {
+            "duration": 58.6520681,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:72"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on WatchTV Button",
+    "steps": [
+      {
+        "name": "I click on WatchTV Button",
+        "aggregatedDurations": {
+          "median": 8.7154195,
+          "average": 10.749764614
+        },
+        "durations": [
+          {
+            "duration": 17.369764,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:6"
+          },
+          {
+            "duration": 2.3210734,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:6"
+          },
+          {
+            "duration": 25.6818479,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:6"
+          },
+          {
+            "duration": 3.2551027,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:6"
+          },
+          {
+            "duration": 2.2001101,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:6"
+          },
+          {
+            "duration": 20.9910443,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:6"
+          },
+          {
+            "duration": 4.4636786,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:6"
+          },
+          {
+            "duration": 1.6155405,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:6"
+          },
+          {
+            "duration": 20.1359271,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:6"
+          },
+          {
+            "duration": 9.7024914,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:6"
+          },
+          {
+            "duration": 8.4929432,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:6"
+          },
+          {
+            "duration": 19.5195038,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:6"
+          },
+          {
+            "duration": 5.8097818,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:6"
+          },
+          {
+            "duration": 8.9378958,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Verify Im in Watch TV Homepage",
+    "steps": [
+      {
+        "name": "I Verify Im in Watch TV Homepage",
+        "aggregatedDurations": {
+          "median": 9.7583069,
+          "average": 9.7583069
+        },
+        "durations": [
+          {
+            "duration": 9.7583069,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click On fox News Home Page",
+    "steps": [
+      {
+        "name": "I click On fox News Home Page",
+        "aggregatedDurations": {
+          "median": 4.740192,
+          "average": 4.740192
+        },
+        "durations": [
+          {
+            "duration": 4.740192,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Im in Fox News Home Page",
+    "steps": [
+      {
+        "name": "I verify Im in Fox News Home Page",
+        "aggregatedDurations": {
+          "median": 0.1595042,
+          "average": 0.1595042
+        },
+        "durations": [
+          {
+            "duration": 0.1595042,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on FoxBusiness",
+    "steps": [
+      {
+        "name": "I click on FoxBusiness",
+        "aggregatedDurations": {
+          "median": 5.7892974,
+          "average": 5.7892974
+        },
+        "durations": [
+          {
+            "duration": 5.7892974,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Im in FoxFor Business Page",
+    "steps": [
+      {
+        "name": "I verify Im in FoxFor Business Page",
+        "aggregatedDurations": {
+          "median": 8.7639037,
+          "average": 8.7639037
+        },
+        "durations": [
+          {
+            "duration": 8.7639037,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on FoxNews Radio",
+    "steps": [
+      {
+        "name": "I click on FoxNews Radio",
+        "aggregatedDurations": {
+          "median": 13.4709859,
+          "average": 13.4709859
+        },
+        "durations": [
+          {
+            "duration": 13.4709859,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Im in Fox News Radio Page",
+    "steps": [
+      {
+        "name": "I verify Im in Fox News Radio Page",
+        "aggregatedDurations": {
+          "median": 0.0325005,
+          "average": 0.0325005
+        },
+        "durations": [
+          {
+            "duration": 0.0325005,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:21"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on  Fox Nation",
+    "steps": [
+      {
+        "name": "I click on  Fox Nation",
+        "aggregatedDurations": {
+          "median": 3.2190667,
+          "average": 3.2190667
+        },
+        "durations": [
+          {
+            "duration": 3.2190667,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:24"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Im in Fox Nation Page",
+    "steps": [
+      {
+        "name": "I verify Im in Fox Nation Page",
+        "aggregatedDurations": {
+          "median": 0.0345009,
+          "average": 0.0345009
+        },
+        "durations": [
+          {
+            "duration": 0.0345009,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:25"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Fox NEws Flash",
+    "steps": [
+      {
+        "name": "I click on Fox NEws Flash",
+        "aggregatedDurations": {
+          "median": 3.6611085,
+          "average": 3.6611085
+        },
+        "durations": [
+          {
+            "duration": 3.6611085,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:28"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on show clips",
+    "steps": [
+      {
+        "name": "I click on show clips",
+        "aggregatedDurations": {
+          "median": 15.2306292,
+          "average": 15.2306292
+        },
+        "durations": [
+          {
+            "duration": 15.2306292,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:33"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on News Clips",
+    "steps": [
+      {
+        "name": "I click on News Clips",
+        "aggregatedDurations": {
+          "median": 9.825856,
+          "average": 9.825856
+        },
+        "durations": [
+          {
+            "duration": 9.825856,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:38"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on facebook Icon",
+    "steps": [
+      {
+        "name": "I click on facebook Icon",
+        "aggregatedDurations": {
+          "median": 3.4246269,
+          "average": 3.4246269
+        },
+        "durations": [
+          {
+            "duration": 3.4246269,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:42"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Twitter Icon",
+    "steps": [
+      {
+        "name": "I click on Twitter Icon",
+        "aggregatedDurations": {
+          "median": 3.4611656,
+          "average": 3.4611656
+        },
+        "durations": [
+          {
+            "duration": 3.4611656,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:47"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "scroll down to scroll to top button",
+    "steps": [
+      {
+        "name": "scroll down to scroll to top button",
+        "aggregatedDurations": {
+          "median": 1.3110589,
+          "average": 1.3110589
+        },
+        "durations": [
+          {
+            "duration": 1.3110589,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:51"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "click on button",
+    "steps": [
+      {
+        "name": "click on button",
+        "aggregatedDurations": {
+          "median": 33.4667787,
+          "average": 33.4667787
+        },
+        "durations": [
+          {
+            "duration": 33.4667787,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:52"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click en log in",
+    "steps": [
+      {
+        "name": "I click en log in",
+        "aggregatedDurations": {
+          "median": 32.1915294,
+          "average": 25.160234233
+        },
+        "durations": [
+          {
+            "duration": 32.1915294,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:57"
+          },
+          {
+            "duration": 40.8590469,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:66"
+          },
+          {
+            "duration": 2.4301264,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:73"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} and {string}",
+    "steps": [
+      {
+        "name": "I enter \"emailtest@gmail.com\" and \"foxpsw\"",
+        "aggregatedDurations": {
+          "median": 4.2716699,
+          "average": 4.2716699
+        },
+        "durations": [
+          {
+            "duration": 4.2716699,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:58"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "i wil try to login",
+    "steps": [
+      {
+        "name": "i wil try to login",
+        "aggregatedDurations": {
+          "median": 0.1935034,
+          "average": 0.1935034
+        },
+        "durations": [
+          {
+            "duration": 0.1935034,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:59"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on create an account",
+    "steps": [
+      {
+        "name": "I click on create an account",
+        "aggregatedDurations": {
+          "median": 4.04465835,
+          "average": 4.04465835
+        },
+        "durations": [
+          {
+            "duration": 3.3926091,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:67"
+          },
+          {
+            "duration": 4.6967076,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:74"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I file the form given",
+    "steps": [
+      {
+        "name": "I file the form given",
+        "aggregatedDurations": {
+          "median": 2.12078245,
+          "average": 2.12078245
+        },
+        "durations": [
+          {
+            "duration": 1.7260271,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:68"
+          },
+          {
+            "duration": 2.5155378,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:75"
+          }
+        ]
+      }
+    ]
+  }
+]

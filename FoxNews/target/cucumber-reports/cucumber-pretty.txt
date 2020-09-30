@@ -14,3 +14,122 @@ Scenario: Im in Watch Tv and use FoxNews Homep page Button # src/test/java/featu
 
 @Regression
 Scenario: Im in watch tv Page and check Fox for business # src/test/java/features/watchTv.feature:15
+  Given Im in Fox News Home Page                         # stepDefinitions.WatchTvStepDefinitions.im_in_fox_news_home_page()
+  And I click on WatchTV Button                          # stepDefinitions.WatchTvStepDefinitions.i_click_on_watch_tv_button()
+  And I click on FoxBusiness                             # stepDefinitions.WatchTvStepDefinitions.i_click_on_fox_business()
+  Then I verify Im in FoxFor Business Page               # stepDefinitions.WatchTvStepDefinitions.i_verify_im_in_fox_for_business_page()
+
+@Regression
+Scenario: Im in watch Tv Page and check Fox News Radio # src/test/java/features/watchTv.feature:19
+  Given Im in Fox News Home Page                       # stepDefinitions.WatchTvStepDefinitions.im_in_fox_news_home_page()
+  And I click on WatchTV Button                        # stepDefinitions.WatchTvStepDefinitions.i_click_on_watch_tv_button()
+  And I click on FoxNews Radio                         # stepDefinitions.WatchTvStepDefinitions.i_click_on_fox_news_radio()
+  Then I verify Im in Fox News Radio Page              # stepDefinitions.WatchTvStepDefinitions.i_verify_im_in_fox_news_radio_page()
+
+@Regression
+Scenario: Im in watch Tv and check Fox Nation # src/test/java/features/watchTv.feature:23
+  Given Im in Fox News Home Page              # stepDefinitions.WatchTvStepDefinitions.im_in_fox_news_home_page()
+  And I click on WatchTV Button               # stepDefinitions.WatchTvStepDefinitions.i_click_on_watch_tv_button()
+  And I click on  Fox Nation                  # stepDefinitions.WatchTvStepDefinitions.i_click_on_fox_nation()
+  Then I verify Im in Fox Nation Page         # stepDefinitions.WatchTvStepDefinitions.i_verify_im_in_fox_nation_page()
+
+@Regression
+Scenario: Im in watch Tv and Check Fox News Flash # src/test/java/features/watchTv.feature:27
+  Given Im in Fox News Home Page                  # stepDefinitions.WatchTvStepDefinitions.im_in_fox_news_home_page()
+  And I click on WatchTV Button                   # stepDefinitions.WatchTvStepDefinitions.i_click_on_watch_tv_button()
+  And I click on Fox NEws Flash                   # stepDefinitions.WatchTvStepDefinitions.i_click_on_fox_n_ews_flash()
+  Then I verify Im in fox News Flash              # stepDefinitions.WatchTvStepDefinitions.i_verify_im_in_fox_news_flash()
+      org.junit.ComparisonFailure: Not Nation Fox News  Page expected:<https://[www.foxnews.com/category/media/fox-news-flash]> but was:<https://[video.foxnews.com/v/5614615980001/?#sp=watch-live]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at stepDefinitions.WatchTvStepDefinitions.i_verify_im_in_fox_news_flash(WatchTvStepDefinitions.java:119)
+	at ✽.I verify Im in fox News Flash(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:29)
+
+
+@Regression
+Scenario: Im in watch Tv and check show clips # src/test/java/features/watchTv.feature:32
+  Given Im in Fox News Home Page              # stepDefinitions.WatchTvStepDefinitions.im_in_fox_news_home_page()
+  And I click on WatchTV Button               # stepDefinitions.WatchTvStepDefinitions.i_click_on_watch_tv_button()
+  And I click on show clips                   # stepDefinitions.WatchTvStepDefinitions.i_click_on_show_clips()
+  Then I verify Im in show Clips              # stepDefinitions.WatchTvStepDefinitions.i_verify_im_in_show_clips()
+      org.junit.ComparisonFailure: Not Nation Fox News  Page expected:<https://[www.foxnews.com/category/media/fox-news-flash]> but was:<https://[video.foxnews.com/v/5614615980001#sp=show-clips]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at stepDefinitions.WatchTvStepDefinitions.i_verify_im_in_show_clips(WatchTvStepDefinitions.java:133)
+	at ✽.I verify Im in show Clips(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:34)
+
+
+@Regression
+Scenario: Im in watch Tv and check New Clips # src/test/java/features/watchTv.feature:37
+  Given Im in Fox News Home Page             # stepDefinitions.WatchTvStepDefinitions.im_in_fox_news_home_page()
+  And I click on WatchTV Button              # stepDefinitions.WatchTvStepDefinitions.i_click_on_watch_tv_button()
+  And I click on News Clips                  # stepDefinitions.WatchTvStepDefinitions.i_click_on_news_clips()
+  Then I verify Im In News Clips             # stepDefinitions.WatchTvStepDefinitions.i_verify_im_in_news_clips()
+      org.junit.ComparisonFailure: Not Nation NEws Clip  Page expected:<...video.foxnews.com/v/[6188967902]001#sp=news-clips> but was:<...video.foxnews.com/v/[5614615980]001#sp=news-clips>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at stepDefinitions.WatchTvStepDefinitions.i_verify_im_in_news_clips(WatchTvStepDefinitions.java:146)
+	at ✽.I verify Im In News Clips(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:39)
+
+
+@Regression
+Scenario: IM in watch Tv and Check Facebook link on icon # src/test/java/features/watchTv.feature:41
+  Given Im in Fox News Home Page                         # stepDefinitions.WatchTvStepDefinitions.im_in_fox_news_home_page()
+  And I click on WatchTV Button                          # stepDefinitions.WatchTvStepDefinitions.i_click_on_watch_tv_button()
+  And I click on facebook Icon                           # stepDefinitions.WatchTvStepDefinitions.i_click_on_facebook_icon()
+  Then I verify facebook Window Pop up                   # stepDefinitions.WatchTvStepDefinitions.i_verify_facebook_window_pop_up()
+      org.junit.ComparisonFailure: no facebookwidow expected:<[Facebook]> but was:<[Watch Fox News Channel and Fox Business Network Online | Fox News]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at stepDefinitions.WatchTvStepDefinitions.i_verify_facebook_window_pop_up(WatchTvStepDefinitions.java:159)
+	at ✽.I verify facebook Window Pop up(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:43)
+
+
+@Regression
+Scenario: IM in watch Tv and Check Twitter link on icon # src/test/java/features/watchTv.feature:46
+  Given Im in Fox News Home Page                        # stepDefinitions.WatchTvStepDefinitions.im_in_fox_news_home_page()
+  And I click on WatchTV Button                         # stepDefinitions.WatchTvStepDefinitions.i_click_on_watch_tv_button()
+  And I click on Twitter Icon                           # stepDefinitions.WatchTvStepDefinitions.i_click_on_twitter_icon()
+  Then I verify Twitter Window Pop Up                   # stepDefinitions.WatchTvStepDefinitions.i_verify_twitter_window_pop_up()
+      java.lang.AssertionError: no facebookwindow expected:<true> but was:<false>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at stepDefinitions.WatchTvStepDefinitions.i_verify_twitter_window_pop_up(WatchTvStepDefinitions.java:174)
+	at ✽.I verify Twitter Window Pop Up(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:48)
+
+
+@Regression
+Scenario: Im in Watch Tv and check scroll down and check scroll to top button # src/test/java/features/watchTv.feature:50
+  Given Im in Fox News Home Page                                              # stepDefinitions.WatchTvStepDefinitions.im_in_fox_news_home_page()
+  And I click on WatchTV Button                                               # stepDefinitions.WatchTvStepDefinitions.i_click_on_watch_tv_button()
+  And scroll down to scroll to top button                                     # stepDefinitions.WatchTvStepDefinitions.scroll_down_to_scroll_to_top_button()
+  Then click on button                                                        # stepDefinitions.WatchTvStepDefinitions.click_on_button()
+  And check im on top of Page                                                 # stepDefinitions.WatchTvStepDefinitions.check_im_on_top_of_page()
+      java.lang.NullPointerException
+	at stepDefinitions.WatchTvStepDefinitions.check_im_on_top_of_page(WatchTvStepDefinitions.java:198)
+	at ✽.check im on top of Page(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:53)
+
+
+@Regression
+Scenario Outline: check login functionality      # src/test/java/features/watchTv.feature:62
+  Given Im in Fox News Home Page                 # stepDefinitions.WatchTvStepDefinitions.im_in_fox_news_home_page()
+  And I click on WatchTV Button                  # stepDefinitions.WatchTvStepDefinitions.i_click_on_watch_tv_button()
+  Given Im in Fox News Home Page                 # stepDefinitions.WatchTvStepDefinitions.im_in_fox_news_home_page()
+  Then I click en log in                         # stepDefinitions.WatchTvStepDefinitions.i_click_en_log_in()
+  And I enter "emailtest@gmail.com" and "foxpsw" # stepDefinitions.WatchTvStepDefinitions.i_enter_and(java.lang.String,java.lang.String)
+  Then i wil try to login                        # stepDefinitions.WatchTvStepDefinitions.i_wil_try_to_login()
+
+@Regression
+Scenario: fox news2                # src/test/java/features/watchTv.feature:64
+  Given Im in Fox News Home Page   # stepDefinitions.WatchTvStepDefinitions.im_in_fox_news_home_page()
+  And I click on WatchTV Button    # stepDefinitions.WatchTvStepDefinitions.i_click_on_watch_tv_button()
+  Given Im in Fox News Home Page   # stepDefinitions.WatchTvStepDefinitions.im_in_fox_news_home_page()
+  Then I click en log in           # stepDefinitions.WatchTvStepDefinitions.i_click_en_log_in()
+  And I click on create an account # stepDefinitions.WatchTvStepDefinitions.i_click_on_create_an_account()
+  And I file the form given        # stepDefinitions.WatchTvStepDefinitions.i_file_the_form_given(io.cucumber.datatable.DataTable)
+
+@SmokeTest
+Scenario: fox news3                # src/test/java/features/watchTv.feature:71
+  Given Im in Fox News Home Page   # stepDefinitions.WatchTvStepDefinitions.im_in_fox_news_home_page()
+  And I click on WatchTV Button    # stepDefinitions.WatchTvStepDefinitions.i_click_on_watch_tv_button()
+  Given Im in Fox News Home Page   # stepDefinitions.WatchTvStepDefinitions.im_in_fox_news_home_page()
+  Then I click en log in           # stepDefinitions.WatchTvStepDefinitions.i_click_en_log_in()
+  And I click on create an account # stepDefinitions.WatchTvStepDefinitions.i_click_on_create_an_account()
+  And I file the form given        # stepDefinitions.WatchTvStepDefinitions.i_file_the_form_given(io.cucumber.datatable.DataTable)

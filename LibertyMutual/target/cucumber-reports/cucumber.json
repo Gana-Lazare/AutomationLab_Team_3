@@ -1,0 +1,1957 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 15536888700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "IM in LibertyMutual Home Page",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.im_in_liberty_mutual_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T19:16:27.681Z",
+        "line": 20,
+        "name": "check auto insurance for zip code",
+        "description": "",
+        "id": "check-liberty-mutual-home-page-functionality;check-auto-insurance-for-zip-code;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 925052900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 671038400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I select Auto",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_select_auto()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 405023100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I send zip code",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_send_zip_code()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3506200500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on price",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_click_on_price()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10270587400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "close popo Window Alert",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.close_popo_window_alert()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I verify Im in auto page",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_verify_im_in_auto_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3531202000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I send \"1234 west 45th stret\" bare",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1234 west 45th stret\"",
+                  "offset": 7
+                }
+              ],
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_send_bare(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 350020000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "i send \"APT1\" apt",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"APT1\"",
+                  "offset": 7
+                }
+              ],
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_send_apt(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 470026900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "click saveandContinue",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.click_saveand_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: not same expected:\u003c...Type\u003dAuto\u0026sessionId\u003d[[46196166549065990\u0026state\u003dNY\u0026zipCode\u003d11204#group\u003dnav-your_info\u0026product\u003dauto\u0026pane\u003dYI01]]\u0026appPhase\u003dquote\u003e but was:\u003c...Type\u003dAuto\u0026sessionId\u003d[97334022074131660\u0026state\u003dNY\u0026zipCode\u003d11204#group\u003dnav-your_info\u0026product\u003dauto\u0026pane\u003dYI01]\u0026appPhase\u003dquote\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat stepDefinitions.LibertyMutualStepDefinitions.i_verify_im_in_personal_information_page(LibertyMutualStepDefinitions.java:76)\r\n\tat ✽.I verify Im in Personal Information page(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/LibertyMutual.feature:16)\r\n",
+              "duration": 27001600,
+              "status": "failed"
+            },
+            "line": 16,
+            "name": "I verify Im in Personal Information page",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_verify_im_in_personal_information_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 24206384500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "IM in LibertyMutual Home Page",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.im_in_liberty_mutual_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T19:17:03.833Z",
+        "line": 22,
+        "name": "check car under Shop Insurance",
+        "description": "",
+        "id": "check-liberty-mutual-home-page-functionality;check-car-under-shop-insurance",
+        "after": [
+          {
+            "result": {
+              "duration": 980056000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2026115900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click on shopInsurance",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_click_on_shop_insurance()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5496314400,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click on Car",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_click_on_car()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 142008100,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I verify Im in Car Page",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_verify_im_in_car_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 13490771600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "IM in LibertyMutual Home Page",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.im_in_liberty_mutual_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T19:17:36.747Z",
+        "line": 27,
+        "name": "check motocycle under Shop Insurance",
+        "description": "",
+        "id": "check-liberty-mutual-home-page-functionality;check-motocycle-under-shop-insurance",
+        "after": [
+          {
+            "result": {
+              "duration": 833047600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 344019700,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I click on shopInsurance",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_click_on_shop_insurance()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3672210100,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I click on motocycle",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_click_on_motocycle()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 994056800,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I verify Im in motocycle Page",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_verify_im_in_motocycle_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 13658781200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "IM in LibertyMutual Home Page",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.im_in_liberty_mutual_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T19:17:56.151Z",
+        "line": 32,
+        "name": "check boatAndWaterCraft under Shop Insurance",
+        "description": "",
+        "id": "check-liberty-mutual-home-page-functionality;check-boatandwatercraft-under-shop-insurance",
+        "after": [
+          {
+            "result": {
+              "duration": 863049400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 393022500,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I click on shopInsurance",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_click_on_shop_insurance()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3692211200,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I click on boatAndWaterCraft",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_click_on_boat_and_water_craft()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 867049600,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I verify Im in boatAndWaterCraft Page",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_verify_im_in_boat_and_water_craft_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12552718000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "IM in LibertyMutual Home Page",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.im_in_liberty_mutual_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T19:18:15.658Z",
+        "line": 37,
+        "name": "check anticAndClassicCar under Shop Insurance",
+        "description": "",
+        "id": "check-liberty-mutual-home-page-functionality;check-anticandclassiccar-under-shop-insurance",
+        "after": [
+          {
+            "result": {
+              "duration": 933053400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 287016400,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I click on shopInsurance",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_click_on_shop_insurance()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3564203900,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I click on anticAndClassicCar",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_click_on_antic_and_classic_car()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 582033300,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I verify Im in anticAndClassicCar Page",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_verify_im_in_antic_and_classic_car_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12846734800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "IM in LibertyMutual Home Page",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.im_in_liberty_mutual_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T19:18:33.614Z",
+        "line": 42,
+        "name": "check AtvAndOfRoadVehicul under Shop Insurance",
+        "description": "",
+        "id": "check-liberty-mutual-home-page-functionality;check-atvandofroadvehicul-under-shop-insurance",
+        "after": [
+          {
+            "result": {
+              "duration": 1079061700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 332018900,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I click on shopInsurance",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_click_on_shop_insurance()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3647208600,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I click on AtvAndOfRoadVehicul",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_click_on_atv_and_of_road_vehicul()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 843048200,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I verify Im in AtvAndOfRoadVehicul Page",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_verify_im_in_atv_and_of_road_vehicul_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12919738900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "IM in LibertyMutual Home Page",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.im_in_liberty_mutual_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T19:18:52.381Z",
+        "line": 47,
+        "name": "check recreationalVehicule under Shop Insurance",
+        "description": "",
+        "id": "check-liberty-mutual-home-page-functionality;check-recreationalvehicule-under-shop-insurance",
+        "after": [
+          {
+            "result": {
+              "duration": 1113063600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 299017100,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I click on shopInsurance",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_click_on_shop_insurance()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3667209800,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I click on recreationalVehicule",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_click_on_recreational_vehicule()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 666038100,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I verify Im in recreationalVehicule Page",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_verify_im_in_recreational_vehicule_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 15700898100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "IM in LibertyMutual Home Page",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.im_in_liberty_mutual_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T19:19:11.090Z",
+        "line": 52,
+        "name": "check umberella under Shop Insurance",
+        "description": "",
+        "id": "check-liberty-mutual-home-page-functionality;check-umberella-under-shop-insurance",
+        "after": [
+          {
+            "result": {
+              "duration": 892051000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 430024600,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "I click on shopInsurance",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_click_on_shop_insurance()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3701211700,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I click on umberella",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_click_on_umberella()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: not same expected:\u003c...w.libertymutual.com/[rv]-insurance\u003e but was:\u003c...w.libertymutual.com/[umbrella]-insurance\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat stepDefinitions.LibertyMutualStepDefinitions.i_verify_im_in_umberella_page(LibertyMutualStepDefinitions.java:168)\r\n\tat ✽.I verify Im in umberella Page(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/LibertyMutual.feature:55)\r\n",
+              "duration": 495028300,
+              "status": "failed"
+            },
+            "line": 55,
+            "name": "I verify Im in umberella Page",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_verify_im_in_umberella_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12911738500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "IM in LibertyMutual Home Page",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.im_in_liberty_mutual_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T19:19:32.326Z",
+        "line": 57,
+        "name": "check home under Proprety",
+        "description": "",
+        "id": "check-liberty-mutual-home-page-functionality;check-home-under-proprety",
+        "after": [
+          {
+            "result": {
+              "duration": 825047200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 538030700,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "I click on shopInsurance",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_click_on_shop_insurance()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3667209800,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "I click on home",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_click_on_home()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 677038700,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "I verify Im in home Page",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_verify_im_in_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 13611778600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "IM in LibertyMutual Home Page",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.im_in_liberty_mutual_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T19:19:50.957Z",
+        "line": 62,
+        "name": "check renters under Proprety",
+        "description": "",
+        "id": "check-liberty-mutual-home-page-functionality;check-renters-under-proprety",
+        "after": [
+          {
+            "result": {
+              "duration": 877050100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 311017800,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "I click on shopInsurance",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_click_on_shop_insurance()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3647208600,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "I click on renters",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_click_on_renters()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 915052300,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "I verify Im in renters Page",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_verify_im_in_renters_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 13950798000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "IM in LibertyMutual Home Page",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.im_in_liberty_mutual_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T19:20:10.337Z",
+        "line": 67,
+        "name": "check condo under Proprety",
+        "description": "",
+        "id": "check-liberty-mutual-home-page-functionality;check-condo-under-proprety",
+        "after": [
+          {
+            "result": {
+              "duration": 912052200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 414023700,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "I click on shopInsurance",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_click_on_shop_insurance()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3791216800,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "I click on condo",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_click_on_condo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 914052300,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "I verify Im in condo Page",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_verify_im_in_condo_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12557718300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "IM in LibertyMutual Home Page",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.im_in_liberty_mutual_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T19:20:30.353Z",
+        "line": 72,
+        "name": "check landlord under Proprety",
+        "description": "",
+        "id": "check-liberty-mutual-home-page-functionality;check-landlord-under-proprety",
+        "after": [
+          {
+            "result": {
+              "duration": 864049400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 292016700,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "I click on shopInsurance",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_click_on_shop_insurance()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3568204000,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "I click on landlord",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_click_on_landlord()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1063060800,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "I verify Im in landlord Page",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_verify_im_in_landlord_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 15680896900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "IM in LibertyMutual Home Page",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.im_in_liberty_mutual_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T19:20:48.711Z",
+        "line": 77,
+        "name": "check mobilehome under Proprety",
+        "description": "",
+        "id": "check-liberty-mutual-home-page-functionality;check-mobilehome-under-proprety",
+        "after": [
+          {
+            "result": {
+              "duration": 848048500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 410023400,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "I click on shopInsurance",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_click_on_shop_insurance()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3740213900,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "I click on mobilehome",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_click_on_mobilehome()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 519029700,
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "I verify Im in mobilehome Page",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_verify_im_in_mobilehome_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12860735600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "IM in LibertyMutual Home Page",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.im_in_liberty_mutual_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T19:21:09.918Z",
+        "line": 82,
+        "name": "check flood under Proprety",
+        "description": "",
+        "id": "check-liberty-mutual-home-page-functionality;check-flood-under-proprety",
+        "after": [
+          {
+            "result": {
+              "duration": 875050000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 388022200,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "I click on shopInsurance",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_click_on_shop_insurance()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3754214800,
+              "status": "passed"
+            },
+            "line": 84,
+            "name": "I click on flood",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_click_on_flood()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 608034700,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "I verify Im in flood Page",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_verify_im_in_flood_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 13268759000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "IM in LibertyMutual Home Page",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.im_in_liberty_mutual_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T19:21:28.414Z",
+        "line": 87,
+        "name": "check umberellaProprety under Proprety",
+        "description": "",
+        "id": "check-liberty-mutual-home-page-functionality;check-umberellaproprety-under-proprety",
+        "after": [
+          {
+            "result": {
+              "duration": 973055700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 990056600,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "I click on shopInsurance",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_click_on_shop_insurance()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d85.0.4183.121)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027MICROMEDIA-PC\u0027, ip: \u0027192.168.1.37\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u002711\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\\Users\\MICROM~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:64882}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: b5958f2530c0bd88f82d163050325ee2\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat common.WebAPI.clickByXpath(WebAPI.java:486)\r\n\tat stepDefinitions.LibertyMutualStepDefinitions.i_click_on_umberella_proprety(LibertyMutualStepDefinitions.java:246)\r\n\tat ✽.I click on umberellaProprety(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/LibertyMutual.feature:89)\r\n",
+              "duration": 10111578300,
+              "status": "failed"
+            },
+            "line": 89,
+            "name": "I click on umberellaProprety",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_click_on_umberella_proprety()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000100,
+              "status": "skipped"
+            },
+            "line": 90,
+            "name": "I verify Im in umberellaProprety Page",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_verify_im_in_umberella_proprety_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 15200869400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "IM in LibertyMutual Home Page",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.im_in_liberty_mutual_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T19:21:53.798Z",
+        "line": 92,
+        "name": "check login functionality",
+        "description": "",
+        "id": "check-liberty-mutual-home-page-functionality;check-login-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 963055100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3595205700,
+              "status": "passed"
+            },
+            "line": 93,
+            "name": "I click on login",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_click_on_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@class\u003d\u0027_1xNj9nHz7A7fT4ftpaJp5M\u0027]\"}\n  (Session info: chrome\u003d85.0.4183.121)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027MICROMEDIA-PC\u0027, ip: \u0027192.168.1.37\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u002711\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\\Users\\MICROM~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:64968}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: b86e31b55c4bd12f877b18ab03c3c9f5\n*** Element info: {Using\u003dxpath, value\u003d//*[@class\u003d\u0027_1xNj9nHz7A7fT4ftpaJp5M\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat common.WebAPI.clickByXpath(WebAPI.java:486)\r\n\tat stepDefinitions.LibertyMutualStepDefinitions.i_try_to_login(LibertyMutualStepDefinitions.java:268)\r\n\tat ✽.I try to login(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/LibertyMutual/src/test/java/features/LibertyMutual.feature:94)\r\n",
+              "duration": 10442597300,
+              "status": "failed"
+            },
+            "line": 94,
+            "name": "I try to login",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_try_to_login(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "troy@gmail.com",
+                  "1248*"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 96,
+            "name": "I click on submite",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_click_on_submite()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12558718300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "IM in LibertyMutual Home Page",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.im_in_liberty_mutual_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T19:22:24.020Z",
+        "line": 104,
+        "name": "check search bare functionality",
+        "description": "",
+        "id": "check-liberty-mutual-home-page-functionality;check-search-bare-functionality;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 873049900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 512029300,
+              "status": "passed"
+            },
+            "line": 99,
+            "name": "I click on search on home page",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_click_on_search_on_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 575032900,
+              "status": "passed"
+            },
+            "line": 100,
+            "name": "I send \"car insurance\" searchKey",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"car insurance\"",
+                  "offset": 7
+                }
+              ],
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_send_search_key(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 101,
+            "name": "i verify i get the right result",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_verify_i_get_the_right_result()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 13816790300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "IM in LibertyMutual Home Page",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.im_in_liberty_mutual_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T19:22:38.564Z",
+        "line": 105,
+        "name": "check search bare functionality",
+        "description": "",
+        "id": "check-liberty-mutual-home-page-functionality;check-search-bare-functionality;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 824047100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 432024700,
+              "status": "passed"
+            },
+            "line": 99,
+            "name": "I click on search on home page",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_click_on_search_on_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 482027600,
+              "status": "passed"
+            },
+            "line": 100,
+            "name": "I send \"custom vehicle\" searchKey",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"custom vehicle\"",
+                  "offset": 7
+                }
+              ],
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_send_search_key(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 101,
+            "name": "i verify i get the right result",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_verify_i_get_the_right_result()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 14396823500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "IM in LibertyMutual Home Page",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.im_in_liberty_mutual_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T19:22:54.136Z",
+        "line": 106,
+        "name": "check search bare functionality",
+        "description": "",
+        "id": "check-liberty-mutual-home-page-functionality;check-search-bare-functionality;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 867049600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 354020200,
+              "status": "passed"
+            },
+            "line": 99,
+            "name": "I click on search on home page",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_click_on_search_on_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 692039600,
+              "status": "passed"
+            },
+            "line": 100,
+            "name": "I send \"truck insurance\" searchKey",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"truck insurance\"",
+                  "offset": 7
+                }
+              ],
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_send_search_key(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 101,
+            "name": "i verify i get the right result",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_verify_i_get_the_right_result()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 13917796000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "IM in LibertyMutual Home Page",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.im_in_liberty_mutual_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T19:23:10.456Z",
+        "line": 108,
+        "name": "check claimCenter functionality",
+        "description": "",
+        "id": "check-liberty-mutual-home-page-functionality;check-claimcenter-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 865049500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 328018800,
+              "status": "passed"
+            },
+            "line": 109,
+            "name": "I click on claim Button",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_click_on_claim_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 735042000,
+              "status": "passed"
+            },
+            "line": 110,
+            "name": "I click on claimCenter Button",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_click_on_claim_center_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3673210100,
+              "status": "passed"
+            },
+            "line": 111,
+            "name": "I verify im in claimCenter",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_verify_im_in_claim_center()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12989743000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "IM in LibertyMutual Home Page",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.im_in_liberty_mutual_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T19:23:29.983Z",
+        "line": 113,
+        "name": "check howTomanageYourClaim functionality",
+        "description": "",
+        "id": "check-liberty-mutual-home-page-functionality;check-howtomanageyourclaim-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 877050100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 302017300,
+              "status": "passed"
+            },
+            "line": 114,
+            "name": "I click on claim Button",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_click_on_claim_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 694039700,
+              "status": "passed"
+            },
+            "line": 115,
+            "name": "I click on howTomanageYourClaim Button",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_click_on_how_tomanage_your_claim_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3975227400,
+              "status": "passed"
+            },
+            "line": 116,
+            "name": "I verify im in howTomanageYourClaim",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_verify_im_in_how_tomanage_your_claim()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12931739700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "IM in LibertyMutual Home Page",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.im_in_liberty_mutual_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T19:23:48.837Z",
+        "line": 118,
+        "name": "check fileAclaimAgainstLibertymutual functionality",
+        "description": "",
+        "id": "check-liberty-mutual-home-page-functionality;check-fileaclaimagainstlibertymutual-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 912052200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 402023000,
+              "status": "passed"
+            },
+            "line": 119,
+            "name": "I click on claim Button",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_click_on_claim_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 538030800,
+              "status": "passed"
+            },
+            "line": 120,
+            "name": "I click on fileAclaimAgainstLibertymutual Button",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_click_on_file_aclaim_against_libertymutual_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3856220500,
+              "status": "passed"
+            },
+            "line": 121,
+            "name": "I verify im in fileAclaimAgainstLibertymutual",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_verify_im_in_file_aclaim_against_libertymutual()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 13135751300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "IM in LibertyMutual Home Page",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.im_in_liberty_mutual_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T19:24:07.492Z",
+        "line": 123,
+        "name": "check fileAnAutoGlassClaim functionality",
+        "description": "",
+        "id": "check-liberty-mutual-home-page-functionality;check-fileanautoglassclaim-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 868049700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 256014700,
+              "status": "passed"
+            },
+            "line": 124,
+            "name": "I click on claim Button",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_click_on_claim_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 606034600,
+              "status": "passed"
+            },
+            "line": 125,
+            "name": "I click on fileAnAutoGlassClaim Button",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_click_on_file_an_auto_glass_claim_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3022172900,
+              "status": "passed"
+            },
+            "line": 126,
+            "name": "I verify im in fileAnAutoGlassClaim",
+            "match": {
+              "location": "stepDefinitions.LibertyMutualStepDefinitions.i_verify_im_in_file_an_auto_glass_claim()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-09-30T19:24:25.394Z",
+        "line": 128,
+        "name": "",
+        "description": "",
+        "id": "check-liberty-mutual-home-page-functionality;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": []
+      }
+    ],
+    "name": "Check Liberty Mutual Home Page Functionality",
+    "description": "",
+    "id": "check-liberty-mutual-home-page-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/LibertyMutual.feature",
+    "tags": []
+  }
+]

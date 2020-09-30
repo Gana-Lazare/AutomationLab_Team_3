@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="6" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="14" time="652.22">
+    <testcase classname="WatchTv Button on the home page FoxNews" name="Watch Tv Button  functionality Check" time="35.859">
+        <system-out>
+            <![CDATA[Given Im in Fox News Home Page..............................................passed
+And I click on WatchTV Button...............................................passed
+Then I Verify Im in Watch TV Homepage.......................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="WatchTv Button on the home page FoxNews" name="Im in Watch Tv and use FoxNews Homep page Button" time="17.085">
+        <system-out>
+            <![CDATA[Given Im in Fox News Home Page..............................................passed
+And I click on WatchTV Button...............................................passed
+And I click On fox News Home Page...........................................passed
+Then I verify Im in Fox News Home Page......................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="WatchTv Button on the home page FoxNews" name="Im in watch tv Page and check Fox for business" time="50.288">
+        <system-out>
+            <![CDATA[Given Im in Fox News Home Page..............................................passed
+And I click on WatchTV Button...............................................passed
+And I click on FoxBusiness..................................................passed
+Then I verify Im in FoxFor Business Page....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="WatchTv Button on the home page FoxNews" name="Im in watch Tv Page and check Fox News Radio" time="49.089">
+        <system-out>
+            <![CDATA[Given Im in Fox News Home Page..............................................passed
+And I click on WatchTV Button...............................................passed
+And I click on FoxNews Radio................................................passed
+Then I verify Im in Fox News Radio Page.....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="WatchTv Button on the home page FoxNews" name="Im in watch Tv and check Fox Nation" time="15.53">
+        <system-out>
+            <![CDATA[Given Im in Fox News Home Page..............................................passed
+And I click on WatchTV Button...............................................passed
+And I click on  Fox Nation..................................................passed
+Then I verify Im in Fox Nation Page.........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="WatchTv Button on the home page FoxNews" name="Im in watch Tv and Check Fox News Flash" time="33.996">
+        <failure message="Not Nation Fox News  Page expected:&lt;https://[www.foxnews.com/category/media/fox-news-flash]&gt; but was:&lt;https://[video.foxnews.com/v/5614615980001/?#sp=watch-live]&gt;" type="org.junit.ComparisonFailure">
+            <![CDATA[Given Im in Fox News Home Page..............................................passed
+And I click on WatchTV Button...............................................passed
+And I click on Fox NEws Flash...............................................passed
+Then I verify Im in fox News Flash..........................................failed
+
+StackTrace:
+org.junit.ComparisonFailure: Not Nation Fox News  Page expected:<https://[www.foxnews.com/category/media/fox-news-flash]> but was:<https://[video.foxnews.com/v/5614615980001/?#sp=watch-live]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at stepDefinitions.WatchTvStepDefinitions.i_verify_im_in_fox_news_flash(WatchTvStepDefinitions.java:119)
+	at ✽.I verify Im in fox News Flash(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:29)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="WatchTv Button on the home page FoxNews" name="Im in watch Tv and check show clips" time="27.349">
+        <failure message="Not Nation Fox News  Page expected:&lt;https://[www.foxnews.com/category/media/fox-news-flash]&gt; but was:&lt;https://[video.foxnews.com/v/5614615980001#sp=show-clips]&gt;" type="org.junit.ComparisonFailure">
+            <![CDATA[Given Im in Fox News Home Page..............................................passed
+And I click on WatchTV Button...............................................passed
+And I click on show clips...................................................passed
+Then I verify Im in show Clips..............................................failed
+
+StackTrace:
+org.junit.ComparisonFailure: Not Nation Fox News  Page expected:<https://[www.foxnews.com/category/media/fox-news-flash]> but was:<https://[video.foxnews.com/v/5614615980001#sp=show-clips]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at stepDefinitions.WatchTvStepDefinitions.i_verify_im_in_show_clips(WatchTvStepDefinitions.java:133)
+	at ✽.I verify Im in show Clips(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:34)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="WatchTv Button on the home page FoxNews" name="Im in watch Tv and check New Clips" time="46.649">
+        <failure message="Not Nation NEws Clip  Page expected:&lt;...video.foxnews.com/v/[6188967902]001#sp=news-clips&gt; but was:&lt;...video.foxnews.com/v/[5614615980]001#sp=news-clips&gt;" type="org.junit.ComparisonFailure">
+            <![CDATA[Given Im in Fox News Home Page..............................................passed
+And I click on WatchTV Button...............................................passed
+And I click on News Clips...................................................passed
+Then I verify Im In News Clips..............................................failed
+
+StackTrace:
+org.junit.ComparisonFailure: Not Nation NEws Clip  Page expected:<...video.foxnews.com/v/[6188967902]001#sp=news-clips> but was:<...video.foxnews.com/v/[5614615980]001#sp=news-clips>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at stepDefinitions.WatchTvStepDefinitions.i_verify_im_in_news_clips(WatchTvStepDefinitions.java:146)
+	at ✽.I verify Im In News Clips(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:39)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="WatchTv Button on the home page FoxNews" name="IM in watch Tv and Check Facebook link on icon" time="32.577">
+        <failure message="no facebookwidow expected:&lt;[Facebook]&gt; but was:&lt;[Watch Fox News Channel and Fox Business Network Online | Fox News]&gt;" type="org.junit.ComparisonFailure">
+            <![CDATA[Given Im in Fox News Home Page..............................................passed
+And I click on WatchTV Button...............................................passed
+And I click on facebook Icon................................................passed
+Then I verify facebook Window Pop up........................................failed
+
+StackTrace:
+org.junit.ComparisonFailure: no facebookwidow expected:<[Facebook]> but was:<[Watch Fox News Channel and Fox Business Network Online | Fox News]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at stepDefinitions.WatchTvStepDefinitions.i_verify_facebook_window_pop_up(WatchTvStepDefinitions.java:159)
+	at ✽.I verify facebook Window Pop up(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:43)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="WatchTv Button on the home page FoxNews" name="IM in watch Tv and Check Twitter link on icon" time="31.076">
+        <failure message="no facebookwindow expected:&lt;true&gt; but was:&lt;false&gt;" type="java.lang.AssertionError">
+            <![CDATA[Given Im in Fox News Home Page..............................................passed
+And I click on WatchTV Button...............................................passed
+And I click on Twitter Icon.................................................passed
+Then I verify Twitter Window Pop Up.........................................failed
+
+StackTrace:
+java.lang.AssertionError: no facebookwindow expected:<true> but was:<false>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at stepDefinitions.WatchTvStepDefinitions.i_verify_twitter_window_pop_up(WatchTvStepDefinitions.java:174)
+	at ✽.I verify Twitter Window Pop Up(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:48)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="WatchTv Button on the home page FoxNews" name="Im in Watch Tv and check scroll down and check scroll to top button" time="52.042">
+        <failure message="" type="java.lang.NullPointerException">
+            <![CDATA[Given Im in Fox News Home Page..............................................passed
+And I click on WatchTV Button...............................................passed
+And scroll down to scroll to top button.....................................passed
+Then click on button........................................................passed
+And check im on top of Page.................................................failed
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinitions.WatchTvStepDefinitions.check_im_on_top_of_page(WatchTvStepDefinitions.java:198)
+	at ✽.check im on top of Page(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/watchTv.feature:53)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="WatchTv Button on the home page FoxNews" name="check login functionality" time="83.437">
+        <system-out>
+            <![CDATA[Given Im in Fox News Home Page..............................................passed
+And I click on WatchTV Button...............................................passed
+Given Im in Fox News Home Page..............................................passed
+Then I click en log in......................................................passed
+And I enter "emailtest@gmail.com" and "foxpsw"..............................passed
+Then i wil try to login.....................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="WatchTv Button on the home page FoxNews" name="fox news2" time="90.112">
+        <system-out>
+            <![CDATA[Given Im in Fox News Home Page..............................................passed
+And I click on WatchTV Button...............................................passed
+Given Im in Fox News Home Page..............................................passed
+Then I click en log in......................................................passed
+And I click on create an account............................................passed
+And I file the form given...................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="WatchTv Button on the home page FoxNews" name="fox news3" time="85.991">
+        <system-out>
+            <![CDATA[Given Im in Fox News Home Page..............................................passed
+And I click on WatchTV Button...............................................passed
+Given Im in Fox News Home Page..............................................passed
+Then I click en log in......................................................passed
+And I click on create an account............................................passed
+And I file the form given...................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

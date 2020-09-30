@@ -1,0 +1,1302 @@
+[
+  {
+    "source": "IM in Jetblue Home Page",
+    "steps": [
+      {
+        "name": "IM in Jetblue Home Page",
+        "aggregatedDurations": {
+          "median": 7.0981711,
+          "average": 7.764059972
+        },
+        "durations": [
+          {
+            "duration": 15.4230556,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:5"
+          },
+          {
+            "duration": 8.9381722,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:5"
+          },
+          {
+            "duration": 6.9296197,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:5"
+          },
+          {
+            "duration": 7.1440989,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:5"
+          },
+          {
+            "duration": 6.7866186,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:5"
+          },
+          {
+            "duration": 7.971191,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:5"
+          },
+          {
+            "duration": 7.0981711,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:5"
+          },
+          {
+            "duration": 7.953647,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:5"
+          },
+          {
+            "duration": 9.3367172,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:5"
+          },
+          {
+            "duration": 6.9741564,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:5"
+          },
+          {
+            "duration": 6.9916339,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:5"
+          },
+          {
+            "duration": 6.9906174,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:5"
+          },
+          {
+            "duration": 7.6736488,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:5"
+          },
+          {
+            "duration": 6.7361195,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:5"
+          },
+          {
+            "duration": 6.9161196,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:5"
+          },
+          {
+            "duration": 6.9491524,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:5"
+          },
+          {
+            "duration": 6.6391121,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:5"
+          },
+          {
+            "duration": 8.7881861,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:5"
+          },
+          {
+            "duration": 7.2111326,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:5"
+          },
+          {
+            "duration": 6.5571172,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:5"
+          },
+          {
+            "duration": 9.0001723,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:5"
+          },
+          {
+            "duration": 6.7981172,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:5"
+          },
+          {
+            "duration": 8.3011658,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:5"
+          },
+          {
+            "duration": 6.750118,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:5"
+          },
+          {
+            "duration": 7.2436387,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on book",
+    "steps": [
+      {
+        "name": "I click on book",
+        "aggregatedDurations": {
+          "median": 5.0893985,
+          "average": 5.0893985
+        },
+        "durations": [
+          {
+            "duration": 4.7811368,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:9"
+          },
+          {
+            "duration": 5.3976602,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on flight and hotel",
+    "steps": [
+      {
+        "name": "I click on flight and hotel",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:21"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "i Click on travelBankCredit",
+    "steps": [
+      {
+        "name": "i Click on travelBankCredit",
+        "aggregatedDurations": {
+          "median": 1.392061,
+          "average": 1.392061
+        },
+        "durations": [
+          {
+            "duration": 1.392061,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:25"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Im in travelBankCredit",
+    "steps": [
+      {
+        "name": "I verify Im in travelBankCredit",
+        "aggregatedDurations": {
+          "median": 2.2270734,
+          "average": 2.2270734
+        },
+        "durations": [
+          {
+            "duration": 2.2270734,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:26"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "i Click on checkIn",
+    "steps": [
+      {
+        "name": "i Click on checkIn",
+        "aggregatedDurations": {
+          "median": 2.9451273,
+          "average": 2.9451273
+        },
+        "durations": [
+          {
+            "duration": 2.9451273,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:29"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Im in checkIn",
+    "steps": [
+      {
+        "name": "I verify Im in checkIn",
+        "aggregatedDurations": {
+          "median": 0.001,
+          "average": 0.001
+        },
+        "durations": [
+          {
+            "duration": 0.001,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:30"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I send {string} firstname and {string} lastName",
+    "steps": [
+      {
+        "name": "I send \"hilton\" firstname and \"grey\" lastName",
+        "aggregatedDurations": {
+          "median": 5.4876437,
+          "average": 5.4876437
+        },
+        "durations": [
+          {
+            "duration": 5.4876437,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:31"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on confirmationcode",
+    "steps": [
+      {
+        "name": "I click on confirmationcode",
+        "aggregatedDurations": {
+          "median": 0.7520279,
+          "average": 0.7520279
+        },
+        "durations": [
+          {
+            "duration": 0.7520279,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:32"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I chose flightNumber option",
+    "steps": [
+      {
+        "name": "I chose flightNumber option",
+        "aggregatedDurations": {
+          "median": 0.2300031,
+          "average": 0.2300031
+        },
+        "durations": [
+          {
+            "duration": 0.2300031,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:33"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I send {string} flight Number",
+    "steps": [
+      {
+        "name": "I send \"6667564NY\" flight Number",
+        "aggregatedDurations": {
+          "median": 0.215002,
+          "average": 0.215002
+        },
+        "durations": [
+          {
+            "duration": 0.215002,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:34"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click On departure airport",
+    "steps": [
+      {
+        "name": "I click On departure airport",
+        "aggregatedDurations": {
+          "median": 0.2425037,
+          "average": 0.2425037
+        },
+        "durations": [
+          {
+            "duration": 0.2425037,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:35"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I chose albany airport",
+    "steps": [
+      {
+        "name": "I chose albany airport",
+        "aggregatedDurations": {
+          "median": 0.1775024,
+          "average": 0.1775024
+        },
+        "durations": [
+          {
+            "duration": 0.1775024,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:36"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on find flight",
+    "steps": [
+      {
+        "name": "I click on find flight",
+        "aggregatedDurations": {
+          "median": 0.1775025,
+          "average": 0.1775025
+        },
+        "durations": [
+          {
+            "duration": 0.1775025,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:37"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "i Click on flightTraker",
+    "steps": [
+      {
+        "name": "i Click on flightTraker",
+        "aggregatedDurations": {
+          "median": 2.0390612,
+          "average": 2.0390612
+        },
+        "durations": [
+          {
+            "duration": 2.0390612,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:43"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Im in flightTraker",
+    "steps": [
+      {
+        "name": "I verify Im in flightTraker",
+        "aggregatedDurations": {
+          "median": 1.2690433,
+          "average": 1.2690433
+        },
+        "durations": [
+          {
+            "duration": 1.2690433,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:44"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "i Click on travelAlert",
+    "steps": [
+      {
+        "name": "i Click on travelAlert",
+        "aggregatedDurations": {
+          "median": 2.8256344,
+          "average": 2.8256344
+        },
+        "durations": [
+          {
+            "duration": 2.8256344,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:47"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Im in travelAlert",
+    "steps": [
+      {
+        "name": "I verify Im in travelAlert",
+        "aggregatedDurations": {
+          "median": 2.7135827,
+          "average": 2.7135827
+        },
+        "durations": [
+          {
+            "duration": 2.7135827,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:48"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "i Click on espagnol",
+    "steps": [
+      {
+        "name": "i Click on espagnol",
+        "aggregatedDurations": {
+          "median": 3.4026328,
+          "average": 3.4026328
+        },
+        "durations": [
+          {
+            "duration": 3.4026328,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:51"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on sign In",
+    "steps": [
+      {
+        "name": "I click on sign In",
+        "aggregatedDurations": {
+          "median": 7.4262635,
+          "average": 7.4262635
+        },
+        "durations": [
+          {
+            "duration": 7.4262635,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:55"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "i scroll Down to join our emaillist",
+    "steps": [
+      {
+        "name": "i scroll Down to join our emaillist",
+        "aggregatedDurations": {
+          "median": 1.499562,
+          "average": 1.499562
+        },
+        "durations": [
+          {
+            "duration": 1.499562,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:61"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on join our emaillist",
+    "steps": [
+      {
+        "name": "I click on join our emaillist",
+        "aggregatedDurations": {
+          "median": 2.8545611,
+          "average": 2.8545611
+        },
+        "durations": [
+          {
+            "duration": 2.8545611,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:62"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Im in join our emaillist Page",
+    "steps": [
+      {
+        "name": "I verify Im in join our emaillist Page",
+        "aggregatedDurations": {
+          "median": 0.0600009,
+          "average": 0.0600009
+        },
+        "durations": [
+          {
+            "duration": 0.0600009,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:63"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "i scroll Down to DowloadJetBlueAPP",
+    "steps": [
+      {
+        "name": "i scroll Down to DowloadJetBlueAPP",
+        "aggregatedDurations": {
+          "median": 0.5365136,
+          "average": 0.5365136
+        },
+        "durations": [
+          {
+            "duration": 0.5365136,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:66"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on join our DowloadJetBlueAPP",
+    "steps": [
+      {
+        "name": "I click on join our DowloadJetBlueAPP",
+        "aggregatedDurations": {
+          "median": 4.161115,
+          "average": 4.161115
+        },
+        "durations": [
+          {
+            "duration": 4.161115,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:67"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "i scroll Down to facebookicon",
+    "steps": [
+      {
+        "name": "i scroll Down to facebookicon",
+        "aggregatedDurations": {
+          "median": 0.4140084,
+          "average": 0.4140084
+        },
+        "durations": [
+          {
+            "duration": 0.4140084,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:71"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on join our facebookicon",
+    "steps": [
+      {
+        "name": "I click on join our facebookicon",
+        "aggregatedDurations": {
+          "median": 2.3005675,
+          "average": 2.3005675
+        },
+        "durations": [
+          {
+            "duration": 2.3005675,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:72"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Im in join our facebookIcon Page",
+    "steps": [
+      {
+        "name": "I verify Im in join our facebookIcon Page",
+        "aggregatedDurations": {
+          "median": 4.9945877,
+          "average": 4.9945877
+        },
+        "durations": [
+          {
+            "duration": 4.9945877,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:73"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "i scroll Down to instagram",
+    "steps": [
+      {
+        "name": "i scroll Down to instagram",
+        "aggregatedDurations": {
+          "median": 0.7315164,
+          "average": 0.7315164
+        },
+        "durations": [
+          {
+            "duration": 0.7315164,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:76"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on join our instagram",
+    "steps": [
+      {
+        "name": "I click on join our instagram",
+        "aggregatedDurations": {
+          "median": 8.3982993,
+          "average": 8.3982993
+        },
+        "durations": [
+          {
+            "duration": 8.3982993,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:77"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Im in join our instagram Page",
+    "steps": [
+      {
+        "name": "I verify Im in join our instagram Page",
+        "aggregatedDurations": {
+          "median": 0.0275004,
+          "average": 0.0275004
+        },
+        "durations": [
+          {
+            "duration": 0.0275004,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:78"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "i scroll Down to twitter",
+    "steps": [
+      {
+        "name": "i scroll Down to twitter",
+        "aggregatedDurations": {
+          "median": 0.694512,
+          "average": 0.694512
+        },
+        "durations": [
+          {
+            "duration": 0.694512,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:81"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on join our twitter",
+    "steps": [
+      {
+        "name": "I click on join our twitter",
+        "aggregatedDurations": {
+          "median": 8.2082395,
+          "average": 8.2082395
+        },
+        "durations": [
+          {
+            "duration": 8.2082395,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:82"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Im in join our twitter Page",
+    "steps": [
+      {
+        "name": "I verify Im in join our twitter Page",
+        "aggregatedDurations": {
+          "median": 0.01,
+          "average": 0.01
+        },
+        "durations": [
+          {
+            "duration": 0.01,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:83"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "i scroll Down to youtube",
+    "steps": [
+      {
+        "name": "i scroll Down to youtube",
+        "aggregatedDurations": {
+          "median": 0.62776605,
+          "average": 0.62776605
+        },
+        "durations": [
+          {
+            "duration": 0.4050076,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:86"
+          },
+          {
+            "duration": 0.8505245,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:111"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on join our youtube",
+    "steps": [
+      {
+        "name": "I click on join our youtube",
+        "aggregatedDurations": {
+          "median": 6.2749659,
+          "average": 6.2749659
+        },
+        "durations": [
+          {
+            "duration": 8.6482734,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:87"
+          },
+          {
+            "duration": 3.9016584,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:112"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Im in join our youtube Page",
+    "steps": [
+      {
+        "name": "I verify Im in join our youtube Page",
+        "aggregatedDurations": {
+          "median": 1.53328075,
+          "average": 1.53328075
+        },
+        "durations": [
+          {
+            "duration": 0.0125002,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:88"
+          },
+          {
+            "duration": 3.0540613,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:113"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "i scroll Down to jetblueSwag",
+    "steps": [
+      {
+        "name": "i scroll Down to jetblueSwag",
+        "aggregatedDurations": {
+          "median": 0.3670063,
+          "average": 0.3670063
+        },
+        "durations": [
+          {
+            "duration": 0.3670063,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:91"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on jetblueSwag",
+    "steps": [
+      {
+        "name": "I click on jetblueSwag",
+        "aggregatedDurations": {
+          "median": 1.2860426,
+          "average": 1.2860426
+        },
+        "durations": [
+          {
+            "duration": 1.2860426,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:92"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Im in jetblueSwag Page",
+    "steps": [
+      {
+        "name": "I verify Im in jetblueSwag Page",
+        "aggregatedDurations": {
+          "median": 8.8112861,
+          "average": 8.8112861
+        },
+        "durations": [
+          {
+            "duration": 8.8112861,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:93"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "i scroll Down to ourCompagny",
+    "steps": [
+      {
+        "name": "i scroll Down to ourCompagny",
+        "aggregatedDurations": {
+          "median": 0.7395349,
+          "average": 0.7395349
+        },
+        "durations": [
+          {
+            "duration": 0.7395349,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:96"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on join our ourCompagny",
+    "steps": [
+      {
+        "name": "I click on join our ourCompagny",
+        "aggregatedDurations": {
+          "median": 1.8370864,
+          "average": 1.8370864
+        },
+        "durations": [
+          {
+            "duration": 1.8370864,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:97"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Im in ourCompagnyPage",
+    "steps": [
+      {
+        "name": "I verify Im in ourCompagnyPage",
+        "aggregatedDurations": {
+          "median": 0.4170214,
+          "average": 0.4170214
+        },
+        "durations": [
+          {
+            "duration": 0.4170214,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:98"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "i scroll Down to ourPlanes",
+    "steps": [
+      {
+        "name": "i scroll Down to ourPlanes",
+        "aggregatedDurations": {
+          "median": 0.4935127,
+          "average": 0.4935127
+        },
+        "durations": [
+          {
+            "duration": 0.4935127,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:101"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on ourPlanes",
+    "steps": [
+      {
+        "name": "I click on ourPlanes",
+        "aggregatedDurations": {
+          "median": 2.0080887,
+          "average": 2.0080887
+        },
+        "durations": [
+          {
+            "duration": 2.0080887,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:102"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Im ourPlanes Page",
+    "steps": [
+      {
+        "name": "I verify Im ourPlanes Page",
+        "aggregatedDurations": {
+          "median": 0.484012,
+          "average": 0.484012
+        },
+        "durations": [
+          {
+            "duration": 0.484012,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:103"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "i scroll Down to partnerAirlines",
+    "steps": [
+      {
+        "name": "i scroll Down to partnerAirlines",
+        "aggregatedDurations": {
+          "median": 1.3450479,
+          "average": 1.3450479
+        },
+        "durations": [
+          {
+            "duration": 1.3450479,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:106"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on partnerAirlines",
+    "steps": [
+      {
+        "name": "I click on partnerAirlines",
+        "aggregatedDurations": {
+          "median": 1.2260649,
+          "average": 1.2260649
+        },
+        "durations": [
+          {
+            "duration": 1.2260649,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:107"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Im partnerAirlines Page",
+    "steps": [
+      {
+        "name": "I verify Im partnerAirlines Page",
+        "aggregatedDurations": {
+          "median": 0.0440025,
+          "average": 0.0440025
+        },
+        "durations": [
+          {
+            "duration": 0.0440025,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:108"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "i scroll Down to investorRelations",
+    "steps": [
+      {
+        "name": "i scroll Down to investorRelations",
+        "aggregatedDurations": {
+          "median": 0.4570088,
+          "average": 0.4570088
+        },
+        "durations": [
+          {
+            "duration": 0.4570088,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:116"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on investorRelations",
+    "steps": [
+      {
+        "name": "I click on investorRelations",
+        "aggregatedDurations": {
+          "median": 1.2430397,
+          "average": 1.2430397
+        },
+        "durations": [
+          {
+            "duration": 1.2430397,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:117"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Im in investorRelations Page",
+    "steps": [
+      {
+        "name": "I verify Im in investorRelations Page",
+        "aggregatedDurations": {
+          "median": 8.3922096,
+          "average": 8.3922096
+        },
+        "durations": [
+          {
+            "duration": 8.3922096,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:118"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "i scroll Down to travelAgents",
+    "steps": [
+      {
+        "name": "i scroll Down to travelAgents",
+        "aggregatedDurations": {
+          "median": 1.0890596,
+          "average": 1.0890596
+        },
+        "durations": [
+          {
+            "duration": 1.0890596,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:121"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on travelAgents",
+    "steps": [
+      {
+        "name": "I click on travelAgents",
+        "aggregatedDurations": {
+          "median": 0.4610252,
+          "average": 0.4610252
+        },
+        "durations": [
+          {
+            "duration": 0.4610252,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:122"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Im in travelAgents Page",
+    "steps": [
+      {
+        "name": "I verify Im in travelAgents Page",
+        "aggregatedDurations": {
+          "median": 0.0450025,
+          "average": 0.0450025
+        },
+        "durations": [
+          {
+            "duration": 0.0450025,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:123"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "i scroll Down to careers",
+    "steps": [
+      {
+        "name": "i scroll Down to careers",
+        "aggregatedDurations": {
+          "median": 0.5515103,
+          "average": 0.5515103
+        },
+        "durations": [
+          {
+            "duration": 0.5515103,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:126"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on careers",
+    "steps": [
+      {
+        "name": "I click on careers",
+        "aggregatedDurations": {
+          "median": 1.2380424,
+          "average": 1.2380424
+        },
+        "durations": [
+          {
+            "duration": 1.2380424,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:127"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Im in careers Page",
+    "steps": [
+      {
+        "name": "I verify Im in careers Page",
+        "aggregatedDurations": {
+          "median": 7.6437019,
+          "average": 7.6437019
+        },
+        "durations": [
+          {
+            "duration": 7.6437019,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:128"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "i scroll Down to timetables",
+    "steps": [
+      {
+        "name": "i scroll Down to timetables",
+        "aggregatedDurations": {
+          "median": 1.7420841,
+          "average": 1.7420841
+        },
+        "durations": [
+          {
+            "duration": 1.7420841,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:131"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on timetables",
+    "steps": [
+      {
+        "name": "I click on timetables",
+        "aggregatedDurations": {
+          "median": 0.525012,
+          "average": 0.525012
+        },
+        "durations": [
+          {
+            "duration": 0.525012,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:132"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "i scroll Down to siteMap",
+    "steps": [
+      {
+        "name": "i scroll Down to siteMap",
+        "aggregatedDurations": {
+          "median": 0.4070079,
+          "average": 0.4070079
+        },
+        "durations": [
+          {
+            "duration": 0.4070079,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:136"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on siteMap",
+    "steps": [
+      {
+        "name": "I click on siteMap",
+        "aggregatedDurations": {
+          "median": 0.7955299,
+          "average": 0.7955299
+        },
+        "durations": [
+          {
+            "duration": 0.7955299,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:137"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Im in siteMap Page",
+    "steps": [
+      {
+        "name": "I verify Im in siteMap Page",
+        "aggregatedDurations": {
+          "median": 0.6965261,
+          "average": 0.6965261
+        },
+        "durations": [
+          {
+            "duration": 0.6965261,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:138"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "i scroll Down to contactUs",
+    "steps": [
+      {
+        "name": "i scroll Down to contactUs",
+        "aggregatedDurations": {
+          "median": 0.7085203,
+          "average": 0.7085203
+        },
+        "durations": [
+          {
+            "duration": 0.7085203,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:141"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on contactUs",
+    "steps": [
+      {
+        "name": "I click on contactUs",
+        "aggregatedDurations": {
+          "median": 2.2795991,
+          "average": 2.2795991
+        },
+        "durations": [
+          {
+            "duration": 2.2795991,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:142"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Im in contactUs Page",
+    "steps": [
+      {
+        "name": "I verify Im in contactUs Page",
+        "aggregatedDurations": {
+          "median": 0.2180102,
+          "average": 0.2180102
+        },
+        "durations": [
+          {
+            "duration": 0.2180102,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:143"
+          }
+        ]
+      }
+    ]
+  }
+]

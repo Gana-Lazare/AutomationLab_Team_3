@@ -1,6 +1,8 @@
 package aetnahome;
 
 public class ShopForaPlanAetnaWebElement {
+    public static final String webElementSearchBox="//*[@id=\"globalSearch\"]";
+
     public static final String shopForAPlanWebElement="//button[text()='Shop for a plan']";
     public static final String medicareWebElement="/html/body/div[2]/div/nav/div/ul[1]/li[1]/div[2]/div/div/section/ul/li[1]/div[1]/button";
     public static final String browseAetnaMedicarePlanWebElement="/html/body/div[2]/div/nav/div/ul[1]/li[1]/div[2]/div/div/section/ul/li[1]/div[2]/ul/li[1]/a";

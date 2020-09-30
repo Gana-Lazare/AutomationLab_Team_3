@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="22" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="25" time="596.719">
+    <testcase classname="check home page functionality" name="check smartphones functionality under shop" time="20.809">
+        <system-out>
+            <![CDATA[Given Im in Verizon Home Page...............................................passed
+When I mouse over shop......................................................passed
+And I click on smartphone...................................................passed
+Then I verify Im in page page...............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="check home page functionality" name="check G5phones functionality" time="11.866">
+        <failure message="not equal expected:&lt;...s/?adobe_mc=MCMID%3D[13354807219508001731320662505102754890%7CMCORGID%3D843F02BE53271A1A0A490D4C%2540AdobeOrg%7CTS%3D1600298685&amp;mboxSession=2b20bb09e7e34b3b974971be12f59963&amp;wireless_gn_exp=0-129904]&gt; but was:&lt;...s/?adobe_mc=MCMID%3D[26594742136661932794043322339549073839%7CMCORGID%3D843F02BE53271A1A0A490D4C%2540AdobeOrg%7CTS%3D1601492794&amp;mboxSession=2dca2ef62e944a3e97e030ae18048549]&gt;" type="org.junit.ComparisonFailure">
+            <![CDATA[Given Im in Verizon Home Page...............................................passed
+When I mouse over shop......................................................passed
+And I click on  G5phones element............................................passed
+Then I verify Im in G5phones webpage........................................failed
+
+StackTrace:
+org.junit.ComparisonFailure: not equal expected:<...s/?adobe_mc=MCMID%3D[13354807219508001731320662505102754890%7CMCORGID%3D843F02BE53271A1A0A490D4C%2540AdobeOrg%7CTS%3D1600298685&mboxSession=2b20bb09e7e34b3b974971be12f59963&wireless_gn_exp=0-129904]> but was:<...s/?adobe_mc=MCMID%3D[26594742136661932794043322339549073839%7CMCORGID%3D843F02BE53271A1A0A490D4C%2540AdobeOrg%7CTS%3D1601492794&mboxSession=2dca2ef62e944a3e97e030ae18048549]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at stepDefinitions.VerizonStepDefinitions.i_verify_im_in_g5phones_webpage(VerizonStepDefinitions.java:63)
+	at ✽.I verify Im in G5phones webpage(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:15)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="check home page functionality" name="check otherphones functionality" time="16.184">
+        <failure message="not equal expected:&lt;...s/?adobe_mc=MCMID%3D[13354807219508001731320662505102754890%7CMCORGID%3D843F02BE53271A1A0A490D4C%2540AdobeOrg%7CTS%3D1600298537&amp;mboxSession=2b20bb09e7e34b3b974971be12f59963&amp;wireless_gn_exp=0-129904]&gt; but was:&lt;...s/?adobe_mc=MCMID%3D[22774411218193920162904941329351233939%7CMCORGID%3D843F02BE53271A1A0A490D4C%2540AdobeOrg%7CTS%3D1601492807&amp;mboxSession=763f2f3d0a7948da9050b79ec0b79bbc]&gt;" type="org.junit.ComparisonFailure">
+            <![CDATA[Given Im in Verizon Home Page...............................................passed
+When I mouse over shop......................................................passed
+And i CLICK on otherphones element..........................................passed
+Then I verify Im in otherphoneswebpage......................................failed
+
+StackTrace:
+org.junit.ComparisonFailure: not equal expected:<...s/?adobe_mc=MCMID%3D[13354807219508001731320662505102754890%7CMCORGID%3D843F02BE53271A1A0A490D4C%2540AdobeOrg%7CTS%3D1600298537&mboxSession=2b20bb09e7e34b3b974971be12f59963&wireless_gn_exp=0-129904]> but was:<...s/?adobe_mc=MCMID%3D[22774411218193920162904941329351233939%7CMCORGID%3D843F02BE53271A1A0A490D4C%2540AdobeOrg%7CTS%3D1601492807&mboxSession=763f2f3d0a7948da9050b79ec0b79bbc]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at stepDefinitions.VerizonStepDefinitions.i_verify_im_in_otherphoneswebpage(VerizonStepDefinitions.java:75)
+	at ✽.I verify Im in otherphoneswebpage(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:20)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="check home page functionality" name="check accessories functionality" time="11.808">
+        <failure message="invalid selector: Unable to locate an element with the xpath expression  because of the following error:&#10;SyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression.&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'MICROMEDIA-PC', ip: '192.168.1.37', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\MICROM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61116}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 3c2396778d2d24e385986d5c310020c0&#10;*** Element info: {Using=xpath, value=}" type="org.openqa.selenium.InvalidSelectorException">
+            <![CDATA[Given Im in Verizon Home Page...............................................passed
+When I mouse over shop......................................................passed
+And i click on accessories element..........................................failed
+Then I verify Im in accessories page........................................skipped
+
+StackTrace:
+org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression  because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression.
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MICROMEDIA-PC', ip: '192.168.1.37', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\MICROM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61116}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3c2396778d2d24e385986d5c310020c0
+*** Element info: {Using=xpath, value=}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at common.WebAPI.clickByXpath(WebAPI.java:486)
+	at stepDefinitions.VerizonStepDefinitions.i_click_on_accessories_element(VerizonStepDefinitions.java:80)
+	at ✽.i click on accessories element(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:24)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="check home page functionality" name="check tradeYourPhone functionality" time="11.567">
+        <failure message="invalid selector: Unable to locate an element with the xpath expression  because of the following error:&#10;SyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression.&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'MICROMEDIA-PC', ip: '192.168.1.37', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\MICROM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61200}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: f4a2967e45884aaf38da43c1bb748ace&#10;*** Element info: {Using=xpath, value=}" type="org.openqa.selenium.InvalidSelectorException">
+            <![CDATA[Given Im in Verizon Home Page...............................................passed
+When I mouse over shop......................................................passed
+And i click on tradeYourPhone element.......................................failed
+Then I verify Im in tradeYourPhone page.....................................skipped
+
+StackTrace:
+org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression  because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression.
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MICROMEDIA-PC', ip: '192.168.1.37', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\MICROM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61200}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f4a2967e45884aaf38da43c1bb748ace
+*** Element info: {Using=xpath, value=}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at common.WebAPI.clickByXpath(WebAPI.java:486)
+	at stepDefinitions.VerizonStepDefinitions.i_click_on_trade_your_phone_element(VerizonStepDefinitions.java:92)
+	at ✽.i click on tradeYourPhone element(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:29)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="check home page functionality" name="check bringYourOwnDevice functionality" time="15.848">
+        <failure message="invalid selector: Unable to locate an element with the xpath expression  because of the following error:&#10;SyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression.&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'MICROMEDIA-PC', ip: '192.168.1.37', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\MICROM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61280}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 8e70bd8070e48172fa6f724e390322a7&#10;*** Element info: {Using=xpath, value=}" type="org.openqa.selenium.InvalidSelectorException">
+            <![CDATA[Given Im in Verizon Home Page...............................................passed
+When I mouse over shop......................................................passed
+And i click on bringYourOwnDevice element...................................failed
+Then I verify Im in bringYourOwnDevice page.................................skipped
+
+StackTrace:
+org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression  because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression.
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MICROMEDIA-PC', ip: '192.168.1.37', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\MICROM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61280}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 8e70bd8070e48172fa6f724e390322a7
+*** Element info: {Using=xpath, value=}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at common.WebAPI.clickByXpath(WebAPI.java:486)
+	at stepDefinitions.VerizonStepDefinitions.i_click_on_bring_your_own_device_element(VerizonStepDefinitions.java:104)
+	at ✽.i click on bringYourOwnDevice element(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:34)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="check home page functionality" name="check tablets functionality" time="12.975">
+        <failure message="invalid selector: Unable to locate an element with the xpath expression  because of the following error:&#10;SyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression.&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'MICROMEDIA-PC', ip: '192.168.1.37', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\MICROM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61377}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 0f906acb1d34ca8282e8d2aa9f83a985&#10;*** Element info: {Using=xpath, value=}" type="org.openqa.selenium.InvalidSelectorException">
+            <![CDATA[Given Im in Verizon Home Page...............................................passed
+When I mouse over shop......................................................passed
+And i click on tablets element..............................................failed
+Then I verify Im in tablets page............................................skipped
+
+StackTrace:
+org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression  because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression.
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MICROMEDIA-PC', ip: '192.168.1.37', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\MICROM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61377}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0f906acb1d34ca8282e8d2aa9f83a985
+*** Element info: {Using=xpath, value=}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at common.WebAPI.clickByXpath(WebAPI.java:486)
+	at stepDefinitions.VerizonStepDefinitions.i_click_on_tablets_element(VerizonStepDefinitions.java:115)
+	at ✽.i click on tablets element(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:39)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="check home page functionality" name="check connectedSmartWatche functionality" time="15.431">
+        <failure message="invalid selector: Unable to locate an element with the xpath expression  because of the following error:&#10;SyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression.&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'MICROMEDIA-PC', ip: '192.168.1.37', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\MICROM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61470}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: c4e05635f776fcbddf44482ef64c5427&#10;*** Element info: {Using=xpath, value=}" type="org.openqa.selenium.InvalidSelectorException">
+            <![CDATA[Given Im in Verizon Home Page...............................................passed
+When I mouse over shop......................................................passed
+And i click on connectedSmartWatche element.................................failed
+Then I verify Im in connectedSmartWatche page...............................skipped
+
+StackTrace:
+org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression  because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression.
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MICROMEDIA-PC', ip: '192.168.1.37', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\MICROM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61470}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c4e05635f776fcbddf44482ef64c5427
+*** Element info: {Using=xpath, value=}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at common.WebAPI.clickByXpath(WebAPI.java:486)
+	at stepDefinitions.VerizonStepDefinitions.i_click_on_connected_smart_watche_element(VerizonStepDefinitions.java:126)
+	at ✽.i click on connectedSmartWatche element(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:44)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="check home page functionality" name="check plansunlimited functionality" time="18.563">
+        <failure message="Not equal expected:&lt;...d/?adobe_mc=MCMID%3D[13354807219508001731320662505102754890%7CMCORGID%3D843F02BE53271A1A0A490D4C%2540AdobeOrg%7CTS%3D1600298033&amp;mboxSession=2b20bb09e7e34b3b974971be12f59963&amp;wireless_gn_exp=0-129904]&gt; but was:&lt;...d/?adobe_mc=MCMID%3D[00444586257227096053727390775417898071%7CMCORGID%3D843F02BE53271A1A0A490D4C%2540AdobeOrg%7CTS%3D1601492893&amp;mboxSession=b829a75869a24cc7b00df8cb7f2ef812]&gt;" type="org.junit.ComparisonFailure">
+            <![CDATA[Given Im in Verizon Home Page...............................................passed
+When I mouse over shop......................................................passed
+And i click on plansunlimited element.......................................passed
+Then I verify Im in plansunlimited page.....................................failed
+
+StackTrace:
+org.junit.ComparisonFailure: Not equal expected:<...d/?adobe_mc=MCMID%3D[13354807219508001731320662505102754890%7CMCORGID%3D843F02BE53271A1A0A490D4C%2540AdobeOrg%7CTS%3D1600298033&mboxSession=2b20bb09e7e34b3b974971be12f59963&wireless_gn_exp=0-129904]> but was:<...d/?adobe_mc=MCMID%3D[00444586257227096053727390775417898071%7CMCORGID%3D843F02BE53271A1A0A490D4C%2540AdobeOrg%7CTS%3D1601492893&mboxSession=b829a75869a24cc7b00df8cb7f2ef812]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at stepDefinitions.VerizonStepDefinitions.i_verify_im_in_plansunlimited_page(VerizonStepDefinitions.java:145)
+	at ✽.I verify Im in plansunlimited page(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:50)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="check home page functionality" name="check planssharedData functionality" time="17.123">
+        <failure message="Not equal expected:&lt;...s/?adobe_mc=MCMID%3D[13354807219508001731320662505102754890%7CMCORGID%3D843F02BE53271A1A0A490D4C%2540AdobeOrg%7CTS%3D1600297995&amp;mboxSession=2b20bb09e7e34b3b974971be12f59963&amp;wireless_gn_exp=0-129904]#shared&gt; but was:&lt;...s/?adobe_mc=MCMID%3D[78392013801562730853205639373849772919%7CMCORGID%3D843F02BE53271A1A0A490D4C%2540AdobeOrg%7CTS%3D1601492911&amp;mboxSession=29372e56b7264d9b9b0a0a7fb4d29199]#shared&gt;" type="org.junit.ComparisonFailure">
+            <![CDATA[Given Im in Verizon Home Page...............................................passed
+When I mouse over shop......................................................passed
+And i click on planssharedData element......................................passed
+Then I verify Im in planssharedData page....................................failed
+
+StackTrace:
+org.junit.ComparisonFailure: Not equal expected:<...s/?adobe_mc=MCMID%3D[13354807219508001731320662505102754890%7CMCORGID%3D843F02BE53271A1A0A490D4C%2540AdobeOrg%7CTS%3D1600297995&mboxSession=2b20bb09e7e34b3b974971be12f59963&wireless_gn_exp=0-129904]#shared> but was:<...s/?adobe_mc=MCMID%3D[78392013801562730853205639373849772919%7CMCORGID%3D843F02BE53271A1A0A490D4C%2540AdobeOrg%7CTS%3D1601492911&mboxSession=29372e56b7264d9b9b0a0a7fb4d29199]#shared>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at stepDefinitions.VerizonStepDefinitions.i_verify_im_in_plansshared_data_page(VerizonStepDefinitions.java:157)
+	at ✽.I verify Im in planssharedData page(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:55)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="check home page functionality" name="check plansprepaid functionality" time="19.811">
+        <failure message="Not equal expected:&lt;...d/?adobe_mc=MCMID%3D[13354807219508001731320662505102754890%7CMCORGID%3D843F02BE53271A1A0A490D4C%2540AdobeOrg%7CTS%3D1600297970&amp;mboxSession=2b20bb09e7e34b3b974971be12f59963&amp;wireless_gn_exp=0-129904]&gt; but was:&lt;...d/?adobe_mc=MCMID%3D[21767096107146593071987845610082349823%7CMCORGID%3D843F02BE53271A1A0A490D4C%2540AdobeOrg%7CTS%3D1601492929&amp;mboxSession=307f5ae904a84986bcc4ae418c3df31a]&gt;" type="org.junit.ComparisonFailure">
+            <![CDATA[Given Im in Verizon Home Page...............................................passed
+When I mouse over shop......................................................passed
+And i click on plansprepaid element.........................................passed
+Then I verify Im in plansprepaid page.......................................failed
+
+StackTrace:
+org.junit.ComparisonFailure: Not equal expected:<...d/?adobe_mc=MCMID%3D[13354807219508001731320662505102754890%7CMCORGID%3D843F02BE53271A1A0A490D4C%2540AdobeOrg%7CTS%3D1600297970&mboxSession=2b20bb09e7e34b3b974971be12f59963&wireless_gn_exp=0-129904]> but was:<...d/?adobe_mc=MCMID%3D[21767096107146593071987845610082349823%7CMCORGID%3D843F02BE53271A1A0A490D4C%2540AdobeOrg%7CTS%3D1601492929&mboxSession=307f5ae904a84986bcc4ae418c3df31a]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at stepDefinitions.VerizonStepDefinitions.i_verify_im_in_plansprepaid_page(VerizonStepDefinitions.java:169)
+	at ✽.I verify Im in plansprepaid page(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:60)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="check home page functionality" name="check planssingledevice functionality" time="16.915">
+        <failure message="Not equal expected:&lt;...n/?adobe_mc=MCMID%3D[13354807219508001731320662505102754890%7CMCORGID%3D843F02BE53271A1A0A490D4C%2540AdobeOrg%7CTS%3D1600297930&amp;mboxSession=2b20bb09e7e34b3b974971be12f59963&amp;wireless_gn_exp=0-129904]&gt; but was:&lt;...n/?adobe_mc=MCMID%3D[87604191346863959920475987138292661420%7CMCORGID%3D843F02BE53271A1A0A490D4C%2540AdobeOrg%7CTS%3D1601492948&amp;mboxSession=d5513e89d33f47c7af858fee56214bbb]&gt;" type="org.junit.ComparisonFailure">
+            <![CDATA[Given Im in Verizon Home Page...............................................passed
+When I mouse over shop......................................................passed
+And i click on planssingledevice element....................................passed
+Then I verify Im in planssingledevice page..................................failed
+
+StackTrace:
+org.junit.ComparisonFailure: Not equal expected:<...n/?adobe_mc=MCMID%3D[13354807219508001731320662505102754890%7CMCORGID%3D843F02BE53271A1A0A490D4C%2540AdobeOrg%7CTS%3D1600297930&mboxSession=2b20bb09e7e34b3b974971be12f59963&wireless_gn_exp=0-129904]> but was:<...n/?adobe_mc=MCMID%3D[87604191346863959920475987138292661420%7CMCORGID%3D843F02BE53271A1A0A490D4C%2540AdobeOrg%7CTS%3D1601492948&mboxSession=d5513e89d33f47c7af858fee56214bbb]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at stepDefinitions.VerizonStepDefinitions.i_verify_im_in_planssingledevice_page(VerizonStepDefinitions.java:181)
+	at ✽.I verify Im in planssingledevice page(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:65)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="check home page functionality" name="check plansthoseWhoServe functionality" time="145.277">
+        <failure message="Not equal expected:&lt;...e/?adobe_mc=MCMID%3D[13354807219508001731320662505102754890%7CMCORGID%3D843F02BE53271A1A0A490D4C%2540AdobeOrg%7CTS%3D1600297895&amp;mboxSession=2b20bb09e7e34b3b974971be12f59963&amp;wireless_gn_exp=0-129904]&gt; but was:&lt;...e/?adobe_mc=MCMID%3D[74176447626474601190400992669011188554%7CMCORGID%3D843F02BE53271A1A0A490D4C%2540AdobeOrg%7CTS%3D1601492969&amp;mboxSession=a009815ba0954dc8805959e0f5eb867a]&gt;" type="org.junit.ComparisonFailure">
+            <![CDATA[Given Im in Verizon Home Page...............................................passed
+When I mouse over shop......................................................passed
+And i click on plansthoseWhoServe element...................................passed
+Then I verify Im in plansthoseWhoServe page.................................failed
+
+StackTrace:
+org.junit.ComparisonFailure: Not equal expected:<...e/?adobe_mc=MCMID%3D[13354807219508001731320662505102754890%7CMCORGID%3D843F02BE53271A1A0A490D4C%2540AdobeOrg%7CTS%3D1600297895&mboxSession=2b20bb09e7e34b3b974971be12f59963&wireless_gn_exp=0-129904]> but was:<...e/?adobe_mc=MCMID%3D[74176447626474601190400992669011188554%7CMCORGID%3D843F02BE53271A1A0A490D4C%2540AdobeOrg%7CTS%3D1601492969&mboxSession=a009815ba0954dc8805959e0f5eb867a]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at stepDefinitions.VerizonStepDefinitions.i_verify_im_in_plansthose_who_serve_page(VerizonStepDefinitions.java:193)
+	at ✽.I verify Im in plansthoseWhoServe page(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:70)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="check home page functionality" name="check planskidsPlans functionality" time="17.589">
+        <failure message="Not equal expected:&lt;...h/?adobe_mc=MCMID%3D[13354807219508001731320662505102754890%7CMCORGID%3D843F02BE53271A1A0A490D4C%2540AdobeOrg%7CTS%3D1600297859&amp;mboxSession=2b20bb09e7e34b3b974971be12f59963&amp;wireless_gn_exp=0-129904]&gt; but was:&lt;...h/?adobe_mc=MCMID%3D[32368249459514708922560614786391308288%7CMCORGID%3D843F02BE53271A1A0A490D4C%2540AdobeOrg%7CTS%3D1601493112&amp;mboxSession=baa0ce2d28e74b90840160597cab4512]&gt;" type="org.junit.ComparisonFailure">
+            <![CDATA[Given Im in Verizon Home Page...............................................passed
+When I mouse over shop......................................................passed
+And i click on planskidsPlans element.......................................passed
+Then I verify Im in planskidsPlans page.....................................failed
+
+StackTrace:
+org.junit.ComparisonFailure: Not equal expected:<...h/?adobe_mc=MCMID%3D[13354807219508001731320662505102754890%7CMCORGID%3D843F02BE53271A1A0A490D4C%2540AdobeOrg%7CTS%3D1600297859&mboxSession=2b20bb09e7e34b3b974971be12f59963&wireless_gn_exp=0-129904]> but was:<...h/?adobe_mc=MCMID%3D[32368249459514708922560614786391308288%7CMCORGID%3D843F02BE53271A1A0A490D4C%2540AdobeOrg%7CTS%3D1601493112&mboxSession=baa0ce2d28e74b90840160597cab4512]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at stepDefinitions.VerizonStepDefinitions.i_verify_im_in_planskids_plans_page(VerizonStepDefinitions.java:204)
+	at ✽.I verify Im in planskidsPlans page(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:75)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="check home page functionality" name="check plansstudent functionality" time="83.145">
+        <failure message="Not equal expected:&lt;...s/?adobe_mc=MCMID%3D[13354807219508001731320662505102754890%7CMCORGID%3D843F02BE53271A1A0A490D4C%2540AdobeOrg%7CTS%3D1600297811&amp;mboxSession=2b20bb09e7e34b3b974971be12f59963&amp;wireless_gn_exp=0-129904]&gt; but was:&lt;...s/?adobe_mc=MCMID%3D[26013539637374147292699631571462257123%7CMCORGID%3D843F02BE53271A1A0A490D4C%2540AdobeOrg%7CTS%3D1601493128&amp;mboxSession=32b69af258b94c19a110c0c0aeb6c31d]&gt;" type="org.junit.ComparisonFailure">
+            <![CDATA[Given Im in Verizon Home Page...............................................passed
+When I mouse over shop......................................................passed
+And i click on plansstudent element.........................................passed
+Then I verify Im in plansstudent page.......................................failed
+
+StackTrace:
+org.junit.ComparisonFailure: Not equal expected:<...s/?adobe_mc=MCMID%3D[13354807219508001731320662505102754890%7CMCORGID%3D843F02BE53271A1A0A490D4C%2540AdobeOrg%7CTS%3D1600297811&mboxSession=2b20bb09e7e34b3b974971be12f59963&wireless_gn_exp=0-129904]> but was:<...s/?adobe_mc=MCMID%3D[26013539637374147292699631571462257123%7CMCORGID%3D843F02BE53271A1A0A490D4C%2540AdobeOrg%7CTS%3D1601493128&mboxSession=32b69af258b94c19a110c0c0aeb6c31d]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at stepDefinitions.VerizonStepDefinitions.i_verify_im_in_plansstudent_page(VerizonStepDefinitions.java:216)
+	at ✽.I verify Im in plansstudent page(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:81)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="check home page functionality" name="check plansotherplans functionality" time="17.115">
+        <failure message="Not equal expected:&lt;...s/?adobe_mc=MCMID%3D[13354807219508001731320662505102754890%7CMCORGID%3D843F02BE53271A1A0A490D4C%2540AdobeOrg%7CTS%3D1600297777&amp;mboxSession=2b20bb09e7e34b3b974971be12f59963&amp;wireless_gn_exp=0-129904]&gt; but was:&lt;...s/?adobe_mc=MCMID%3D[56107821881050036851107099912500362669%7CMCORGID%3D843F02BE53271A1A0A490D4C%2540AdobeOrg%7CTS%3D1601493210&amp;mboxSession=4b6fcdfab39542ac8033f0f046709e4f]&gt;" type="org.junit.ComparisonFailure">
+            <![CDATA[Given Im in Verizon Home Page...............................................passed
+When I mouse over shop......................................................passed
+And i click on plansotherplans element......................................passed
+Then I verify Im in plansotherplans page....................................failed
+
+StackTrace:
+org.junit.ComparisonFailure: Not equal expected:<...s/?adobe_mc=MCMID%3D[13354807219508001731320662505102754890%7CMCORGID%3D843F02BE53271A1A0A490D4C%2540AdobeOrg%7CTS%3D1600297777&mboxSession=2b20bb09e7e34b3b974971be12f59963&wireless_gn_exp=0-129904]> but was:<...s/?adobe_mc=MCMID%3D[56107821881050036851107099912500362669%7CMCORGID%3D843F02BE53271A1A0A490D4C%2540AdobeOrg%7CTS%3D1601493210&mboxSession=4b6fcdfab39542ac8033f0f046709e4f]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at stepDefinitions.VerizonStepDefinitions.i_verify_im_in_plansotherplans_page(VerizonStepDefinitions.java:227)
+	at ✽.I verify Im in plansotherplans page(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:86)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="check home page functionality" name="check plansdBrinYourOwnDevice functionality" time="24.025">
+        <failure message="Not equal expected:&lt;...e/?adobe_mc=MCMID%3D[13354807219508001731320662505102754890%7CMCORGID%3D843F02BE53271A1A0A490D4C%2540AdobeOrg%7CTS%3D1600297750&amp;mboxSession=2b20bb09e7e34b3b974971be12f59963&amp;wireless_gn_exp=0-129904]&gt; but was:&lt;...e/?adobe_mc=MCMID%3D[81317091467611008602633971925155997836%7CMCORGID%3D843F02BE53271A1A0A490D4C%2540AdobeOrg%7CTS%3D1601493229&amp;mboxSession=881c7c612fdf425b9c658760b0432886]&gt;" type="org.junit.ComparisonFailure">
+            <![CDATA[Given Im in Verizon Home Page...............................................passed
+When I mouse over shop......................................................passed
+And i click on plansdBrinYourOwnDevice element..............................passed
+Then I verify Im in plansdBrinYourOwnDevice page............................failed
+
+StackTrace:
+org.junit.ComparisonFailure: Not equal expected:<...e/?adobe_mc=MCMID%3D[13354807219508001731320662505102754890%7CMCORGID%3D843F02BE53271A1A0A490D4C%2540AdobeOrg%7CTS%3D1600297750&mboxSession=2b20bb09e7e34b3b974971be12f59963&wireless_gn_exp=0-129904]> but was:<...e/?adobe_mc=MCMID%3D[81317091467611008602633971925155997836%7CMCORGID%3D843F02BE53271A1A0A490D4C%2540AdobeOrg%7CTS%3D1601493229&mboxSession=881c7c612fdf425b9c658760b0432886]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at stepDefinitions.VerizonStepDefinitions.i_verify_im_in_plansd_brin_your_own_device_page(VerizonStepDefinitions.java:238)
+	at ✽.I verify Im in plansdBrinYourOwnDevice page(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:91)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="check home page functionality" name="check smartphones under siteMap getting list of smartphones" time="21.093">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;vz-gf20&quot;]/div/div[1]/div/div/div/div[2]/div[2]/ul/li[2]/a&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'MICROMEDIA-PC', ip: '192.168.1.37', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\MICROM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62667}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 29b4f07f190f0eccfe8c5aff73bc1a62&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;vz-gf20&quot;]/div/div[1]/div/div/div/div[2]/div[2]/ul/li[2]/a}" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given Im in Verizon Home Page...............................................passed
+When I scroll to site map...................................................failed
+And I click on site map.....................................................skipped
+And I get the list of smartphones...........................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="vz-gf20"]/div/div[1]/div/div/div/div[2]/div[2]/ul/li[2]/a"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MICROMEDIA-PC', ip: '192.168.1.37', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\MICROM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62667}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 29b4f07f190f0eccfe8c5aff73bc1a62
+*** Element info: {Using=xpath, value=//*[@id="vz-gf20"]/div/div[1]/div/div/div/div[2]/div[2]/ul/li[2]/a}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at common.WebAPI.moveToElement(WebAPI.java:287)
+	at stepDefinitions.VerizonStepDefinitions.i_scroll_to_site_map(VerizonStepDefinitions.java:244)
+	at ✽.I scroll to site map(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:94)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="check home page functionality" name="check my account under sign in  functionality" time="17.05">
+        <system-out>
+            <![CDATA[Given Im in Verizon Home Page...............................................passed
+When I mouse over signin....................................................passed
+And I click n my account....................................................passed
+Then I verify Im in my account page.........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="check home page functionality" name="check register under sign in functionality" time="23.564">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;main-content&quot;]/h1&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'MICROMEDIA-PC', ip: '192.168.1.37', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\MICROM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62868}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: fd737bc89ba527e8efe76f243916c4dc&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;main-content&quot;]/h1}" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given Im in Verizon Home Page...............................................passed
+When I mouse over signin....................................................passed
+And I click on Register.....................................................passed
+Then I verify Im in register page...........................................failed
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main-content"]/h1"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MICROMEDIA-PC', ip: '192.168.1.37', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\MICROM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62868}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: fd737bc89ba527e8efe76f243916c4dc
+*** Element info: {Using=xpath, value=//*[@id="main-content"]/h1}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at stepDefinitions.VerizonStepDefinitions.i_verify_im_in_register_page(VerizonStepDefinitions.java:295)
+	at ✽.I verify Im in register page(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:106)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="check home page functionality" name="check prepaidInstantPay button under Sign In functionality" time="19.091">
+        <system-out>
+            <![CDATA[Given Im in Verizon Home Page...............................................passed
+When I mouse over signin....................................................passed
+And I click on prepaidInstantPay............................................passed
+Then I verify Im in prepaidInstantPay.......................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="check home page functionality" name="check search button functionality" time="6.878">
+        <failure message="The scenario has pending or undefined step(s)" type="io.cucumber.java.PendingException">
+            <![CDATA[Given Im in Verizon Home Page...............................................passed
+When I click on search Button...............................................pending
+And I type "how to subscript" on search bar.................................skipped
+Then I verify in parthresearchVerify is correct.............................skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="check home page functionality" name="check devices functionality under shop" time="11.589">
+        <failure message="invalid selector: Unable to locate an element with the xpath expression  because of the following error:&#10;SyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression.&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'MICROMEDIA-PC', ip: '192.168.1.37', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\MICROM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63149}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: b023b52a30131cc58af193fa11cfecd2&#10;*** Element info: {Using=xpath, value=}" type="org.openqa.selenium.InvalidSelectorException">
+            <![CDATA[Given Im in Verizon Home Page...............................................passed
+When I mouse over shop......................................................passed
+And I click on "" element...................................................failed
+Then I verify Im in "" page.................................................skipped
+
+StackTrace:
+org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression  because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression.
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MICROMEDIA-PC', ip: '192.168.1.37', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\Users\MICROM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63149}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b023b52a30131cc58af193fa11cfecd2
+*** Element info: {Using=xpath, value=}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at common.WebAPI.clickByXpath(WebAPI.java:486)
+	at stepDefinitions.VerizonStepDefinitions.i_click_on_element(VerizonStepDefinitions.java:43)
+	at ✽.I click on "" element(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:126)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="check home page functionality" name="check devices functionality under shop 2" time="10.101">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given Im in Verizon Home Page...............................................passed
+When I mouse over shop......................................................passed
+And I click on ""/*[@id="gnav20-Shop-L3-1\"" element........................undefined
+Then I verify Im in "https://www.verizon.com/smartphones/?adobe_mc=MCMID%3D13354807219508001731320662505102754890%7CMCORGID%3D843F02BE53271A1A0A490D4C%2540AdobeOrg%7CTS%3D1600228617&mboxSession=2b20bb09e7e34b3b974971be12f59963&wireless_gn_exp=0-129904" page.skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="check home page functionality" name="check devices functionality under shop 3" time="10.167">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given Im in Verizon Home Page...............................................passed
+When I mouse over shop......................................................passed
+And I click on "//*[@id="gnav20-Shop-L3-2"]" element........................undefined
+Then I verify Im in "https://www.verizon.com/5g/phones/?adobe_mc=MCMID%3D13354807219508001731320662505102754890%7CMCORGID%3D843F02BE53271A1A0A490D4C%2540AdobeOrg%7CTS%3D1600228653&mboxSession=2b20bb09e7e34b3b974971be12f59963&wireless_gn_exp=0-129904" page.skipped
+]]>
+        </failure>
+    </testcase>
+</testsuite>

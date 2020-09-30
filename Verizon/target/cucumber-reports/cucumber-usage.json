@@ -1,0 +1,560 @@
+[
+  {
+    "source": "^Im in Verizon Home Page$",
+    "steps": [
+      {
+        "name": "Im in Verizon Home Page",
+        "aggregatedDurations": {
+          "median": 8.0464602,
+          "average": 8.112423984
+        },
+        "durations": [
+          {
+            "duration": 9.4405399,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:5"
+          },
+          {
+            "duration": 7.6464373,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:5"
+          },
+          {
+            "duration": 6.9303964,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:5"
+          },
+          {
+            "duration": 8.2424714,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:5"
+          },
+          {
+            "duration": 5.4413112,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:5"
+          },
+          {
+            "duration": 9.4665414,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:5"
+          },
+          {
+            "duration": 6.8453915,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:5"
+          },
+          {
+            "duration": 10.3265906,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:5"
+          },
+          {
+            "duration": 9.1505234,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:5"
+          },
+          {
+            "duration": 10.5626041,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:5"
+          },
+          {
+            "duration": 7.8104467,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:5"
+          },
+          {
+            "duration": 8.5734903,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:5"
+          },
+          {
+            "duration": 8.4024806,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:5"
+          },
+          {
+            "duration": 6.9143955,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:5"
+          },
+          {
+            "duration": 10.542603,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:5"
+          },
+          {
+            "duration": 6.29436,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:5"
+          },
+          {
+            "duration": 8.6584952,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:5"
+          },
+          {
+            "duration": 6.9283963,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:5"
+          },
+          {
+            "duration": 6.2083551,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:5"
+          },
+          {
+            "duration": 8.0464602,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:5"
+          },
+          {
+            "duration": 9.0925201,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:5"
+          },
+          {
+            "duration": 6.0903483,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:5"
+          },
+          {
+            "duration": 9.9065667,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:5"
+          },
+          {
+            "duration": 7.8084466,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:5"
+          },
+          {
+            "duration": 7.4804278,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I mouse over shop",
+    "steps": [
+      {
+        "name": "I mouse over shop",
+        "aggregatedDurations": {
+          "median": 1.64859425,
+          "average": 2.06536812
+        },
+        "durations": [
+          {
+            "duration": 7.1274077,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:8"
+          },
+          {
+            "duration": 1.0450598,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:13"
+          },
+          {
+            "duration": 2.0521173,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:18"
+          },
+          {
+            "duration": 0.2420138,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:23"
+          },
+          {
+            "duration": 2.8611636,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:28"
+          },
+          {
+            "duration": 1.8841077,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:33"
+          },
+          {
+            "duration": 4.0602322,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:38"
+          },
+          {
+            "duration": 1.3430768,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:43"
+          },
+          {
+            "duration": 1.382079,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:48"
+          },
+          {
+            "duration": 0.4600263,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:53"
+          },
+          {
+            "duration": 2.710155,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:58"
+          },
+          {
+            "duration": 2.0191155,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:63"
+          },
+          {
+            "duration": 1.9991144,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:68"
+          },
+          {
+            "duration": 3.794217,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:73"
+          },
+          {
+            "duration": 0.2700155,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:79"
+          },
+          {
+            "duration": 3.8762217,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:84"
+          },
+          {
+            "duration": 1.1640666,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:89"
+          },
+          {
+            "duration": 0.2300131,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:125"
+          },
+          {
+            "duration": 1.3740786,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:125"
+          },
+          {
+            "duration": 1.4130808,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:125"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on smartphone",
+    "steps": [
+      {
+        "name": "I click on smartphone",
+        "aggregatedDurations": {
+          "median": 3.3001888,
+          "average": 3.3001888
+        },
+        "durations": [
+          {
+            "duration": 3.3001888,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Im in page page",
+    "steps": [
+      {
+        "name": "I verify Im in page page",
+        "aggregatedDurations": {
+          "median": 0.0030002,
+          "average": 0.0030002
+        },
+        "durations": [
+          {
+            "duration": 0.0030002,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on  G5phones element",
+    "steps": [
+      {
+        "name": "I click on  G5phones element",
+        "aggregatedDurations": {
+          "median": 1.1690669,
+          "average": 1.1690669
+        },
+        "durations": [
+          {
+            "duration": 1.1690669,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "i CLICK on otherphones element",
+    "steps": [
+      {
+        "name": "i CLICK on otherphones element",
+        "aggregatedDurations": {
+          "median": 3.3461914,
+          "average": 3.3461914
+        },
+        "durations": [
+          {
+            "duration": 3.3461914,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "i click on plansunlimited element",
+    "steps": [
+      {
+        "name": "i click on plansunlimited element",
+        "aggregatedDurations": {
+          "median": 3.8402196,
+          "average": 3.8402196
+        },
+        "durations": [
+          {
+            "duration": 3.8402196,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:49"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "i click on planssharedData element",
+    "steps": [
+      {
+        "name": "i click on planssharedData element",
+        "aggregatedDurations": {
+          "median": 1.5310876,
+          "average": 1.5310876
+        },
+        "durations": [
+          {
+            "duration": 1.5310876,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:54"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "i click on plansprepaid element",
+    "steps": [
+      {
+        "name": "i click on plansprepaid element",
+        "aggregatedDurations": {
+          "median": 8.0044578,
+          "average": 8.0044578
+        },
+        "durations": [
+          {
+            "duration": 8.0044578,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:59"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "i click on planssingledevice element",
+    "steps": [
+      {
+        "name": "i click on planssingledevice element",
+        "aggregatedDurations": {
+          "median": 3.5602037,
+          "average": 3.5602037
+        },
+        "durations": [
+          {
+            "duration": 3.5602037,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:64"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "i click on plansthoseWhoServe element",
+    "steps": [
+      {
+        "name": "i click on plansthoseWhoServe element",
+        "aggregatedDurations": {
+          "median": 132.0415523,
+          "average": 132.0415523
+        },
+        "durations": [
+          {
+            "duration": 132.0415523,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:69"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "i click on planskidsPlans element",
+    "steps": [
+      {
+        "name": "i click on planskidsPlans element",
+        "aggregatedDurations": {
+          "median": 3.7562149,
+          "average": 3.7562149
+        },
+        "durations": [
+          {
+            "duration": 3.7562149,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:74"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "i click on plansstudent element",
+    "steps": [
+      {
+        "name": "i click on plansstudent element",
+        "aggregatedDurations": {
+          "median": 70.3160219,
+          "average": 70.3160219
+        },
+        "durations": [
+          {
+            "duration": 70.3160219,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:80"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "i click on plansotherplans element",
+    "steps": [
+      {
+        "name": "i click on plansotherplans element",
+        "aggregatedDurations": {
+          "median": 3.1561806,
+          "average": 3.1561806
+        },
+        "durations": [
+          {
+            "duration": 3.1561806,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:85"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "i click on plansdBrinYourOwnDevice element",
+    "steps": [
+      {
+        "name": "i click on plansdBrinYourOwnDevice element",
+        "aggregatedDurations": {
+          "median": 8.2834738,
+          "average": 8.2834738
+        },
+        "durations": [
+          {
+            "duration": 8.2834738,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:90"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I mouse over signin",
+    "steps": [
+      {
+        "name": "I mouse over signin",
+        "aggregatedDurations": {
+          "median": 2.6711527,
+          "average": 2.034783033
+        },
+        "durations": [
+          {
+            "duration": 2.9701699,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:99"
+          },
+          {
+            "duration": 2.6711527,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:104"
+          },
+          {
+            "duration": 0.4630265,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:110"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click n my account",
+    "steps": [
+      {
+        "name": "I click n my account",
+        "aggregatedDurations": {
+          "median": 6.6933828,
+          "average": 6.6933828
+        },
+        "durations": [
+          {
+            "duration": 6.6933828,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:100"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Im in my account page",
+    "steps": [
+      {
+        "name": "I verify Im in my account page",
+        "aggregatedDurations": {
+          "median": 0.1600091,
+          "average": 0.1600091
+        },
+        "durations": [
+          {
+            "duration": 0.1600091,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:101"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Register",
+    "steps": [
+      {
+        "name": "I click on Register",
+        "aggregatedDurations": {
+          "median": 0.909052,
+          "average": 0.909052
+        },
+        "durations": [
+          {
+            "duration": 0.909052,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:105"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on prepaidInstantPay",
+    "steps": [
+      {
+        "name": "I click on prepaidInstantPay",
+        "aggregatedDurations": {
+          "median": 8.2124697,
+          "average": 8.2124697
+        },
+        "durations": [
+          {
+            "duration": 8.2124697,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:111"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Im in prepaidInstantPay",
+    "steps": [
+      {
+        "name": "I verify Im in prepaidInstantPay",
+        "aggregatedDurations": {
+          "median": 0.3040174,
+          "average": 0.3040174
+        },
+        "durations": [
+          {
+            "duration": 0.3040174,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/Verizon/src/test/java/features/VerizonFeature.feature:112"
+          }
+        ]
+      }
+    ]
+  }
+]

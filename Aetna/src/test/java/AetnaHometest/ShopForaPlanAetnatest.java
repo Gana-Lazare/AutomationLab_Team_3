@@ -16,6 +16,11 @@ public class ShopForaPlanAetnatest extends WebAPI {
         // registrationPage = PageFactory.initElements(driver,SignUpPage.class);
     }
 @Test
+    public void testsearchBoxCheckUsingGetItemValue() throws InterruptedException {
+
+        shopForaPlanAetna.searchBoxCheckUsingGetItemValue();
+    }
+@Test
     public void browseAetna() throws InterruptedException ,NullPointerException {
         shopForaPlanAetna.medicare();
         Thread.sleep(3000);

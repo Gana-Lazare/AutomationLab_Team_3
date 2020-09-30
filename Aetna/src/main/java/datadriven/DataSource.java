@@ -22,14 +22,14 @@ public class DataSource {
     //  From Class/ Same class
     public static List<String> getItemValue() {
         List<String> itemsList = new ArrayList<String>();
-        itemsList.add("Hand sanitizer");
-        itemsList.add("iphone 11 pro max");
-        itemsList.add("T-shirt");
-        itemsList.add("Mens shirt");
-        itemsList.add("Shoes");
-        itemsList.add("Camera");
-        itemsList.add("Bike");
-        itemsList.add("Tv");
+        itemsList.add("dentist");
+        itemsList.add("work insurance");
+        itemsList.add("vision");
+        itemsList.add("blood pressur");
+        itemsList.add("emergency ");
+        itemsList.add("treatment");
+        itemsList.add("pharmacy connected ");
+        itemsList.add("extras coverage");
         return itemsList;
     }
 

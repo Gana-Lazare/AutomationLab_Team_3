@@ -1,11 +1,14 @@
 package aetnahome;
 
 import common.WebAPI;
+import datadriven.DataSource;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.testng.Assert;
+
+import java.util.List;
 
 import static aetnahome.ShopForaPlanAetnaWebElement.*;
 
@@ -39,7 +42,23 @@ String actualresult=driver.getCurrentUrl();
       Assert.assertEquals(actualresult,expectedresult,"this is not browse Aetna Plan Url");
        System.out.println(actualresult);
     }*/
+    @FindBy(how = How.CSS, using = webElementSearchBox)
+    public WebElement searchBox;
 
+    public void searchBoxCheckUsingGetItemValue() throws InterruptedException {
+        List<String> itemList= DataSource.getItemValue();
+        for (String st:itemList) {
+            searchBox.sendKeys(st);
+            searchBox.submit();
+            String expectedResult="\""+st+"\"";
+            System.out.println("Expected Result : "+expectedResult);
+            //String actualResult = searchText.getText();
+           // System.out.println("Actual Result : "+actualResult);
+           // Assert.assertEquals(actualResult, expectedResult, "Search Item not match");
+            sleepFor(3);
+            searchBox.clear();
+        }
+    }
     @FindBy(how = How.XPATH,using = findDoctorWebElement)
     public WebElement findDoctor;
     //Action

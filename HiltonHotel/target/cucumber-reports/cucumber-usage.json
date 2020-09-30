@@ -1,0 +1,254 @@
+[
+  {
+    "source": "IM In HiltonHotel home page",
+    "steps": [
+      {
+        "name": "IM In HiltonHotel home page",
+        "aggregatedDurations": {
+          "median": 8.6414943,
+          "average": 10.010900252
+        },
+        "durations": [
+          {
+            "duration": 15.9476791,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/HiltonHomePage_G.feature:5"
+          },
+          {
+            "duration": 6.6756154,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/HiltonHomePage_G.feature:5"
+          },
+          {
+            "duration": 6.3741324,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/HiltonHomePage_G.feature:5"
+          },
+          {
+            "duration": 21.8030488,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/HiltonHomePage_G.feature:5"
+          },
+          {
+            "duration": 8.5194873,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/HiltonHomePage_G.feature:5"
+          },
+          {
+            "duration": 6.4373682,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/HiltonHomePage_G.feature:5"
+          },
+          {
+            "duration": 9.2595296,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/HiltonHomePage_G.feature:5"
+          },
+          {
+            "duration": 8.6414943,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/HiltonHomePage_G.feature:5"
+          },
+          {
+            "duration": 6.0873482,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/HiltonHomePage_G.feature:5"
+          },
+          {
+            "duration": 8.4934858,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/HiltonHomePage_G.feature:5"
+          },
+          {
+            "duration": 6.1503518,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/HiltonHomePage_G.feature:5"
+          },
+          {
+            "duration": 9.3305337,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/HiltonHomePage_G.feature:5"
+          },
+          {
+            "duration": 5.7673299,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/HiltonHomePage_G.feature:5"
+          },
+          {
+            "duration": 10.5746048,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/HiltonHomePage_G.feature:5"
+          },
+          {
+            "duration": 11.591663,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/HiltonHomePage_G.feature:5"
+          },
+          {
+            "duration": 16.1769253,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/HiltonHomePage_G.feature:5"
+          },
+          {
+            "duration": 12.3547067,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/HiltonHomePage_G.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} on Where to",
+    "steps": [
+      {
+        "name": "I enter \"Miami\" on Where to",
+        "aggregatedDurations": {
+          "median": 14.8804821,
+          "average": 14.8804821
+        },
+        "durations": [
+          {
+            "duration": 14.8804821,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/HiltonHomePage_G.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} on start date",
+    "steps": [
+      {
+        "name": "I enter \"2020-09-27\" on start date",
+        "aggregatedDurations": {
+          "median": 3.0000414,
+          "average": 3.0000414
+        },
+        "durations": [
+          {
+            "duration": 3.0000414,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/HiltonHomePage_G.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} on end date",
+    "steps": [
+      {
+        "name": "I enter \"2020-09-30\" on end date",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/HiltonHomePage_G.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string}",
+    "steps": [
+      {
+        "name": "I enter \"1\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/HiltonHomePage_G.feature:13"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"4\"",
+        "aggregatedDurations": {
+          "median": 0.0025001,
+          "average": 0.0025001
+        },
+        "durations": [
+          {
+            "duration": 0.0025001,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/HiltonHomePage_G.feature:14"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"2\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/HiltonHomePage_G.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click Find hotel",
+    "steps": [
+      {
+        "name": "I click Find hotel",
+        "aggregatedDurations": {
+          "median": 0.0025,
+          "average": 0.0025
+        },
+        "durations": [
+          {
+            "duration": 0.0025,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/HiltonHomePage_G.feature:16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on offers",
+    "steps": [
+      {
+        "name": "I click on offers",
+        "aggregatedDurations": {
+          "median": 6.5663756,
+          "average": 6.5663756
+        },
+        "durations": [
+          {
+            "duration": 6.5663756,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/HiltonHomePage_G.feature:148"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click On member benefits",
+    "steps": [
+      {
+        "name": "I click On member benefits",
+        "aggregatedDurations": {
+          "median": 9.5275449,
+          "average": 9.5275449
+        },
+        "durations": [
+          {
+            "duration": 9.5275449,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/HiltonHomePage_G.feature:149"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Im in member benefit",
+    "steps": [
+      {
+        "name": "I verify Im in member benefit",
+        "aggregatedDurations": {
+          "median": 0.4150238,
+          "average": 0.4150238
+        },
+        "durations": [
+          {
+            "duration": 0.4150238,
+            "location": "file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/HiltonHomePage_G.feature:150"
+          }
+        ]
+      }
+    ]
+  }
+]

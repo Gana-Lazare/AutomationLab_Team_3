@@ -5,6 +5,7 @@ import com.relevantcodes.extentreports.LogStatus;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.junit.After;
+import org.junit.BeforeClass;
 import org.junit.jupiter.api.AfterEach;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -89,6 +90,13 @@ public class WebAPI {
         ExtentTestManager.startTest(method.getName());
         ExtentTestManager.getTest().assignCategory(className);
     }
+@BeforeClass
+    public void startExtentbdd(Method method) {
+        String className = method.getDeclaringClass().getSimpleName();
+        String methodName = method.getName().toLowerCase();
+        ExtentTestManager.startTest(method.getName());
+        ExtentTestManager.getTest().assignCategory(className);
+    }
 
     protected String getStackTrace(Throwable t) {
         StringWriter sw = new StringWriter();
@@ -127,8 +135,9 @@ public class WebAPI {
             e.getMessage();
         }
     }
-@AfterEach
-public void afterEachTestMethodBDD(ITestResult result) {
+
+    @AfterEach
+    public void afterEachTestMethodBDD(ITestResult result) {
     ExtentTestManager.getTest().getTest().setStartedTime(getTime(result.getStartMillis()));
     ExtentTestManager.getTest().getTest().setEndedTime(getTime(result.getEndMillis()));
 
@@ -167,6 +176,8 @@ public void afterEachTestMethodBDD(ITestResult result) {
         calendar.setTimeInMillis(millis);
         return calendar.getTime();
     }
+
+
 
     public static void captureScreenshot(WebDriver driver, String screenshotName) {
         DateFormat df = new SimpleDateFormat("(yyMMddHHmmssZ)");

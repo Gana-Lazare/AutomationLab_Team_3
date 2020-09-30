@@ -1,0 +1,1959 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 15947679100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "IM In HiltonHotel home page",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.im_in_hilton_hotel_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T03:38:25.615Z",
+        "line": 20,
+        "name": "Find a hotel using search destionation",
+        "description": "",
+        "id": "hilton-hotel-home-page-functionality-check;find-a-hotel-using-search-destionation;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 889508200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14880482100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter \"Miami\" on Where to",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Miami\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_enter_on_where_to(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3000041400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter \"2020-09-27\" on start date",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2020-09-27\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_enter_on_start_date(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter \"2020-09-30\" on end date",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2020-09-30\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_enter_on_end_date(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_enter(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2500100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter \"4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"4\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_enter(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_enter(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2500000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click Find hotel",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_click_find_hotel()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6675615400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "IM In HiltonHotel home page",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.im_in_hilton_hotel_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T03:39:00.622Z",
+        "line": 22,
+        "name": "explore your trip now check functionality",
+        "description": "",
+        "id": "hilton-hotel-home-page-functionality-check;explore-your-trip-now-check-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 874511000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id\u003d\"Carousel-0-tabpanel-0\"]/div[2]/div/div[1]/div[3]/div[2]/a\"}\n  (Session info: chrome\u003d85.0.4183.121)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027MICROMEDIA-PC\u0027, ip: \u0027192.168.1.37\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u002711\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\\Users\\MICROM~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:58395}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: eede99f664d0ae3015d8a7426545e3bd\n*** Element info: {Using\u003dxpath, value\u003d//*[@id\u003d\"Carousel-0-tabpanel-0\"]/div[2]/div/div[1]/div[3]/div[2]/a}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat common.WebAPI.moveToElement(WebAPI.java:287)\r\n\tat stepDefinitions.HiltonStepDefinition_G.i_scrol_down_to_explore_now_element(HiltonStepDefinition_G.java:70)\r\n\tat ✽.I Scrol down to Explore Now Element(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/HiltonHomePage_G.feature:23)\r\n",
+              "duration": 10774273100,
+              "status": "failed"
+            },
+            "line": 23,
+            "name": "I Scrol down to Explore Now Element",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_scrol_down_to_explore_now_element()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "I click On Explore Now Element",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_click_on_explore_now_element()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5000100,
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "I verify Im In explore your trip Now Page",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_verify_im_in_explore_your_trip_now_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6374132400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "IM In HiltonHotel home page",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.im_in_hilton_hotel_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T03:39:19.049Z",
+        "line": 27,
+        "name": "video clean stay on home page check functionality",
+        "description": "",
+        "id": "hilton-hotel-home-page-functionality-check;video-clean-stay-on-home-page-check-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 815015800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: disconnected: unable to send message to renderer\n  (Session info: chrome\u003d85.0.4183.121)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027MICROMEDIA-PC\u0027, ip: \u0027192.168.1.37\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u002711\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\\Users\\MICROM~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:58541}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 086601b3bb3f9eaaf1ded0e39bda5c7f\n*** Element info: {Using\u003dxpath, value\u003d//*[@id\u003d\"YouTubeV1\"]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat common.WebAPI.moveToElement(WebAPI.java:287)\r\n\tat stepDefinitions.HiltonStepDefinition_G.i_scrol_down_to_the_video(HiltonStepDefinition_G.java:90)\r\n\tat ✽.I scrol down to the video(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/HiltonHomePage_G.feature:28)\r\n",
+              "duration": 4627633000,
+              "status": "failed"
+            },
+            "line": 28,
+            "name": "I scrol down to the video",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_scrol_down_to_the_video()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "I play this video",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_play_this_video()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "I verify that the video is running",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_verify_that_the_video_is_running()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: Read timed out\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027MICROMEDIA-PC\u0027, ip: \u0027192.168.1.37\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u002711\u0027\nDriver info: driver.version: ChromeDriver\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:131)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:181)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:168)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\r\n\tat common.WebAPI.getLocalDriver(WebAPI.java:239)\r\n\tat common.WebAPI.setUp(WebAPI.java:223)\r\n\tat stepDefinitions.HiltonStepDefinition_G.im_in_hilton_hotel_home_page(HiltonStepDefinition_G.java:24)\r\n\tat ✽.IM In HiltonHotel home page(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/HiltonHomePage_G.feature:5)\r\nCaused by: java.net.SocketTimeoutException: Read timed out\r\n\tat java.base/java.net.SocketInputStream.socketRead0(Native Method)\r\n\tat java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)\r\n\tat java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)\r\n\tat java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)\r\n\tat okio.Okio$2.read(Okio.java:140)\r\n\tat okio.AsyncTimeout$2.read(AsyncTimeout.java:237)\r\n\tat okio.RealBufferedSource.indexOf(RealBufferedSource.java:355)\r\n\tat okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:227)\r\n\tat okhttp3.internal.http1.Http1Codec.readHeaderLine(Http1Codec.java:215)\r\n\tat okhttp3.internal.http1.Http1Codec.readResponseHeaders(Http1Codec.java:189)\r\n\tat okhttp3.internal.http.CallServerInterceptor.intercept(CallServerInterceptor.java:88)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)\r\n\tat org.openqa.selenium.remote.internal.OkHttpClient$Factory$1.lambda$createClient$1(OkHttpClient.java:152)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\r\n\tat okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:45)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)\r\n\tat okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)\r\n\tat okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\r\n\tat okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)\r\n\tat okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)\r\n\tat okhttp3.RealCall.execute(RealCall.java:77)\r\n\tat org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:131)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:181)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:168)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\r\n\tat common.WebAPI.getLocalDriver(WebAPI.java:239)\r\n\tat common.WebAPI.setUp(WebAPI.java:223)\r\n\tat stepDefinitions.HiltonStepDefinition_G.im_in_hilton_hotel_home_page(HiltonStepDefinition_G.java:24)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\r\n\tat io.cucumber.java.Invoker.doInvoke(Invoker.java:66)\r\n\tat io.cucumber.java.Invoker.invoke(Invoker.java:24)\r\n\tat io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)\r\n\tat io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)\r\n\tat io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)\r\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)\r\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\r\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:63)\r\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:49)\r\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:99)\r\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:71)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:115)\r\n\tat org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:74)\r\n\tat org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:65)\r\n\tat org.testng.TestRunner$1.run(TestRunner.java:652)\r\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1540)\r\n\tat org.testng.TestRunner.runJUnitWorkers(TestRunner.java:843)\r\n\tat org.testng.TestRunner.privateRunJUnit(TestRunner.java:681)\r\n\tat org.testng.TestRunner.run(TestRunner.java:585)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:384)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:286)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1109)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1039)\r\n\tat org.testng.TestNG.run(TestNG.java:1007)\r\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\r\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)\r\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)\r\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\r\n",
+              "duration": 19503626677600,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "IM In HiltonHotel home page",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.im_in_hilton_hotel_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T03:39:30.893Z",
+        "line": 32,
+        "name": "waikola_huwaiWebELment CHECK FUNCTIONALITY",
+        "description": "",
+        "id": "hilton-hotel-home-page-functionality-check;waikola-huwaiwebelment-check-functionality",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "I Scrol down waikola_huwaiWebELment",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_scrol_down_waikola_huwai_web_e_lment()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "I click On waikola_huwaiWebELment Button Image",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_click_on_waikola_huwai_web_e_lment_button_image()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "I verify Im In waikola_huwaiWebElement",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_verify_im_in_waikola_huwai_web_element()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 21803048800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "IM In HiltonHotel home page",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.im_in_hilton_hotel_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T09:04:36.230Z",
+        "line": 59,
+        "name": "Joing Button functionnality check",
+        "description": "",
+        "id": "hilton-hotel-home-page-functionality-check;joing-button-functionnality-check;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 4171715200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: Read timed out\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027MICROMEDIA-PC\u0027, ip: \u0027192.168.1.37\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u002711\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat common.WebAPI.clickByXpath(WebAPI.java:486)\r\n\tat stepDefinitions.HiltonStepDefinition_G.i_click_on_join(HiltonStepDefinition_G.java:133)\r\n\tat ✽.I click on Join(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/HiltonHomePage_G.feature:39)\r\nCaused by: java.net.SocketTimeoutException: Read timed out\r\n\tat java.base/java.net.SocketInputStream.socketRead0(Native Method)\r\n\tat java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)\r\n\tat java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)\r\n\tat java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)\r\n\tat okio.Okio$2.read(Okio.java:140)\r\n\tat okio.AsyncTimeout$2.read(AsyncTimeout.java:237)\r\n\tat okio.RealBufferedSource.indexOf(RealBufferedSource.java:355)\r\n\tat okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:227)\r\n\tat okhttp3.internal.http1.Http1Codec.readHeaderLine(Http1Codec.java:215)\r\n\tat okhttp3.internal.http1.Http1Codec.readResponseHeaders(Http1Codec.java:189)\r\n\tat okhttp3.internal.http.CallServerInterceptor.intercept(CallServerInterceptor.java:88)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)\r\n\tat org.openqa.selenium.remote.internal.OkHttpClient$Factory$1.lambda$createClient$1(OkHttpClient.java:152)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\r\n\tat okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:45)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)\r\n\tat okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)\r\n\tat okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\r\n\tat okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)\r\n\tat okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)\r\n\tat okhttp3.RealCall.execute(RealCall.java:77)\r\n\tat org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat common.WebAPI.clickByXpath(WebAPI.java:486)\r\n\tat stepDefinitions.HiltonStepDefinition_G.i_click_on_join(HiltonStepDefinition_G.java:133)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\r\n\tat io.cucumber.java.Invoker.doInvoke(Invoker.java:66)\r\n\tat io.cucumber.java.Invoker.invoke(Invoker.java:24)\r\n\tat io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)\r\n\tat io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)\r\n\tat io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)\r\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)\r\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\r\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:63)\r\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:49)\r\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:99)\r\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:71)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:115)\r\n\tat org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:74)\r\n\tat org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:65)\r\n\tat org.testng.TestRunner$1.run(TestRunner.java:652)\r\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1540)\r\n\tat org.testng.TestRunner.runJUnitWorkers(TestRunner.java:843)\r\n\tat org.testng.TestRunner.privateRunJUnit(TestRunner.java:681)\r\n\tat org.testng.TestRunner.run(TestRunner.java:585)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:384)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:286)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1109)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1039)\r\n\tat org.testng.TestNG.run(TestNG.java:1007)\r\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\r\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)\r\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)\r\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\r\n",
+              "duration": 21601512451400,
+              "status": "failed"
+            },
+            "line": 39,
+            "name": "I click on Join",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_click_on_join()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 40,
+            "name": "I enter \"john\" in FirstNameBare",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"john\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_enter_in_first_name_bare(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 41,
+            "name": "I enter \"Graham\" in LastNameBare",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Graham\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_enter_in_last_name_bare(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 43,
+            "name": "I enter \"529768953\"in Phone NUmberBar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "529768953",
+                  "offset": 9
+                }
+              ],
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_enter_in_phone_n_umber_bar(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 44,
+            "name": "I enter \"tred@gmail.com\" in EmailBare",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tred@gmail.com\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_enter_in_email_bare(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000100,
+              "status": "skipped"
+            },
+            "line": 46,
+            "name": "I enter \"4565 W 15TH\" In adress",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"4565 W 15TH\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_enter_in_adress(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 47,
+            "name": "I enter valid \"11204\" code",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"11204\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_enter_valid_code(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 48,
+            "name": "I enter new \"Huricane2020*\" in password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Huricane2020*\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_enter_new_in_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 49,
+            "name": "I enter \"Huricane2020*\" in confirmpsw",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Huricane2020*\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_enter_in_confirmpsw(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 50,
+            "name": "I click on join for free",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_click_on_join_for_free()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: java.net.SocketTimeoutException: Read timed out\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027MICROMEDIA-PC\u0027, ip: \u0027192.168.1.37\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u002711\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat common.WebAPI.setUp(WebAPI.java:227)\r\n\tat stepDefinitions.HiltonStepDefinition_G.im_in_hilton_hotel_home_page(HiltonStepDefinition_G.java:24)\r\n\tat ✽.IM In HiltonHotel home page(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/HiltonHomePage_G.feature:5)\r\nCaused by: java.net.SocketTimeoutException: Read timed out\r\n\tat java.base/java.net.SocketInputStream.socketRead0(Native Method)\r\n\tat java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)\r\n\tat java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)\r\n\tat java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)\r\n\tat okio.Okio$2.read(Okio.java:140)\r\n\tat okio.AsyncTimeout$2.read(AsyncTimeout.java:237)\r\n\tat okio.RealBufferedSource.indexOf(RealBufferedSource.java:355)\r\n\tat okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:227)\r\n\tat okhttp3.internal.http1.Http1Codec.readHeaderLine(Http1Codec.java:215)\r\n\tat okhttp3.internal.http1.Http1Codec.readResponseHeaders(Http1Codec.java:189)\r\n\tat okhttp3.internal.http.CallServerInterceptor.intercept(CallServerInterceptor.java:88)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)\r\n\tat org.openqa.selenium.remote.internal.OkHttpClient$Factory$1.lambda$createClient$1(OkHttpClient.java:152)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\r\n\tat okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:45)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)\r\n\tat okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)\r\n\tat okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\r\n\tat okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)\r\n\tat okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)\r\n\tat okhttp3.RealCall.execute(RealCall.java:77)\r\n\tat org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat common.WebAPI.setUp(WebAPI.java:227)\r\n\tat stepDefinitions.HiltonStepDefinition_G.im_in_hilton_hotel_home_page(HiltonStepDefinition_G.java:24)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\r\n\tat io.cucumber.java.Invoker.doInvoke(Invoker.java:66)\r\n\tat io.cucumber.java.Invoker.invoke(Invoker.java:24)\r\n\tat io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)\r\n\tat io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)\r\n\tat io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)\r\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)\r\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\r\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:63)\r\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:49)\r\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:99)\r\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:71)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:115)\r\n\tat org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:74)\r\n\tat org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:65)\r\n\tat org.testng.TestRunner$1.run(TestRunner.java:652)\r\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1540)\r\n\tat org.testng.TestRunner.runJUnitWorkers(TestRunner.java:843)\r\n\tat org.testng.TestRunner.privateRunJUnit(TestRunner.java:681)\r\n\tat org.testng.TestRunner.run(TestRunner.java:585)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:384)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:286)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1109)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1039)\r\n\tat org.testng.TestNG.run(TestNG.java:1007)\r\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\r\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)\r\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)\r\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\r\n",
+              "duration": 14160406260700,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "IM In HiltonHotel home page",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.im_in_hilton_hotel_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T15:05:04.028Z",
+        "line": 62,
+        "name": "check locations functionality check",
+        "description": "",
+        "id": "hilton-hotel-home-page-functionality-check;check-locations-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 5138293900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 63,
+            "name": "I click on locations",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_click_on_locations()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 64,
+            "name": "I scroll down to north america",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_scroll_down_to_north_america()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 65,
+            "name": "I click On north america",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_click_on_north_america()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000100,
+              "status": "skipped"
+            },
+            "line": 66,
+            "name": "I confirm I m in north america",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_confirm_i_m_in_north_america()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8519487300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "IM In HiltonHotel home page",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.im_in_hilton_hotel_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T19:01:09.785Z",
+        "line": 68,
+        "name": "check southAmeric functionality check",
+        "description": "",
+        "id": "hilton-hotel-home-page-functionality-check;check-southameric-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 639036600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id\u003d\"NavMenu\"]/ul/li[2]/a\"}\n  (Session info: chrome\u003d85.0.4183.121)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027MICROMEDIA-PC\u0027, ip: \u0027192.168.1.37\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u002711\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\\Users\\MICROM~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:58769}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: ac8728ee0a856d7888c8c30fbee5ee43\n*** Element info: {Using\u003dxpath, value\u003d//*[@id\u003d\"NavMenu\"]/ul/li[2]/a}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat common.WebAPI.clickByXpath(WebAPI.java:486)\r\n\tat stepDefinitions.HiltonStepDefinition_G.i_click_on_locations(HiltonStepDefinition_G.java:207)\r\n\tat ✽.I click on locations(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/HiltonHomePage_G.feature:69)\r\n",
+              "duration": 10052574900,
+              "status": "failed"
+            },
+            "line": 69,
+            "name": "I click on locations",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_click_on_locations()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 70,
+            "name": "I scroll down to southAmerica",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_scroll_down_to_south_america()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 71,
+            "name": "I click On southAmerica",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_click_on_south_america()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 72,
+            "name": "I confirm I m in southAmerica",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_confirm_i_m_in_south_america()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6437368200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "IM In HiltonHotel home page",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.im_in_hilton_hotel_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T19:01:29.033Z",
+        "line": 74,
+        "name": "check centralAmerica functionality check",
+        "description": "",
+        "id": "hilton-hotel-home-page-functionality-check;check-centralamerica-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 2714155200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id\u003d\"NavMenu\"]/ul/li[2]/a\"}\n  (Session info: chrome\u003d85.0.4183.121)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027MICROMEDIA-PC\u0027, ip: \u0027192.168.1.37\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u002711\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\\Users\\MICROM~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:58822}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 9537c38b09c57b5b1dc362a3d2448e9b\n*** Element info: {Using\u003dxpath, value\u003d//*[@id\u003d\"NavMenu\"]/ul/li[2]/a}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat common.WebAPI.clickByXpath(WebAPI.java:486)\r\n\tat stepDefinitions.HiltonStepDefinition_G.i_click_on_locations(HiltonStepDefinition_G.java:207)\r\n\tat ✽.I click on locations(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/HiltonHomePage_G.feature:75)\r\n",
+              "duration": 10775616300,
+              "status": "failed"
+            },
+            "line": 75,
+            "name": "I click on locations",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_click_on_locations()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 76,
+            "name": "I scroll down to centralAmerica",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_scroll_down_to_central_america()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 77,
+            "name": "I click On centralAmerica",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_click_on_central_america()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 78,
+            "name": "I confirm I m in centralAmerica",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_confirm_i_m_in_central_america()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9259529600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "IM In HiltonHotel home page",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.im_in_hilton_hotel_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T19:01:48.989Z",
+        "line": 80,
+        "name": "check europe functionality check",
+        "description": "",
+        "id": "hilton-hotel-home-page-functionality-check;check-europe-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 1245071200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id\u003d\"NavMenu\"]/ul/li[2]/a\"}\n  (Session info: chrome\u003d85.0.4183.121)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027MICROMEDIA-PC\u0027, ip: \u0027192.168.1.37\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u002711\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\\Users\\MICROM~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:58981}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 6d02f551fdb9efe27f5406a1bbaee9da\n*** Element info: {Using\u003dxpath, value\u003d//*[@id\u003d\"NavMenu\"]/ul/li[2]/a}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat common.WebAPI.clickByXpath(WebAPI.java:486)\r\n\tat stepDefinitions.HiltonStepDefinition_G.i_click_on_locations(HiltonStepDefinition_G.java:207)\r\n\tat ✽.I click on locations(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/HiltonHomePage_G.feature:81)\r\n",
+              "duration": 10457598200,
+              "status": "failed"
+            },
+            "line": 81,
+            "name": "I click on locations",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_click_on_locations()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 82,
+            "name": "I scroll down to europe",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_scroll_down_to_europe()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 83,
+            "name": "I click On europe",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_click_on_europe()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 84,
+            "name": "I confirm I m in europe",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_confirm_i_m_in_europe()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8641494300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "IM In HiltonHotel home page",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.im_in_hilton_hotel_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T19:02:09.976Z",
+        "line": 86,
+        "name": "check Middle East functionality check",
+        "description": "",
+        "id": "hilton-hotel-home-page-functionality-check;check-middle-east-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 889050900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id\u003d\"NavMenu\"]/ul/li[2]/a\"}\n  (Session info: chrome\u003d85.0.4183.121)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027MICROMEDIA-PC\u0027, ip: \u0027192.168.1.37\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u002711\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\\Users\\MICROM~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:59144}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: aadf005da1f746b6475cbb2d7b2dc05a\n*** Element info: {Using\u003dxpath, value\u003d//*[@id\u003d\"NavMenu\"]/ul/li[2]/a}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat common.WebAPI.clickByXpath(WebAPI.java:486)\r\n\tat stepDefinitions.HiltonStepDefinition_G.i_click_on_locations(HiltonStepDefinition_G.java:207)\r\n\tat ✽.I click on locations(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/HiltonHomePage_G.feature:87)\r\n",
+              "duration": 11638665700,
+              "status": "failed"
+            },
+            "line": 87,
+            "name": "I click on locations",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_click_on_locations()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 88,
+            "name": "I scroll down to Middle East",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_scroll_down_to_middle_east()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 89,
+            "name": "I click On Middle East",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_click_on_middle_east()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 90,
+            "name": "I confirm I m in Middle East",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_confirm_i_m_in_middle_east()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6087348200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "IM In HiltonHotel home page",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.im_in_hilton_hotel_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T19:02:31.166Z",
+        "line": 92,
+        "name": "check Africa functionality check",
+        "description": "",
+        "id": "hilton-hotel-home-page-functionality-check;check-africa-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 893051100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id\u003d\"NavMenu\"]/ul/li[2]/a\"}\n  (Session info: chrome\u003d85.0.4183.121)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027MICROMEDIA-PC\u0027, ip: \u0027192.168.1.37\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u002711\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\\Users\\MICROM~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:59292}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 32726d7b65d0f9bf4af99c5e79e65819\n*** Element info: {Using\u003dxpath, value\u003d//*[@id\u003d\"NavMenu\"]/ul/li[2]/a}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat common.WebAPI.clickByXpath(WebAPI.java:486)\r\n\tat stepDefinitions.HiltonStepDefinition_G.i_click_on_locations(HiltonStepDefinition_G.java:207)\r\n\tat ✽.I click on locations(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/HiltonHomePage_G.feature:93)\r\n",
+              "duration": 11058632500,
+              "status": "failed"
+            },
+            "line": 93,
+            "name": "I click on locations",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_click_on_locations()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 94,
+            "name": "I scroll down to Africa",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_scroll_down_to_africa()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 95,
+            "name": "I click On Africa",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_click_on_africa()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 96,
+            "name": "I confirm I m in Africa",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_confirm_i_m_in_africa()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8493485800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "IM In HiltonHotel home page",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.im_in_hilton_hotel_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T19:02:49.250Z",
+        "line": 98,
+        "name": "check Asia functionality check",
+        "description": "",
+        "id": "hilton-hotel-home-page-functionality-check;check-asia-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 791045300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id\u003d\"NavMenu\"]/ul/li[2]/a\"}\n  (Session info: chrome\u003d85.0.4183.121)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027MICROMEDIA-PC\u0027, ip: \u0027192.168.1.37\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u002711\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\\Users\\MICROM~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:59440}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 112f55d9d535b0a971ac6e04d0957922\n*** Element info: {Using\u003dxpath, value\u003d//*[@id\u003d\"NavMenu\"]/ul/li[2]/a}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat common.WebAPI.clickByXpath(WebAPI.java:486)\r\n\tat stepDefinitions.HiltonStepDefinition_G.i_click_on_locations(HiltonStepDefinition_G.java:207)\r\n\tat ✽.I click on locations(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/HiltonHomePage_G.feature:99)\r\n",
+              "duration": 10339591400,
+              "status": "failed"
+            },
+            "line": 99,
+            "name": "I click on locations",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_click_on_locations()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 100,
+            "name": "I scroll down to Asia",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_scroll_down_to_asia()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 101,
+            "name": "I click On Asia",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_click_on_asia()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 102,
+            "name": "I confirm I m in Asia",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_confirm_i_m_in_asia()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6150351800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "IM In HiltonHotel home page",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.im_in_hilton_hotel_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T19:03:08.903Z",
+        "line": 104,
+        "name": "check Australia functionality check",
+        "description": "",
+        "id": "hilton-hotel-home-page-functionality-check;check-australia-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 923052800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id\u003d\"NavMenu\"]/ul/li[2]/a\"}\n  (Session info: chrome\u003d85.0.4183.121)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027MICROMEDIA-PC\u0027, ip: \u0027192.168.1.37\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u002711\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\\Users\\MICROM~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:59598}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 348ce309bc6ad870660cb0c7b0ff730e\n*** Element info: {Using\u003dxpath, value\u003d//*[@id\u003d\"NavMenu\"]/ul/li[2]/a}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat common.WebAPI.clickByXpath(WebAPI.java:486)\r\n\tat stepDefinitions.HiltonStepDefinition_G.i_click_on_locations(HiltonStepDefinition_G.java:207)\r\n\tat ✽.I click on locations(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/HiltonHomePage_G.feature:105)\r\n",
+              "duration": 10671610300,
+              "status": "failed"
+            },
+            "line": 105,
+            "name": "I click on locations",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_click_on_locations()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 106,
+            "name": "I scroll down to Australia",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_scroll_down_to_australia()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 107,
+            "name": "I click On Australia",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_click_on_australia()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 108,
+            "name": "I confirm I m in Australia",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_confirm_i_m_in_australia()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9330533700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "IM In HiltonHotel home page",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.im_in_hilton_hotel_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T19:03:26.682Z",
+        "line": 111,
+        "name": "check wedding under meetinglink functionality",
+        "description": "",
+        "id": "hilton-hotel-home-page-functionality-check;check-wedding-under-meetinglink-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 801045800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id\u003d\"NavMenu\"]/ul/li[6]/a\"}\n  (Session info: chrome\u003d85.0.4183.121)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027MICROMEDIA-PC\u0027, ip: \u0027192.168.1.37\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u002711\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\\Users\\MICROM~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:59745}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 80611c3180a6d40241e5f09455121bff\n*** Element info: {Using\u003dxpath, value\u003d//*[@id\u003d\"NavMenu\"]/ul/li[6]/a}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat common.WebAPI.clickByXpath(WebAPI.java:486)\r\n\tat stepDefinitions.HiltonStepDefinition_G.i_click_on_meeting(HiltonStepDefinition_G.java:357)\r\n\tat ✽.I click on meeting(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/HiltonHomePage_G.feature:112)\r\n",
+              "duration": 10069576000,
+              "status": "failed"
+            },
+            "line": 112,
+            "name": "I click on meeting",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_click_on_meeting()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 113,
+            "name": "I confirm Im in newWindow meeting",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_confirm_im_in_new_window_meeting()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 114,
+            "name": "I mouse hover Event buton",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_mouse_hover_event_buton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 115,
+            "name": "I confirm Im in wedding Page",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_confirm_im_in_wedding_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 116,
+            "name": "I click on wedding",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_click_on_wedding()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5767329900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "IM In HiltonHotel home page",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.im_in_hilton_hotel_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T19:03:46.902Z",
+        "line": 119,
+        "name": "check social functionality button",
+        "description": "",
+        "id": "hilton-hotel-home-page-functionality-check;check-social-functionality-button",
+        "after": [
+          {
+            "result": {
+              "duration": 1163066500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id\u003d\"NavMenu\"]/ul/li[6]/a\"}\n  (Session info: chrome\u003d85.0.4183.121)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027MICROMEDIA-PC\u0027, ip: \u0027192.168.1.37\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u002711\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\\Users\\MICROM~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:59899}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: c8757baf0e7ac0fceedb94cde12ddedf\n*** Element info: {Using\u003dxpath, value\u003d//*[@id\u003d\"NavMenu\"]/ul/li[6]/a}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat common.WebAPI.clickByXpath(WebAPI.java:486)\r\n\tat stepDefinitions.HiltonStepDefinition_G.i_click_on_meeting(HiltonStepDefinition_G.java:357)\r\n\tat ✽.I click on meeting(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/HiltonHomePage_G.feature:120)\r\n",
+              "duration": 10814618600,
+              "status": "failed"
+            },
+            "line": 120,
+            "name": "I click on meeting",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_click_on_meeting()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 121,
+            "name": "I confirm Im in newWindow meeting",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_confirm_im_in_new_window_meeting()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 122,
+            "name": "I mouse hover Event buton",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_mouse_hover_event_buton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 123,
+            "name": "I click on social button",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_click_on_social_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10574604800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "IM In HiltonHotel home page",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.im_in_hilton_hotel_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T19:04:04.692Z",
+        "line": 126,
+        "name": "check Facebook hilton functionality",
+        "description": "",
+        "id": "hilton-hotel-home-page-functionality-check;check-facebook-hilton-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 787045000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id\u003d\"__next\"]/div[2]/div/footer/div[1]\"}\n  (Session info: chrome\u003d85.0.4183.121)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027MICROMEDIA-PC\u0027, ip: \u0027192.168.1.37\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u002711\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\\Users\\MICROM~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:60026}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: fde230e44cdf8414040a364c69b101de\n*** Element info: {Using\u003dxpath, value\u003d//*[@id\u003d\"__next\"]/div[2]/div/footer/div[1]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat common.WebAPI.moveToElement(WebAPI.java:287)\r\n\tat stepDefinitions.HiltonStepDefinition_G.i_scroll_down_to_facebook_icon(HiltonStepDefinition_G.java:390)\r\n\tat ✽.I scroll down to facebook Icon(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/HiltonHomePage_G.feature:127)\r\n",
+              "duration": 10244586000,
+              "status": "failed"
+            },
+            "line": 127,
+            "name": "I scroll down to facebook Icon",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_scroll_down_to_facebook_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000100,
+              "status": "skipped"
+            },
+            "line": 128,
+            "name": "I click on Facebook Icon",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_click_on_facebook_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 129,
+            "name": "I switch to the new facebook window",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_switch_to_the_new_facebook_window()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 130,
+            "name": "I verify im in faceboo window",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_verify_im_in_faceboo_window()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11591663000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "IM In HiltonHotel home page",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.im_in_hilton_hotel_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T19:04:26.314Z",
+        "line": 133,
+        "name": "check twitter hilton functionality",
+        "description": "",
+        "id": "hilton-hotel-home-page-functionality-check;check-twitter-hilton-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 1604091700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id\u003d\"__next\"]/div[2]/div/footer/div[1]\"}\n  (Session info: chrome\u003d85.0.4183.121)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027MICROMEDIA-PC\u0027, ip: \u0027192.168.1.37\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u002711\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\\Users\\MICROM~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:60199}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: fb552a58045ff45ee4e0d4fcb0835bfa\n*** Element info: {Using\u003dxpath, value\u003d//*[@id\u003d\"__next\"]/div[2]/div/footer/div[1]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat common.WebAPI.moveToElement(WebAPI.java:287)\r\n\tat stepDefinitions.HiltonStepDefinition_G.i_scroll_down_to_twitter_icon(HiltonStepDefinition_G.java:412)\r\n\tat ✽.I scroll down to twitter Icon(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/HiltonHomePage_G.feature:134)\r\n",
+              "duration": 10941625800,
+              "status": "failed"
+            },
+            "line": 134,
+            "name": "I scroll down to twitter Icon",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_scroll_down_to_twitter_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000100,
+              "status": "skipped"
+            },
+            "line": 135,
+            "name": "I click on twitter Icon",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_click_on_twitter_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 136,
+            "name": "I switch to the new twitter window",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_switch_to_the_new_twitter_window()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 137,
+            "name": "I verify im in twitter window",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_verify_im_in_twitter_window()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 16176925300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "IM In HiltonHotel home page",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.im_in_hilton_hotel_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T19:04:50.484Z",
+        "line": 140,
+        "name": "check instagram hilton functionality",
+        "description": "",
+        "id": "hilton-hotel-home-page-functionality-check;check-instagram-hilton-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 1343076800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id\u003d\"__next\"]/div[2]/div/footer/div[1]\"}\n  (Session info: chrome\u003d85.0.4183.121)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027MICROMEDIA-PC\u0027, ip: \u0027192.168.1.37\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u002711\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\\Users\\MICROM~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:60385}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 296a0997b207b57cf400daa13eed5019\n*** Element info: {Using\u003dxpath, value\u003d//*[@id\u003d\"__next\"]/div[2]/div/footer/div[1]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat common.WebAPI.moveToElement(WebAPI.java:287)\r\n\tat stepDefinitions.HiltonStepDefinition_G.i_scroll_down_to_instagram_icon(HiltonStepDefinition_G.java:435)\r\n\tat ✽.I scroll down to Instagram Icon(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/HiltonHotel/src/test/java/features/HiltonHomePage_G.feature:141)\r\n",
+              "duration": 12718727500,
+              "status": "failed"
+            },
+            "line": 141,
+            "name": "I scroll down to Instagram Icon",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_scroll_down_to_instagram_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 142,
+            "name": "I click on instagram Icon",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_click_on_instagram_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 143,
+            "name": "I switch to the new instagram window",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_switch_to_the_new_instagram_window()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 144,
+            "name": "I verify im in instagram window",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_verify_im_in_instagram_window()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12354706700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "IM In HiltonHotel home page",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.im_in_hilton_hotel_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T19:05:20.755Z",
+        "line": 147,
+        "name": "check offers-members functionality",
+        "description": "",
+        "id": "hilton-hotel-home-page-functionality-check;check-offers-members-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 804046000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6566375600,
+              "status": "passed"
+            },
+            "line": 148,
+            "name": "I click on offers",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_click_on_offers()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9527544900,
+              "status": "passed"
+            },
+            "line": 149,
+            "name": "I click On member benefits",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_click_on_member_benefits()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 415023800,
+              "status": "passed"
+            },
+            "line": 150,
+            "name": "I verify Im in member benefit",
+            "match": {
+              "location": "stepDefinitions.HiltonStepDefinition_G.i_verify_im_in_member_benefit()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regrassion"
+          }
+        ]
+      }
+    ],
+    "name": "Hilton Hotel Home Page functionality Check",
+    "description": "  Check Home  Page Hilton Hotel Funtionality",
+    "id": "hilton-hotel-home-page-functionality-check",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/HiltonHomePage_G.feature",
+    "tags": []
+  }
+]

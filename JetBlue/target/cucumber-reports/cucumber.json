@@ -1,0 +1,2089 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 15423055600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "IM in Jetblue Home Page",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.im_in_jetblue_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T03:31:52.238Z",
+        "line": 16,
+        "name": "check flight under book functionality",
+        "description": "",
+        "id": "jetblue-home-page-check-functionality;check-flight-under-book-functionality;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 864007000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4781136800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on book",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_click_on_book()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#subnav-wrapper_rztzt60h6-0 \u003e div \u003e div \u003e div.left-book-list-wrapper.fl.col-8-l.col-12-m.bottom-divider.pb3-l.pb5-m \u003e ul \u003e li:nth-child(1) \u003e jb-bubble-link \u003e a\"}\n  (Session info: chrome\u003d85.0.4183.121)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027MICROMEDIA-PC\u0027, ip: \u0027192.168.1.37\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u002711\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\\Users\\MICROM~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:56228}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: cedced7b18e8303051bb0c392019d9a1\n*** Element info: {Using\u003dcss selector, value\u003d#subnav-wrapper_rztzt60h6-0 \u003e div \u003e div \u003e div.left-book-list-wrapper.fl.col-8-l.col-12-m.bottom-divider.pb3-l.pb5-m \u003e ul \u003e li:nth-child(1) \u003e jb-bubble-link \u003e a}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)\r\n\tat org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat stepDefinitions.JetBlueStepDefinitions.i_click_on_flight(JetBlueStepDefinitions.java:37)\r\n\tat ✽.I click on flight(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:10)\r\n",
+              "duration": 10097094700,
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "I click on flight",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_click_on_flight()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I send  \"New York City\" from and submite",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"New York City\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_send_from_and_submite(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I send \"Chicago\" destination and submite",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Chicago\"",
+                  "offset": 7
+                }
+              ],
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_send_destination_and_submite(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8938172200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "IM in Jetblue Home Page",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.im_in_jetblue_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T03:32:23.674Z",
+        "line": 19,
+        "name": "check flightAndHotel under book functionality",
+        "description": "",
+        "id": "jetblue-home-page-check-functionality;check-flightandhotel-under-book-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 1221013200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5397660200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click on book",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_click_on_book()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click on flight and hotel",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_click_on_flight_and_hotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: not equal expected:\u003c[]\u003e but was:\u003c[https://www.jetblue.com/]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat stepDefinitions.JetBlueStepDefinitions.i_verify_im_in_flight_and_hotel_page(JetBlueStepDefinitions.java:71)\r\n\tat ✽.I verify im In flight and hotel page(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:22)\r\n",
+              "duration": 25000100,
+              "status": "failed"
+            },
+            "line": 22,
+            "name": "I verify im In flight and hotel page",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_verify_im_in_flight_and_hotel_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6929619700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "IM in Jetblue Home Page",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.im_in_jetblue_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T03:32:39.435Z",
+        "line": 24,
+        "name": "check travelBankCredit fucntionality",
+        "description": "",
+        "id": "jetblue-home-page-check-functionality;check-travelbankcredit-fucntionality",
+        "after": [
+          {
+            "result": {
+              "duration": 802503100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1392061000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "i Click on travelBankCredit",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_click_on_travel_bank_credit()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2227073400,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I verify Im in travelBankCredit",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_verify_im_in_travel_bank_credit()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7144098900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "IM in Jetblue Home Page",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.im_in_jetblue_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T03:32:50.835Z",
+        "line": 40,
+        "name": "check checkIn fucntionality",
+        "description": "",
+        "id": "jetblue-home-page-check-functionality;check-checkin-fucntionality;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1164511900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2945127300,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "i Click on checkIn",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_click_on_check_in()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I verify Im in checkIn",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_verify_im_in_check_in()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5487643700,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I send \"hilton\" firstname and \"grey\" lastName",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"hilton\"",
+                  "offset": 7
+                },
+                {
+                  "val": "\"grey\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_send_firstname_and_last_name(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 752027900,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I click on confirmationcode",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_click_on_confirmationcode()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 230003100,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I chose flightNumber option",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_chose_flight_number_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 215002000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I send \"6667564NY\" flight Number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"6667564NY\"",
+                  "offset": 7
+                }
+              ],
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_send_flight_number(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 242503700,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I click On departure airport",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_click_on_departure_airport()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 177502400,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I chose albany airport",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_chose_albany_airport()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 177502500,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I click on find flight",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_click_on_find_flight()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6786618600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "IM in Jetblue Home Page",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.im_in_jetblue_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T03:33:09.393Z",
+        "line": 42,
+        "name": "check flightTraker fucntionality",
+        "description": "",
+        "id": "jetblue-home-page-check-functionality;check-flighttraker-fucntionality",
+        "after": [
+          {
+            "result": {
+              "duration": 1646512700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2039061200,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "i Click on flightTraker",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_click_on_flight_traker()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1269043300,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I verify Im in flightTraker",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_verify_im_in_flight_traker()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7971191000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "IM in Jetblue Home Page",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.im_in_jetblue_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T03:33:21.167Z",
+        "line": 46,
+        "name": "check travelAlert fucntionality",
+        "description": "",
+        "id": "jetblue-home-page-check-functionality;check-travelalert-fucntionality",
+        "after": [
+          {
+            "result": {
+              "duration": 824504400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2825634400,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "i Click on travelAlert",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_click_on_travel_alert()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2713582700,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I verify Im in travelAlert",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_verify_im_in_travel_alert()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7098171100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "IM in Jetblue Home Page",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.im_in_jetblue_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T03:33:35.557Z",
+        "line": 50,
+        "name": "check espagnol fucntionality",
+        "description": "",
+        "id": "jetblue-home-page-check-functionality;check-espagnol-fucntionality",
+        "after": [
+          {
+            "result": {
+              "duration": 801007900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3402632800,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "i Click on espagnol",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_click_on_espagnol()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: Not Equal expected:\u003chttps://[hola].jetblue.com/\u003e but was:\u003chttps://[www].jetblue.com/\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat stepDefinitions.JetBlueStepDefinitions.i_verify_im_in_espagnol(JetBlueStepDefinitions.java:165)\r\n\tat ✽.I verify Im in espagnol(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:52)\r\n",
+              "duration": 41002300,
+              "status": "failed"
+            },
+            "line": 52,
+            "name": "I verify Im in espagnol",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_verify_im_in_espagnol()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7953647000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "IM in Jetblue Home Page",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.im_in_jetblue_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T03:33:46.958Z",
+        "line": 54,
+        "name": "check sign in functionality",
+        "description": "",
+        "id": "jetblue-home-page-check-functionality;check-sign-in-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 776043800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7426263500,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "I click on sign In",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_click_on_sign_in()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed\r\n\tat com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)\r\n\tat com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)\r\n\tat com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)\r\n\tat com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)\r\n\tat com.mysql.cj.jdbc.ConnectionImpl.\u003cinit\u003e(ConnectionImpl.java:456)\r\n\tat com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)\r\n\tat com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)\r\n\tat java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)\r\n\tat java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)\r\n\tat databases.ConnectToSqlDB.connectToSqlDatabase(ConnectToSqlDB.java:38)\r\n\tat stepDefinitions.JetBlueStepDefinitions.setEmailInDB(JetBlueStepDefinitions.java:184)\r\n\tat stepDefinitions.JetBlueStepDefinitions.i_send_email(JetBlueStepDefinitions.java:177)\r\n\tat ✽.I send \"\u003cemail\u003e\" email(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:56)\r\n",
+              "duration": 750040600,
+              "status": "failed"
+            },
+            "line": 56,
+            "name": "I send \"\u003cemail\u003e\" email",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cemail\u003e\"",
+                  "offset": 7
+                }
+              ],
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_send_email(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 57,
+            "name": "I send \"\u003cpassword\u003e\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cpassword\u003e\"",
+                  "offset": 7
+                }
+              ],
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_send_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 58,
+            "name": "I click on signinsubmite",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_click_on_signinsubmite()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9336717200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "IM in Jetblue Home Page",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.im_in_jetblue_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T03:34:03.898Z",
+        "line": 60,
+        "name": "check join our emaillist",
+        "description": "",
+        "id": "jetblue-home-page-check-functionality;check-join-our-emaillist",
+        "after": [
+          {
+            "result": {
+              "duration": 847510400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1499562000,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "i scroll Down to join our emaillist",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_scroll_down_to_join_our_emaillist()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2854561100,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "I click on join our emaillist",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_click_on_join_our_emaillist()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60000900,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "I verify Im in join our emaillist Page",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_verify_im_in_join_our_emaillist_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6974156400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "IM in Jetblue Home Page",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.im_in_jetblue_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T03:34:18.504Z",
+        "line": 65,
+        "name": "check DowloadJetBlueAPP",
+        "description": "",
+        "id": "jetblue-home-page-check-functionality;check-dowloadjetblueapp",
+        "after": [
+          {
+            "result": {
+              "duration": 997007200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 536513600,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "i scroll Down to DowloadJetBlueAPP",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_scroll_down_to_dowload_jet_blue_app()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4161115000,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "I click on join our DowloadJetBlueAPP",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_click_on_join_our_dowload_jet_blue_app()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: Not Equal expected:\u003c[Mobile App]\u003e but was:\u003c[]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat stepDefinitions.JetBlueStepDefinitions.i_verify_im_in_join_our_dowload_jet_blue_app_page(JetBlueStepDefinitions.java:230)\r\n\tat ✽.I verify Im in join our DowloadJetBlueAPP Page(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:68)\r\n",
+              "duration": 984025500,
+              "status": "failed"
+            },
+            "line": 68,
+            "name": "I verify Im in join our DowloadJetBlueAPP Page",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_verify_im_in_join_our_dowload_jet_blue_app_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6991633900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "IM in Jetblue Home Page",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.im_in_jetblue_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T03:34:32.199Z",
+        "line": 70,
+        "name": "check facebookicon",
+        "description": "",
+        "id": "jetblue-home-page-check-functionality;check-facebookicon",
+        "after": [
+          {
+            "result": {
+              "duration": 777007300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 414008400,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "i scroll Down to facebookicon",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_scroll_down_to_facebookicon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2300567500,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "I click on join our facebookicon",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_click_on_join_our_facebookicon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4994587700,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "I verify Im in join our facebookIcon Page",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_verify_im_in_join_our_facebook_icon_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6990617400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "IM in Jetblue Home Page",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.im_in_jetblue_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T03:34:47.722Z",
+        "line": 75,
+        "name": "check instagram",
+        "description": "",
+        "id": "jetblue-home-page-check-functionality;check-instagram",
+        "after": [
+          {
+            "result": {
+              "duration": 889007800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 731516400,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "i scroll Down to instagram",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_scroll_down_to_instagram()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8398299300,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "I click on join our instagram",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_click_on_join_our_instagram()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27500400,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "I verify Im in join our instagram Page",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_verify_im_in_join_our_instagram_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7673648800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "IM in Jetblue Home Page",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.im_in_jetblue_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T03:35:04.784Z",
+        "line": 80,
+        "name": "check twitter",
+        "description": "",
+        "id": "jetblue-home-page-check-functionality;check-twitter",
+        "after": [
+          {
+            "result": {
+              "duration": 1004010600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 694512000,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "i scroll Down to twitter",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_scroll_down_to_twitter()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8208239500,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "I click on join our twitter",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_click_on_join_our_twitter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10000000,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "I verify Im in join our twitter Page",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_verify_im_in_join_our_twitter_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6736119500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "IM in Jetblue Home Page",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.im_in_jetblue_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T03:35:22.384Z",
+        "line": 85,
+        "name": "check youtube",
+        "description": "",
+        "id": "jetblue-home-page-check-functionality;check-youtube",
+        "after": [
+          {
+            "result": {
+              "duration": 1097503900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 405007600,
+              "status": "passed"
+            },
+            "line": 86,
+            "name": "i scroll Down to youtube",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_scroll_down_to_youtube()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8648273400,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "I click on join our youtube",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_click_on_join_our_youtube()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12500200,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "I verify Im in join our youtube Page",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_verify_im_in_join_our_youtube_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6916119600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "IM in Jetblue Home Page",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.im_in_jetblue_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T03:35:39.309Z",
+        "line": 90,
+        "name": "check jetblueSwag",
+        "description": "",
+        "id": "jetblue-home-page-check-functionality;check-jetblueswag",
+        "after": [
+          {
+            "result": {
+              "duration": 1189007500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 367006300,
+              "status": "passed"
+            },
+            "line": 91,
+            "name": "i scroll Down to jetblueSwag",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_scroll_down_to_jetblue_swag()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1286042600,
+              "status": "passed"
+            },
+            "line": 92,
+            "name": "I click on jetblueSwag",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_click_on_jetblue_swag()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8811286100,
+              "status": "passed"
+            },
+            "line": 93,
+            "name": "I verify Im in jetblueSwag Page",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_verify_im_in_jetblue_swag_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6949152400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "IM in Jetblue Home Page",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.im_in_jetblue_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T03:35:57.883Z",
+        "line": 95,
+        "name": "check ourCompagny",
+        "description": "",
+        "id": "jetblue-home-page-check-functionality;check-ourcompagny",
+        "after": [
+          {
+            "result": {
+              "duration": 746008400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 739534900,
+              "status": "passed"
+            },
+            "line": 96,
+            "name": "i scroll Down to ourCompagny",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_scroll_down_to_our_compagny()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1837086400,
+              "status": "passed"
+            },
+            "line": 97,
+            "name": "I click on join our ourCompagny",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_click_on_join_our_our_compagny()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 417021400,
+              "status": "passed"
+            },
+            "line": 98,
+            "name": "I verify Im in ourCompagnyPage",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_verify_im_in_our_compagny_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6639112100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "IM in Jetblue Home Page",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.im_in_jetblue_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T03:36:08.588Z",
+        "line": 100,
+        "name": "check ourPlanes",
+        "description": "",
+        "id": "jetblue-home-page-check-functionality;check-ourplanes",
+        "after": [
+          {
+            "result": {
+              "duration": 820005100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 493512700,
+              "status": "passed"
+            },
+            "line": 101,
+            "name": "i scroll Down to ourPlanes",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_scroll_down_to_our_planes()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2008088700,
+              "status": "passed"
+            },
+            "line": 102,
+            "name": "I click on ourPlanes",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_click_on_our_planes()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 484012000,
+              "status": "passed"
+            },
+            "line": 103,
+            "name": "I verify Im ourPlanes Page",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_verify_im_our_planes_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8788186100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "IM in Jetblue Home Page",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.im_in_jetblue_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T03:36:19.056Z",
+        "line": 105,
+        "name": "check partnerAirlines",
+        "description": "",
+        "id": "jetblue-home-page-check-functionality;check-partnerairlines",
+        "after": [
+          {
+            "result": {
+              "duration": 896008500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1345047900,
+              "status": "passed"
+            },
+            "line": 106,
+            "name": "i scroll Down to partnerAirlines",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_scroll_down_to_partner_airlines()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1226064900,
+              "status": "passed"
+            },
+            "line": 107,
+            "name": "I click on partnerAirlines",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_click_on_partner_airlines()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44002500,
+              "status": "passed"
+            },
+            "line": 108,
+            "name": "I verify Im partnerAirlines Page",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_verify_im_partner_airlines_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7211132600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "IM in Jetblue Home Page",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.im_in_jetblue_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T03:36:31.373Z",
+        "line": 110,
+        "name": "check youtube",
+        "description": "",
+        "id": "jetblue-home-page-check-functionality;check-youtube",
+        "after": [
+          {
+            "result": {
+              "duration": 854506600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 850524500,
+              "status": "passed"
+            },
+            "line": 111,
+            "name": "i scroll Down to youtube",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_scroll_down_to_youtube()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3901658400,
+              "status": "passed"
+            },
+            "line": 112,
+            "name": "I click on join our youtube",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_click_on_join_our_youtube()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3054061300,
+              "status": "passed"
+            },
+            "line": 113,
+            "name": "I verify Im in join our youtube Page",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_verify_im_in_join_our_youtube_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6557117200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "IM in Jetblue Home Page",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.im_in_jetblue_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T03:36:47.275Z",
+        "line": 115,
+        "name": "check investorRelations",
+        "description": "",
+        "id": "jetblue-home-page-check-functionality;check-investorrelations",
+        "after": [
+          {
+            "result": {
+              "duration": 864006400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 457008800,
+              "status": "passed"
+            },
+            "line": 116,
+            "name": "i scroll Down to investorRelations",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_scroll_down_to_investor_relations()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1243039700,
+              "status": "passed"
+            },
+            "line": 117,
+            "name": "I click on investorRelations",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_click_on_investor_relations()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8392209600,
+              "status": "passed"
+            },
+            "line": 118,
+            "name": "I verify Im in investorRelations Page",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_verify_im_in_investor_relations_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9000172300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "IM in Jetblue Home Page",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.im_in_jetblue_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T03:37:04.821Z",
+        "line": 120,
+        "name": "check travelAgents",
+        "description": "",
+        "id": "jetblue-home-page-check-functionality;check-travelagents",
+        "after": [
+          {
+            "result": {
+              "duration": 886016200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1089059600,
+              "status": "passed"
+            },
+            "line": 121,
+            "name": "i scroll Down to travelAgents",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_scroll_down_to_travel_agents()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 461025200,
+              "status": "passed"
+            },
+            "line": 122,
+            "name": "I click on travelAgents",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_click_on_travel_agents()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45002500,
+              "status": "passed"
+            },
+            "line": 123,
+            "name": "I verify Im in travelAgents Page",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_verify_im_in_travel_agents_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6798117200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "IM in Jetblue Home Page",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.im_in_jetblue_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T03:37:16.327Z",
+        "line": 125,
+        "name": "check careers",
+        "description": "",
+        "id": "jetblue-home-page-check-functionality;check-careers",
+        "after": [
+          {
+            "result": {
+              "duration": 882004100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 551510300,
+              "status": "passed"
+            },
+            "line": 126,
+            "name": "i scroll Down to careers",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_scroll_down_to_careers()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1238042400,
+              "status": "passed"
+            },
+            "line": 127,
+            "name": "I click on careers",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_click_on_careers()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7643701900,
+              "status": "passed"
+            },
+            "line": 128,
+            "name": "I verify Im in careers Page",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_verify_im_in_careers_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8301165800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "IM in Jetblue Home Page",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.im_in_jetblue_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T03:37:33.463Z",
+        "line": 130,
+        "name": "check timetables",
+        "description": "",
+        "id": "jetblue-home-page-check-functionality;check-timetables",
+        "after": [
+          {
+            "result": {
+              "duration": 830006200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1742084100,
+              "status": "passed"
+            },
+            "line": 131,
+            "name": "i scroll Down to timetables",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_scroll_down_to_timetables()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 525012000,
+              "status": "passed"
+            },
+            "line": 132,
+            "name": "I click on timetables",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_click_on_timetables()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: Not Equal expected:\u003c.../b6.innosked.com/(S([wnsbaxqrybifmtpnt34asxzl]))/default.aspx\u003e but was:\u003c.../b6.innosked.com/(S([pltj2okvv1jkv3cvc5ozmvvw]))/default.aspx\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat stepDefinitions.JetBlueStepDefinitions.i_verify_im_in_timetables_page(JetBlueStepDefinitions.java:451)\r\n\tat ✽.I verify Im in timetables Page(file:///C:/Users/micromedia/IdeaProjects/AutomationLab_Team_3/JetBlue/src/test/java/features/JetBlueHomePage.feature:133)\r\n",
+              "duration": 4898107100,
+              "status": "failed"
+            },
+            "line": 133,
+            "name": "I verify Im in timetables Page",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_verify_im_in_timetables_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6750118000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "IM in Jetblue Home Page",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.im_in_jetblue_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T03:37:49.775Z",
+        "line": 135,
+        "name": "check siteMap",
+        "description": "",
+        "id": "jetblue-home-page-check-functionality;check-sitemap",
+        "after": [
+          {
+            "result": {
+              "duration": 759507200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 407007900,
+              "status": "passed"
+            },
+            "line": 136,
+            "name": "i scroll Down to siteMap",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_scroll_down_to_site_map()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 795529900,
+              "status": "passed"
+            },
+            "line": 137,
+            "name": "I click on siteMap",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_click_on_site_map()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 696526100,
+              "status": "passed"
+            },
+            "line": 138,
+            "name": "I verify Im in siteMap Page",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_verify_im_in_site_map_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7243638700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "IM in Jetblue Home Page",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.im_in_jetblue_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-30T03:37:59.200Z",
+        "line": 140,
+        "name": "check contactUs",
+        "description": "",
+        "id": "jetblue-home-page-check-functionality;check-contactus",
+        "after": [
+          {
+            "result": {
+              "duration": 891009900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 708520300,
+              "status": "passed"
+            },
+            "line": 141,
+            "name": "i scroll Down to contactUs",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_scroll_down_to_contact_us()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2279599100,
+              "status": "passed"
+            },
+            "line": 142,
+            "name": "I click on contactUs",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_click_on_contact_us()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 218010200,
+              "status": "passed"
+            },
+            "line": 143,
+            "name": "I verify Im in contactUs Page",
+            "match": {
+              "location": "stepDefinitions.JetBlueStepDefinitions.i_verify_im_in_contact_us_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "JetBlue Home page Check functionality",
+    "description": "          check Jet Blue Home Page functionality",
+    "id": "jetblue-home-page-check-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/JetBlueHomePage.feature",
+    "tags": []
+  }
+]
