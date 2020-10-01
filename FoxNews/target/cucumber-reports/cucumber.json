@@ -1,0 +1,487 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3629893000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am in fox news home page",
+            "match": {
+              "location": "stepDefenition.StepDefinition.i_am_in_fox_news_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-29T05:52:00.653Z",
+        "before": [
+          {
+            "result": {
+              "duration": 18625000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefenition.StepDefinition.getInit()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "check business button",
+        "description": "",
+        "id": "check-foxnews-home-page-functionality;check-business-button",
+        "after": [
+          {
+            "result": {
+              "duration": 258538000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefenition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy23.click(Unknown Source)\n\tat foxnewsHome.FoxNewsHome.business(FoxNewsHome.java:27)\n\tat stepDefenition.StepDefinition.i_click_on_business_button(StepDefinition.java:29)\n\tat ✽.I click on business button(file:///Users/khaledmaouche/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/foxNews.feature:7)\n",
+              "duration": 2323000,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "I click on business button",
+            "match": {
+              "location": "stepDefenition.StepDefinition.i_click_on_business_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1311000,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I verify the business page title",
+            "match": {
+              "location": "stepDefenition.StepDefinition.i_verify_the_business_page_title()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2577552000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am in fox news home page",
+            "match": {
+              "location": "stepDefenition.StepDefinition.i_am_in_fox_news_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-29T05:52:04.685Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3299000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefenition.StepDefinition.getInit()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Check personal Finance button",
+        "description": "",
+        "id": "check-foxnews-home-page-functionality;check-personal-finance-button",
+        "after": [
+          {
+            "result": {
+              "duration": 529434000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefenition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027khaleds-MBP.home\u0027, ip: \u0027fd4b:8d38:69ba:1:a02e:8b7b:7a48:41c6%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.5\u0027, java.version: \u002711.0.7\u0027\nDriver info: driver.version: RemoteWebDriver\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy23.click(Unknown Source)\n\tat foxnewsHome.FoxNewsHome.personalFinance(FoxNewsHome.java:34)\n\tat stepDefenition.StepDefinition.i_click_on_personal_finance_button(StepDefinition.java:39)\n\tat ✽.I click on personal Finance button(file:///Users/khaledmaouche/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/foxNews.feature:11)\n",
+              "duration": 12544000,
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "I click on personal Finance button",
+            "match": {
+              "location": "stepDefenition.StepDefinition.i_click_on_personal_finance_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 333000,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I verify the personal Finance page title",
+            "match": {
+              "location": "stepDefenition.StepDefinition.i_verify_the_personal_finance_page_title()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2641832000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am in fox news home page",
+            "match": {
+              "location": "stepDefenition.StepDefinition.i_am_in_fox_news_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-29T05:52:07.839Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1192000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefenition.StepDefinition.getInit()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Check morning With Maria button",
+        "description": "",
+        "id": "check-foxnews-home-page-functionality;check-morning-with-maria-button",
+        "after": [
+          {
+            "result": {
+              "duration": 578946000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefenition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027khaleds-MBP.home\u0027, ip: \u0027fd4b:8d38:69ba:1:a02e:8b7b:7a48:41c6%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.5\u0027, java.version: \u002711.0.7\u0027\nDriver info: driver.version: RemoteWebDriver\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy23.click(Unknown Source)\n\tat foxnewsHome.FoxNewsHome.morningWithMaria(FoxNewsHome.java:45)\n\tat stepDefenition.StepDefinition.i_click_on_morning_with_maria_button(StepDefinition.java:49)\n\tat ✽.I click on morning With Maria button(file:///Users/khaledmaouche/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/foxNews.feature:15)\n",
+              "duration": 3267386000,
+              "status": "failed"
+            },
+            "line": 15,
+            "name": "I click on morning With Maria button",
+            "match": {
+              "location": "stepDefenition.StepDefinition.i_click_on_morning_with_maria_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 179000,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "I verify the morning With Maria page title",
+            "match": {
+              "location": "stepDefenition.StepDefinition.i_verify_the_morning_with_maria_page_title()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2683043000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am in fox news home page",
+            "match": {
+              "location": "stepDefenition.StepDefinition.i_am_in_fox_news_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-29T05:52:14.354Z",
+        "before": [
+          {
+            "result": {
+              "duration": 807000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefenition.StepDefinition.getInit()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Check soccer button",
+        "description": "",
+        "id": "check-foxnews-home-page-functionality;check-soccer-button",
+        "after": [
+          {
+            "result": {
+              "duration": 715094000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefenition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027khaleds-MBP.home\u0027, ip: \u0027fd4b:8d38:69ba:1:a02e:8b7b:7a48:41c6%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.5\u0027, java.version: \u002711.0.7\u0027\nDriver info: driver.version: RemoteWebDriver\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy23.click(Unknown Source)\n\tat foxnewsHome.FoxNewsHome.soccer(FoxNewsHome.java:63)\n\tat stepDefenition.StepDefinition.i_click_on_soccer_button(StepDefinition.java:59)\n\tat ✽.I click on soccer button(file:///Users/khaledmaouche/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/foxNews.feature:19)\n",
+              "duration": 3086231000,
+              "status": "failed"
+            },
+            "line": 19,
+            "name": "I click on soccer button",
+            "match": {
+              "location": "stepDefenition.StepDefinition.i_click_on_soccer_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 219000,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "I verify the soccer page title",
+            "match": {
+              "location": "stepDefenition.StepDefinition.i_verify_the_soccer_page_title()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2868771000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am in fox news home page",
+            "match": {
+              "location": "stepDefenition.StepDefinition.i_am_in_fox_news_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-29T05:52:20.864Z",
+        "before": [
+          {
+            "result": {
+              "duration": 744000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefenition.StepDefinition.getInit()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Check election Button button",
+        "description": "",
+        "id": "check-foxnews-home-page-functionality;check-election-button-button",
+        "after": [
+          {
+            "result": {
+              "duration": 698716000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefenition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027khaleds-MBP.home\u0027, ip: \u0027fd4b:8d38:69ba:1:a02e:8b7b:7a48:41c6%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.5\u0027, java.version: \u002711.0.7\u0027\nDriver info: driver.version: RemoteWebDriver\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy23.click(Unknown Source)\n\tat foxnewsHome.FoxNewsHome.electionButtonMethod(FoxNewsHome.java:119)\n\tat stepDefenition.StepDefinition.i_click_on_election_button_button(StepDefinition.java:69)\n\tat ✽.I click on election Button button(file:///Users/khaledmaouche/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/foxNews.feature:23)\n",
+              "duration": 3005086000,
+              "status": "failed"
+            },
+            "line": 23,
+            "name": "I click on election Button button",
+            "match": {
+              "location": "stepDefenition.StepDefinition.i_click_on_election_button_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 150000,
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "I verify the election Button page title",
+            "match": {
+              "location": "stepDefenition.StepDefinition.i_verify_the_election_button_page_title()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2888345000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am in fox news home page",
+            "match": {
+              "location": "stepDefenition.StepDefinition.i_am_in_fox_news_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-29T05:52:27.451Z",
+        "before": [
+          {
+            "result": {
+              "duration": 744000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefenition.StepDefinition.getInit()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Check economy button button",
+        "description": "",
+        "id": "check-foxnews-home-page-functionality;check-economy-button-button",
+        "after": [
+          {
+            "result": {
+              "duration": 261080000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefenition.StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027khaleds-MBP.home\u0027, ip: \u0027fd4b:8d38:69ba:1:a02e:8b7b:7a48:41c6%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.5\u0027, java.version: \u002711.0.7\u0027\nDriver info: driver.version: RemoteWebDriver\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy23.click(Unknown Source)\n\tat foxnewsHome.FoxNewsHome.economyMethod(FoxNewsHome.java:102)\n\tat stepDefenition.StepDefinition.i_click_on_economy_button_button(StepDefinition.java:80)\n\tat ✽.I click on economy button button(file:///Users/khaledmaouche/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/foxNews.feature:27)\n",
+              "duration": 496000,
+              "status": "failed"
+            },
+            "line": 27,
+            "name": "I click on economy button button",
+            "match": {
+              "location": "stepDefenition.StepDefinition.i_click_on_economy_button_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 179000,
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "I verify the economy button page title",
+            "match": {
+              "location": "stepDefenition.StepDefinition.i_verify_the_economy_button_page_title()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "check foxNews home page functionality",
+    "description": "",
+    "id": "check-foxnews-home-page-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/foxNews.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "source": "I am in fox news home page",
+    "steps": [
+      {
+        "name": "I am in fox news home page",
+        "aggregatedDurations": {
+          "median": 2.775907,
+          "average": 2.881572666
+        },
+        "durations": [
+          {
+            "duration": 3.629893,
+            "location": "file:///Users/khaledmaouche/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/foxNews.feature:3"
+          },
+          {
+            "duration": 2.577552,
+            "location": "file:///Users/khaledmaouche/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/foxNews.feature:3"
+          },
+          {
+            "duration": 2.641832,
+            "location": "file:///Users/khaledmaouche/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/foxNews.feature:3"
+          },
+          {
+            "duration": 2.683043,
+            "location": "file:///Users/khaledmaouche/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/foxNews.feature:3"
+          },
+          {
+            "duration": 2.868771,
+            "location": "file:///Users/khaledmaouche/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/foxNews.feature:3"
+          },
+          {
+            "duration": 2.888345,
+            "location": "file:///Users/khaledmaouche/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/foxNews.feature:3"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Ebay Automation Test" parallel="false">
+<suite name="chase Automation Test" parallel="false">
     <parameter name="url" value="https://www.chase.com/"/>
 
-    <test name="Ebay Home">
+    <test name="chase Home">
 
         <classes>
             <class name="TestHomePage.TestHome"></class>

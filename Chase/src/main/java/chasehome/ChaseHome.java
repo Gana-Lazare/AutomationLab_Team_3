@@ -3,7 +3,9 @@ package chasehome;
 import WebElements.HomePageWebElements;
 import common.WebAPI;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.FindBy;
 
 public class ChaseHome extends HomePageWebElements {
@@ -132,42 +134,6 @@ public class ChaseHome extends HomePageWebElements {
     public void glimpsGoalsMethod(){
         glimpsGoalsButton.click();
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

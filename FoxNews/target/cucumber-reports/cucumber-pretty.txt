@@ -1,0 +1,128 @@
+
+Scenario: check business button        # src/test/java/features/foxNews.feature:6
+  Given I am in fox news home page     # stepDefenition.StepDefinition.i_am_in_fox_news_home_page()
+  Then I click on business button      # stepDefenition.StepDefinition.i_click_on_business_button()
+      java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy23.click(Unknown Source)
+	at foxnewsHome.FoxNewsHome.business(FoxNewsHome.java:27)
+	at stepDefenition.StepDefinition.i_click_on_business_button(StepDefinition.java:29)
+	at ✽.I click on business button(file:///Users/khaledmaouche/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/foxNews.feature:7)
+
+  And I verify the business page title # stepDefenition.StepDefinition.i_verify_the_business_page_title()
+
+Scenario: Check personal Finance button        # src/test/java/features/foxNews.feature:10
+  Given I am in fox news home page             # stepDefenition.StepDefinition.i_am_in_fox_news_home_page()
+  Then I click on personal Finance button      # stepDefenition.StepDefinition.i_click_on_personal_finance_button()
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'khaleds-MBP.home', ip: 'fd4b:8d38:69ba:1:a02e:8b7b:7a48:41c6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '11.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy23.click(Unknown Source)
+	at foxnewsHome.FoxNewsHome.personalFinance(FoxNewsHome.java:34)
+	at stepDefenition.StepDefinition.i_click_on_personal_finance_button(StepDefinition.java:39)
+	at ✽.I click on personal Finance button(file:///Users/khaledmaouche/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/foxNews.feature:11)
+
+  And I verify the personal Finance page title # stepDefenition.StepDefinition.i_verify_the_personal_finance_page_title()
+
+Scenario: Check morning With Maria button        # src/test/java/features/foxNews.feature:14
+  Given I am in fox news home page               # stepDefenition.StepDefinition.i_am_in_fox_news_home_page()
+  Then I click on morning With Maria button      # stepDefenition.StepDefinition.i_click_on_morning_with_maria_button()
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'khaleds-MBP.home', ip: 'fd4b:8d38:69ba:1:a02e:8b7b:7a48:41c6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '11.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy23.click(Unknown Source)
+	at foxnewsHome.FoxNewsHome.morningWithMaria(FoxNewsHome.java:45)
+	at stepDefenition.StepDefinition.i_click_on_morning_with_maria_button(StepDefinition.java:49)
+	at ✽.I click on morning With Maria button(file:///Users/khaledmaouche/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/foxNews.feature:15)
+
+  And I verify the morning With Maria page title # stepDefenition.StepDefinition.i_verify_the_morning_with_maria_page_title()
+
+Scenario: Check soccer button        # src/test/java/features/foxNews.feature:18
+  Given I am in fox news home page   # stepDefenition.StepDefinition.i_am_in_fox_news_home_page()
+  Then I click on soccer button      # stepDefenition.StepDefinition.i_click_on_soccer_button()
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'khaleds-MBP.home', ip: 'fd4b:8d38:69ba:1:a02e:8b7b:7a48:41c6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '11.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy23.click(Unknown Source)
+	at foxnewsHome.FoxNewsHome.soccer(FoxNewsHome.java:63)
+	at stepDefenition.StepDefinition.i_click_on_soccer_button(StepDefinition.java:59)
+	at ✽.I click on soccer button(file:///Users/khaledmaouche/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/foxNews.feature:19)
+
+  And I verify the soccer page title # stepDefenition.StepDefinition.i_verify_the_soccer_page_title()
+
+Scenario: Check election Button button        # src/test/java/features/foxNews.feature:22
+  Given I am in fox news home page            # stepDefenition.StepDefinition.i_am_in_fox_news_home_page()
+  Then I click on election Button button      # stepDefenition.StepDefinition.i_click_on_election_button_button()
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'khaleds-MBP.home', ip: 'fd4b:8d38:69ba:1:a02e:8b7b:7a48:41c6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '11.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy23.click(Unknown Source)
+	at foxnewsHome.FoxNewsHome.electionButtonMethod(FoxNewsHome.java:119)
+	at stepDefenition.StepDefinition.i_click_on_election_button_button(StepDefinition.java:69)
+	at ✽.I click on election Button button(file:///Users/khaledmaouche/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/foxNews.feature:23)
+
+  And I verify the election Button page title # stepDefenition.StepDefinition.i_verify_the_election_button_page_title()
+
+Scenario: Check economy button button        # src/test/java/features/foxNews.feature:26
+  Given I am in fox news home page           # stepDefenition.StepDefinition.i_am_in_fox_news_home_page()
+  Then I click on economy button button      # stepDefenition.StepDefinition.i_click_on_economy_button_button()
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'khaleds-MBP.home', ip: 'fd4b:8d38:69ba:1:a02e:8b7b:7a48:41c6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '11.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy23.click(Unknown Source)
+	at foxnewsHome.FoxNewsHome.economyMethod(FoxNewsHome.java:102)
+	at stepDefenition.StepDefinition.i_click_on_economy_button_button(StepDefinition.java:80)
+	at ✽.I click on economy button button(file:///Users/khaledmaouche/IdeaProjects/AutomationLab_Team_3/FoxNews/src/test/java/features/foxNews.feature:27)
+
+  And I verify the economy button page title # stepDefenition.StepDefinition.i_verify_the_economy_button_page_title()

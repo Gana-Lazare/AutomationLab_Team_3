@@ -227,14 +227,14 @@ public class EbayHomeTest extends WebAPI {
 
     }
 
-    @Test
-    public void myEbay() throws InterruptedException {
-        HomeFashionTest();
-        EbayHome homeObjc= PageFactory.initElements(driver, EbayHome.class);
-        homeObjc.MyEbay();
-        Thread.sleep(5000);
-
-    }
+//    @Test
+//    public void myEbay() throws InterruptedException {
+//        HomeFashionTest();
+//        EbayHome homeObjc= PageFactory.initElements(driver, EbayHome.class);
+//        homeObjc.myEbay();
+//        Thread.sleep(5000);
+//
+//    }
 
 
 
